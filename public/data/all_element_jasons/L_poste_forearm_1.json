@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "poste_forearm",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "poste_forearm_2.json"
+   }
+]

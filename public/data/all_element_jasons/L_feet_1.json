@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "feet",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "feet_2.json"
+   }
+]

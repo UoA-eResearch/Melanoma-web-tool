@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Forearm_R_ant",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "R_forearm_ant_2.json"
+   }
+]

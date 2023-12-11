@@ -1,0 +1,61 @@
+[ {
+      "GroupName" : "Left Axilla",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "la.json"
+   },
+   {
+      "GroupName" : "Right Axilla",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ra_surface_2.json"
+   },
+   {
+      "GroupName" : "Left Inguinal",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "la.json"
+   },
+   {
+      "GroupName" : "ICN",
+      "GlyphGeometriesURL" : "_4.json.json",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "_3.json.json"
+   },
+   {
+      "GroupName" : "ICN",
+      "GlyphGeometriesURL" : "_3.json.json",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "_5.json.json"
+   },
+   {
+      "GroupName" : "la Points",
+      "GlyphGeometriesURL" : "_6.json",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "_5.json"
+   },
+   {
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "la.json"
+   },
+ 
+    
+{"Type": "View", "URL": "skin_cancer_Layout1_view.json"}]

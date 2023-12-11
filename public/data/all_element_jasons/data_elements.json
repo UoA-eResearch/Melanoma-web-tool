@@ -1,0 +1,17 @@
+[
+{
+   	"id"="element_1",
+	"code":"lprea", 
+	"name":"Left Preauricular", 
+	"count":2,
+	"Percentage":66.7
+} ,
+{
+   	"id"="element_1",
+	"code":"la", 
+	"name":"Left axilla", 
+	"count":20,
+	"Percentage":96.7
+} ,
+
+]

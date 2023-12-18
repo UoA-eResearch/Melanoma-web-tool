@@ -3378,15 +3378,7 @@
       "Type" : "Surfaces",
       "URL" : "L_LEG_4.json"
    },
- {
-
-      "GroupName" : "L_LEG_5",
-      "MorphColours" : false,
-      "MorphNormals" : false,
-      "MorphVertices" : false,
-      "Type" : "Surfaces",
-      "URL" : "L_LEG_5.json"
-   },
+ 
  {
 
       "GroupName" : "L_HAND_1",

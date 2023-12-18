@@ -4,17 +4,19 @@
 		"description" : "Exported from LibZinc."
 	},
 
-	"materials" : [ {
-	"DbgColor" : 15658734,
-	"DbgIndex" : 0,
-	"DbgName" : "my_material",
-	"colorDiffuse" : [1, 0, 1],
-	"colorSpecular" : [0.1, 0.1, 0.1],
-	"shading" : "Phong",
-	"specularCoef" : 20,
-	"opacity" : 1,
-	"vertexColors" : true
-	}],
+	"materials": [
+		{
+			"DbgColor": 15658734,
+			"DbgIndex": 0,
+			"DbgName": "my_material",
+			"colorDiffuse": [ 0.9, 0.7, 0.5 ],
+			"colorSpecular": [ 0.2, 0.2, 0.3 ],
+			"shading": "Phong",
+			"specularCoef": 20,
+			"opacity": 1,
+			"vertexColors": true
+		}
+	],
 
 	"vertices" : [
 		277.208801,205.766495,-1000.018982,276.518555,206.533203,-1000.011536,274.575806,208.681000,-999.991760,271.572693,211.981430,-999.963684,267.701202,216.206024,-999.931213,263.153442,221.126297,-999.898254,258.121460,226.513809,-999.868896,252.797333,232.140091,-999.846924,247.373093,237.776657,-999.836426,242.040833,243.195053,-999.841309,

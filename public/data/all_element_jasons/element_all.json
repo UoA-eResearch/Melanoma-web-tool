@@ -2465,12 +2465,12 @@
   },
   {
 
-    "GroupName": "Lower_torso_1",
+    "GroupName": "Lower_torso_5",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_torso_1.json"
+    "URL": "Lower_torso_5.json"
   },
   {
 

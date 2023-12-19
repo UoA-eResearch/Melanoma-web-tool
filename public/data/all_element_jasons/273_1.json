@@ -2,7 +2,10 @@
   "metadata": {
     "formatVersion": 3,
     "description": "Exported from LibZinc.",
-    "materials": [
+    
+  },
+
+	"materials": [
       {
         "DbgColor": 15658734,
         "DbgIndex": 0,
@@ -22,8 +25,7 @@
         "opacity": 1,
         "vertexColors": true
       }
-    ]
-  },
+    ],
   "vertices": [
     561.022705,
     156.022797,

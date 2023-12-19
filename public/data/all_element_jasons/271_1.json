@@ -18,7 +18,7 @@
           0.3
         ],
         "shading": "Phong",
-        "specularCoef": 0,
+        "specularCoef": 20,
         "opacity": 1,
         "vertexColors": true
       }
@@ -423,7 +423,7 @@
           0.3
         ],
         "shading": "Phong",
-        "specularCoef": 0,
+        "specularCoef": 20,
         "opacity": 1,
         "vertexColors": true
       }

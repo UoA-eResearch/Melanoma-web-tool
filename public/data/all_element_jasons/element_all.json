@@ -1815,15 +1815,6 @@
   },
   {
 
-    "GroupName": "L_HAND_1",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "L_HAND_1.json"
-  },
-  {
-
     "GroupName": "L_HAND_2",
     "MorphColours": false,
     "MorphNormals": false,
@@ -1842,31 +1833,42 @@
   },
   {
 
-    "GroupName": "L_HAND_4",
+    "GroupName": "L_ARM_1",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_HAND_4.json"
+    "URL": "ARM_LEFT_2.json"
+  },
+
+  {
+
+    "GroupName": "L_ARM_2",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "ARM_LEFT_3.json"
   },
   {
 
-    "GroupName": "L_HAND_5",
+    "GroupName": "L_ARM_3",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_HAND_5.json"
+    "URL": "ARM_LEFT_4.json"
   },
   {
 
-    "GroupName": "L_HAND_6",
+    "GroupName": "L_ARM_4",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_HAND_6.json"
+    "URL": "ARM_LEFT_5.json"
   },
+ 
   {
 
     "GroupName": "element_1090",
@@ -1885,7 +1887,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "lines_2.json"
+    "URL": "line_2.json"
   },
   {
     "GroupName": "Lines",
@@ -1894,7 +1896,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "_2.json"
+    "URL": "line_1.json"
   },
   {
     "GroupName": "Node Fields",

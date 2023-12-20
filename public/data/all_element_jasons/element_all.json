@@ -1881,13 +1881,13 @@
 
 
   {
-    "GroupName": "Lines",
+    "GroupName": "Lines1",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "line_2.json"
+    "URL": "Lines_black_1.json"
   },
   {
     "GroupName": "Lines",
@@ -1896,7 +1896,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "line_1.json"
+    "URL": "Lines_black_2.json"
   },
   {
     "GroupName": "Node Fields",

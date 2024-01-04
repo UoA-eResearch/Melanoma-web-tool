@@ -31,7 +31,7 @@
           </thead>
           <tbody>
             <tr v-for="elm in selectedElmData" v-bind:key="elm.id">
-              <td class="right-align">{{elm.code}}</td>
+              <td class="left-align">{{elm.code}}</td>
               <td>{{elm.name}}</td>
               <td class="right-align">{{elm.count}}</td>
               <td class="right-align">{{elm.percentage}}</td>
@@ -60,7 +60,7 @@ export default {
   data: function () {
     return {
       showModal: false,
-      tabPosition: 'right',
+      tabPosition: 'left',
       selected: " Selected",
       displays: [
 
@@ -226,7 +226,7 @@ td {
 }
 
 .left-align {
-  text-align: right;
+  text-align: left;
 }
 
 .right-align {

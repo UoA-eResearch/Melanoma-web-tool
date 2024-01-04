@@ -31,7 +31,7 @@
           </thead>
           <tbody>
             <tr v-for="elm in selectedElmData" v-bind:key="elm.id">
-              <td class="left-align">{{elm.code}}</td>
+              <td class="right-align">{{elm.code}}</td>
               <td>{{elm.name}}</td>
               <td class="right-align">{{elm.count}}</td>
               <td class="right-align">{{elm.percentage}}</td>

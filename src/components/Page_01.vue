@@ -60,7 +60,7 @@ export default {
   data: function () {
     return {
       showModal: false,
-      tabPosition: 'left',
+      tabPosition: 'right',
       selected: " Selected",
       displays: [
 

@@ -226,7 +226,7 @@ td {
 }
 
 .left-align {
-  text-align: left;
+  text-align: right;
 }
 
 .right-align {

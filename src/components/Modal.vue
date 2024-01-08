@@ -89,6 +89,7 @@ export default {
 .modal-body {
   text-align: left;
   padding: 0 20px;
+  overflow-y:auto;
 }
 
 .modal-footer {

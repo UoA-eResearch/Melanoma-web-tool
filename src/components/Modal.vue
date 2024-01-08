@@ -2,15 +2,44 @@
 export default {
   props: {
     show: Boolean
+  },
+  data() {
+    return {
+      dragging: false,
+      startX: 0,
+      startY: 0,
+      left: 0,
+      top: 0
+    };
+  },
+  methods: {
+    startDrag(e) {
+      this.dragging = true;
+      this.startX = e.clientX - this.left;
+      this.startY = e.clientY - this.top;
+    },
+    onDrag(e) {
+      if (!this.dragging) return;
+    requestAnimationFrame(() => {
+      this.left = e.clientX - this.startX;
+      this.top = e.clientY - this.startY;
+    });
+    },
+    endDrag() {
+      this.dragging = false;
+    }
   }
 }
 </script>
 
 <template>
-  <Transition name="modal">
-    <div v-if="show" class="modal-mask">
-      <div class="modal-wrapper">
-        <div class="modal-container">
+        <div v-if="show" class="modal-container"
+        :style="{ left: `${left}px`, top: `${top}px` }"
+        @mousedown="startDrag"
+        @mousemove="onDrag"
+        @mouseup="endDrag"
+        @mouseleave="endDrag"
+        >
           <div class="modal-header">
             <slot name="header">default header</slot>
           </div>
@@ -28,32 +57,13 @@ export default {
             </slot>
           </div>
         </div>
-      </div>
-    </div>
-  </Transition>
 </template>
 
 <style>
-.modal-mask {
-  position: fixed;
-  z-index: 9998;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: table;
-  transition: opacity 0.3s ease;
-}
 
-.modal-wrapper {
-  display: table-cell;
-  vertical-align: right;
-}
 
 .modal-container {
   width: 30%;
-  /* margin: 0px auto; */
   margin: 45px 20px;
   background-color: #fff;
   border-radius: 2px;
@@ -61,6 +71,12 @@ export default {
   transition: all 0.3s ease;
   display: flex;
   flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 40%;
+  transition: top 0.2s, left 0.2s;
+  cursor: move;
 }
 
 .modal-header h3 {

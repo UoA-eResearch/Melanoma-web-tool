@@ -62,7 +62,7 @@ export default {
 
 <template>
 
-    <div v-draggable v-if="show" class="modal-container" :style="{ left: posX + 'px', top: posY + 'px' }">
+    <div v-draggable v-if="show" class="modal-container" :style="{ right: posX + 'px', top: posY + 'px' }">
       <div class="modal-header">
         <slot name="header">default header</slot>
       </div>

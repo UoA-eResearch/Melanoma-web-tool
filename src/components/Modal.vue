@@ -1,31 +1,59 @@
 <script>
+
+
 export default {
+  
   props: {
     show: Boolean
   },
   data() {
     return {
-      dragging: false,
-      startX: 0,
-      startY: 0,
-      left: 0,
-      top: 0
+      posX: 0,
+      posY: 0,
+      dragging: false
     };
   },
+  directives: {
+    draggable: {
+      inserted(el, binding, vnode) {
+        el.style.position = 'absolute';
+        el.onmousedown = (e) => {
+          vnode.context.dragging = true;
+          let offsetX = e.clientX - el.getBoundingClientRect().left;
+          let offsetY = e.clientY - el.getBoundingClientRect().top;
+
+          function onMouseMove(e) {
+            if (vnode.context.dragging) {
+              vnode.context.posX = e.clientX - offsetX;
+              vnode.context.posY = e.clientY - offsetY;
+            }
+          }
+
+          function onMouseUp() {
+            vnode.context.dragging = false;
+            document.removeEventListener('mousemove', onMouseMove);
+          }
+
+          document.addEventListener('mousemove', onMouseMove);
+          document.addEventListener('mouseup', onMouseUp);
+        };
+
+        el.ondragstart = () => false;
+      }
+    }
+  },
+  beforeDestroy() {
+    document.removeEventListener('mousemove', this.onMouseMove);
+    document.removeEventListener('mouseup', this.onMouseUp);
+  },
   methods: {
-    startDrag(e) {
-      this.dragging = true;
-      this.startX = e.clientX - this.left;
-      this.startY = e.clientY - this.top;
+    onMouseMove(e) {
+      if (this.dragging) {
+        this.posX = e.clientX - this.offsetX;
+        this.posY = e.clientY - this.offsetY;
+      }
     },
-    onDrag(e) {
-      if (!this.dragging) return;
-    requestAnimationFrame(() => {
-      this.left = e.clientX - this.startX;
-      this.top = e.clientY - this.startY;
-    });
-    },
-    endDrag() {
+    onMouseUp() {
       this.dragging = false;
     }
   }
@@ -33,35 +61,25 @@ export default {
 </script>
 
 <template>
-        <div v-if="show" class="modal-container"
-        :style="{ left: `${left}px`, top: `${top}px` }"
-        @mousedown="startDrag"
-        @mousemove="onDrag"
-        @mouseup="endDrag"
-        @mouseleave="endDrag"
-        >
-          <div class="modal-header">
-            <slot name="header">default header</slot>
-          </div>
 
-          <div class="modal-body">
-            <slot name="body"></slot>
-          </div>
+    <div v-draggable v-if="show" class="modal-container" :style="{ left: posX + 'px', top: posY + 'px' }">
+      <div class="modal-header">
+        <slot name="header">default header</slot>
+      </div>
 
-          <div class="modal-footer">
-            <slot name="footer">
-              <button
-                class="modal-default-button"
-                @click="$emit('close')"
-              >Done</button>
-            </slot>
-          </div>
-        </div>
+      <div class="modal-body">
+        <slot name="body"></slot>
+      </div>
+
+      <div class="modal-footer">
+        <slot name="footer">
+          <button class="modal-default-button" @click="$emit('close')">Done</button>
+        </slot>
+      </div>
+    </div>
 </template>
 
 <style>
-
-
 .modal-container {
   width: 30%;
   margin: 45px 20px;
@@ -75,7 +93,6 @@ export default {
   right: 0;
   top: 0;
   height: 40%;
-  transition: top 0.2s, left 0.2s;
   cursor: move;
 }
 
@@ -89,11 +106,12 @@ export default {
 .modal-body {
   text-align: left;
   padding: 0 20px;
-  overflow-y:auto;
+  overflow-y: auto;
+  /* Add scroll if necessary */
 }
 
 .modal-footer {
-    padding: 20px;
+  padding: 20px;
 }
 
 .modal-default-button {

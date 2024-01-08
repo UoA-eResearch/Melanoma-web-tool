@@ -50,7 +50,7 @@
 /* eslint-disable no-alert, no-console */
 import { ScaffoldVuer } from '@abi-software/scaffoldvuer';
 import Modal from './Modal.vue';
-
+import data_elements from '@/data/data_elements.json';
 export default {
   name: 'page_01',
   components: {
@@ -71,70 +71,7 @@ export default {
       scaffoldsArray: [],
       selectedElm: '',
       selectedElmData: [],
-      data_elements: {
-        "element_1090":[
-            {
-              "code":"lprea",
-              "name":"Left Preauricular",
-              "count":2,
-              "percentage":66.7
-            },
-            {
-              "code":"la",
-              "name":"Left axilla",
-              "count":20,
-              "percentage":96.7
-            },
-            {
-              "code":"lprea",
-              "name":"Left Preauricular",
-              "count":2,
-              "percentage":66.7
-            },
-            {
-              "code":"la",
-              "name":"Left axilla",
-              "count":20,
-              "percentage":96.7
-            },
-            {
-              "code":"lprea",
-              "name":"Left Preauricular",
-              "count":2,
-              "percentage":66.7
-            },
-            {
-              "code":"la",
-              "name":"Left axilla",
-              "count":20,
-              "percentage":96.7
-            },
-            {
-              "code":"lprea",
-              "name":"Left Preauricular",
-              "count":2,
-              "percentage":66.7
-            },
-            {
-              "code":"la",
-              "name":"Left axilla",
-              "count":20,
-              "percentage":96.7
-            },
-            {
-              "code":"lprea",
-              "name":"Left Preauricular",
-              "count":2,
-              "percentage":66.7
-            },
-            {
-              "code":"la",
-              "name":"Left axilla",
-              "count":20,
-              "percentage":96.7
-            }
-        ]
-      }
+      data_elements: data_elements
     }
   },
   methods: {

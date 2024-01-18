@@ -1880,15 +1880,7 @@
   },
 
 
-  {
-    "GroupName": "Lines1",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "skin_cancer_metadata2.json"
-  },
+  
   {
     "GroupName": "Lines",
     "MorphColours": false,

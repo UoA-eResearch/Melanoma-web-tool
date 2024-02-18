@@ -4,73 +4,73 @@
             "code": "aa",
             "name": "Axilla Level I (anterior)",
             "count": "87",
-            "Percentage": 78.4 
+            "percentage": 78.4 
         },
         {
             "code": "am",
             "name": "Axilla Level I (central)",
             "count": "37",
-            "mean % (95% CI)": "33.3 (24.8, 42.3)"
+            "percentage": "33.3 (24.8, 42.3)"
         },
         {
             "code": "ics",
             "name": "Internal Mammary",
             "count": "37",
-            "mean % (95% CI)": "33.3 (24.8, 42.2)"
+            "percentage": "33.3 (24.8, 42.2)"
         },
         {
             "code": "a2",
             "name": "Axilla Level II",
             "count": "14",
-            "mean % (95% CI)": "12.6 (7.0, 19.1)"
+            "percentage": "12.6 (7.0, 19.1)"
         },
         {
             "code": "in",
             "name": "Interval",
             "count": "13",
-            "mean % (95% CI)": "11.7 (6.2, 18.0)"
+            "percentage": "11.7 (6.2, 18.0)"
         },
         {
             "code": "ap",
             "name": "Axilla Level I (posterior)",
             "count": "9",
-            "mean % (95% CI)": "8.1 (3.6, 13.6)"
+            "percentage": "8.1 (3.6, 13.6)"
         },
         {
             "code": "ip",
             "name": "Axilla Level I (interpectoral)",
             "count": "5",
-            "mean % (95% CI)": "4.5 (0.9, 8.8)"
+            "percentage": "4.5 (0.9, 8.8)"
         },
         {
             "code": "al",
             "name": "Axilla Level I (lateral)",
             "count": "1",
-            "mean % (95% CI)": "0.9 (0.0, 2.8)"
+            "percentage": "0.9 (0.0, 2.8)"
         },
         {
             "code": "a3",
             "name": "Axilla Level III",
             "count": "1",
-            "mean % (95% CI)": "0.9 (0.0, 2.8)"
+            "percentage": "0.9 (0.0, 2.8)"
         },
         {
             "code": "sc",
             "name": "Supraclavicular",
             "count": "1",
-            "mean % (95% CI)": "0.9 (0.0, 2.8)"
+            "percentage": "0.9 (0.0, 2.8)"
         },
         {
             "code": "med",
             "name": "Mediastinal",
             "count": "1",
-            "mean % (95% CI)": "0.9 (0.0, 2.8)"
+            "percentage": "0.9 (0.0, 2.8)"
         },
         {
             "code": "contra",
             "name": "Contralateral",
             "count": "1",
-            "mean % (95% CI)": "0.9 (0.0, 2.8)"
+            "percentage": "0.9 (0.0, 2.8)"
         }
     ],
     "element_1": [],

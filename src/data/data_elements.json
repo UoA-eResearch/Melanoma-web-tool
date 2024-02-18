@@ -74,7 +74,67 @@
             "mean % (95% CI)": "0.9 (0.0, 2.8)"
         }
     ],
-    "element_1": [],
+    "element_1090": [
+            {
+              "code":"lprea",
+              "name":"Left Preauricular",
+              "count":2,
+              "percentage":66.7
+            },
+            {
+              "code":"la",
+              "name":"Left axilla",
+              "count":20,
+              "percentage":96.7
+            },
+            {
+              "code":"lprea",
+              "name":"Left Preauricular",
+              "count":2,
+              "percentage":66.7
+            },
+            {
+              "code":"la",
+              "name":"Left axilla",
+              "count":20,
+              "percentage":96.7
+            },
+            {
+              "code":"lprea",
+              "name":"Left Preauricular",
+              "count":2,
+              "percentage":66.7
+            },
+            {
+              "code":"la",
+              "name":"Left axilla",
+              "count":20,
+              "percentage":96.7
+            },
+            {
+              "code":"lprea",
+              "name":"Left Preauricular",
+              "count":2,
+              "percentage":66.7
+            },
+            {
+              "code":"la",
+              "name":"Left axilla",
+              "count":20,
+              "percentage":96.7
+            },
+            {
+              "code":"lprea",
+              "name":"Left Preauricular",
+              "count":2,
+              "percentage":66.7
+            },
+            {
+              "code":"la",
+              "name":"Left axilla",
+              "count":20,
+              "percentage":96.7
+            }],
     "element_10": [],
     "element_11": [],
     "element_12": [],

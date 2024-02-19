@@ -73,7 +73,25 @@
             "percentage": "0.9 (0.0, 2.8)"
         }
     ],
-    "element_1": [],
+    "Left Hand": [        {
+            "code": "la",
+            "name": "Left Axilla",
+            "count": "87",
+            "percentage": 78.4 
+        },
+        {
+            "code": "ra",
+            "name": "Right Axilla",
+            "count": "37",
+            "percentage": "33.3 (24.8, 42.3)"
+        },
+        {
+            "code": "ic",
+            "name": "Intercoastal",
+            "count": "37",
+            "percentage": "33.3 (24.8, 42.2)"
+        }
+        ],
     "element_10": [],
     "element_11": [],
     "element_12": [],

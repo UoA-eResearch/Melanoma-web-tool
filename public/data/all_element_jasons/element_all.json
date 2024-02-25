@@ -14,7 +14,7 @@
 
 
 
-  
+
 
 
 
@@ -24,7 +24,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "253_1.json"
+    "URL": "Torso/253_1.json"
   },
 
   {
@@ -33,7 +33,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "254_1.json"
+    "URL": "Torso/254_1.json"
   },
 
   {

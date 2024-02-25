@@ -1899,16 +1899,7 @@
     "Type": "Lines",
     "URL": "skin_cancer_metadata1.json"
   },
-  {
-    "GroupName": "Node Fields",
-    "GlyphGeometriesURL": "aa_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Glyph",
-    "URL": "aa_2.json"
-  },
+  
 
 
   {

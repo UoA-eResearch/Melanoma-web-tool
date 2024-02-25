@@ -3,7 +3,7 @@
         <el-tabs :tab-position="tabPosition" style="top:10%;height: 90%;">
             <el-tab-pane v-for="item in displays" :key="item.ref" :label="item.ref" style="height:100%">
                 <ScaffoldVuer @scaffold-selected="onSelected" v-if="item.type === 'scaffold'" :url="item.url"
-                              v-on:scaffold-selected="ScaffoldSelected" :ref="item.ref" style="height:100%" ref="scaffold" />
+                              v-on:scaffold-selected="ScaffoldSelected" :ref="item.ref" style="height:100%" @on-ready="onReady" />
             </el-tab-pane>
         </el-tabs>
 
@@ -66,11 +66,6 @@
                 });
             },
             // Other methods...
-        },
-        mounted() {
-            this.$nextTick(() => {
-                this.onReady();
-            });
         }
     }
 </script>

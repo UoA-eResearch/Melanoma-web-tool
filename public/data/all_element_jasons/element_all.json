@@ -10,7 +10,16 @@
     "URL": "32_1.json"
   },
 
-
+  {
+    "GlyphGeometriesURL": "aa_3.json",
+    "GroupName": "marker",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "DisplayLabels": true,
+    "Type": "Glyph",
+    "URL": "Torso/253_1.json"
+  },
 
 
 
@@ -256,7 +265,7 @@
     "URL": "386_1.json"
   },
 
-  
+
 
   {
     "GroupName": "element_467",
@@ -1868,7 +1877,7 @@
     "Type": "Surfaces",
     "URL": "ARM_LEFT_5.json"
   },
- 
+
   {
 
     "GroupName": "element_1090",
@@ -1880,7 +1889,7 @@
   },
 
 
-  
+
   {
     "GroupName": "Lines",
     "MorphColours": false,

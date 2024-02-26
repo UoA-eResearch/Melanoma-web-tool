@@ -11,14 +11,14 @@
   },
 
   {
-    "GlyphGeometriesURL": "aa_3.json",
+    "GlyphGeometriesURL": "Torso/aa_3.json",
     "GroupName": "Nodes",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
-    "URL": "T253_1.json"
+    "URL": "Torso/T253_1.json"
   },
 
 

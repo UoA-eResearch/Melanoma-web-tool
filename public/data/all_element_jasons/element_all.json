@@ -1,15 +1,7 @@
 [
 
 
-  {
-    "GroupName": "element_32",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Torso/32_1.json"
-  },
-
+ 
   {
     "GlyphGeometriesURL": "Torso/aa_3.json",
     "GroupName": "Nodes",
@@ -18,7 +10,7 @@
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
-    "URL": "Torso/T253_1.json"
+    "URL": "Torso/253_1.json"
   },
 
 
@@ -1565,14 +1557,7 @@
 
 
 
-  {
-    "GroupName": "element_612",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Torso/612_1.json"
-  },
+
   {
 
     "GroupName": "Lower_torso_5",
@@ -1802,7 +1787,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Legs/L_HAND_2.json"
+    "URL": "Arms/L_HAND_2.json"
   },
   {
 
@@ -1811,7 +1796,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_HAND_3.json"
+    "URL": "Arms/L_HAND_3.json"
   },
   {
 

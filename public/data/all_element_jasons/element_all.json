@@ -3,7 +3,7 @@
 
 
   {
-    "GlyphGeometriesURL": "aa_3.json",
+    "GlyphGeometriesURL": "aa_2.json",
     "GroupName": "Nodes",
     "MorphColours": false,
     "MorphNormals": false,
@@ -3354,7 +3354,7 @@
 
   {
     "GroupName": "Node Fields",
-    "GlyphGeometriesURL": "aa_3.json",
+    "GlyphGeometriesURL": "aa_2.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

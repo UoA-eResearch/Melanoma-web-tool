@@ -1,7 +1,7 @@
 [
 
 
- 
+
   {
     "GlyphGeometriesURL": "Torso/aa_3.json",
     "GroupName": "Nodes",
@@ -16,7 +16,7 @@
 
 
 
- {
+  {
     "GroupName": "element_253",
     "MorphColours": false,
     "MorphNormals": false,
@@ -26,7 +26,7 @@
   },
 
 
- 
+
 
   {
     "GroupName": "element_254",
@@ -1848,6 +1848,1331 @@
     "Type": "Lines",
     "URL": "skin_cancer_metadata1.json"
   },
+
+  {
+    "GroupName": "element_936",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/936_1.json"
+  },
+
+  {
+    "GroupName": "element_937",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/937_1.json"
+  },
+
+  {
+    "GroupName": "element_938",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/938_1.json"
+  },
+
+  {
+    "GroupName": "element_939",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/939_1.json"
+  },
+
+  {
+    "GroupName": "element_940",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/940_1.json"
+  },
+
+  {
+    "GroupName": "element_941",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/941_1.json"
+  },
+
+  {
+    "GroupName": "element_942",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/942_1.json"
+  },
+
+  {
+    "GroupName": "element_943",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/943_1.json"
+  },
+
+  {
+    "GroupName": "element_944",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/944_1.json"
+  },
+
+  {
+    "GroupName": "element_945",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/945_1.json"
+  },
+
+  {
+    "GroupName": "element_946",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/946_1.json"
+  },
+
+  {
+    "GroupName": "element_947",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/947_1.json"
+  },
+
+  {
+    "GroupName": "element_948",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/948_1.json"
+  },
+
+  {
+    "GroupName": "element_949",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/949_1.json"
+  },
+
+  {
+    "GroupName": "element_950",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/950_1.json"
+  },
+
+  {
+    "GroupName": "element_951",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/951_1.json"
+  },
+
+  {
+    "GroupName": "element_952",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/952_1.json"
+  },
+
+  {
+    "GroupName": "element_953",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/953_1.json"
+  },
+
+  {
+    "GroupName": "element_954",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/954_1.json"
+  },
+
+  {
+    "GroupName": "element_955",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/955_1.json"
+  },
+
+  {
+    "GroupName": "element_956",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/956_1.json"
+  },
+
+  {
+    "GroupName": "element_957",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/957_1.json"
+  },
+
+  {
+    "GroupName": "element_958",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/958_1.json"
+  },
+
+  {
+    "GroupName": "element_959",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/959_1.json"
+  },
+
+  {
+    "GroupName": "element_960",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/960_1.json"
+  },
+
+  {
+    "GroupName": "element_961",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/961_1.json"
+  },
+
+  {
+    "GroupName": "element_962",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/962_1.json"
+  },
+
+  {
+    "GroupName": "element_963",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/963_1.json"
+  },
+
+  {
+    "GroupName": "element_964",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/964_1.json"
+  },
+
+  {
+    "GroupName": "element_965",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/965_1.json"
+  },
+
+  {
+    "GroupName": "element_966",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/966_1.json"
+  },
+
+  {
+    "GroupName": "element_967",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/967_1.json"
+  },
+
+  {
+    "GroupName": "element_968",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/968_1.json"
+  },
+
+  {
+    "GroupName": "element_969",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/969_1.json"
+  },
+
+  {
+    "GroupName": "element_970",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/970_1.json"
+  },
+
+  {
+    "GroupName": "element_971",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/971_1.json"
+  },
+
+  {
+    "GroupName": "element_972",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/972_1.json"
+  },
+
+  {
+    "GroupName": "element_973",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/973_1.json"
+  },
+
+  {
+    "GroupName": "element_974",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/974_1.json"
+  },
+
+  {
+    "GroupName": "element_975",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/975_1.json"
+  },
+
+  {
+    "GroupName": "element_976",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/976_1.json"
+  },
+
+  {
+    "GroupName": "element_977",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/977_1.json"
+  },
+
+  {
+    "GroupName": "element_978",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/978_1.json"
+  },
+
+  {
+    "GroupName": "element_979",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/979_1.json"
+  },
+
+  {
+    "GroupName": "element_980",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/980_1.json"
+  },
+
+  {
+    "GroupName": "element_981",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/981_1.json"
+  },
+
+  {
+    "GroupName": "element_982",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/982_1.json"
+  },
+
+  {
+    "GroupName": "element_983",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/983_1.json"
+  },
+
+  {
+    "GroupName": "element_984",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/984_1.json"
+  },
+
+  {
+    "GroupName": "element_985",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/985_1.json"
+  },
+
+  {
+    "GroupName": "element_986",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/986_1.json"
+  },
+
+  {
+    "GroupName": "element_987",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/987_1.json"
+  },
+
+  {
+    "GroupName": "element_988",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/988_1.json"
+  },
+
+  {
+    "GroupName": "element_989",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/989_1.json"
+  },
+
+  {
+    "GroupName": "element_990",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/990_1.json"
+  },
+
+  {
+    "GroupName": "element_991",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/991_1.json"
+  },
+
+  {
+    "GroupName": "element_992",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/992_1.json"
+  },
+
+  {
+    "GroupName": "element_993",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/993_1.json"
+  },
+
+  {
+    "GroupName": "element_994",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/994_1.json"
+  },
+
+  {
+    "GroupName": "element_995",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/995_1.json"
+  },
+
+  {
+    "GroupName": "element_996",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/996_1.json"
+  },
+
+  {
+    "GroupName": "element_997",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/997_1.json"
+  },
+
+  {
+    "GroupName": "element_998",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/998_1.json"
+  },
+
+  {
+    "GroupName": "element_999",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/999_1.json"
+  },
+
+  {
+    "GroupName": "element_1000",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1000_1.json"
+  },
+
+  {
+    "GroupName": "element_1001",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1001_1.json"
+  },
+
+  {
+    "GroupName": "element_1002",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1002_1.json"
+  },
+
+  {
+    "GroupName": "element_1003",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1003_1.json"
+  },
+
+  {
+    "GroupName": "element_1004",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1004_1.json"
+  },
+
+  {
+    "GroupName": "element_1005",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1005_1.json"
+  },
+
+  {
+    "GroupName": "element_1006",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1006_1.json"
+  },
+
+  {
+    "GroupName": "element_1007",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1007_1.json"
+  },
+
+  {
+    "GroupName": "element_1008",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1008_1.json"
+  },
+
+  {
+    "GroupName": "element_1009",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1009_1.json"
+  },
+
+  {
+    "GroupName": "element_1010",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1010_1.json"
+  },
+
+  {
+    "GroupName": "element_1011",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1011_1.json"
+  },
+
+  {
+    "GroupName": "element_1012",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1012_1.json"
+  },
+
+  {
+    "GroupName": "element_1013",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1013_1.json"
+  },
+
+  {
+    "GroupName": "element_1014",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1014_1.json"
+  },
+
+  {
+    "GroupName": "element_1015",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1015_1.json"
+  },
+
+  {
+    "GroupName": "element_1016",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1016_1.json"
+  },
+
+  {
+    "GroupName": "element_1017",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1017_1.json"
+  },
+
+  {
+    "GroupName": "element_1018",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1018_1.json"
+  },
+
+  {
+    "GroupName": "element_1019",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1019_1.json"
+  },
+
+  {
+    "GroupName": "element_1020",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1020_1.json"
+  },
+
+  {
+    "GroupName": "element_1021",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1021_1.json"
+  },
+
+  {
+    "GroupName": "element_1022",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1022_1.json"
+  },
+
+  {
+    "GroupName": "element_1023",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1023_1.json"
+  },
+
+  {
+    "GroupName": "element_1024",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1024_1.json"
+  },
+
+  {
+    "GroupName": "element_1025",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1025_1.json"
+  },
+
+  {
+    "GroupName": "element_1026",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1026_1.json"
+  },
+
+  {
+    "GroupName": "element_1027",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1027_1.json"
+  },
+
+  {
+    "GroupName": "element_1028",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1028_1.json"
+  },
+
+  {
+    "GroupName": "element_1029",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1029_1.json"
+  },
+
+  {
+    "GroupName": "element_1030",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1030_1.json"
+  },
+
+  {
+    "GroupName": "element_1031",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1031_1.json"
+  },
+
+  {
+    "GroupName": "element_1032",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1032_1.json"
+  },
+
+  {
+    "GroupName": "element_1033",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1033_1.json"
+  },
+
+  {
+    "GroupName": "element_1034",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1034_1.json"
+  },
+
+  {
+    "GroupName": "element_1035",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1035_1.json"
+  },
+
+  {
+    "GroupName": "element_1036",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1036_1.json"
+  },
+
+  {
+    "GroupName": "element_1037",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1037_1.json"
+  },
+
+  {
+    "GroupName": "element_1038",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1038_1.json"
+  },
+
+  {
+    "GroupName": "element_1039",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1039_1.json"
+  },
+
+  {
+    "GroupName": "element_1040",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1040_1.json"
+  },
+
+  {
+    "GroupName": "element_1041",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1041_1.json"
+  },
+
+  {
+    "GroupName": "element_1042",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1042_1.json"
+  },
+
+  {
+    "GroupName": "element_1043",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1043_1.json"
+  },
+
+  {
+    "GroupName": "element_1044",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1044_1.json"
+  },
+
+  {
+    "GroupName": "element_1045",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1045_1.json"
+  },
+
+  {
+    "GroupName": "element_1046",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1046_1.json"
+  },
+
+  {
+    "GroupName": "element_1047",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1047_1.json"
+  },
+
+  {
+    "GroupName": "element_1048",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1048_1.json"
+  },
+
+  {
+    "GroupName": "element_1049",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1049_1.json"
+  },
+
+  {
+    "GroupName": "element_1050",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1050_1.json"
+  },
+
+  {
+    "GroupName": "element_1051",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1051_1.json"
+  },
+
+  {
+    "GroupName": "element_1052",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1052_1.json"
+  },
+
+  {
+    "GroupName": "element_1053",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1053_1.json"
+  },
+
+  {
+    "GroupName": "element_1054",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1054_1.json"
+  },
+
+  {
+    "GroupName": "element_1055",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1055_1.json"
+  },
+
+  {
+    "GroupName": "element_1056",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1056_1.json"
+  },
+
+  {
+    "GroupName": "element_1057",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1057_1.json"
+  },
+
+  {
+    "GroupName": "element_1058",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1058_1.json"
+  },
+
+  {
+    "GroupName": "element_1059",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1059_1.json"
+  },
+
+  {
+    "GroupName": "element_1060",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1060_1.json"
+  },
+
+  {
+    "GroupName": "element_1061",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1061_1.json"
+  },
+
+  {
+    "GroupName": "element_1062",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1062_1.json"
+  },
+
+  {
+    "GroupName": "element_1063",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1063_1.json"
+  },
+
+  {
+    "GroupName": "element_1064",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1064_1.json"
+  },
+
+  {
+    "GroupName": "element_1065",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1065_1.json"
+  },
+
+  {
+    "GroupName": "element_1066",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1066_1.json"
+  },
+
+  {
+    "GroupName": "element_1067",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1067_1.json"
+  },
+
+  {
+    "GroupName": "element_1068",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1068_1.json"
+  },
+
+  {
+    "GroupName": "element_1069",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1069_1.json"
+  },
+
+  {
+    "GroupName": "element_1070",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1070_1.json"
+  },
+
+  {
+    "GroupName": "element_1071",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1071_1.json"
+  },
+
+  {
+    "GroupName": "element_1072",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1072_1.json"
+  },
+
+  {
+    "GroupName": "element_1073",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1073_1.json"
+  },
+
+  {
+    "GroupName": "element_1074",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1074_1.json"
+  },
+
+  {
+    "GroupName": "element_1075",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1075_1.json"
+  },
+
+  {
+    "GroupName": "element_1076",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1076_1.json"
+  },
+
+  {
+    "GroupName": "element_1077",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1077_1.json"
+  },
+
+  {
+    "GroupName": "element_1078",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1078_1.json"
+  },
+
+  {
+    "GroupName": "element_1079",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1079_1.json"
+  },
+
+  {
+    "GroupName": "element_1080",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1080_1.json"
+  },
+
+  {
+    "GroupName": "element_1081",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1081_1.json"
+  },
+
+  {
+    "GroupName": "element_1082",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/1082_1.json"
+  },
+
+
   {
     "GroupName": "Node Fields",
     "GlyphGeometriesURL": "aa_3.json",

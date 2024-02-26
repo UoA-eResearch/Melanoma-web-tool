@@ -3189,6 +3189,164 @@
     "URL": "Head/Grouped_regions/Chin_R_2.json"
   },
 
+  {
+    "GroupName": "Left_Ear",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/ear_L_2.json"
+  },
+
+  {
+    "GroupName": "Right_Ear",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/ear_R_2.json"
+  },
+
+  {
+    "GroupName": "Left_Eye",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/eye_L_2.json"
+  },
+
+  {
+    "GroupName": "Right_Eye",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/eye_R_2.json"
+  },
+  {
+    "GroupName": "Left_Lip",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Lip_L_2.json"
+  },
+
+  {
+    "GroupName": "Right_lip",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Lip_R_2.json"
+  },
+  {
+    "GroupName": "Middle_lip",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Lip_middle_2.json"
+  },
+  {
+    "GroupName": "Right_Nose",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Lower_Nose_R_2.json"
+  },
+
+  {
+    "GroupName": "Left_Nose",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Lower_Nose_L_2.json"
+  },
+  {
+    "GroupName": "Middle_Nose",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Nose_middle_2.json"
+  },
+  {
+    "GroupName": "Anterior_Right_Neck",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Neck_antterior_R_2.json"
+  },
+
+  {
+    "GroupName": "Anterior_Left_Neck",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Neck_antterior_L_2.json"
+  },
+  {
+    "GroupName": "Posterior_Right_Neck",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Neck_posterior_R_2.json"
+  },
+  {
+    "GroupName": "Posterior_Left_Neck",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Neck_posterior_L_2.json"
+  },
+  {
+    "GroupName": "Posterior_Left_Upper_Head",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Upper_head_Anterior_L_2.json"
+  },
+
+  {
+    "GroupName": "Posterior_Right_Upper_Head",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Upper_head_posterior_R_2.json"
+  },
+
+  {
+    "GroupName": "Anterior_Left_Upper_Head",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Upper_head_Anterior_L_2.json"
+  },
+  {
+    "GroupName": "Anterior_Right_Upper_Head",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Upper_head_Anterior_R_2.json"
+  },
+
+  
+
+
+
+
 
   {
     "GroupName": "Node Fields",

@@ -71,7 +71,7 @@
                     if (region) {
                         region.setVisibility(visibility);
                     } else {
-                        console.error(`Region with name ${region_name} not found.`);
+                        //console.error(`Region with name ${region_name} not found.`);
                     }
                 });
             },

@@ -3172,6 +3172,23 @@
     "URL": "Head/1082_1.json"
   },
 
+  {
+    "GroupName": "Left_Chin",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Chin_L_2.json"
+  },
+  {
+    "GroupName": "Right_Chin",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Chin_R_2.json"
+  },
+
 
   {
     "GroupName": "Node Fields",

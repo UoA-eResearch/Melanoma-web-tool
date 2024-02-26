@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Upper_head_pos_R",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Upper_head_posterior_R_2.json"
+   }
+]

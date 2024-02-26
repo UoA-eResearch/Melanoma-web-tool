@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "lip_Middle",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Lip_middle_2.json"
+   }
+]

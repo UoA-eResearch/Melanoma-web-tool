@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "eye_R",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "eye_R_2.json"
+   }
+]

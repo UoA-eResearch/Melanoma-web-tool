@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "chin_R",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Chin_R_2.json"
+   }
+]

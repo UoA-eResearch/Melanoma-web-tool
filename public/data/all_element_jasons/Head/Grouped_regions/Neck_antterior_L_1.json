@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Neck_L_anterior",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Neck_antterior_L_2.json"
+   }
+]

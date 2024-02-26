@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "ear_R",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ear_R_2.json"
+   }
+]

@@ -1,0 +1,34 @@
+[
+   {
+      "GroupName" : "Anterior_arm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ARM_LEFT_2.json"
+   },
+   {
+      "GroupName" : "Poterior_arm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ARM_LEFT_3.json"
+   },
+   {
+      "GroupName" : "Anterior_forearm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ARM_LEFT_4.json"
+   },
+   {
+      "GroupName" : "Posterior_forearm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ARM_LEFT_5.json"
+   }
+]

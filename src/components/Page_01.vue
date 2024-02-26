@@ -38,62 +38,21 @@
 </template>
 
 <script>
-    /* eslint-disable no-alert, no-console */
     import { ScaffoldVuer } from '@abi-software/scaffoldvuer';
-    import Modal from './Modal.vue';
-    import data_elements from '@/data/data_elements.json';
+    // Import other necessary components and libraries
 
     export default {
         name: 'page_01',
         components: {
             ScaffoldVuer,
-            Modal
+            // Other components
         },
-        data: function () {
+        data() {
             return {
-                showModal: false,
-                tabPosition: 'left',
-                selected: " Selected",
-                displays: [
-                    { type: 'scaffold', url: "/data/all_element_jasons/element_all.json", ref: "Skin Selection Tool" },
-                    { type: 'scaffold', url: "/data/skin_cancer_metadata1.json", ref: "Skin Cancer" },
-                ],
-                scaffoldsArray: [],
-                selectedElm: '',
-                selectedElmData: [],
-                data_elements: data_elements
-            }
+                // Your data properties
+            };
         },
         methods: {
-            onSelected: function (response) {
-                const { data: { id } } = response?.[0];
-
-                this.selectedElmData = this.data_elements[id];
-                this.selectedElm = id;
-                this.showModal = true;
-            },
-            RemoveModel: function () {
-                var currentLength = this.displays.length;
-                if (currentLength > 0)
-                    var removed = this.displays.shift()
-                if (removed.type === 'scaffold') {
-                    this.scaffoldsArray.unshift(removed)
-                }
-                else if (removed.type === 'plot') {
-                    this.csvFiles.unshift(removed)
-                }
-            },
-            ScaffoldSelected: function (annotation) {
-                this.selected = annotation[0].data.id;
-            },
-            AddModel: function () {
-                if (this.scaffoldsArray.length)
-                    this.displays.push(this.scaffoldsArray.shift());
-            },
-            AddData: function () {
-                if (this.csvFiles.length)
-                    this.displays.push(this.csvFiles.shift());
-            },
             onReady() {
                 this.$nextTick(() => {
                     const scene = this.$refs.scaffold.$module.scene;
@@ -115,10 +74,14 @@
                         console.error(`Region with name ${region_name} not found.`);
                     }
                 });
+            },
+            displayLabelWithGlyph() {
+                // Implement logic to display labels with glyphs
             }
         }
     }
 </script>
+
 
 <style>
     body {

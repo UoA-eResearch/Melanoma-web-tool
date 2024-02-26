@@ -1,49 +1,49 @@
 <template>
-    <div id="p1">
-        <el-tabs :tab-position="tabPosition" style="top:10%;height: 90%;">
-            <el-tab-pane v-for="item in displays" :key="item.ref" :label="item.ref" style="height:100%">
-                <ScaffoldVuer @scaffold-selected="onSelected" @on-ready="onReady" v-if="item.type === 'scaffold'" :url="item.url"
-                              v-on:scaffold-selected="ScaffoldSelected" :ref="item.ref" style="height:100%" />
-            </el-tab-pane>
-        </el-tabs>
+  <div id="p1">
+    <el-tabs :tab-position="tabPosition" style="top:10%;height: 90%;">
+      <el-tab-pane v-for="item in displays" :key="item.ref" :label="item.ref" style="height:100%">
+        <ScaffoldVuer @scaffold-selected="onSelected" v-if="item.type === 'scaffold'" :url="item.url"
+          v-on:scaffold-selected="ScaffoldSelected" :ref="item.ref" style="height:100%" />
+      </el-tab-pane>
+    </el-tabs>
 
-        <Teleport to="body">
-            <!-- use the modal component, pass in the prop -->
-            <modal :show="showModal" @close="showModal = false">
-                <!-- <template #header>
-              <h3>Sample Header</h3>
-            </template>
-            <template #body>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Est sit amet facilisis magna etiam tempor orci. Augue eget arcu dictum varius duis. Rhoncus urna neque viverra justo nec ultrices dui. Et egestas quis ipsum suspendisse ultrices gravida. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Nisl nunc mi ipsum faucibus. Ultrices eros in cursus turpis massa tincidunt dui ut. Turpis egestas pretium aenean pharetra magna ac placerat. Dictum sit amet justo donec enim diam vulputate. Netus et malesuada fames ac. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Dolor magna eget est lorem. Dui id ornare arcu odio ut sem. Ipsum dolor sit amet consectetur. Orci sagittis eu volutpat odio facilisis mauris sit.
-              </p>
-            </template> -->
-                <template #header>
-                    <h3>STATISTICS - {{selectedElm}}</h3>
-                </template>
-                <template #body>
-                    <table v-if="selectedElmData">
-                        <thead>
-                        <th class="right-align">Code</th>
-                        <th>Nodefield</th>
-                        <th class="right-align"># Cases</th>
-                        <th class="right-align">Drainage</th>
-                        </thead>
-                        <tbody>
-                            <tr v-for="elm in selectedElmData" v-bind:key="elm.id">
-                                <td class="right-align">{{elm.code}}</td>
-                                <td>{{elm.name}}</td>
-                                <td class="right-align">{{elm.count}}</td>
-                                <td class="right-align">{{elm.percentage}}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <span v-else>No data available!</span>
-                </template>
-            </modal>
-        </Teleport>
-        <span>{{testName}}</span>
-    </div>
+    <Teleport to="body">
+    <!-- use the modal component, pass in the prop -->
+    <modal :show="showModal" @close="showModal = false">
+      <!-- <template #header>
+        <h3>Sample Header</h3>
+      </template>
+      <template #body>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque. Est sit amet facilisis magna etiam tempor orci. Augue eget arcu dictum varius duis. Rhoncus urna neque viverra justo nec ultrices dui. Et egestas quis ipsum suspendisse ultrices gravida. Elit ut aliquam purus sit amet luctus venenatis lectus magna. Nisl nunc mi ipsum faucibus. Ultrices eros in cursus turpis massa tincidunt dui ut. Turpis egestas pretium aenean pharetra magna ac placerat. Dictum sit amet justo donec enim diam vulputate. Netus et malesuada fames ac. Urna condimentum mattis pellentesque id nibh tortor id aliquet. Dolor magna eget est lorem. Dui id ornare arcu odio ut sem. Ipsum dolor sit amet consectetur. Orci sagittis eu volutpat odio facilisis mauris sit.
+        </p>
+      </template> -->
+      <template #header>
+        <h3>STATISTICS - {{selectedElm}}</h3>
+      </template>
+      <template #body>
+        <table v-if="selectedElmData">
+          <thead>
+            <th class="right-align">Code</th>
+            <th>Nodefield</th>
+            <th class="right-align"># Cases</th>
+            <th class="right-align">Drainage</th>
+          </thead>
+          <tbody>
+            <tr v-for="elm in selectedElmData" v-bind:key="elm.id">
+              <td class="right-align">{{elm.code}}</td>
+              <td>{{elm.name}}</td>
+              <td class="right-align">{{elm.count}}</td>
+              <td class="right-align">{{elm.percentage}}</td>
+            </tr>
+          </tbody>
+        </table>
+        <span v-else>No data available!</span>
+      </template>
+    </modal>
+  </Teleport>
+  <span>{{testName}}</span>
+  </div>
 </template>
 
 <script>
@@ -105,33 +105,7 @@ export default {
     AddData: function () {
       if (this.csvFiles.length)
         this.displays.push(this.csvFiles.shift());
-     },
-     onReady() {
-         this.$nextTick(() => {
-             const scene = this.$refs.scaffold.$module.scene;
-             const rootRegion = scene.getRootRegion();
-             const regions = rootRegion.getChildRegions();
-             regions.forEach(region => {
-                 region.setVisibility(false);
-             });
-         });
-     },
-     toggleRegionVisibility(region_name, visibility) {
-         this.$nextTick(() => {
-             const scene = this.$refs.scaffold.$module.scene;
-             const rootRegion = scene.getRootRegion();
-             const region = rootRegion.getChildWithName(region_name);
-             if (region) {
-                 region.setVisibility(visibility);
-             } else {
-                 //console.error(`Region with name ${region_name} not found.`);
-             }
-         });
-      },
-      displayLabelWithGlyph() {
-          // Implement logic to display labels with glyphs
-      }
-  }
+    }
   }
 }
 </script>

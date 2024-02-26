@@ -1,0 +1,50 @@
+[
+   {
+      "GroupName" : "Hand_anterior_L",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "HAND_2.json"
+   },
+   {
+      "GroupName" : "Hand_posterior_L",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "HAND_3.json"
+   },
+   {
+      "GroupName" : "Anterior_arm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "HAND_4.json"
+   },
+   {
+      "GroupName" : "Poterior_arm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "HAND_5.json"
+   },
+   {
+      "GroupName" : "Anterior_forearm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "HAND_6.json"
+   },
+   {
+      "GroupName" : "Posterior_forearm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "HAND_7.json"
+   }
+]

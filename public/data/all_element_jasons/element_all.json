@@ -1580,7 +1580,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_torso_5.json"
+    "URL": "Lower_Torso/Lower_torso_5.json"
   },
   {
 
@@ -1589,7 +1589,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_torso_2.json"
+    "URL": "Lower_Torso/Lower_torso_2.json"
   },
   {
 
@@ -1598,7 +1598,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_torso_3.json"
+    "URL": "Lower_Torso/Lower_torso_3.json"
   },
   {
 
@@ -1607,34 +1607,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_torso_4.json"
-  },
-  {
-
-    "GroupName": "head_1",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "head_1.json"
-  },
-  {
-
-    "GroupName": "head_2",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "head_2.json"
-  },
-  {
-
-    "GroupName": "head_3",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "head_3.json"
+    "URL": "Lower_Torso/Lower_torso_4.json"
   },
 
   {
@@ -1644,7 +1617,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_forearm_ant_2.json"
+    "URL": "Arms/R_forearm_ant_2.json"
   },
 
   {
@@ -1653,7 +1626,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_forearm_pos_2.json"
+    "URL": "Arms/R_forearm_pos_2.json"
   },
   {
     "GroupName": "Arm_R_ant",
@@ -1661,7 +1634,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_arm_ant_2.json"
+    "URL": "Arms/R_arm_ant_2.json"
   },
   {
     "GroupName": "Arm_R_pos",
@@ -1669,7 +1642,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_arm_pos_2.json"
+    "URL": "Arms/R_arm_pos_2.json"
   },
   {
     "GroupName": "R_hand_1",
@@ -1677,7 +1650,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_hand_1.json"
+    "URL": "Arms/R_hand_1.json"
   },
   {
     "GroupName": "R_hand_2",
@@ -1685,7 +1658,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_hand_2.json"
+    "URL": "Arms/R_hand_2.json"
   },
 
   {
@@ -1694,7 +1667,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_feet_1.json"
+    "URL": "Feet/R_feet_1.json"
   },
   {
     "GroupName": "R_feet_2",
@@ -1702,7 +1675,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_feet_2.json"
+    "URL": "Feet/R_feet_2.json"
   },
   {
     "GroupName": "R_thigh_ant_1",
@@ -1710,7 +1683,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_thigh_ant_1.json"
+    "URL": "Legs/R_thigh_ant_1.json"
   },
   {
     "GroupName": "R_thigh_ant_2",
@@ -1718,7 +1691,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_thigh_ant_2.json"
+    "URL": "Legs/R_thigh_ant_2.json"
   },
   {
     "GroupName": "R_thigh_pos_1",
@@ -1726,7 +1699,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_thigh_pos_1.json"
+    "URL": "Legs/R_thigh_pos_1.json"
   },
   {
     "GroupName": "R_thigh_pos_2",
@@ -1734,7 +1707,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_thigh_pos_2.json"
+    "URL": "Legs/R_thigh_pos_2.json"
   },
   {
     "GroupName": "R_lower_leg_ant_1",
@@ -1742,7 +1715,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_leg_ant_1.json"
+    "URL": "Legs/R_leg_ant_1.json"
   },
   {
     "GroupName": "R_lower_legh_ant_2",
@@ -1750,7 +1723,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_leg_ant_2.json"
+    "URL": "Legs/R_leg_ant_2.json"
   },
   {
     "GroupName": "R_lower_leg_pos_1",
@@ -1758,7 +1731,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_leg_pos_1.json"
+    "URL": "Legs/R_leg_pos_1.json"
   },
   {
     "GroupName": "R_lower_leg_pos_2",
@@ -1775,7 +1748,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Feet_L_1.json"
+    "URL": "Feet/Feet_L_1.json"
   },
   {
 
@@ -1784,7 +1757,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_LEG_1.json"
+    "URL": "Legs/L_LEG_1.json"
   },
   {
 
@@ -1793,7 +1766,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_LEG_2.json"
+    "URL": "Legs/L_LEG_2.json"
   },
   {
 
@@ -1802,7 +1775,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_LEG_3.json"
+    "URL": "Legs/L_LEG_3.json"
   },
   {
 
@@ -1811,7 +1784,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_LEG_4.json"
+    "URL": "Legs/L_LEG_4.json"
   },
   {
 
@@ -1820,7 +1793,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_LEG_5.json"
+    "URL": "Legs/L_LEG_5.json"
   },
   {
 
@@ -1829,11 +1802,11 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "L_HAND_2.json"
+    "URL": "Legs/L_HAND_2.json"
   },
   {
 
-    "GroupName": "L_HAND_3",
+    "GroupName": "Legs/L_HAND_3",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1847,7 +1820,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "ARM_LEFT_2.json"
+    "URL": "Arms/ARM_LEFT_2.json"
   },
 
   {
@@ -1857,7 +1830,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "ARM_LEFT_3.json"
+    "URL": "Arms/ARM_LEFT_3.json"
   },
   {
 
@@ -1866,7 +1839,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "ARM_LEFT_4.json"
+    "URL": "Arms/ARM_LEFT_4.json"
   },
   {
 
@@ -1875,18 +1848,9 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "ARM_LEFT_5.json"
+    "URL": "Arms/ARM_LEFT_5.json"
   },
 
-  {
-
-    "GroupName": "element_1090",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "1091_1.json"
-  },
 
 
 

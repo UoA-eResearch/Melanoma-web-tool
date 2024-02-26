@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "poste_thigh",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "poste_thigh_2.json"
+   }
+]

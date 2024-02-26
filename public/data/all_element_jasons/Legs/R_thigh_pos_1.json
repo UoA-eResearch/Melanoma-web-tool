@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "thigh_R_posterior",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "R_thigh_pos_2.json"
+   }
+]

@@ -73,25 +73,32 @@
             "percentage": "0.9 (0.0, 2.8)"
         }
     ],
-    "Left Hand": [        {
-            "code": "la",
-            "name": "Left Axilla",
-            "count": "87",
-            "percentage": 78.4 
-        },
-        {
-            "code": "ra",
-            "name": "Right Axilla",
-            "count": "37",
-            "percentage": "33.3 (24.8, 42.3)"
-        },
-        {
-            "code": "ic",
-            "name": "Intercoastal",
-            "count": "37",
-            "percentage": "33.3 (24.8, 42.2)"
-        }
-        ],
+  "Left Hand": [
+    {
+      "code": "la",
+      "name": "Left Axilla",
+      "count": "87",
+      "percentage": "100 (100, 100)"
+    },
+    {
+      "code": "in",
+      "name": "Interval",
+      "count": "37",
+      "percentage": "9.7 (3.7,16.9)"
+    },
+    {
+      "code": "lepit",
+      "name": "left epitrochlear ",
+      "count": "37",
+      "percentage": "32.9 (43.2,23.2)"
+    }
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "37",
+      "percentage": "2.5 (0, 6.1)"
+    }
+  ],
     "element_10": [],
     "element_11": [],
     "element_12": [],

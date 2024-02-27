@@ -77,25 +77,25 @@
     {
       "code": "la",
       "name": "Left Axilla",
-      "count": "87",
+      "count": "82",
       "percentage": "100 (100, 100)"
     },
     {
       "code": "in",
       "name": "Interval",
-      "count": "37",
+      "count": "9",
       "percentage": "9.7 (3.7,16.9)"
     },
     {
       "code": "lepit",
       "name": "left epitrochlear ",
-      "count": "37",
+      "count": "28",
       "percentage": "32.9 (43.2,23.2)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
-      "count": "37",
+      "count": "2",
       "percentage": "2.5 (0, 6.1)"
     }
   ],

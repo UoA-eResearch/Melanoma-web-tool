@@ -3337,7 +3337,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "lines_2.json"
+    "URL": "skin_cancer_metadata2.json"
   },
   {
     "GroupName": "Lines",
@@ -3346,9 +3346,28 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "_2.json"
+    "URL": "skin_cancer_metadata1.json"
   },
- 
+  {
+    "GroupName": "Node Fields",
+    "GlyphGeometriesURL": "aa_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Glyph",
+    "URL": "aa_2.json"
+  },
+  {
+    "GlyphGeometriesURL": "aa_3.json",
+    "GroupName": "Nodes_2ss",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "DisplayLabels": true,
+    "Type": "Glyph",
+    "URL": "aa_2.json"
+  },
 
   {
     "Type": "View",

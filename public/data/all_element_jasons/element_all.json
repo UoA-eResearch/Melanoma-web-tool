@@ -1724,7 +1724,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "R_leg_pos_2.json"
+    "URL": "Legs/R_leg_pos_2.json"
   },
   {
 
@@ -1838,7 +1838,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "skin_cancer_metadata1.json"
+    "URL": "skin_cancer_metadata2.json"
   },
 
 

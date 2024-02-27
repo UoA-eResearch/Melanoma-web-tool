@@ -3337,7 +3337,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "lines_2.json"
+    "URL": "Lines_brown_2.json"
   },
   {
     "GroupName": "Lines",
@@ -3346,7 +3346,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "lines_1.json"
+    "URL": "Lines_brown_1.json"
   },
   {
     "GroupName": "Node Fields",

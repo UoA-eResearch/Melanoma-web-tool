@@ -3362,14 +3362,14 @@
     "URL": "aa_2.json"
   },
   {
-    "GlyphGeometriesURL": "Alan/mouseLungs_6.json",
-    "GroupName": "Nodes",
+    "GlyphGeometriesURL": "aa_3.json",
+    "GroupName": "Nodes_2",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
-    "URL": "Alan/mouseLungs_5.json"
+    "URL": "aa_2.json"
   },
 
   {

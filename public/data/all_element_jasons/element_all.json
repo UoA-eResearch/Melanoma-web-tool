@@ -3337,7 +3337,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "skin_cancer_metadata2.json"
+    "URL": "lines_2ref.json"
   },
   {
     "GroupName": "Lines",
@@ -3346,7 +3346,7 @@
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Lines",
-    "URL": "skin_cancer_metadata1.json"
+    "URL": "lines_1ref.json"
   },
   {
     "GroupName": "Node Fields",

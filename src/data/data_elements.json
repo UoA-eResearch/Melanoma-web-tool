@@ -73,7 +73,7 @@
             "percentage": "0.9 (0.0, 2.8)"
         }
     ],
-    "Left Hand": [        {
+    "Left_Hand": [        {
             "code": "la",
             "name": "Left Axilla",
             "count": "87",
@@ -95,8 +95,8 @@
     "element_10": [],
     "element_11": [],
     "element_12": [],
-    "element_2": [],
-    "element_253": [
+    "Torso_element_2": [],
+    "Torso_element_253": [
         {
             "code": "lim",
             "name": "left internal mammary",
@@ -104,9 +104,9 @@
             "percentage": "nan (0, 0)"
         }
     ],
-    "element_254": [],
-    "element_255": [],
-    "element_256": [
+    "Torso_element_254": [],
+    "Torso_element_255": [],
+    "Torso_element_256": [
         {
             "code": "lc5",
             "name": "left cervical level v",
@@ -114,8 +114,8 @@
             "percentage": "2.6 (0, 8.1)"
         }
     ],
-    "element_257": [],
-    "element_258": [
+    "Torso_element_257": [],
+    "Torso_element_258": [
         {
             "code": "lc5",
             "name": "left cervical level v",
@@ -123,7 +123,7 @@
             "percentage": "nan (0, 100)"
         }
     ],
-    "element_259": [
+    "Torso_element_259": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -137,7 +137,7 @@
             "percentage": "3.6 (0, 11.1)"
         }
     ],
-    "element_260": [
+    "Torso_element_260": [
         {
             "code": "in",
             "name": "interval node",
@@ -151,7 +151,7 @@
             "percentage": "3.1 (0, 9.7)"
         }
     ],
-    "element_261": [
+    "Torso_element_261": [
         {
             "code": "in",
             "name": "interval node",
@@ -159,9 +159,9 @@
             "percentage": "3.4 (0, 10.3)"
         }
     ],
-    "element_262": [],
-    "element_263": [],
-    "element_264": [
+    "Torso_element_262": [],
+    "Torso_element_263": [],
+    "Torso_element_264": [
         {
             "code": "ltis",
             "name": "left tis",
@@ -181,7 +181,7 @@
             "percentage": "2.3 (0, 7.1)"
         }
     ],
-    "element_265": [
+    "Torso_element_265": [
         {
             "code": "rtis",
             "name": "right right triangular intermuscular space ",
@@ -195,10 +195,10 @@
             "percentage": "3.6 (0.0, 8.9)"
         }
     ],
-    "element_266": [],
-    "element_267": [],
-    "element_268": [],
-    "element_269": [
+    "Torso_element_266": [],
+    "Torso_element_267": [],
+    "Torso_element_268": [],
+    "Torso_element_269": [
         {
             "code": "rc5",
             "name": "right cervical level v",
@@ -224,7 +224,7 @@
             "percentage": "2.2 (0, 7.0)"
         }
     ],
-    "element_270": [
+    "Torso_element_270": [
         {
             "code": "ric",
             "name": "right infraclavicular",
@@ -232,7 +232,7 @@
             "percentage": "14.3 (0, 42.9)"
         }
     ],
-    "element_271": [
+    "Torso_element_271": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -246,8 +246,8 @@
             "percentage": "9.2 (0, 30.0)"
         }
     ],
-    "element_272": [],
-    "element_273": [
+    "Torso_element_272": [],
+    "Torso_element_273": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -261,7 +261,7 @@
             "percentage": "3.2 (0, 10)"
         }
     ],
-    "element_274": [
+    "Torso_element_274": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -269,9 +269,9 @@
             "percentage": "14.1 (0, 30)"
         }
     ],
-    "element_275": [],
-    "element_276": [],
-    "element_277": [
+    "Torso_element_275": [],
+    "Torso_element_276": [],
+    "Torso_element_277": [
         {
             "code": "lpop",
             "name": "left popliteal",
@@ -279,9 +279,9 @@
             "percentage": "nan (nan, nan)"
         }
     ],
-    "element_3": [],
-    "element_4": [],
-    "element_467": [
+    "Torso_element_3": [],
+    "Torso_element_4": [],
+    "Torso_element_467": [
         {
             "code": "rim",
             "name": "right internal mammary",
@@ -295,8 +295,8 @@
             "percentage": "12.4 (0.0, 37.5)"
         }
     ],
-    "element_468": [],
-    "element_469": [
+    "Torso_element_468": [],
+    "Torso_element_469": [
         {
             "code": "in",
             "name": "interval node",
@@ -304,7 +304,7 @@
             "percentage": "30.8 (7.7, 57.1)"
         }
     ],
-    "element_470": [
+    "Torso_element_470": [
         {
             "code": "in",
             "name": "interval node",
@@ -312,8 +312,8 @@
             "percentage": "11.2 (0.0, 33.3)"
         }
     ],
-    "element_471": [],
-    "element_472": [
+    "Torso_element_471": [],
+    "Torso_element_472": [
         {
             "code": "in",
             "name": "interval node",
@@ -327,7 +327,7 @@
             "percentage": "6.9 (0.0, 17.2)"
         }
     ],
-    "element_473": [
+    "Torso_element_473": [
         {
             "code": "in",
             "name": "interval node",
@@ -347,7 +347,7 @@
             "percentage": "8.4 (0.0, 18.9)"
         }
     ],
-    "element_474": [
+    "Torso_element_474": [
         {
             "code": "in",
             "name": "interval node",
@@ -361,7 +361,7 @@
             "percentage": "2.4 (0.0, 7.5)"
         }
     ],
-    "element_475": [
+    "Torso_element_475": [
         {
             "code": "in",
             "name": "interval node",
@@ -381,7 +381,7 @@
             "percentage": "4.9 (0.0, 12.2)"
         }
     ],
-    "element_476": [
+    "Torso_element_476": [
         {
             "code": "pv",
             "name": "paravertebral",
@@ -401,7 +401,7 @@
             "percentage": "4.8 (0.0, 11.9)"
         }
     ],
-    "element_477": [
+    "Torso_element_477": [
         {
             "code": "rp",
             "name": "retroperitoneal",
@@ -421,10 +421,10 @@
             "percentage": "5.8 (0.0, 18.8)"
         }
     ],
-    "element_478": [],
-    "element_479": [],
-    "element_480": [],
-    "element_481": [
+    "Torso_element_478": [],
+    "Torso_element_479": [],
+    "Torso_element_480": [],
+    "Torso_element_481": [
         {
             "code": "in",
             "name": "interval node",
@@ -432,7 +432,7 @@
             "percentage": "nan (0, 100)"
         }
     ],
-    "element_482": [
+    "Torso_element_482": [
         {
             "code": "in",
             "name": "interval node",
@@ -440,7 +440,7 @@
             "percentage": "25.1 (0.0, 53.8)"
         }
     ],
-    "element_483": [
+    "Torso_element_483": [
         {
             "code": "in",
             "name": "interval node",
@@ -454,7 +454,7 @@
             "percentage": "4.5 (0.0, 14.3)"
         }
     ],
-    "element_484": [
+    "Torso_element_484": [
         {
             "code": "in",
             "name": "interval node",
@@ -462,7 +462,7 @@
             "percentage": "13.3 (0, 33.3)"
         }
     ],
-    "element_485": [
+    "Torso_element_485": [
         {
             "code": "in",
             "name": "interval node",
@@ -482,7 +482,7 @@
             "percentage": "5.5 (0.0, 17.6)"
         }
     ],
-    "element_486": [
+    "Torso_element_486": [
         {
             "code": "in",
             "name": "interval node",
@@ -490,7 +490,7 @@
             "percentage": "16.9 (0, 50)"
         }
     ],
-    "element_487": [
+    "Torso_element_487": [
         {
             "code": "in",
             "name": "interval node",
@@ -498,7 +498,7 @@
             "percentage": "20.2 (0, 60)"
         }
     ],
-    "element_488": [
+    "Torso_element_488": [
         {
             "code": "in",
             "name": "interval node",
@@ -518,7 +518,7 @@
             "percentage": "6.2 (0.0, 15.6)"
         }
     ],
-    "element_489": [
+    "Torso_element_489": [
         {
             "code": "in",
             "name": "interval node",
@@ -538,7 +538,7 @@
             "percentage": "13.3 (2.7, 24.3)"
         }
     ],
-    "element_490": [
+    "Torso_element_490": [
         {
             "code": "in",
             "name": "interval node",
@@ -564,7 +564,7 @@
             "percentage": "2.4 (0.0, 7.3)"
         }
     ],
-    "element_491": [
+    "Torso_element_491": [
         {
             "code": "in",
             "name": "interval node",
@@ -590,7 +590,7 @@
             "percentage": "2.9 (0.0, 8.8)"
         }
     ],
-    "element_492": [
+    "Torso_element_492": [
         {
             "code": "in",
             "name": "interval node",
@@ -616,7 +616,7 @@
             "percentage": "2.0 (0.0, 6.2)"
         }
     ],
-    "element_493": [
+    "Torso_element_493": [
         {
             "code": "in",
             "name": "interval node",
@@ -642,8 +642,8 @@
             "percentage": "4.4 (0.0, 13.6)"
         }
     ],
-    "element_494": [],
-    "element_495": [
+    "Torso_element_494": [],
+    "Torso_element_495": [
         {
             "code": "in",
             "name": "interval node",
@@ -651,7 +651,7 @@
             "percentage": "18.2 (0.0, 44.4)"
         }
     ],
-    "element_496": [
+    "Torso_element_496": [
         {
             "code": "in",
             "name": "interval node",
@@ -665,8 +665,8 @@
             "percentage": "14.3 (0.0, 42.9)"
         }
     ],
-    "element_497": [],
-    "element_498": [
+    "Torso_element_497": [],
+    "Torso_element_498": [
         {
             "code": "rcm",
             "name": "right costal margin",
@@ -692,7 +692,7 @@
             "percentage": "4.5 (0.0, 14.3)"
         }
     ],
-    "element_499": [
+    "Torso_element_499": [
         {
             "code": "in",
             "name": "interval node",
@@ -712,8 +712,8 @@
             "percentage": "4.5 (0.0, 14.3)"
         }
     ],
-    "element_5": [],
-    "element_500": [
+    "Torso_element_5": [],
+    "Torso_element_500": [
         {
             "code": "inc",
             "name": "intercostal",
@@ -727,7 +727,7 @@
             "percentage": "5.2 (0, 16.7)"
         }
     ],
-    "element_501": [
+    "Torso_element_501": [
         {
             "code": "in",
             "name": "interval node",
@@ -735,8 +735,8 @@
             "percentage": "49.9 (14.3, 85.7)"
         }
     ],
-    "element_502": [],
-    "element_503": [
+    "Torso_element_502": [],
+    "Torso_element_503": [
         {
             "code": "in",
             "name": "interval node",
@@ -744,7 +744,7 @@
             "percentage": "20.3 (0, 60)"
         }
     ],
-    "element_504": [
+    "Torso_element_504": [
         {
             "code": "in",
             "name": "interval node",
@@ -770,7 +770,7 @@
             "percentage": "2.3 (0.0, 7.0)"
         }
     ],
-    "element_505": [
+    "Torso_element_505": [
         {
             "code": "in",
             "name": "interval node",
@@ -808,7 +808,7 @@
             "percentage": "2.4 (0.0, 7.5)"
         }
     ],
-    "element_506": [
+    "Torso_element_506": [
         {
             "code": "in",
             "name": "interval node",
@@ -834,7 +834,7 @@
             "percentage": "2.0 (0.0, 6.2)"
         }
     ],
-    "element_507": [
+    "Torso_element_507": [
         {
             "code": "in",
             "name": "interval node",
@@ -860,7 +860,7 @@
             "percentage": "1.8 (0.0, 5.6)"
         }
     ],
-    "element_508": [
+    "Torso_element_508": [
         {
             "code": "in",
             "name": "interval node",
@@ -886,7 +886,7 @@
             "percentage": "4.8 (0.0, 11.1)"
         }
     ],
-    "element_509": [
+    "Torso_element_509": [
         {
             "code": "in",
             "name": "interval node",
@@ -894,8 +894,8 @@
             "percentage": "25.9 (10.7, 42.9)"
         }
     ],
-    "element_510": [],
-    "element_511": [
+    "Torso_element_510": [],
+    "Torso_element_511": [
         {
             "code": "in",
             "name": "interval node",
@@ -903,7 +903,7 @@
             "percentage": "20.1 (0, 45.5)"
         }
     ],
-    "element_512": [
+    "Torso_element_512": [
         {
             "code": "in",
             "name": "interval node",
@@ -911,7 +911,7 @@
             "percentage": "11.2 (0.0, 33.3)"
         }
     ],
-    "element_513": [
+    "Torso_element_513": [
         {
             "code": "in",
             "name": "interval node",
@@ -925,7 +925,7 @@
             "percentage": "9.0 (0, 27.3)"
         }
     ],
-    "element_514": [
+    "Torso_element_514": [
         {
             "code": "rim",
             "name": "right internal mammary",
@@ -957,7 +957,7 @@
             "percentage": "6.6 (0.0, 21.4)"
         }
     ],
-    "element_515": [
+    "Torso_element_515": [
         {
             "code": "rim",
             "name": "right internal mammary",
@@ -977,7 +977,7 @@
             "percentage": "6.7 (0.0, 21.4)"
         }
     ],
-    "element_516": [
+    "Torso_element_516": [
         {
             "code": "in",
             "name": "interval node",
@@ -997,7 +997,7 @@
             "percentage": "5.3 (0, 16.7)"
         }
     ],
-    "element_517": [
+    "Torso_element_517": [
         {
             "code": "in",
             "name": "interval node",
@@ -1011,9 +1011,9 @@
             "percentage": "11.1 (0.0, 33.3)"
         }
     ],
-    "element_518": [],
-    "element_519": [],
-    "element_520": [
+    "Torso_element_518": [],
+    "Torso_element_519": [],
+    "Torso_element_520": [
         {
             "code": "in",
             "name": "interval node",
@@ -1021,7 +1021,7 @@
             "percentage": "13.3 (0, 33.3)"
         }
     ],
-    "element_521": [
+    "Torso_element_521": [
         {
             "code": "ltis",
             "name": "left tis",
@@ -1035,7 +1035,7 @@
             "percentage": "4.3 (0.0, 10.9)"
         }
     ],
-    "element_522": [
+    "Torso_element_522": [
         {
             "code": "in",
             "name": "interval node",
@@ -1061,7 +1061,7 @@
             "percentage": "1.8 (0.0, 5.5)"
         }
     ],
-    "element_523": [
+    "Torso_element_523": [
         {
             "code": "in",
             "name": "interval node",
@@ -1093,7 +1093,7 @@
             "percentage": "1.7 (0.0, 5.4)"
         }
     ],
-    "element_524": [
+    "Torso_element_524": [
         {
             "code": "in",
             "name": "interval node",
@@ -1119,7 +1119,7 @@
             "percentage": "2.4 (0.0, 7.5)"
         }
     ],
-    "element_525": [
+    "Torso_element_525": [
         {
             "code": "in",
             "name": "interval node",
@@ -1127,8 +1127,8 @@
             "percentage": "19.8 (0, 45.5)"
         }
     ],
-    "element_526": [],
-    "element_527": [
+    "Torso_element_526": [],
+    "Torso_element_527": [
         {
             "code": "in",
             "name": "interval node",
@@ -1136,7 +1136,7 @@
             "percentage": "10.9 (0.0, 33.3)"
         }
     ],
-    "element_528": [
+    "Torso_element_528": [
         {
             "code": "ric",
             "name": "right infraclavicular",
@@ -1150,7 +1150,7 @@
             "percentage": "7.6 (0, 25.0)"
         }
     ],
-    "element_529": [
+    "Torso_element_529": [
         {
             "code": "in",
             "name": "interval node",
@@ -1158,7 +1158,7 @@
             "percentage": "9.2 (0, 30)"
         }
     ],
-    "element_530": [
+    "Torso_element_530": [
         {
             "code": "rim",
             "name": "right internal mammary",
@@ -1178,7 +1178,7 @@
             "percentage": "7.1 (0.0, 23.1)"
         }
     ],
-    "element_531": [
+    "Torso_element_531": [
         {
             "code": "in",
             "name": "interval node",
@@ -1186,7 +1186,7 @@
             "percentage": "11.2 (0.0, 33.3)"
         }
     ],
-    "element_532": [
+    "Torso_element_532": [
         {
             "code": "in",
             "name": "interval node",
@@ -1194,11 +1194,11 @@
             "percentage": "nan (0, 100)"
         }
     ],
-    "element_533": [],
-    "element_534": [],
-    "element_535": [],
-    "element_536": [],
-    "element_537": [
+    "Torso_element_533": [],
+    "Torso_element_534": [],
+    "Torso_element_535": [],
+    "Torso_element_536": [],
+    "Torso_element_537": [
         {
             "code": "ltis",
             "name": "left tis",
@@ -1218,7 +1218,7 @@
             "percentage": "3.0 (0, 9.4)"
         }
     ],
-    "element_538": [
+    "Torso_element_538": [
         {
             "code": "ltis",
             "name": "left tis",
@@ -1244,7 +1244,7 @@
             "percentage": "1.1 (0.0, 3.4)"
         }
     ],
-    "element_539": [
+    "Torso_element_539": [
         {
             "code": "in",
             "name": "interval node",
@@ -1270,7 +1270,7 @@
             "percentage": "1.2 (0.0, 3.8)"
         }
     ],
-    "element_540": [
+    "Torso_element_540": [
         {
             "code": "in",
             "name": "interval node",
@@ -1290,9 +1290,9 @@
             "percentage": "2.6 (0.0, 8.1)"
         }
     ],
-    "element_541": [],
-    "element_542": [],
-    "element_543": [
+    "Torso_element_541": [],
+    "Torso_element_542": [],
+    "Torso_element_543": [
         {
             "code": "in",
             "name": "interval node",
@@ -1300,10 +1300,10 @@
             "percentage": "nan (0, 100)"
         }
     ],
-    "element_544": [],
-    "element_545": [],
-    "element_546": [],
-    "element_547": [
+    "Torso_element_544": [],
+    "Torso_element_545": [],
+    "Torso_element_546": [],
+    "Torso_element_547": [
         {
             "code": "lim",
             "name": "left internal mammary",
@@ -1317,7 +1317,7 @@
             "percentage": "5.5 (0.0, 17.6)"
         }
     ],
-    "element_548": [
+    "Torso_element_548": [
         {
             "code": "in",
             "name": "interval node",
@@ -1337,7 +1337,7 @@
             "percentage": "12.5 (0, 37.5)"
         }
     ],
-    "element_549": [
+    "Torso_element_549": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -1345,11 +1345,11 @@
             "percentage": "10 (0, 30)"
         }
     ],
-    "element_550": [],
-    "element_551": [],
-    "element_552": [],
-    "element_553": [],
-    "element_554": [
+    "Torso_element_550": [],
+    "Torso_element_551": [],
+    "Torso_element_552": [],
+    "Torso_element_553": [],
+    "Torso_element_554": [
         {
             "code": "ltis",
             "name": "left tis",
@@ -1387,7 +1387,7 @@
             "percentage": "0.8 (0.0, 2.5)"
         }
     ],
-    "element_555": [
+    "Torso_element_555": [
         {
             "code": "in",
             "name": "interval node",
@@ -1419,7 +1419,7 @@
             "percentage": "1.0 (0.0, 2.9)"
         }
     ],
-    "element_556": [
+    "Torso_element_556": [
         {
             "code": "rtis",
             "name": "right right triangular intermuscular space ",
@@ -1427,12 +1427,12 @@
             "percentage": "9.1 (0.0, 22.7)"
         }
     ],
-    "element_557": [],
-    "element_558": [],
-    "element_559": [],
-    "element_560": [],
-    "element_561": [],
-    "element_562": [
+    "Torso_element_557": [],
+    "Torso_element_558": [],
+    "Torso_element_559": [],
+    "Torso_element_560": [],
+    "Torso_element_561": [],
+    "Torso_element_562": [
         {
             "code": "in",
             "name": "interval node",
@@ -1440,7 +1440,7 @@
             "percentage": "6.2 (0, 20.0)"
         }
     ],
-    "element_563": [
+    "Torso_element_563": [
         {
             "code": "in",
             "name": "interval node",
@@ -1460,7 +1460,7 @@
             "percentage": "4.2 (0, 13.0)"
         }
     ],
-    "element_564": [
+    "Torso_element_564": [
         {
             "code": "lim",
             "name": "left internal mammary",
@@ -1468,8 +1468,8 @@
             "percentage": "8.4 (0, 25)"
         }
     ],
-    "element_565": [],
-    "element_566": [
+    "Torso_element_565": [],
+    "Torso_element_566": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -1489,7 +1489,7 @@
             "percentage": "4.4 (0.0, 13.6)"
         }
     ],
-    "element_567": [
+    "Torso_element_567": [
         {
             "code": "in",
             "name": "interval node",
@@ -1497,7 +1497,7 @@
             "percentage": "6.3 (0, 20)"
         }
     ],
-    "element_568": [
+    "Torso_element_568": [
         {
             "code": "in",
             "name": "interval node",
@@ -1505,7 +1505,7 @@
             "percentage": "10.0 (0, 30)"
         }
     ],
-    "element_569": [
+    "Torso_element_569": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -1555,7 +1555,7 @@
             "percentage": "5.9 (0.0, 18.8)"
         }
     ],
-    "element_570": [
+    "Torso_element_570": [
         {
             "code": "lc4",
             "name": "left cervical level iv",
@@ -1617,7 +1617,7 @@
             "percentage": "2.5 (0.0, 7.7)"
         }
     ],
-    "element_571": [
+    "Torso_element_571": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -1631,7 +1631,7 @@
             "percentage": "3.7 (0.0, 11.5)"
         }
     ],
-    "element_572": [
+    "Torso_element_572": [
         {
             "code": "lc4",
             "name": "left cervical level iv",
@@ -1657,7 +1657,7 @@
             "percentage": "4.1 (0, 13.0)"
         }
     ],
-    "element_573": [
+    "Torso_element_573": [
         {
             "code": "lc5",
             "name": "left cervical level v",
@@ -1677,7 +1677,7 @@
             "percentage": "1.8 (0, 5.6)"
         }
     ],
-    "element_574": [
+    "Torso_element_574": [
         {
             "code": "lc5",
             "name": "left cervical level v",
@@ -1691,7 +1691,7 @@
             "percentage": "3.8 (0, 12)"
         }
     ],
-    "element_575": [
+    "Torso_element_575": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -1723,7 +1723,7 @@
             "percentage": "0.9 (0.0, 2.7)"
         }
     ],
-    "element_576": [
+    "Torso_element_576": [
         {
             "code": "lc5",
             "name": "left cervical level v",
@@ -1779,7 +1779,7 @@
             "percentage": "0.3 (0.0, 0.8)"
         }
     ],
-    "element_577": [
+    "Torso_element_577": [
         {
             "code": "rc5",
             "name": "right cervical level v",
@@ -1853,7 +1853,7 @@
             "percentage": "0.2 (0.0, 0.7)"
         }
     ],
-    "element_578": [
+    "Torso_element_578": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -1891,7 +1891,7 @@
             "percentage": "0.7 (0.0, 2.1)"
         }
     ],
-    "element_579": [
+    "Torso_element_579": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -1899,7 +1899,7 @@
             "percentage": "6.4 (0, 16.1)"
         }
     ],
-    "element_580": [
+    "Torso_element_580": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -1925,7 +1925,7 @@
             "percentage": "1.7 (0.0, 5.3)"
         }
     ],
-    "element_581": [
+    "Torso_element_581": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -1939,7 +1939,7 @@
             "percentage": "6.3 (0.0, 20)"
         }
     ],
-    "element_582": [
+    "Torso_element_582": [
         {
             "code": "rsc",
             "name": "right supraclavicular fossa",
@@ -1977,7 +1977,7 @@
             "percentage": "3.0 (0.0, 9.4)"
         }
     ],
-    "element_583": [
+    "Torso_element_583": [
         {
             "code": "rc2",
             "name": "right cervical level ii",
@@ -2045,7 +2045,7 @@
             "percentage": "2.6 (0.0, 8.1)"
         }
     ],
-    "element_584": [
+    "Torso_element_584": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -2101,7 +2101,7 @@
             "percentage": "4.2 (0.0, 13.0)"
         }
     ],
-    "element_585": [
+    "Torso_element_585": [
         {
             "code": "rc4",
             "name": "right cervical level iv",
@@ -2115,7 +2115,7 @@
             "percentage": "nan (100, 100)"
         }
     ],
-    "element_586": [
+    "Torso_element_586": [
         {
             "code": "lc2",
             "name": "left cervical level ii",
@@ -2159,7 +2159,7 @@
             "percentage": "11.0 (0.0, 33.3)"
         }
     ],
-    "element_587": [
+    "Torso_element_587": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -2185,7 +2185,7 @@
             "percentage": "18.2 (0.0, 44.4)"
         }
     ],
-    "element_588": [
+    "Torso_element_588": [
         {
             "code": "lsc",
             "name": "left supraclavicular fossa",
@@ -2211,10 +2211,10 @@
             "percentage": "5.0 (0.0, 15.8)"
         }
     ],
-    "element_6": [],
+    "Torso_element_6": [],
     "element_7": [],
     "element_8": [],
-    "element_9": [
+    "Torso_element_9": [
         {
             "code": "aa",
             "name": "Axilla Level I (anterior)",

@@ -1789,7 +1789,7 @@
     "Type": "Surfaces",
     "URL": "Arms/L_HAND_2.json"
   },
- 
+
   {
 
     "GroupName": "Left_Anterior_Forearm",
@@ -1828,7 +1828,24 @@
     "URL": "Arms/ARM_LEFT_5.json"
   },
 
-
+  {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "lines_2.json"
+  },
+  {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "_2.json"
+  },
 
 
   {

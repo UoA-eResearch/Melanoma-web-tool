@@ -1,0 +1,72 @@
+[
+   {
+      "GroupName" : "right lung lines",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "mouseLungs_2.json"
+   },
+   {
+      "GroupName" : "left lung lines",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "mouseLungs_3.json"
+   },
+   {
+      "GroupName" : "lower lobe of right lung",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "mouseLungs_4.json"
+   },
+   {
+      "GlyphGeometriesURL" : "mouseLungs_6.json",
+      "GroupName" : "marker",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "DisplayLabels": true,
+      "Type" : "Glyph",
+      "URL" : "mouseLungs_5.json"
+   },
+   {
+      "GroupName" : "left lung",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "mouseLungs_7.json"
+   },
+   {
+      "GroupName" : "right lung accessory lobe",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "mouseLungs_8.json"
+   },
+   {
+      "GroupName" : "middle lobe of right lung",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "mouseLungs_9.json"
+   },
+   {
+      "GroupName" : "upper lobe of right lung",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "mouseLungs_10.json"
+   },
+   {
+      "Type" : "View",
+      "URL" : "mouseLungs_view.json"
+   }
+]

@@ -1828,35 +1828,7 @@
     "URL": "Arms/ARM_LEFT_5.json"
   },
 
-  {
-    "GroupName": "Lines",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "lines_2.json"
-  },
-  {
-    "GroupName": "Lines",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "_2.json"
-  },
 
-
-  {
-    "GroupName": "Lines",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "skin_cancer_metadata1.json"
-  },
 
 
   {
@@ -3362,16 +3334,43 @@
 
 
   {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "lines_2.json"
+  },
+  {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "_2.json"
+  },
+  {
     "GroupName": "Node Fields",
-    "GlyphGeometriesURL": "aa_2.json",
+    "GlyphGeometriesURL": "aa_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "",
     "Type": "Glyph",
-    "URL": "Torso/254_1.json"
+    "URL": "aa_2.json"
   },
-
+  {
+    "GlyphGeometriesURL": "Alan/mouseLungs_6.json",
+    "GroupName": "Nodes",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "DisplayLabels": true,
+    "Type": "Glyph",
+    "URL": "Alan/mouseLungs_5.json"
+  },
 
   {
     "Type": "View",

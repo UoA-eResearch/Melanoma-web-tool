@@ -1,10 +1,19 @@
 [
 
+  {
+    "GroupName": "Node Fields",
+    "GlyphGeometriesURL": "Torso/aa_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "something",
+    "Type": "Glyph",
+    "URL": "Torso/254_1.json"
+  },
 
 
 
 
-  
   {
     "GroupName": "Torso_element_253",
     "MorphColours": false,
@@ -3339,26 +3348,7 @@
     "Type": "Lines",
     "URL": "_2.json"
   },
-  {
-    "GroupName": "Node Fields",
-    "GlyphGeometriesURL": "aa_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Glyph",
-    "URL": "aa_2.json"
-  },
-  {
-    "GlyphGeometriesURL": "aa_3.json",
-    "GroupName": "Nodes_2ss",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "DisplayLabels": true,
-    "Type": "Glyph",
-    "URL": "aa_2.json"
-  },
+ 
 
   {
     "Type": "View",

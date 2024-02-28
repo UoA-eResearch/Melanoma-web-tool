@@ -1675,7 +1675,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_leg_left_2.json"
+    "URL": "Leg_lower_left_2.json"
   },
   {
     "GroupName": "Lower Leg Left",
@@ -1683,7 +1683,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Lower_leg_left_1.json"
+    "URL": "Leg_lower_left_1.json"
   },
 
   {

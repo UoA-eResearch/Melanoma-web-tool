@@ -1592,7 +1592,7 @@
     "URL": "Lower_Torso/Lower_torso_4.json"
   },
 
-  
+
   {
     "GroupName": "Arm Left",
     "MorphColours": false,
@@ -1642,7 +1642,7 @@
     "Type": "Surfaces",
     "URL": "Feet/R_feet_2.json"
   },
-  
+
   {
     "GroupName": "Thigh Right",
     "MorphColours": false,
@@ -1677,7 +1677,15 @@
     "Type": "Surfaces",
     "URL": "Lower_leg_left_2.json"
   },
-  
+  {
+    "GroupName": "Lower Leg Left",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Lower_leg_left_1.json"
+  },
+
   {
 
     "GroupName": "Left Feet",
@@ -1687,8 +1695,8 @@
     "Type": "Surfaces",
     "URL": "Feet/Feet_L_1.json"
   },
-  
-   {
+
+  {
 
     "GroupName": "Left Hand",
     "MorphColours": false,
@@ -1717,7 +1725,7 @@
     "Type": "Surfaces",
     "URL": "Arms/Forearm_Whole_Right_2.json"
   },
-  
+
 
 
   {

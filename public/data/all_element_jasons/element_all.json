@@ -1669,7 +1669,7 @@
     "URL": "Legs/Lower_leg_right_2.json"
   },
 
-  
+
 
   {
 
@@ -1691,15 +1691,7 @@
     "URL": "Arms/L_HAND_2.json"
   },
 
-  {
 
-    "GroupName": "Forearm Left",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Forearm_Whole_left_2.json"
-  },
 
   {
 
@@ -1711,7 +1703,15 @@
     "URL": "Arms/Forearm_Whole_Right_2.json"
   },
 
+  {
 
+    "GroupName": "Forearm Left",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Arms/Forearm_Whole_left_2.json"
+  },
 
   {
     "GroupName": "Head_element_936",

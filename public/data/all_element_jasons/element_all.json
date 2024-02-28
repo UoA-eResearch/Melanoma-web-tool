@@ -1557,7 +1557,7 @@
 
   {
 
-    "GroupName": "Left_Lower_Torso_Posterior",
+    "GroupName": "Lower_Torso_Posterior Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1566,7 +1566,7 @@
   },
   {
 
-    "GroupName": "Right_Lower_Torso_Anterior",
+    "GroupName": "Lower_Torso_Anterior Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1575,7 +1575,7 @@
   },
   {
 
-    "GroupName": "Right_Lower_Torso_Posterior",
+    "GroupName": "Lower Torso Posterior Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1584,7 +1584,7 @@
   },
   {
 
-    "GroupName": "Left_Lower_Torso_Anterior",
+    "GroupName": "Lower Torso Anterior Left ",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1592,42 +1592,25 @@
     "URL": "Lower_Torso/Lower_torso_4.json"
   },
 
+  
   {
-
-    "GroupName": "Right_Forearm_Anterior",
+    "GroupName": "Arm Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Arms/R_forearm_ant_2.json"
+    "URL": "Arms/ARM_Whole_left_2.json"
   },
-
   {
-    "GroupName": "Right_Forearm_Posterior",
+    "GroupName": "Arm Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Arms/R_forearm_pos_2.json"
+    "URL": "Arms/ARM_Whole_right_2.json"
   },
   {
-    "GroupName": "Right_Arm_Anterior",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Arms/R_arm_ant_2.json"
-  },
-  {
-    "GroupName": "Right_Arm_Posterior",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Arms/R_arm_pos_2.json"
-  },
-  {
-    "GroupName": "Hand_Right",
+    "GroupName": "Hand Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1635,7 +1618,7 @@
     "URL": "Arms/R_hand_1.json"
   },
   {
-    "GroupName": "Right_Hand",
+    "GroupName": "Right Hand",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1652,132 +1635,60 @@
     "URL": "Feet/R_feet_1.json"
   },
   {
-    "GroupName": "Right_Feet",
+    "GroupName": "Right Feet",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
     "URL": "Feet/R_feet_2.json"
   },
+  
   {
-    "GroupName": "R_thigh_ant_1",
+    "GroupName": "Thigh Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Legs/R_thigh_ant_1.json"
+    "URL": "Legs/Thigh_Whole_right_2.json"
   },
+
   {
-    "GroupName": "Right_Thigh_Antterior",
+    "GroupName": "Thigh Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Legs/R_thigh_ant_2.json"
+    "URL": "Legs/Thigh_Whole_left_2.json"
   },
   {
-    "GroupName": "R_thigh_pos_1",
+    "GroupName": "Lower Leg Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Legs/R_thigh_pos_1.json"
+    "URL": "Legs/Lower_leg_right_2.json"
   },
+
   {
-    "GroupName": "Right_Thigh_Posterior",
+    "GroupName": "Lower Leg Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Legs/R_thigh_pos_2.json"
+    "URL": "Lower_leg_left_2.json"
   },
-  {
-    "GroupName": "R_lower_leg_ant_1",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/R_leg_ant_1.json"
-  },
-  {
-    "GroupName": "Right_Lower_Leg_Antterior",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/R_leg_ant_2.json"
-  },
-  {
-    "GroupName": "Right_Lower_Leg_Posterior",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/R_leg_pos_1.json"
-  },
-  {
-    "GroupName": "Right_Lower_Leg_Posterior",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/R_leg_pos_2.json"
-  },
+  
   {
 
-    "GroupName": "Left_Feet",
+    "GroupName": "Left Feet",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
     "URL": "Feet/Feet_L_1.json"
   },
-  {
-
-    "GroupName": "Left_Posterior_Thigh",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/L_LEG_1.json"
-  },
-  {
-
-    "GroupName": "Left_Posterior_Thigh",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/L_LEG_2.json"
-  },
-  {
-
-    "GroupName": "Left_Anterior_Thigh",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/L_LEG_3.json"
-  },
-  {
-
-    "GroupName": "Left_Lower_Posterior_Leg",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/L_LEG_4.json"
-  },
-  {
-
-    "GroupName": "Left_Lower_Anterior_Leg",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Legs/L_LEG_5.json"
-  },
-  {
+  
+   {
 
     "GroupName": "Left Hand",
     "MorphColours": false,
@@ -1789,43 +1700,24 @@
 
   {
 
-    "GroupName": "Left_Anterior_Forearm",
+    "GroupName": "Forearm Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Arms/ARM_LEFT_2.json"
+    "URL": "Forearm_Whole_left_2.json"
   },
 
   {
 
-    "GroupName": "Left_Poserior_Forearm",
+    "GroupName": "Forearm Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Arms/ARM_LEFT_3.json"
+    "URL": "Arms/Forearm_Whole_Right_2.json"
   },
-  {
-
-    "GroupName": "Left_Anterior_Forearm",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Arms/ARM_LEFT_4.json"
-  },
-  {
-
-    "GroupName": "Left_Posterior_Forearm",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Arms/ARM_LEFT_5.json"
-  },
-
-
+  
 
 
   {

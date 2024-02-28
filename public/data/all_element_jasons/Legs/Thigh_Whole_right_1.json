@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Thigh_R",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Thigh_Whole_right_2.json"
+   }
+]

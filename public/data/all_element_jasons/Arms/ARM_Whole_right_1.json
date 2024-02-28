@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Arm_R",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ARM_Whole_right_2.json"
+   }
+]

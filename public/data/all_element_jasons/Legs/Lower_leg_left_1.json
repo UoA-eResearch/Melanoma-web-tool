@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Lower_leg_L",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Lower_leg_left_2.json"
+   }
+]

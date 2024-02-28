@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Forearm_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Forearm_Whole_left_2.json"
+   }
+]

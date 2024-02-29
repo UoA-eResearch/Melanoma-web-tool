@@ -1674,7 +1674,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Legs/Lower_leg_left_2.json"
+    "URL": "Legs/Leg_lower_left_2.json"
   },
 
 
@@ -3240,16 +3240,7 @@
     "Type": "Lines",
     "URL": "Lines_brown_1.json"
   },
-  {
-    "GroupName": "Node Fields",
-    "GlyphGeometriesURL": "aa_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Glyph",
-    "URL": "aa_2.json"
-  },
+  
   {
     "GlyphGeometriesURL": "Nodes/all_node_3.json",
     "GroupName": "Nodes_2ss",

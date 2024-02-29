@@ -3251,14 +3251,14 @@
     "URL": "aa_2.json"
   },
   {
-    "GlyphGeometriesURL": "aa_3.json",
+    "GlyphGeometriesURL": "Node/all_node_3.json",
     "GroupName": "Nodes_2ss",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
-    "URL": "aa_2.json"
+    "URL": "Node/all_node_2.json"
   },
 
   {

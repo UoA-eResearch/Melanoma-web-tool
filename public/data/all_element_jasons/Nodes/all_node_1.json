@@ -1,0 +1,10 @@
+[
+   {
+      "GlyphGeometriesURL" : "all_node_3.json",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "all_node_2.json"
+   }
+]

@@ -3047,7 +3047,7 @@
 
 
   {
-    "GroupName": "Left_Chin",
+    "GroupName": "Chin Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3055,7 +3055,7 @@
     "URL": "Head/Grouped_regions/Chin_L_2.json"
   },
   {
-    "GroupName": "Right_Chin",
+    "GroupName": "Chin Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3064,7 +3064,7 @@
   },
 
   {
-    "GroupName": "Left_Ear",
+    "GroupName": "Ear Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3073,7 +3073,7 @@
   },
 
   {
-    "GroupName": "Right_Ear",
+    "GroupName": "Ear Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3082,7 +3082,7 @@
   },
 
   {
-    "GroupName": "Left_Eye",
+    "GroupName": "Eye Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3091,7 +3091,7 @@
   },
 
   {
-    "GroupName": "Right_Eye",
+    "GroupName": "Eye Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3099,7 +3099,7 @@
     "URL": "Head/Grouped_regions/eye_R_2.json"
   },
   {
-    "GroupName": "Left_Lip",
+    "GroupName": "Lip Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3108,7 +3108,7 @@
   },
 
   {
-    "GroupName": "Right_Lip",
+    "GroupName": "Lip Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3116,7 +3116,7 @@
     "URL": "Head/Grouped_regions/Lip_R_2.json"
   },
   {
-    "GroupName": "Middle_Lip",
+    "GroupName": "Lip Middle",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3124,7 +3124,7 @@
     "URL": "Head/Grouped_regions/Lip_middle_2.json"
   },
   {
-    "GroupName": "Right_Nose",
+    "GroupName": "Nose Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3133,7 +3133,7 @@
   },
 
   {
-    "GroupName": "Left_Nose",
+    "GroupName": "Nose Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3141,7 +3141,7 @@
     "URL": "Head/Grouped_regions/Lower_Nose_L_2.json"
   },
   {
-    "GroupName": "Middle_Nose",
+    "GroupName": "Nose Middle",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3149,7 +3149,7 @@
     "URL": "Head/Grouped_regions/Nose_middle_2.json"
   },
   {
-    "GroupName": "Right_Anterior_Neck",
+    "GroupName": "Anterior Neck Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3158,7 +3158,7 @@
   },
 
   {
-    "GroupName": "Left_Anterior_Neck",
+    "GroupName": "Anterior Neck Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3166,7 +3166,7 @@
     "URL": "Head/Grouped_regions/Neck_antterior_L_2.json"
   },
   {
-    "GroupName": "Right_Posterior_Neck",
+    "GroupName": "Posterior Neck Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3174,7 +3174,7 @@
     "URL": "Head/Grouped_regions/Neck_posterior_R_2.json"
   },
   {
-    "GroupName": "Left_Posterior_Neck",
+    "GroupName": "Posterior Neck Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3182,7 +3182,7 @@
     "URL": "Head/Grouped_regions/Neck_posterior_L_2.json"
   },
   {
-    "GroupName": "Left_Posterior_Upper_Head",
+    "GroupName": "Posterior Upper Head Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3191,7 +3191,7 @@
   },
 
   {
-    "GroupName": "Right_Posterior_Upper_Head",
+    "GroupName": "Posterior Upper Head Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3200,7 +3200,7 @@
   },
 
   {
-    "GroupName": "Left_Anterior_Upper_Head",
+    "GroupName": "Anterior Upper Head Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3208,7 +3208,7 @@
     "URL": "Head/Grouped_regions/Upper_head_Anterior_L_2.json"
   },
   {
-    "GroupName": "Right_Anterior_Upper_Head",
+    "GroupName": "Anterior Upper Head Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -3251,14 +3251,14 @@
     "URL": "aa_2.json"
   },
   {
-    "GlyphGeometriesURL": "Node/all_node_3.json",
+    "GlyphGeometriesURL": "Nodes/all_node_3.json",
     "GroupName": "Nodes_2ss",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
-    "URL": "Node/all_node_2.json"
+    "URL": "Nodes/all_node_2.json"
   },
 
   {

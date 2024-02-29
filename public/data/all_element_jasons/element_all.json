@@ -3240,16 +3240,16 @@
     "Type": "Lines",
     "URL": "Lines_brown_1.json"
   },
-  
+
   {
-    "GlyphGeometriesURL": "Nodes/all_node_3.json",
+    "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
     "GroupName": "Nodes_2ss",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
-    "URL": "Nodes/all_node_2.json"
+    "URL": "Nodes/all_nodes_labels_2.json"
   },
 
   {

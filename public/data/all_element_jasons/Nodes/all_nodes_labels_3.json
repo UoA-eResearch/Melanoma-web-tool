@@ -5,13 +5,13 @@
 	},
 
 	"materials" : [ {
-	"DbgColor" : "Green",
+	"DbgColor" : 15658734,
 	"DbgIndex" : 0,
 	"DbgName" : "my_material",
-	"colorDiffuse" : [1, 1, 1],
-	"colorSpecular" : [0, 0, 0],
+	"colorDiffuse" : [0, 1, 0],
+	"colorSpecular" : [0.1, 0.1, 0.1],
 	"shading" : "Phong",
-	"specularCoef" : 0,
+	"specularCoef" : 20,
 	"opacity" : 1,
 	"vertexColors" : true
 	}],

@@ -3243,13 +3243,24 @@
 
   {
     "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
-    "GroupName": "Nodes_2ss",
+    "GroupName": "Nodes_Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "DisplayLabels": true,
     "Type": "Glyph",
     "URL": "Nodes/all_nodes_labels_2.json"
+  },
+
+  {
+    "GroupName": "Node Fields",
+    "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "Nodes/all_nodes_labels_2.json",
+    "Type": "Glyph",
+    "URL": "Torso/254_1.json"
   },
 
   {

@@ -1586,7 +1586,7 @@
       "mean % (95% CI)": "1.0 (0.0, 2.9)"
     }
   ],
-  "element_1136": [
+  "Left Anterior Upper Head": [
     {
       "code": "lc2",
       "name": "left cervical level ii",
@@ -1679,7 +1679,6 @@
     }
   ],
   "Torso_element_253": [],
-
   "Torso_element_256": [],
   "Torso_element_258": [
     {

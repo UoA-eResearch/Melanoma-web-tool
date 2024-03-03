@@ -1,5 +1,5 @@
 {
-  "element_1112": [
+  "element_Hand Right": [
     {
       "code": "repit",
       "name": "right epitrochlear",
@@ -25,7 +25,7 @@
       "mean % (95% CI)": "1.4 (0.0, 4.3)"
     }
   ],
-  "element_1113": [
+  "Forearm Left": [
     {
       "code": "lepit",
       "name": "left epitrochlear",
@@ -75,7 +75,7 @@
       "mean % (95% CI)": "0.2 (0.0, 0.5)"
     }
   ],
-  "element_1114": [
+  "Forearm Right": [
     {
       "code": "repit",
       "name": "right epitrochlear",
@@ -113,7 +113,7 @@
       "mean % (95% CI)": "0.2 (0.0, 0.5)"
     }
   ],
-  "element_1115": [
+  "Chin Left": [
     {
       "code": "rc1",
       "name": "right cervical level i",
@@ -175,7 +175,7 @@
       "mean % (95% CI)": "2.5 (0.0, 7.7)"
     }
   ],
-  "element_1116": [
+  "Ear left": [
     {
       "code": "lc2",
       "name": "left cervical level ii",
@@ -237,7 +237,7 @@
       "mean % (95% CI)": "0.4 (0.0, 1.3)"
     }
   ],
-  "element_1117": [
+  "Eye Left": [
     {
       "code": "lprea",
       "name": "left preauricular",
@@ -263,7 +263,7 @@
       "mean % (95% CI)": "9.1 (0.0, 27.3)"
     }
   ],
-  "element_1118": [
+  "Lip Left": [
     {
       "code": "lc1",
       "name": "left cervical level i",
@@ -307,7 +307,7 @@
       "mean % (95% CI)": "12.3 (0, 37.5)"
     }
   ],
-  "element_1119": [
+  "Nose Left": [
     {
       "code": "lc1",
       "name": "left cervical level i",

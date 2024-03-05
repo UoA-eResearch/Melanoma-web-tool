@@ -3163,6 +3163,15 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Neck_antterior_L_1.json"
+  },
+
+  {
+    "GroupName": "Anterior Neck Left",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
     "URL": "Head/Grouped_regions/Neck_antterior_L_2.json"
   },
   {

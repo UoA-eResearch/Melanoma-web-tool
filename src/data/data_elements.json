@@ -1,28 +1,28 @@
-{
+{Head/Grouped_regions
   "element_Hand Right": [
     {
       "code": "repit",
       "name": "right epitrochlear",
       "count": "19",
-      "mean % (95% CI)": "26.8 (16.9, 37.1)"
+      "Drainage": "26.8 (16.9, 37.1)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "4.2 (0.0, 9.7)"
+      "Drainage": "4.2 (0.0, 9.7)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     }
   ],
   "Forearm Left": [
@@ -30,49 +30,49 @@
       "code": "lepit",
       "name": "left epitrochlear",
       "count": "104",
-      "mean % (95% CI)": "18.3 (15.1, 21.6)"
+      "Drainage": "18.3 (15.1, 21.6)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "38",
-      "mean % (95% CI)": "6.7 (4.7, 8.8)"
+      "Drainage": "6.7 (4.7, 8.8)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "10",
-      "mean % (95% CI)": "1.8 (0.7, 3.0)"
+      "Drainage": "1.8 (0.7, 3.0)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "9",
-      "mean % (95% CI)": "1.6 (0.7, 2.6)"
+      "Drainage": "1.6 (0.7, 2.6)"
     },
     {
       "code": "lip",
       "name": "left interpectoral",
       "count": "3",
-      "mean % (95% CI)": "0.5 (0.0, 1.2)"
+      "Drainage": "0.5 (0.0, 1.2)"
     },
     {
       "code": "repit",
       "name": "right epitrochlear",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+      "Drainage": "0.2 (0.0, 0.5)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+      "Drainage": "0.2 (0.0, 0.5)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+      "Drainage": "0.2 (0.0, 0.5)"
     }
   ],
   "Forearm Right": [
@@ -80,37 +80,37 @@
       "code": "repit",
       "name": "right epitrochlear",
       "count": "108",
-      "mean % (95% CI)": "18.8 (15.6, 22.0)"
+      "Drainage": "18.8 (15.6, 22.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "31",
-      "mean % (95% CI)": "5.4 (3.6, 7.3)"
+      "Drainage": "5.4 (3.6, 7.3)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "8",
-      "mean % (95% CI)": "1.4 (0.5, 2.4)"
+      "Drainage": "1.4 (0.5, 2.4)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "4",
-      "mean % (95% CI)": "0.7 (0.2, 1.4)"
+      "Drainage": "0.7 (0.2, 1.4)"
     },
     {
       "code": "rip",
       "name": "right interpectoral",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+      "Drainage": "0.2 (0.0, 0.5)"
     },
     {
       "code": "lepit",
       "name": "left epitrochlear",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+      "Drainage": "0.2 (0.0, 0.5)"
     }
   ],
   "Chin Left": [
@@ -118,61 +118,61 @@
       "code": "rc1",
       "name": "right cervical level i",
       "count": "27",
-      "mean % (95% CI)": "67.6 (52.5, 82.1)"
+      "Drainage": "67.6 (52.5, 82.1)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "26",
-      "mean % (95% CI)": "65.0 (50.0, 79.5)"
+      "Drainage": "65.0 (50.0, 79.5)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "17",
-      "mean % (95% CI)": "42.5 (26.8, 57.9)"
+      "Drainage": "42.5 (26.8, 57.9)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "7",
-      "mean % (95% CI)": "17.5 (7.3, 30.0)"
+      "Drainage": "17.5 (7.3, 30.0)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "10.0 (2.4, 20.0)"
+      "Drainage": "10.0 (2.4, 20.0)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "5.0 (0.0, 12.5)"
+      "Drainage": "5.0 (0.0, 12.5)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "5.0 (0.0, 12.5)"
+      "Drainage": "5.0 (0.0, 12.5)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "5.0 (0.0, 12.5)"
+      "Drainage": "5.0 (0.0, 12.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "2.5 (0.0, 7.7)"
+      "Drainage": "2.5 (0.0, 7.7)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "2.5 (0.0, 7.7)"
+      "Drainage": "2.5 (0.0, 7.7)"
     }
   ],
   "Ear left": [
@@ -180,61 +180,61 @@
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "190",
-      "mean % (95% CI)": "80.2 (75.0, 85.2)"
+      "Drainage": "80.2 (75.0, 85.2)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "100",
-      "mean % (95% CI)": "42.2 (36.1, 48.5)"
+      "Drainage": "42.2 (36.1, 48.5)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "62",
-      "mean % (95% CI)": "26.1 (20.7, 31.8)"
+      "Drainage": "26.1 (20.7, 31.8)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "37",
-      "mean % (95% CI)": "15.6 (11.0, 20.3)"
+      "Drainage": "15.6 (11.0, 20.3)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "9",
-      "mean % (95% CI)": "3.8 (1.7, 6.4)"
+      "Drainage": "3.8 (1.7, 6.4)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "8",
-      "mean % (95% CI)": "3.4 (1.3, 5.9)"
+      "Drainage": "3.4 (1.3, 5.9)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "2",
-      "mean % (95% CI)": "0.9 (0.0, 2.1)"
+      "Drainage": "0.9 (0.0, 2.1)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "2",
-      "mean % (95% CI)": "0.8 (0.0, 2.1)"
+      "Drainage": "0.8 (0.0, 2.1)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.3)"
+      "Drainage": "0.4 (0.0, 1.3)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.3)"
+      "Drainage": "0.4 (0.0, 1.3)"
     }
   ],
   "Eye Left": [
@@ -242,25 +242,25 @@
       "code": "lprea",
       "name": "left preauricular",
       "count": "9",
-      "mean % (95% CI)": "81.9 (55.6, 100.0)"
+      "Drainage": "81.9 (55.6, 100.0)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "8",
-      "mean % (95% CI)": "72.8 (45.5, 100.0)"
+      "Drainage": "72.8 (45.5, 100.0)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "5",
-      "mean % (95% CI)": "45.5 (16.7, 75.0)"
+      "Drainage": "45.5 (16.7, 75.0)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "1",
-      "mean % (95% CI)": "9.1 (0.0, 27.3)"
+      "Drainage": "9.1 (0.0, 27.3)"
     }
   ],
   "Lip Left": [
@@ -268,43 +268,43 @@
       "code": "lc1",
       "name": "left cervical level i",
       "count": "7",
-      "mean % (95% CI)": "87.3 (60, 100.0)"
+      "Drainage": "87.3 (60, 100.0)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "2",
-      "mean % (95% CI)": "25.1 (0, 57.1)"
+      "Drainage": "25.1 (0, 57.1)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "25.1 (0, 57.1)"
+      "Drainage": "25.1 (0, 57.1)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "12.6 (0, 37.5)"
+      "Drainage": "12.6 (0, 37.5)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "1",
-      "mean % (95% CI)": "12.5 (0, 37.5)"
+      "Drainage": "12.5 (0, 37.5)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "12.5 (0, 37.5)"
+      "Drainage": "12.5 (0, 37.5)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "12.3 (0, 37.5)"
+      "Drainage": "12.3 (0, 37.5)"
     }
   ],
   "Nose Left": [
@@ -312,85 +312,85 @@
       "code": "lc1",
       "name": "left cervical level i",
       "count": "39",
-      "mean % (95% CI)": "60.9 (49.2, 72.3)"
+      "Drainage": "60.9 (49.2, 72.3)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "37",
-      "mean % (95% CI)": "57.8 (45.3, 69.8)"
+      "Drainage": "57.8 (45.3, 69.8)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "23",
-      "mean % (95% CI)": "35.9 (24.6, 47.7)"
+      "Drainage": "35.9 (24.6, 47.7)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "18",
-      "mean % (95% CI)": "28.1 (17.2, 39.1)"
+      "Drainage": "28.1 (17.2, 39.1)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "14",
-      "mean % (95% CI)": "21.9 (12.3, 32.3)"
+      "Drainage": "21.9 (12.3, 32.3)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "8",
-      "mean % (95% CI)": "12.5 (4.7, 21.5)"
+      "Drainage": "12.5 (4.7, 21.5)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "5",
-      "mean % (95% CI)": "7.8 (1.6, 15.4)"
+      "Drainage": "7.8 (1.6, 15.4)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "4",
-      "mean % (95% CI)": "6.3 (1.5, 12.5)"
+      "Drainage": "6.3 (1.5, 12.5)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "4",
-      "mean % (95% CI)": "6.2 (1.5, 12.7)"
+      "Drainage": "6.2 (1.5, 12.7)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "4",
-      "mean % (95% CI)": "6.2 (1.5, 12.5)"
+      "Drainage": "6.2 (1.5, 12.5)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "1.6 (0.0, 4.8)"
+      "Drainage": "1.6 (0.0, 4.8)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "1.6 (0.0, 4.8)"
+      "Drainage": "1.6 (0.0, 4.8)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "1.5 (0.0, 4.8)"
+      "Drainage": "1.5 (0.0, 4.8)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "1.5 (0.0, 4.8)"
+      "Drainage": "1.5 (0.0, 4.8)"
     }
   ],
   "element_1120": [
@@ -398,97 +398,97 @@
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "78",
-      "mean % (95% CI)": "60.5 (51.9, 69.0)"
+      "Drainage": "60.5 (51.9, 69.0)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "40",
-      "mean % (95% CI)": "30.9 (23.3, 39.2)"
+      "Drainage": "30.9 (23.3, 39.2)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "37",
-      "mean % (95% CI)": "28.7 (20.9, 36.4)"
+      "Drainage": "28.7 (20.9, 36.4)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "24",
-      "mean % (95% CI)": "18.6 (12.3, 25.4)"
+      "Drainage": "18.6 (12.3, 25.4)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "17",
-      "mean % (95% CI)": "13.2 (7.8, 19.2)"
+      "Drainage": "13.2 (7.8, 19.2)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "10",
-      "mean % (95% CI)": "7.7 (3.2, 12.5)"
+      "Drainage": "7.7 (3.2, 12.5)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "9",
-      "mean % (95% CI)": "7.0 (3.1, 11.6)"
+      "Drainage": "7.0 (3.1, 11.6)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "8",
-      "mean % (95% CI)": "6.2 (2.3, 10.8)"
+      "Drainage": "6.2 (2.3, 10.8)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "5",
-      "mean % (95% CI)": "3.9 (0.8, 7.7)"
+      "Drainage": "3.9 (0.8, 7.7)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "5",
-      "mean % (95% CI)": "3.9 (0.8, 7.7)"
+      "Drainage": "3.9 (0.8, 7.7)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "4",
-      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+      "Drainage": "3.1 (0.8, 6.2)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "4",
-      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+      "Drainage": "3.1 (0.8, 6.2)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "4",
-      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+      "Drainage": "3.1 (0.8, 6.2)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "3",
-      "mean % (95% CI)": "2.3 (0.0, 5.4)"
+      "Drainage": "2.3 (0.0, 5.4)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "1.6 (0.0, 3.9)"
+      "Drainage": "1.6 (0.0, 3.9)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "0.8 (0.0, 2.3)"
+      "Drainage": "0.8 (0.0, 2.3)"
     }
   ],
   "element_1121": [
@@ -496,115 +496,115 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "98",
-      "mean % (95% CI)": "60.1 (52.4, 67.5)"
+      "Drainage": "60.1 (52.4, 67.5)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "50",
-      "mean % (95% CI)": "30.6 (23.6, 38.0)"
+      "Drainage": "30.6 (23.6, 38.0)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "36",
-      "mean % (95% CI)": "22.0 (15.9, 28.6)"
+      "Drainage": "22.0 (15.9, 28.6)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "25",
-      "mean % (95% CI)": "15.3 (9.9, 21.1)"
+      "Drainage": "15.3 (9.9, 21.1)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "22",
-      "mean % (95% CI)": "13.5 (8.5, 18.9)"
+      "Drainage": "13.5 (8.5, 18.9)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "16",
-      "mean % (95% CI)": "9.8 (5.5, 14.7)"
+      "Drainage": "9.8 (5.5, 14.7)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "15",
-      "mean % (95% CI)": "9.1 (4.9, 13.8)"
+      "Drainage": "9.1 (4.9, 13.8)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "10",
-      "mean % (95% CI)": "6.1 (2.5, 9.9)"
+      "Drainage": "6.1 (2.5, 9.9)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "7",
-      "mean % (95% CI)": "4.3 (1.2, 7.9)"
+      "Drainage": "4.3 (1.2, 7.9)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "6",
-      "mean % (95% CI)": "3.7 (1.2, 6.7)"
+      "Drainage": "3.7 (1.2, 6.7)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "2.4 (0.6, 4.9)"
+      "Drainage": "2.4 (0.6, 4.9)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "4",
-      "mean % (95% CI)": "2.4 (0.6, 4.9)"
+      "Drainage": "2.4 (0.6, 4.9)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "3",
-      "mean % (95% CI)": "1.8 (0.0, 4.3)"
+      "Drainage": "1.8 (0.0, 4.3)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "1.8 (0.0, 4.3)"
+      "Drainage": "1.8 (0.0, 4.3)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "2",
-      "mean % (95% CI)": "1.2 (0.0, 3.1)"
+      "Drainage": "1.2 (0.0, 3.1)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "2",
-      "mean % (95% CI)": "1.2 (0.0, 3.1)"
+      "Drainage": "1.2 (0.0, 3.1)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+      "Drainage": "0.6 (0.0, 1.9)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+      "Drainage": "0.6 (0.0, 1.9)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+      "Drainage": "0.6 (0.0, 1.9)"
     }
   ],
   "element_1122": [],
@@ -613,37 +613,37 @@
       "code": "sm",
       "name": "submental",
       "count": "4",
-      "mean % (95% CI)": "80.2 (40.0, 100)"
+      "Drainage": "80.2 (40.0, 100)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "3",
-      "mean % (95% CI)": "59.6 (16.7, 100)"
+      "Drainage": "59.6 (16.7, 100)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "1",
-      "mean % (95% CI)": "19.9 (0.0, 60)"
+      "Drainage": "19.9 (0.0, 60)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "1",
-      "mean % (95% CI)": "19.8 (0.0, 60)"
+      "Drainage": "19.8 (0.0, 60)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "1",
-      "mean % (95% CI)": "nan (0.0, 60)"
+      "Drainage": "nan (0.0, 60)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "3",
-      "mean % (95% CI)": "nan (16.7, 100)"
+      "Drainage": "nan (16.7, 100)"
     }
   ],
   "element_1124": [
@@ -651,61 +651,61 @@
       "code": "sm",
       "name": "submental",
       "count": "28",
-      "mean % (95% CI)": "77.9 (63.9, 91.4)"
+      "Drainage": "77.9 (63.9, 91.4)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "27",
-      "mean % (95% CI)": "74.9 (60.0, 88.9)"
+      "Drainage": "74.9 (60.0, 88.9)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "18",
-      "mean % (95% CI)": "50.0 (33.3, 66.7)"
+      "Drainage": "50.0 (33.3, 66.7)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "9",
-      "mean % (95% CI)": "25.0 (11.4, 40.0)"
+      "Drainage": "25.0 (11.4, 40.0)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "9",
-      "mean % (95% CI)": "25.0 (11.4, 40.0)"
+      "Drainage": "25.0 (11.4, 40.0)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "3",
-      "mean % (95% CI)": "8.4 (0.0, 18.9)"
+      "Drainage": "8.4 (0.0, 18.9)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "5.6 (0.0, 13.9)"
+      "Drainage": "5.6 (0.0, 13.9)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "5.6 (0.0, 13.9)"
+      "Drainage": "5.6 (0.0, 13.9)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "5.5 (0.0, 13.9)"
+      "Drainage": "5.5 (0.0, 13.9)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "2.8 (0.0, 8.6)"
+      "Drainage": "2.8 (0.0, 8.6)"
     }
   ],
   "element_1125": [
@@ -713,91 +713,91 @@
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "175",
-      "mean % (95% CI)": "79.5 (74.1, 84.9)"
+      "Drainage": "79.5 (74.1, 84.9)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "118",
-      "mean % (95% CI)": "53.6 (47.0, 60.2)"
+      "Drainage": "53.6 (47.0, 60.2)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "72",
-      "mean % (95% CI)": "32.7 (26.7, 39.1)"
+      "Drainage": "32.7 (26.7, 39.1)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "70",
-      "mean % (95% CI)": "31.9 (25.8, 38.2)"
+      "Drainage": "31.9 (25.8, 38.2)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "35",
-      "mean % (95% CI)": "15.9 (11.3, 20.8)"
+      "Drainage": "15.9 (11.3, 20.8)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "18",
-      "mean % (95% CI)": "8.2 (4.6, 11.9)"
+      "Drainage": "8.2 (4.6, 11.9)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "7",
-      "mean % (95% CI)": "3.2 (1.3, 5.9)"
+      "Drainage": "3.2 (1.3, 5.9)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "6",
-      "mean % (95% CI)": "2.7 (0.9, 5.0)"
+      "Drainage": "2.7 (0.9, 5.0)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "5",
-      "mean % (95% CI)": "2.3 (0.5, 4.5)"
+      "Drainage": "2.3 (0.5, 4.5)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "3",
-      "mean % (95% CI)": "1.4 (0.0, 3.2)"
+      "Drainage": "1.4 (0.0, 3.2)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "2",
-      "mean % (95% CI)": "0.9 (0.0, 2.3)"
+      "Drainage": "0.9 (0.0, 2.3)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.4)"
+      "Drainage": "0.4 (0.0, 1.4)"
     }
   ],
   "element_1126": [
@@ -805,67 +805,67 @@
       "code": "rc1",
       "name": "right cervical level i",
       "count": "8",
-      "mean % (95% CI)": "57.1 (30.8, 81.9)"
+      "Drainage": "57.1 (30.8, 81.9)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "7",
-      "mean % (95% CI)": "49.9 (23.1, 76.9)"
+      "Drainage": "49.9 (23.1, 76.9)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "5",
-      "mean % (95% CI)": "35.7 (13.3, 61.5)"
+      "Drainage": "35.7 (13.3, 61.5)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "5",
-      "mean % (95% CI)": "35.6 (13.3, 61.5)"
+      "Drainage": "35.6 (13.3, 61.5)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "4",
-      "mean % (95% CI)": "28.6 (7.1, 53.8)"
+      "Drainage": "28.6 (7.1, 53.8)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "2",
-      "mean % (95% CI)": "14.4 (0.0, 35.7)"
+      "Drainage": "14.4 (0.0, 35.7)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "2",
-      "mean % (95% CI)": "14.4 (0.0, 35.7)"
+      "Drainage": "14.4 (0.0, 35.7)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "14.1 (0.0, 33.3)"
+      "Drainage": "14.1 (0.0, 33.3)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "7.2 (0.0, 23.1)"
+      "Drainage": "7.2 (0.0, 23.1)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "7.1 (0.0, 23.1)"
+      "Drainage": "7.1 (0.0, 23.1)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "7.0 (0.0, 23.1)"
+      "Drainage": "7.0 (0.0, 23.1)"
     }
   ],
   "element_1127": [
@@ -873,127 +873,127 @@
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "103",
-      "mean % (95% CI)": "36.2 (30.8, 41.8)"
+      "Drainage": "36.2 (30.8, 41.8)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "92",
-      "mean % (95% CI)": "32.3 (27.0, 37.8)"
+      "Drainage": "32.3 (27.0, 37.8)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "54",
-      "mean % (95% CI)": "18.9 (14.4, 23.6)"
+      "Drainage": "18.9 (14.4, 23.6)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "42",
-      "mean % (95% CI)": "14.7 (10.8, 18.9)"
+      "Drainage": "14.7 (10.8, 18.9)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "38",
-      "mean % (95% CI)": "13.3 (9.5, 17.5)"
+      "Drainage": "13.3 (9.5, 17.5)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "36",
-      "mean % (95% CI)": "12.6 (8.8, 16.5)"
+      "Drainage": "12.6 (8.8, 16.5)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "29",
-      "mean % (95% CI)": "10.2 (6.7, 13.7)"
+      "Drainage": "10.2 (6.7, 13.7)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "26",
-      "mean % (95% CI)": "9.1 (5.9, 12.6)"
+      "Drainage": "9.1 (5.9, 12.6)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "23",
-      "mean % (95% CI)": "8.1 (4.9, 11.3)"
+      "Drainage": "8.1 (4.9, 11.3)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "22",
-      "mean % (95% CI)": "7.7 (4.9, 10.9)"
+      "Drainage": "7.7 (4.9, 10.9)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "20",
-      "mean % (95% CI)": "7.0 (4.2, 10.1)"
+      "Drainage": "7.0 (4.2, 10.1)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "16",
-      "mean % (95% CI)": "5.6 (3.2, 8.4)"
+      "Drainage": "5.6 (3.2, 8.4)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "13",
-      "mean % (95% CI)": "4.6 (2.4, 7.1)"
+      "Drainage": "4.6 (2.4, 7.1)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "12",
-      "mean % (95% CI)": "4.2 (2.1, 6.7)"
+      "Drainage": "4.2 (2.1, 6.7)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "10",
-      "mean % (95% CI)": "3.5 (1.4, 5.7)"
+      "Drainage": "3.5 (1.4, 5.7)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "8",
-      "mean % (95% CI)": "2.8 (1.1, 4.9)"
+      "Drainage": "2.8 (1.1, 4.9)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "8",
-      "mean % (95% CI)": "2.8 (1.1, 4.9)"
+      "Drainage": "2.8 (1.1, 4.9)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "7",
-      "mean % (95% CI)": "2.5 (0.7, 4.5)"
+      "Drainage": "2.5 (0.7, 4.5)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "5",
-      "mean % (95% CI)": "1.8 (0.4, 3.5)"
+      "Drainage": "1.8 (0.4, 3.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "1.1 (0.0, 2.4)"
+      "Drainage": "1.1 (0.0, 2.4)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "3",
-      "mean % (95% CI)": "1.1 (0.0, 2.5)"
+      "Drainage": "1.1 (0.0, 2.5)"
     }
   ],
   "element_1128": [],
@@ -1002,91 +1002,91 @@
       "code": "rc1",
       "name": "right cervical level i",
       "count": "27",
-      "mean % (95% CI)": "45.8 (33.3, 58.6)"
+      "Drainage": "45.8 (33.3, 58.6)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "26",
-      "mean % (95% CI)": "44.0 (31.7, 56.7)"
+      "Drainage": "44.0 (31.7, 56.7)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "24",
-      "mean % (95% CI)": "40.7 (28.3, 53.3)"
+      "Drainage": "40.7 (28.3, 53.3)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "18",
-      "mean % (95% CI)": "30.5 (18.6, 43.1)"
+      "Drainage": "30.5 (18.6, 43.1)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "12",
-      "mean % (95% CI)": "20.3 (10.2, 30.5)"
+      "Drainage": "20.3 (10.2, 30.5)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "7",
-      "mean % (95% CI)": "11.9 (5.0, 20.7)"
+      "Drainage": "11.9 (5.0, 20.7)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "7",
-      "mean % (95% CI)": "11.8 (5.0, 20.3)"
+      "Drainage": "11.8 (5.0, 20.3)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "6",
-      "mean % (95% CI)": "10.1 (3.4, 18.6)"
+      "Drainage": "10.1 (3.4, 18.6)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "5",
-      "mean % (95% CI)": "8.6 (1.7, 16.7)"
+      "Drainage": "8.6 (1.7, 16.7)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "3.4 (0.0, 8.5)"
+      "Drainage": "3.4 (0.0, 8.5)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "3.4 (0.0, 8.5)"
+      "Drainage": "3.4 (0.0, 8.5)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "3.4 (0.0, 8.5)"
+      "Drainage": "3.4 (0.0, 8.5)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "1",
-      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+      "Drainage": "1.7 (0.0, 5.2)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+      "Drainage": "1.7 (0.0, 5.2)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+      "Drainage": "1.7 (0.0, 5.2)"
     }
   ],
   "element_1130": [],
@@ -1095,109 +1095,109 @@
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "73",
-      "mean % (95% CI)": "63.0 (53.9, 71.6)"
+      "Drainage": "63.0 (53.9, 71.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "38",
-      "mean % (95% CI)": "32.7 (23.9, 41.4)"
+      "Drainage": "32.7 (23.9, 41.4)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "30",
-      "mean % (95% CI)": "25.9 (18.1, 33.9)"
+      "Drainage": "25.9 (18.1, 33.9)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "18",
-      "mean % (95% CI)": "15.5 (9.4, 22.4)"
+      "Drainage": "15.5 (9.4, 22.4)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "17",
-      "mean % (95% CI)": "14.6 (8.6, 21.4)"
+      "Drainage": "14.6 (8.6, 21.4)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "10",
-      "mean % (95% CI)": "8.6 (3.5, 13.9)"
+      "Drainage": "8.6 (3.5, 13.9)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "9",
-      "mean % (95% CI)": "7.8 (3.4, 12.9)"
+      "Drainage": "7.8 (3.4, 12.9)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "5",
-      "mean % (95% CI)": "4.3 (0.9, 8.5)"
+      "Drainage": "4.3 (0.9, 8.5)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "5",
-      "mean % (95% CI)": "4.3 (0.9, 8.5)"
+      "Drainage": "4.3 (0.9, 8.5)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "3.4 (0.9, 7.0)"
+      "Drainage": "3.4 (0.9, 7.0)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "3",
-      "mean % (95% CI)": "2.6 (0.0, 6.0)"
+      "Drainage": "2.6 (0.0, 6.0)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+      "Drainage": "1.7 (0.0, 4.3)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "2",
-      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+      "Drainage": "1.7 (0.0, 4.3)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "2",
-      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+      "Drainage": "1.7 (0.0, 4.3)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+      "Drainage": "0.9 (0.0, 2.6)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+      "Drainage": "0.9 (0.0, 2.6)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+      "Drainage": "0.9 (0.0, 2.6)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+      "Drainage": "0.9 (0.0, 2.6)"
     }
   ],
   "element_1132": [
@@ -1205,103 +1205,103 @@
       "code": "rc5",
       "name": "right cervical level v",
       "count": "87",
-      "mean % (95% CI)": "52.1 (44.6, 59.6)"
+      "Drainage": "52.1 (44.6, 59.6)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "68",
-      "mean % (95% CI)": "40.7 (33.3, 48.2)"
+      "Drainage": "40.7 (33.3, 48.2)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "38",
-      "mean % (95% CI)": "22.8 (16.7, 29.3)"
+      "Drainage": "22.8 (16.7, 29.3)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "24",
-      "mean % (95% CI)": "14.4 (9.1, 19.9)"
+      "Drainage": "14.4 (9.1, 19.9)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "17",
-      "mean % (95% CI)": "10.2 (6.0, 15.0)"
+      "Drainage": "10.2 (6.0, 15.0)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "14",
-      "mean % (95% CI)": "8.4 (4.2, 12.7)"
+      "Drainage": "8.4 (4.2, 12.7)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "13",
-      "mean % (95% CI)": "7.8 (4.2, 12.0)"
+      "Drainage": "7.8 (4.2, 12.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "8",
-      "mean % (95% CI)": "4.8 (1.8, 8.3)"
+      "Drainage": "4.8 (1.8, 8.3)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "7",
-      "mean % (95% CI)": "4.2 (1.2, 7.3)"
+      "Drainage": "4.2 (1.2, 7.3)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "6",
-      "mean % (95% CI)": "3.6 (1.2, 6.6)"
+      "Drainage": "3.6 (1.2, 6.6)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "6",
-      "mean % (95% CI)": "3.6 (1.2, 6.6)"
+      "Drainage": "3.6 (1.2, 6.6)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "5",
-      "mean % (95% CI)": "3.0 (0.6, 6.0)"
+      "Drainage": "3.0 (0.6, 6.0)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "3",
-      "mean % (95% CI)": "1.8 (0.0, 4.2)"
+      "Drainage": "1.8 (0.0, 4.2)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "3",
-      "mean % (95% CI)": "1.8 (0.0, 4.2)"
+      "Drainage": "1.8 (0.0, 4.2)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+      "Drainage": "0.6 (0.0, 1.8)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+      "Drainage": "0.6 (0.0, 1.8)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+      "Drainage": "0.6 (0.0, 1.8)"
     }
   ],
   "element_1133": [
@@ -1309,85 +1309,85 @@
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "45",
-      "mean % (95% CI)": "52.3 (41.9, 62.8)"
+      "Drainage": "52.3 (41.9, 62.8)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "42",
-      "mean % (95% CI)": "48.8 (38.4, 59.3)"
+      "Drainage": "48.8 (38.4, 59.3)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "36",
-      "mean % (95% CI)": "41.8 (31.4, 52.3)"
+      "Drainage": "41.8 (31.4, 52.3)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "35",
-      "mean % (95% CI)": "40.7 (30.2, 51.2)"
+      "Drainage": "40.7 (30.2, 51.2)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "30",
-      "mean % (95% CI)": "34.9 (25.0, 45.3)"
+      "Drainage": "34.9 (25.0, 45.3)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "23",
-      "mean % (95% CI)": "26.7 (17.4, 36.0)"
+      "Drainage": "26.7 (17.4, 36.0)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "22",
-      "mean % (95% CI)": "25.6 (16.3, 34.9)"
+      "Drainage": "25.6 (16.3, 34.9)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "16",
-      "mean % (95% CI)": "18.6 (10.5, 27.4)"
+      "Drainage": "18.6 (10.5, 27.4)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "14",
-      "mean % (95% CI)": "16.2 (9.2, 24.4)"
+      "Drainage": "16.2 (9.2, 24.4)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "9",
-      "mean % (95% CI)": "10.4 (4.6, 17.4)"
+      "Drainage": "10.4 (4.6, 17.4)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "5",
-      "mean % (95% CI)": "5.8 (1.2, 11.5)"
+      "Drainage": "5.8 (1.2, 11.5)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "3",
-      "mean % (95% CI)": "3.5 (0.0, 8.0)"
+      "Drainage": "3.5 (0.0, 8.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "3.5 (0.0, 8.1)"
+      "Drainage": "3.5 (0.0, 8.1)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "1.2 (0.0, 3.5)"
+      "Drainage": "1.2 (0.0, 3.5)"
     }
   ],
   "element_1134": [
@@ -1395,79 +1395,79 @@
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "13",
-      "mean % (95% CI)": "72.1 (50.0, 89.5)"
+      "Drainage": "72.1 (50.0, 89.5)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "11",
-      "mean % (95% CI)": "61.2 (38.9, 83.3)"
+      "Drainage": "61.2 (38.9, 83.3)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "11",
-      "mean % (95% CI)": "61.2 (38.9, 83.3)"
+      "Drainage": "61.2 (38.9, 83.3)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "6",
-      "mean % (95% CI)": "33.2 (11.8, 55.6)"
+      "Drainage": "33.2 (11.8, 55.6)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "5",
-      "mean % (95% CI)": "27.9 (10.5, 50.0)"
+      "Drainage": "27.9 (10.5, 50.0)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "4",
-      "mean % (95% CI)": "22.3 (5.3, 42.1)"
+      "Drainage": "22.3 (5.3, 42.1)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "4",
-      "mean % (95% CI)": "22.2 (5.3, 42.1)"
+      "Drainage": "22.2 (5.3, 42.1)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "3",
-      "mean % (95% CI)": "16.7 (0.0, 35.3)"
+      "Drainage": "16.7 (0.0, 35.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "3",
-      "mean % (95% CI)": "16.7 (0.0, 35.3)"
+      "Drainage": "16.7 (0.0, 35.3)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "2",
-      "mean % (95% CI)": "11.1 (0.0, 27.8)"
+      "Drainage": "11.1 (0.0, 27.8)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "5.7 (0.0, 17.6)"
+      "Drainage": "5.7 (0.0, 17.6)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "5.6 (0.0, 17.6)"
+      "Drainage": "5.6 (0.0, 17.6)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "1",
-      "mean % (95% CI)": "5.5 (0.0, 17.6)"
+      "Drainage": "5.5 (0.0, 17.6)"
     }
   ],
   "element_1135": [
@@ -1475,115 +1475,115 @@
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "60",
-      "mean % (95% CI)": "58.2 (48.5, 68.0)"
+      "Drainage": "58.2 (48.5, 68.0)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "43",
-      "mean % (95% CI)": "41.7 (32.4, 51.5)"
+      "Drainage": "41.7 (32.4, 51.5)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "38",
-      "mean % (95% CI)": "36.9 (27.7, 46.2)"
+      "Drainage": "36.9 (27.7, 46.2)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "37",
-      "mean % (95% CI)": "36.0 (26.9, 45.2)"
+      "Drainage": "36.0 (26.9, 45.2)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "33",
-      "mean % (95% CI)": "32.1 (23.3, 41.3)"
+      "Drainage": "32.1 (23.3, 41.3)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "29",
-      "mean % (95% CI)": "28.3 (20.0, 37.3)"
+      "Drainage": "28.3 (20.0, 37.3)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "29",
-      "mean % (95% CI)": "28.2 (19.6, 36.9)"
+      "Drainage": "28.2 (19.6, 36.9)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "26",
-      "mean % (95% CI)": "25.2 (17.3, 33.7)"
+      "Drainage": "25.2 (17.3, 33.7)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "22",
-      "mean % (95% CI)": "21.3 (13.6, 29.4)"
+      "Drainage": "21.3 (13.6, 29.4)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "10",
-      "mean % (95% CI)": "9.7 (4.0, 15.7)"
+      "Drainage": "9.7 (4.0, 15.7)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "9",
-      "mean % (95% CI)": "8.7 (3.8, 14.6)"
+      "Drainage": "8.7 (3.8, 14.6)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "5",
-      "mean % (95% CI)": "4.9 (1.0, 9.6)"
+      "Drainage": "4.9 (1.0, 9.6)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "3.9 (1.0, 7.8)"
+      "Drainage": "3.9 (1.0, 7.8)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "2.9 (0.0, 6.7)"
+      "Drainage": "2.9 (0.0, 6.7)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "1.9 (0.0, 4.9)"
+      "Drainage": "1.9 (0.0, 4.9)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "2",
-      "mean % (95% CI)": "1.9 (0.0, 4.9)"
+      "Drainage": "1.9 (0.0, 4.9)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "1.9 (0.0, 4.9)"
+      "Drainage": "1.9 (0.0, 4.9)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "1",
-      "mean % (95% CI)": "1.0 (0.0, 2.9)"
+      "Drainage": "1.0 (0.0, 2.9)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "1.0 (0.0, 2.9)"
+      "Drainage": "1.0 (0.0, 2.9)"
     }
   ],
   "Left Anterior Upper Head": [
@@ -1591,91 +1591,91 @@
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "24",
-      "mean % (95% CI)": "70.6 (54.5, 85.3)"
+      "Drainage": "70.6 (54.5, 85.3)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "13",
-      "mean % (95% CI)": "38.4 (22.9, 54.5)"
+      "Drainage": "38.4 (22.9, 54.5)"
     },
     {
       "code": "lprea",
       "name": "left preauricular",
       "count": "12",
-      "mean % (95% CI)": "35.3 (20.0, 51.4)"
+      "Drainage": "35.3 (20.0, 51.4)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "11",
-      "mean % (95% CI)": "32.5 (17.6, 48.6)"
+      "Drainage": "32.5 (17.6, 48.6)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "10",
-      "mean % (95% CI)": "29.4 (14.7, 45.5)"
+      "Drainage": "29.4 (14.7, 45.5)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "9",
-      "mean % (95% CI)": "26.6 (12.1, 42.4)"
+      "Drainage": "26.6 (12.1, 42.4)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "9",
-      "mean % (95% CI)": "26.4 (11.8, 42.4)"
+      "Drainage": "26.4 (11.8, 42.4)"
     },
     {
       "code": "rprea",
       "name": "right preauricular",
       "count": "7",
-      "mean % (95% CI)": "20.6 (8.6, 35.3)"
+      "Drainage": "20.6 (8.6, 35.3)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "4",
-      "mean % (95% CI)": "11.7 (2.9, 23.5)"
+      "Drainage": "11.7 (2.9, 23.5)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "3",
-      "mean % (95% CI)": "8.8 (0.0, 20.0)"
+      "Drainage": "8.8 (0.0, 20.0)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "3",
-      "mean % (95% CI)": "8.8 (0.0, 20.0)"
+      "Drainage": "8.8 (0.0, 20.0)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "2",
-      "mean % (95% CI)": "5.9 (0.0, 14.7)"
+      "Drainage": "5.9 (0.0, 14.7)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "3.0 (0.0, 9.1)"
+      "Drainage": "3.0 (0.0, 9.1)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "3.0 (0.0, 9.1)"
+      "Drainage": "3.0 (0.0, 9.1)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "2.9 (0.0, 9.1)"
+      "Drainage": "2.9 (0.0, 9.1)"
     }
   ],
   "Torso_element_253": [],
@@ -1685,7 +1685,7 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     }
   ],
   "Torso_element_259": [
@@ -1693,13 +1693,13 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "3.6 (0, 11.1)"
+      "Drainage": "3.6 (0, 11.1)"
     },
     {
       "code": "lip",
       "name": "left interpectoral",
       "count": "1",
-      "mean % (95% CI)": "3.6 (0, 11.1)"
+      "Drainage": "3.6 (0, 11.1)"
     }
   ],
   "Torso_element_260": [
@@ -1707,7 +1707,7 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "3.1 (0, 9.7)"
+      "Drainage": "3.1 (0, 9.7)"
     }
   ],
   "Torso_element_261": [
@@ -1715,7 +1715,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "3.4 (0, 10.3)"
+      "Drainage": "3.4 (0, 10.3)"
     }
   ],
   "Torso_element_262": [],
@@ -1725,19 +1725,19 @@
       "code": "ltis",
       "name": "left tis",
       "count": "3",
-      "mean % (95% CI)": "7.0 (0, 15.9)"
+      "Drainage": "7.0 (0, 15.9)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "2.3 (0, 7.1)"
+      "Drainage": "2.3 (0, 7.1)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "2.3 (0, 7.1)"
+      "Drainage": "2.3 (0, 7.1)"
     }
   ],
   "Torso_element_265": [
@@ -1745,13 +1745,13 @@
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "4",
-      "mean % (95% CI)": "7.2 (1.8, 14.5)"
+      "Drainage": "7.2 (1.8, 14.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "3.6 (0.0, 8.9)"
+      "Drainage": "3.6 (0.0, 8.9)"
     }
   ],
   "Torso_element_267": [],
@@ -1761,25 +1761,25 @@
       "code": "rc5",
       "name": "right cervical level v",
       "count": "2",
-      "mean % (95% CI)": "4.6 (0, 11.4)"
+      "Drainage": "4.6 (0, 11.4)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "2.3 (0, 7.0)"
+      "Drainage": "2.3 (0, 7.0)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "2",
-      "mean % (95% CI)": "2.3 (0, 7.0)"
+      "Drainage": "2.3 (0, 7.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "2.2 (0, 7.0)"
+      "Drainage": "2.2 (0, 7.0)"
     }
   ],
   "Torso_element_270": [
@@ -1787,7 +1787,7 @@
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "14.3 (0, 42.9)"
+      "Drainage": "14.3 (0, 42.9)"
     }
   ],
   "Torso_element_271": [
@@ -1795,7 +1795,7 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "18.1 (0, 44.4)"
+      "Drainage": "18.1 (0, 44.4)"
     }
   ],
   "Torso_element_272": [],
@@ -1804,13 +1804,13 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "3.2 (0, 10)"
+      "Drainage": "3.2 (0, 10)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "3.2 (0, 10)"
+      "Drainage": "3.2 (0, 10)"
     }
   ],
   "Torso_element_274": [
@@ -1818,7 +1818,7 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "14.1 (0, 30)"
+      "Drainage": "14.1 (0, 30)"
     }
   ],
   "Torso_element_275": [],
@@ -1827,13 +1827,13 @@
       "code": "rim",
       "name": "right internal mammary",
       "count": "1",
-      "mean % (95% CI)": "12.4 (0.0, 37.5)"
+      "Drainage": "12.4 (0.0, 37.5)"
     },
     {
       "code": "rcm",
       "name": "right costal margin",
       "count": "1",
-      "mean % (95% CI)": "12.4 (0.0, 37.5)"
+      "Drainage": "12.4 (0.0, 37.5)"
     }
   ],
   "Torso_element_468": [],
@@ -1842,7 +1842,7 @@
       "code": "in",
       "name": "interval node",
       "count": "4",
-      "mean % (95% CI)": "30.8 (7.7, 57.1)"
+      "Drainage": "30.8 (7.7, 57.1)"
     }
   ],
   "Torso_element_470": [
@@ -1850,7 +1850,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "11.2 (0.0, 33.3)"
+      "Drainage": "11.2 (0.0, 33.3)"
     }
   ],
   "Torso_element_471": [],
@@ -1859,19 +1859,19 @@
       "code": "in",
       "name": "interval node",
       "count": "5",
-      "mean % (95% CI)": "17.3 (3.6, 32.1)"
+      "Drainage": "17.3 (3.6, 32.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "2",
-      "mean % (95% CI)": "6.9 (0.0, 17.2)"
+      "Drainage": "6.9 (0.0, 17.2)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "3.4 (0.0, 10.7)"
+      "Drainage": "3.4 (0.0, 10.7)"
     }
   ],
   "Torso_element_473": [
@@ -1879,19 +1879,19 @@
       "code": "in",
       "name": "interval node",
       "count": "10",
-      "mean % (95% CI)": "27.7 (13.9, 42.9)"
+      "Drainage": "27.7 (13.9, 42.9)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "4",
-      "mean % (95% CI)": "11.2 (2.7, 22.2)"
+      "Drainage": "11.2 (2.7, 22.2)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "3",
-      "mean % (95% CI)": "8.4 (0.0, 18.9)"
+      "Drainage": "8.4 (0.0, 18.9)"
     }
   ],
   "Torso_element_474": [
@@ -1899,13 +1899,13 @@
       "code": "in",
       "name": "interval node",
       "count": "6",
-      "mean % (95% CI)": "14.6 (4.9, 26.2)"
+      "Drainage": "14.6 (4.9, 26.2)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     }
   ],
   "Torso_element_475": [
@@ -1913,19 +1913,19 @@
       "code": "in",
       "name": "interval node",
       "count": "5",
-      "mean % (95% CI)": "12.1 (2.4, 23.1)"
+      "Drainage": "12.1 (2.4, 23.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "3",
-      "mean % (95% CI)": "7.3 (0.0, 16.7)"
+      "Drainage": "7.3 (0.0, 16.7)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "2",
-      "mean % (95% CI)": "4.9 (0.0, 12.2)"
+      "Drainage": "4.9 (0.0, 12.2)"
     }
   ],
   "Torso_element_476": [
@@ -1933,19 +1933,19 @@
       "code": "pv",
       "name": "paravertebral",
       "count": "4",
-      "mean % (95% CI)": "9.5 (2.3, 19.0)"
+      "Drainage": "9.5 (2.3, 19.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "7.1 (0.0, 16.3)"
+      "Drainage": "7.1 (0.0, 16.3)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "3",
-      "mean % (95% CI)": "4.8 (0.0, 11.9)"
+      "Drainage": "4.8 (0.0, 11.9)"
     }
   ],
   "Torso_element_477": [
@@ -1953,19 +1953,19 @@
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "5.9 (0.0, 18.8)"
+      "Drainage": "5.9 (0.0, 18.8)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "5.9 (0.0, 18.8)"
+      "Drainage": "5.9 (0.0, 18.8)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "5.8 (0.0, 18.8)"
+      "Drainage": "5.8 (0.0, 18.8)"
     }
   ],
   "Torso_element_478": [],
@@ -1976,7 +1976,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     }
   ],
   "Torso_element_482": [
@@ -1984,7 +1984,7 @@
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "25.1 (0.0, 53.8)"
+      "Drainage": "25.1 (0.0, 53.8)"
     }
   ],
   "Torso_element_483": [
@@ -1992,13 +1992,13 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "9.0 (0.0, 22.7)"
+      "Drainage": "9.0 (0.0, 22.7)"
     },
     {
       "code": "lcm",
       "name": "left costal margin",
       "count": "1",
-      "mean % (95% CI)": "4.5 (0.0, 14.3)"
+      "Drainage": "4.5 (0.0, 14.3)"
     }
   ],
   "Torso_element_484": [
@@ -2006,7 +2006,7 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "13.3 (0, 33.3)"
+      "Drainage": "13.3 (0, 33.3)"
     }
   ],
   "Torso_element_485": [
@@ -2014,19 +2014,19 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "11.1 (0.0, 27.8)"
+      "Drainage": "11.1 (0.0, 27.8)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "5.6 (0.0, 17.6)"
+      "Drainage": "5.6 (0.0, 17.6)"
     },
     {
       "code": "lcm",
       "name": "left costal margin",
       "count": "1",
-      "mean % (95% CI)": "5.5 (0.0, 17.6)"
+      "Drainage": "5.5 (0.0, 17.6)"
     }
   ],
   "Torso_element_486": [
@@ -2034,7 +2034,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "16.9 (0, 50)"
+      "Drainage": "16.9 (0, 50)"
     }
   ],
   "Torso_element_487": [
@@ -2042,7 +2042,7 @@
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 60)"
+      "Drainage": "nan (0, 60)"
     }
   ],
   "Torso_element_488": [
@@ -2050,19 +2050,19 @@
       "code": "in",
       "name": "interval node",
       "count": "10",
-      "mean % (95% CI)": "31.3 (15.6, 48.4)"
+      "Drainage": "31.3 (15.6, 48.4)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "2",
-      "mean % (95% CI)": "6.3 (0.0, 15.6)"
+      "Drainage": "6.3 (0.0, 15.6)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "2",
-      "mean % (95% CI)": "6.2 (0.0, 15.6)"
+      "Drainage": "6.2 (0.0, 15.6)"
     }
   ],
   "Torso_element_489": [
@@ -2070,19 +2070,19 @@
       "code": "in",
       "name": "interval node",
       "count": "15",
-      "mean % (95% CI)": "39.4 (24.3, 55.3)"
+      "Drainage": "39.4 (24.3, 55.3)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "11",
-      "mean % (95% CI)": "28.9 (15.4, 43.6)"
+      "Drainage": "28.9 (15.4, 43.6)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "5",
-      "mean % (95% CI)": "13.3 (2.7, 24.3)"
+      "Drainage": "13.3 (2.7, 24.3)"
     }
   ],
   "Torso_element_490": [
@@ -2090,25 +2090,25 @@
       "code": "in",
       "name": "interval node",
       "count": "8",
-      "mean % (95% CI)": "19.1 (7.7, 31.7)"
+      "Drainage": "19.1 (7.7, 31.7)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "3",
-      "mean % (95% CI)": "7.1 (0.0, 16.3)"
+      "Drainage": "7.1 (0.0, 16.3)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.3)"
+      "Drainage": "2.4 (0.0, 7.3)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.3)"
+      "Drainage": "2.4 (0.0, 7.3)"
     }
   ],
   "Torso_element_491": [
@@ -2116,25 +2116,25 @@
       "code": "in",
       "name": "interval node",
       "count": "8",
-      "mean % (95% CI)": "22.9 (9.1, 37.1)"
+      "Drainage": "22.9 (9.1, 37.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "4",
-      "mean % (95% CI)": "11.4 (2.8, 22.9)"
+      "Drainage": "11.4 (2.8, 22.9)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "4",
-      "mean % (95% CI)": "11.4 (2.8, 22.9)"
+      "Drainage": "11.4 (2.8, 22.9)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "2",
-      "mean % (95% CI)": "2.9 (0.0, 8.8)"
+      "Drainage": "2.9 (0.0, 8.8)"
     }
   ],
   "Torso_element_492": [
@@ -2142,25 +2142,25 @@
       "code": "in",
       "name": "interval node",
       "count": "13",
-      "mean % (95% CI)": "26.6 (14.6, 39.6)"
+      "Drainage": "26.6 (14.6, 39.6)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "11",
-      "mean % (95% CI)": "22.5 (12.0, 34.7)"
+      "Drainage": "22.5 (12.0, 34.7)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "4",
-      "mean % (95% CI)": "6.1 (0.0, 14.0)"
+      "Drainage": "6.1 (0.0, 14.0)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "2.0 (0.0, 6.2)"
+      "Drainage": "2.0 (0.0, 6.2)"
     }
   ],
   "Torso_element_493": [
@@ -2168,25 +2168,25 @@
       "code": "in",
       "name": "interval node",
       "count": "12",
-      "mean % (95% CI)": "52.2 (31.8, 72.7)"
+      "Drainage": "52.2 (31.8, 72.7)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "3",
-      "mean % (95% CI)": "13.1 (0.0, 27.3)"
+      "Drainage": "13.1 (0.0, 27.3)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "4.4 (0.0, 13.6)"
+      "Drainage": "4.4 (0.0, 13.6)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "4.4 (0.0, 13.6)"
+      "Drainage": "4.4 (0.0, 13.6)"
     }
   ],
   "Torso_element_494": [],
@@ -2195,7 +2195,7 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "18.2 (0.0, 44.4)"
+      "Drainage": "18.2 (0.0, 44.4)"
     }
   ],
   "Torso_element_496": [
@@ -2203,13 +2203,13 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "28.9 (0.0, 66.7)"
+      "Drainage": "28.9 (0.0, 66.7)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "14.3 (0.0, 42.9)"
+      "Drainage": "14.3 (0.0, 42.9)"
     }
   ],
   "Torso_element_497": [],
@@ -2218,25 +2218,25 @@
       "code": "rcm",
       "name": "right costal margin",
       "count": "5",
-      "mean % (95% CI)": "22.7 (5.0, 40.9)"
+      "Drainage": "22.7 (5.0, 40.9)"
     },
     {
       "code": "rim",
       "name": "right internal mammary",
       "count": "2",
-      "mean % (95% CI)": "9.1 (0.0, 22.7)"
+      "Drainage": "9.1 (0.0, 22.7)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "4.5 (0.0, 14.3)"
+      "Drainage": "4.5 (0.0, 14.3)"
     },
     {
       "code": "lcm",
       "name": "left costal margin",
       "count": "1",
-      "mean % (95% CI)": "4.5 (0.0, 14.3)"
+      "Drainage": "4.5 (0.0, 14.3)"
     }
   ],
   "Torso_element_499": [
@@ -2244,19 +2244,19 @@
       "code": "in",
       "name": "interval node",
       "count": "4",
-      "mean % (95% CI)": "18.3 (4.3, 35.0)"
+      "Drainage": "18.3 (4.3, 35.0)"
     },
     {
       "code": "lcm",
       "name": "left costal margin",
       "count": "2",
-      "mean % (95% CI)": "9.1 (0.0, 22.7)"
+      "Drainage": "9.1 (0.0, 22.7)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "4.5 (0.0, 14.3)"
+      "Drainage": "4.5 (0.0, 14.3)"
     }
   ],
   "Torso_element_500": [
@@ -2264,19 +2264,19 @@
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "5.2 (0, 16.7)"
+      "Drainage": "5.2 (0, 16.7)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "5.2 (0, 16.7)"
+      "Drainage": "5.2 (0, 16.7)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "5.2 (0, 16.7)"
+      "Drainage": "5.2 (0, 16.7)"
     }
   ],
   "Torso_element_501": [
@@ -2284,7 +2284,7 @@
       "code": "in",
       "name": "interval node",
       "count": "4",
-      "mean % (95% CI)": "49.9 (14.3, 85.7)"
+      "Drainage": "49.9 (14.3, 85.7)"
     }
   ],
   "Torso_element_502": [],
@@ -2293,7 +2293,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "20.3 (0, 60)"
+      "Drainage": "20.3 (0, 60)"
     }
   ],
   "Torso_element_504": [
@@ -2301,25 +2301,25 @@
       "code": "in",
       "name": "interval node",
       "count": "7",
-      "mean % (95% CI)": "15.9 (6.7, 27.3)"
+      "Drainage": "15.9 (6.7, 27.3)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "2",
-      "mean % (95% CI)": "4.5 (0.0, 11.4)"
+      "Drainage": "4.5 (0.0, 11.4)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "2",
-      "mean % (95% CI)": "4.5 (0.0, 11.4)"
+      "Drainage": "4.5 (0.0, 11.4)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "2.3 (0.0, 7.0)"
+      "Drainage": "2.3 (0.0, 7.0)"
     }
   ],
   "Torso_element_505": [
@@ -2327,37 +2327,37 @@
       "code": "in",
       "name": "interval node",
       "count": "7",
-      "mean % (95% CI)": "17.1 (7.1, 29.3)"
+      "Drainage": "17.1 (7.1, 29.3)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "5",
-      "mean % (95% CI)": "12.1 (2.5, 22.5)"
+      "Drainage": "12.1 (2.5, 22.5)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     },
     {
       "code": "lpop",
       "name": "left popliteal",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     }
   ],
   "Torso_element_506": [
@@ -2365,25 +2365,25 @@
       "code": "in",
       "name": "interval node",
       "count": "8",
-      "mean % (95% CI)": "16.4 (6.2, 27.1)"
+      "Drainage": "16.4 (6.2, 27.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "2",
-      "mean % (95% CI)": "4.1 (0.0, 10.2)"
+      "Drainage": "4.1 (0.0, 10.2)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "2.1 (0.0, 6.2)"
+      "Drainage": "2.1 (0.0, 6.2)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "1",
-      "mean % (95% CI)": "2.0 (0.0, 6.2)"
+      "Drainage": "2.0 (0.0, 6.2)"
     }
   ],
   "Torso_element_507": [
@@ -2391,31 +2391,31 @@
       "code": "in",
       "name": "interval node",
       "count": "7",
-      "mean % (95% CI)": "12.8 (5.4, 21.8)"
+      "Drainage": "12.8 (5.4, 21.8)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "4",
-      "mean % (95% CI)": "7.2 (1.8, 14.5)"
+      "Drainage": "7.2 (1.8, 14.5)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.6)"
+      "Drainage": "1.8 (0.0, 5.6)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.6)"
+      "Drainage": "1.8 (0.0, 5.6)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.6)"
+      "Drainage": "1.8 (0.0, 5.6)"
     }
   ],
   "Torso_element_508": [
@@ -2423,25 +2423,25 @@
       "code": "in",
       "name": "interval node",
       "count": "15",
-      "mean % (95% CI)": "24.2 (14.3, 35.5)"
+      "Drainage": "24.2 (14.3, 35.5)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "4",
-      "mean % (95% CI)": "6.5 (1.6, 13.1)"
+      "Drainage": "6.5 (1.6, 13.1)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "3",
-      "mean % (95% CI)": "4.9 (0.0, 11.1)"
+      "Drainage": "4.9 (0.0, 11.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "3",
-      "mean % (95% CI)": "4.8 (0.0, 11.1)"
+      "Drainage": "4.8 (0.0, 11.1)"
     }
   ],
   "Torso_element_509": [
@@ -2449,7 +2449,7 @@
       "code": "in",
       "name": "interval node",
       "count": "7",
-      "mean % (95% CI)": "25.9 (10.7, 42.9)"
+      "Drainage": "25.9 (10.7, 42.9)"
     }
   ],
   "Torso_element_510": [],
@@ -2458,7 +2458,7 @@
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "20.1 (0, 45.5)"
+      "Drainage": "20.1 (0, 45.5)"
     }
   ],
   "Torso_element_512": [
@@ -2466,7 +2466,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "11.2 (0.0, 33.3)"
+      "Drainage": "11.2 (0.0, 33.3)"
     }
   ],
   "Torso_element_513": [
@@ -2474,13 +2474,13 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "18.2 (0, 44.4)"
+      "Drainage": "18.2 (0, 44.4)"
     },
     {
       "code": "rcm",
       "name": "right costal margin",
       "count": "1",
-      "mean % (95% CI)": "9.0 (0, 27.3)"
+      "Drainage": "9.0 (0, 27.3)"
     }
   ],
   "Torso_element_514": [
@@ -2488,31 +2488,31 @@
       "code": "rim",
       "name": "right internal mammary",
       "count": "2",
-      "mean % (95% CI)": "13.2 (0.0, 33.3)"
+      "Drainage": "13.2 (0.0, 33.3)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "6.7 (0.0, 21.4)"
+      "Drainage": "6.7 (0.0, 21.4)"
     },
     {
       "code": "lcm",
       "name": "left costal margin",
       "count": "1",
-      "mean % (95% CI)": "6.7 (0.0, 21.4)"
+      "Drainage": "6.7 (0.0, 21.4)"
     },
     {
       "code": "rcm",
       "name": "right costal margin",
       "count": "1",
-      "mean % (95% CI)": "6.6 (0.0, 21.4)"
+      "Drainage": "6.6 (0.0, 21.4)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "6.6 (0.0, 21.4)"
+      "Drainage": "6.6 (0.0, 21.4)"
     }
   ],
   "Torso_element_515": [
@@ -2520,19 +2520,19 @@
       "code": "rim",
       "name": "right internal mammary",
       "count": "1",
-      "mean % (95% CI)": "6.8 (0.0, 21.4)"
+      "Drainage": "6.8 (0.0, 21.4)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "6.8 (0.0, 21.4)"
+      "Drainage": "6.8 (0.0, 21.4)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "6.7 (0.0, 21.4)"
+      "Drainage": "6.7 (0.0, 21.4)"
     }
   ],
   "Torso_element_516": [
@@ -2540,19 +2540,19 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "10.5 (0, 26.3)"
+      "Drainage": "10.5 (0, 26.3)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "5.3 (0, 16.7)"
+      "Drainage": "5.3 (0, 16.7)"
     },
     {
       "code": "lcm",
       "name": "left costal margin",
       "count": "1",
-      "mean % (95% CI)": "5.3 (0, 16.7)"
+      "Drainage": "5.3 (0, 16.7)"
     }
   ],
   "Torso_element_517": [
@@ -2560,13 +2560,13 @@
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "22.0 (0.0, 50.0)"
+      "Drainage": "22.0 (0.0, 50.0)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "11.1 (0.0, 33.3)"
+      "Drainage": "11.1 (0.0, 33.3)"
     }
   ],
   "Torso_element_518": [],
@@ -2576,7 +2576,7 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "13.3 (0, 33.3)"
+      "Drainage": "13.3 (0, 33.3)"
     }
 
   ],
@@ -2585,13 +2585,13 @@
       "code": "ltis",
       "name": "left tis",
       "count": "4",
-      "mean % (95% CI)": "8.7 (2.1, 17.4)"
+      "Drainage": "8.7 (2.1, 17.4)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "4.3 (0.0, 10.9)"
+      "Drainage": "4.3 (0.0, 10.9)"
     }
   ],
   "Torso_element_522": [
@@ -2599,31 +2599,31 @@
       "code": "in",
       "name": "interval node",
       "count": "8",
-      "mean % (95% CI)": "14.3 (5.4, 23.6)"
+      "Drainage": "14.3 (5.4, 23.6)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "6",
-      "mean % (95% CI)": "10.7 (3.5, 19.3)"
+      "Drainage": "10.7 (3.5, 19.3)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.5)"
+      "Drainage": "1.8 (0.0, 5.5)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.5)"
+      "Drainage": "1.8 (0.0, 5.5)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "1",
-      "mean % (95% CI)": "0.0 (0.0, 0.0)"
+      "Drainage": "0.0 (0.0, 0.0)"
     }
   ],
   "Torso_element_523": [
@@ -2631,31 +2631,31 @@
       "code": "in",
       "name": "interval node",
       "count": "6",
-      "mean % (95% CI)": "10.6 (3.4, 19.3)"
+      "Drainage": "10.6 (3.4, 19.3)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "3",
-      "mean % (95% CI)": "5.3 (0.0, 12.1)"
+      "Drainage": "5.3 (0.0, 12.1)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "4",
-      "mean % (95% CI)": "5.2 (0.0, 12.1)"
+      "Drainage": "5.2 (0.0, 12.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "1.7 (0.0, 5.4)"
+      "Drainage": "1.7 (0.0, 5.4)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "1.7 (0.0, 5.4)"
+      "Drainage": "1.7 (0.0, 5.4)"
     }
   ],
   "Torso_element_524": [
@@ -2663,25 +2663,25 @@
       "code": "in",
       "name": "interval node",
       "count": "5",
-      "mean % (95% CI)": "12.2 (2.5, 22.5)"
+      "Drainage": "12.2 (2.5, 22.5)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "2",
-      "mean % (95% CI)": "4.8 (0.0, 12.2)"
+      "Drainage": "4.8 (0.0, 12.2)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "2.5 (0.0, 7.5)"
+      "Drainage": "2.5 (0.0, 7.5)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     }
   ],
   "Torso_element_525": [
@@ -2689,7 +2689,7 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "19.8 (0, 45.5)"
+      "Drainage": "19.8 (0, 45.5)"
     }
   ],
   "Torso_element_526": [],
@@ -2698,7 +2698,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "10.9 (0.0, 33.3)"
+      "Drainage": "10.9 (0.0, 33.3)"
     }
   ],
   "Torso_element_528": [
@@ -2706,13 +2706,13 @@
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "7.8 (0, 25.0)"
+      "Drainage": "7.8 (0, 25.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "7.6 (0, 25.0)"
+      "Drainage": "7.6 (0, 25.0)"
     }
   ],
   "Torso_element_529": [
@@ -2720,7 +2720,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "9.2 (0, 30)"
+      "Drainage": "9.2 (0, 30)"
     }
   ],
   "Torso_element_530": [
@@ -2728,19 +2728,19 @@
       "code": "rim",
       "name": "right internal mammary",
       "count": "2",
-      "mean % (95% CI)": "14.2 (0.0, 35.7)"
+      "Drainage": "14.2 (0.0, 35.7)"
     },
     {
       "code": "rcm",
       "name": "right costal margin",
       "count": "1",
-      "mean % (95% CI)": "7.1 (0.0, 23.1)"
+      "Drainage": "7.1 (0.0, 23.1)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "7.1 (0.0, 23.1)"
+      "Drainage": "7.1 (0.0, 23.1)"
     }
   ],
   "Torso_element_531": [],
@@ -2749,7 +2749,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     }
   ],
   "Torso_element_533": [],
@@ -2761,19 +2761,19 @@
       "code": "ltis",
       "name": "left tis",
       "count": "3",
-      "mean % (95% CI)": "8.8 (0, 20.0)"
+      "Drainage": "8.8 (0, 20.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "5.9 (0, 14.7)"
+      "Drainage": "5.9 (0, 14.7)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "3.0 (0, 9.1)"
+      "Drainage": "3.0 (0, 9.1)"
     }
   ],
   "Torso_element_538": [
@@ -2781,31 +2781,31 @@
       "code": "ltis",
       "name": "left tis",
       "count": "7",
-      "mean % (95% CI)": "7.4 (2.1, 12.8)"
+      "Drainage": "7.4 (2.1, 12.8)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "6",
-      "mean % (95% CI)": "6.2 (2.1, 11.5)"
+      "Drainage": "6.2 (2.1, 11.5)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "3",
-      "mean % (95% CI)": "3.1 (0.0, 7.2)"
+      "Drainage": "3.1 (0.0, 7.2)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "1",
-      "mean % (95% CI)": "1.0 (0.0, 3.2)"
+      "Drainage": "1.0 (0.0, 3.2)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "1.0 (0.0, 3.2)"
+      "Drainage": "1.0 (0.0, 3.2)"
     }
   ],
   "Torso_element_539": [
@@ -2813,37 +2813,37 @@
       "code": "in",
       "name": "interval node",
       "count": "9",
-      "mean % (95% CI)": "10.6 (4.7, 17.6)"
+      "Drainage": "10.6 (4.7, 17.6)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "5",
-      "mean % (95% CI)": "5.9 (1.2, 11.6)"
+      "Drainage": "5.9 (1.2, 11.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "1.2 (0.0, 3.6)"
+      "Drainage": "1.2 (0.0, 3.6)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "1.2 (0.0, 3.6)"
+      "Drainage": "1.2 (0.0, 3.6)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "1.2 (0.0, 3.6)"
+      "Drainage": "1.2 (0.0, 3.6)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "1",
-      "mean % (95% CI)": "1.2 (0.0, 3.6)"
+      "Drainage": "1.2 (0.0, 3.6)"
     }
   ],
   "Torso_element_540": [
@@ -2851,19 +2851,19 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "5.1 (0.0, 12.5)"
+      "Drainage": "5.1 (0.0, 12.5)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "1",
-      "mean % (95% CI)": "2.5 (0.0, 7.7)"
+      "Drainage": "2.5 (0.0, 7.7)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "2.5 (0.0, 7.7)"
+      "Drainage": "2.5 (0.0, 7.7)"
     }
   ],
   "Torso_element_541": [],
@@ -2873,7 +2873,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     }
   ],
   "Torso_element_544": [],
@@ -2884,13 +2884,13 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "5.0 (0, 15.8)"
+      "Drainage": "5.0 (0, 15.8)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "5.0 (0, 15.8)"
+      "Drainage": "5.0 (0, 15.8)"
     }
   ],
   "Torso_element_548": [
@@ -2898,13 +2898,13 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "22.4 (0, 50.0)"
+      "Drainage": "22.4 (0, 50.0)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "10.9 (0, 33.3)"
+      "Drainage": "10.9 (0, 33.3)"
     }
   ],
   "Torso_element_549": [
@@ -2912,7 +2912,7 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "10 (0, 30)"
+      "Drainage": "10 (0, 30)"
     }
   ],
   "Torso_element_550": [],
@@ -2924,37 +2924,37 @@
       "code": "ltis",
       "name": "left tis",
       "count": "23",
-      "mean % (95% CI)": "18.0 (11.6, 24.8)"
+      "Drainage": "18.0 (11.6, 24.8)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "13",
-      "mean % (95% CI)": "10.2 (5.4, 15.6)"
+      "Drainage": "10.2 (5.4, 15.6)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "8",
-      "mean % (95% CI)": "6.3 (2.3, 10.9)"
+      "Drainage": "6.3 (2.3, 10.9)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "1.6 (0.0, 3.9)"
+      "Drainage": "1.6 (0.0, 3.9)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "2",
-      "mean % (95% CI)": "1.6 (0.0, 3.9)"
+      "Drainage": "1.6 (0.0, 3.9)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.8 (0.0, 2.4)"
+      "Drainage": "0.8 (0.0, 2.4)"
     }
   ],
   "Torso_element_555": [
@@ -2962,37 +2962,37 @@
       "code": "in",
       "name": "interval node",
       "count": "10",
-      "mean % (95% CI)": "8.7 (3.6, 14.0)"
+      "Drainage": "8.7 (3.6, 14.0)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "6",
-      "mean % (95% CI)": "5.2 (1.7, 9.6)"
+      "Drainage": "5.2 (1.7, 9.6)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "4",
-      "mean % (95% CI)": "3.5 (0.9, 7.0)"
+      "Drainage": "3.5 (0.9, 7.0)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+      "Drainage": "1.7 (0.0, 4.3)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+      "Drainage": "0.9 (0.0, 2.6)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+      "Drainage": "0.9 (0.0, 2.6)"
     }
   ],
   "Torso_element_556": [
@@ -3000,7 +3000,7 @@
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "2",
-      "mean % (95% CI)": "7.8 (0, 19.2)"
+      "Drainage": "7.8 (0, 19.2)"
     }
   ],
   "Torso_element_557": [],
@@ -3013,7 +3013,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "4.8 (0.0, 15.0)"
+      "Drainage": "4.8 (0.0, 15.0)"
     }
   ],
   "Torso_element_563": [
@@ -3021,19 +3021,19 @@
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "7.5 (0.0, 18.5)"
+      "Drainage": "7.5 (0.0, 18.5)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     }
   ],
   "Torso_element_564": [
@@ -3041,7 +3041,7 @@
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "7.7 (0.0, 25.0)"
+      "Drainage": "7.7 (0.0, 25.0)"
     }
   ],
   "Torso_element_565": [],
@@ -3050,19 +3050,19 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "7.4 (0.0, 18.5)"
+      "Drainage": "7.4 (0.0, 18.5)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     }
   ],
   "Torso_element_567": [
@@ -3070,7 +3070,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "5.8 (0, 18.8)"
+      "Drainage": "5.8 (0, 18.8)"
     }
   ],
   "Torso_element_568": [
@@ -3078,7 +3078,7 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "12.6 (0.0, 37.5)"
+      "Drainage": "12.6 (0.0, 37.5)"
     }
   ],
   "Torso_element_569": [
@@ -3086,49 +3086,49 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "9",
-      "mean % (95% CI)": "45.0 (23.8, 66.7)"
+      "Drainage": "45.0 (23.8, 66.7)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "5",
-      "mean % (95% CI)": "25.0 (9.5, 45.0)"
+      "Drainage": "25.0 (9.5, 45.0)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "20.1 (4.8, 38.9)"
+      "Drainage": "20.1 (4.8, 38.9)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "20.1 (4.8, 38.1)"
+      "Drainage": "20.1 (4.8, 38.1)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "20.0 (4.8, 38.9)"
+      "Drainage": "20.0 (4.8, 38.9)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "3",
-      "mean % (95% CI)": "15.2 (0.0, 33.3)"
+      "Drainage": "15.2 (0.0, 33.3)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "2",
-      "mean % (95% CI)": "9.9 (0.0, 25.0)"
+      "Drainage": "9.9 (0.0, 25.0)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "5.0 (0.0, 15.8)"
+      "Drainage": "5.0 (0.0, 15.8)"
     }
   ],
   "Torso_element_570": [
@@ -3136,61 +3136,61 @@
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "6",
-      "mean % (95% CI)": "13.0 (4.3, 23.4)"
+      "Drainage": "13.0 (4.3, 23.4)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "5",
-      "mean % (95% CI)": "10.9 (2.2, 21.3)"
+      "Drainage": "10.9 (2.2, 21.3)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "4",
-      "mean % (95% CI)": "8.7 (2.1, 17.4)"
+      "Drainage": "8.7 (2.1, 17.4)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "8.7 (2.1, 17.4)"
+      "Drainage": "8.7 (2.1, 17.4)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "3",
-      "mean % (95% CI)": "6.5 (0.0, 14.9)"
+      "Drainage": "6.5 (0.0, 14.9)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "2",
-      "mean % (95% CI)": "4.3 (0.0, 10.9)"
+      "Drainage": "4.3 (0.0, 10.9)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "4.3 (0.0, 10.9)"
+      "Drainage": "4.3 (0.0, 10.9)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "2.2 (0.0, 6.7)"
+      "Drainage": "2.2 (0.0, 6.7)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "2.2 (0.0, 6.7)"
+      "Drainage": "2.2 (0.0, 6.7)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "2.1 (0.0, 6.7)"
+      "Drainage": "2.1 (0.0, 6.7)"
     }
   ],
   "Torso_element_571": [
@@ -3198,25 +3198,25 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "12.9 (3.1, 25.8)"
+      "Drainage": "12.9 (3.1, 25.8)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "6.5 (0.0, 16.1)"
+      "Drainage": "6.5 (0.0, 16.1)"
     },
     {
       "code": "lc1",
       "name": "left cervical level i",
       "count": "1",
-      "mean % (95% CI)": "3.3 (0.0, 10.0)"
+      "Drainage": "3.3 (0.0, 10.0)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "3.3 (0.0, 10.0)"
+      "Drainage": "3.3 (0.0, 10.0)"
     }
   ],
   "Torso_element_572": [
@@ -3224,31 +3224,31 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "6.7 (0.0, 16.7)"
+      "Drainage": "6.7 (0.0, 16.7)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "6.6 (0.0, 16.7)"
+      "Drainage": "6.6 (0.0, 16.7)"
     },
     {
       "code": "lip",
       "name": "left interpectoral",
       "count": "1",
-      "mean % (95% CI)": "3.4 (0.0, 10.3)"
+      "Drainage": "3.4 (0.0, 10.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "3.3 (0.0, 10.3)"
+      "Drainage": "3.3 (0.0, 10.3)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "3.2 (0.0, 10.3)"
+      "Drainage": "3.2 (0.0, 10.3)"
     }
   ],
   "Torso_element_573": [
@@ -3256,19 +3256,19 @@
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.6)"
+      "Drainage": "1.8 (0.0, 5.6)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.6)"
+      "Drainage": "1.8 (0.0, 5.6)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.6)"
+      "Drainage": "1.8 (0.0, 5.6)"
     }
   ],
   "Torso_element_574": [
@@ -3276,13 +3276,13 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "5.6 (0.0, 13.9)"
+      "Drainage": "5.6 (0.0, 13.9)"
     },
     {
       "code": "lip",
       "name": "left interpectoral",
       "count": "1",
-      "mean % (95% CI)": "2.7 (0.0, 8.6)"
+      "Drainage": "2.7 (0.0, 8.6)"
     }
   ],
   "Torso_element_575": [
@@ -3290,31 +3290,31 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "17",
-      "mean % (95% CI)": "13.2 (7.8, 19.2)"
+      "Drainage": "13.2 (7.8, 19.2)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "6",
-      "mean % (95% CI)": "4.7 (1.6, 8.6)"
+      "Drainage": "4.7 (1.6, 8.6)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "5",
-      "mean % (95% CI)": "3.9 (0.8, 7.8)"
+      "Drainage": "3.9 (0.8, 7.8)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "3",
-      "mean % (95% CI)": "2.3 (0.0, 5.5)"
+      "Drainage": "2.3 (0.0, 5.5)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.8 (0.0, 2.4)"
+      "Drainage": "0.8 (0.0, 2.4)"
     }
   ],
   "Torso_element_576": [
@@ -3322,55 +3322,55 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "62",
-      "mean % (95% CI)": "13.8 (10.7, 17.0)"
+      "Drainage": "13.8 (10.7, 17.0)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "48",
-      "mean % (95% CI)": "10.7 (8.0, 13.6)"
+      "Drainage": "10.7 (8.0, 13.6)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "46",
-      "mean % (95% CI)": "10.3 (7.6, 13.1)"
+      "Drainage": "10.3 (7.6, 13.1)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "32",
-      "mean % (95% CI)": "7.2 (4.9, 9.6)"
+      "Drainage": "7.2 (4.9, 9.6)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "20",
-      "mean % (95% CI)": "4.5 (2.7, 6.5)"
+      "Drainage": "4.5 (2.7, 6.5)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "12",
-      "mean % (95% CI)": "2.7 (1.3, 4.2)"
+      "Drainage": "2.7 (1.3, 4.2)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "11",
-      "mean % (95% CI)": "2.4 (1.1, 4.0)"
+      "Drainage": "2.4 (1.1, 4.0)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "0.7 (0.0, 1.6)"
+      "Drainage": "0.7 (0.0, 1.6)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.7)"
+      "Drainage": "0.2 (0.0, 0.7)"
     }
   ],
   "Torso_element_577": [
@@ -3378,73 +3378,73 @@
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "66",
-      "mean % (95% CI)": "13.1 (10.3, 16.1)"
+      "Drainage": "13.1 (10.3, 16.1)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "60",
-      "mean % (95% CI)": "11.9 (9.2, 14.9)"
+      "Drainage": "11.9 (9.2, 14.9)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "51",
-      "mean % (95% CI)": "10.1 (7.5, 12.9)"
+      "Drainage": "10.1 (7.5, 12.9)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "44",
-      "mean % (95% CI)": "8.8 (6.4, 11.3)"
+      "Drainage": "8.8 (6.4, 11.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "22",
-      "mean % (95% CI)": "4.4 (2.6, 6.2)"
+      "Drainage": "4.4 (2.6, 6.2)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "21",
-      "mean % (95% CI)": "4.2 (2.6, 6.0)"
+      "Drainage": "4.2 (2.6, 6.0)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "17",
-      "mean % (95% CI)": "3.4 (2.0, 5.0)"
+      "Drainage": "3.4 (2.0, 5.0)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "0.8 (0.2, 1.6)"
+      "Drainage": "0.8 (0.2, 1.6)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "0.4 (0.0, 1.0)"
+      "Drainage": "0.4 (0.0, 1.0)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.6)"
+      "Drainage": "0.2 (0.0, 0.6)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.6)"
+      "Drainage": "0.2 (0.0, 0.6)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "0.2 (0.0, 0.6)"
+      "Drainage": "0.2 (0.0, 0.6)"
     }
   ],
   "Torso_element_578": [
@@ -3452,37 +3452,37 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "29",
-      "mean % (95% CI)": "17.6 (12.0, 23.6)"
+      "Drainage": "17.6 (12.0, 23.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "11",
-      "mean % (95% CI)": "6.6 (3.0, 10.5)"
+      "Drainage": "6.6 (3.0, 10.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "8",
-      "mean % (95% CI)": "4.9 (1.8, 8.4)"
+      "Drainage": "4.9 (1.8, 8.4)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "7",
-      "mean % (95% CI)": "4.2 (1.8, 7.8)"
+      "Drainage": "4.2 (1.8, 7.8)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "2.4 (0.6, 4.9)"
+      "Drainage": "2.4 (0.6, 4.9)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+      "Drainage": "0.6 (0.0, 1.8)"
     }
   ],
   "Torso_element_579": [
@@ -3490,7 +3490,7 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "3",
-      "mean % (95% CI)": "8.1 (0.0, 18.4)"
+      "Drainage": "8.1 (0.0, 18.4)"
     }
   ],
   "Torso_element_580": [
@@ -3498,25 +3498,25 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "6",
-      "mean % (95% CI)": "9.8 (3.2, 17.7)"
+      "Drainage": "9.8 (3.2, 17.7)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "1.6 (0.0, 5.0)"
+      "Drainage": "1.6 (0.0, 5.0)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "1.6 (0.0, 5.0)"
+      "Drainage": "1.6 (0.0, 5.0)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "1.6 (0.0, 5.0)"
+      "Drainage": "1.6 (0.0, 5.0)"
     }
   ],
   "Torso_element_581": [
@@ -3524,13 +3524,13 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "18.2 (4.3, 35.0)"
+      "Drainage": "18.2 (4.3, 35.0)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "4.5 (0.0, 14.3)"
+      "Drainage": "4.5 (0.0, 14.3)"
     }
   ],
   "Torso_element_582": [
@@ -3538,37 +3538,37 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "7",
-      "mean % (95% CI)": "19.0 (7.9, 32.4)"
+      "Drainage": "19.0 (7.9, 32.4)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "2",
-      "mean % (95% CI)": "5.5 (0.0, 13.5)"
+      "Drainage": "5.5 (0.0, 13.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "5.4 (0.0, 13.5)"
+      "Drainage": "5.4 (0.0, 13.5)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "5.4 (0.0, 13.5)"
+      "Drainage": "5.4 (0.0, 13.5)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "2.7 (0.0, 8.3)"
+      "Drainage": "2.7 (0.0, 8.3)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "2.6 (0.0, 8.3)"
+      "Drainage": "2.6 (0.0, 8.3)"
     }
   ],
   "Torso_element_583": [
@@ -3576,67 +3576,67 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "8",
-      "mean % (95% CI)": "17.1 (6.4, 28.3)"
+      "Drainage": "17.1 (6.4, 28.3)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "8",
-      "mean % (95% CI)": "17.0 (6.5, 28.3)"
+      "Drainage": "17.0 (6.5, 28.3)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "8.5 (2.1, 17.0)"
+      "Drainage": "8.5 (2.1, 17.0)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "8.5 (2.1, 17.0)"
+      "Drainage": "8.5 (2.1, 17.0)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "3",
-      "mean % (95% CI)": "6.4 (0.0, 14.6)"
+      "Drainage": "6.4 (0.0, 14.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "2",
-      "mean % (95% CI)": "4.3 (0.0, 10.6)"
+      "Drainage": "4.3 (0.0, 10.6)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "4.2 (0.0, 10.6)"
+      "Drainage": "4.2 (0.0, 10.6)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "2.1 (0.0, 6.5)"
+      "Drainage": "2.1 (0.0, 6.5)"
     },
     {
       "code": "um",
       "name": "upper mediastinal",
       "count": "1",
-      "mean % (95% CI)": "2.1 (0.0, 6.5)"
+      "Drainage": "2.1 (0.0, 6.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "1",
-      "mean % (95% CI)": "2.1 (0.0, 6.5)"
+      "Drainage": "2.1 (0.0, 6.5)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "2.1 (0.0, 6.5)"
+      "Drainage": "2.1 (0.0, 6.5)"
     }
   ],
   "Torso_element_584": [
@@ -3644,55 +3644,55 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "7",
-      "mean % (95% CI)": "29.2 (12.5, 48.0)"
+      "Drainage": "29.2 (12.5, 48.0)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "7",
-      "mean % (95% CI)": "29.1 (12.0, 48.0)"
+      "Drainage": "29.1 (12.0, 48.0)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "6",
-      "mean % (95% CI)": "25.0 (8.3, 43.5)"
+      "Drainage": "25.0 (8.3, 43.5)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "5",
-      "mean % (95% CI)": "21.0 (4.5, 39.1)"
+      "Drainage": "21.0 (4.5, 39.1)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "16.6 (4.0, 33.3)"
+      "Drainage": "16.6 (4.0, 33.3)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "2",
-      "mean % (95% CI)": "8.4 (0.0, 20.8)"
+      "Drainage": "8.4 (0.0, 20.8)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "8.4 (0.0, 20.8)"
+      "Drainage": "8.4 (0.0, 20.8)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "2",
-      "mean % (95% CI)": "8.3 (0.0, 20.8)"
+      "Drainage": "8.3 (0.0, 20.8)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "4.1 (0.0, 13.0)"
+      "Drainage": "4.1 (0.0, 13.0)"
     }
   ],
   "Torso_element_585": [
@@ -3700,31 +3700,31 @@
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "nan (100, 100)"
+      "Drainage": "nan (100, 100)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     }
   ],
   "Torso_element_586": [
@@ -3732,43 +3732,43 @@
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "4",
-      "mean % (95% CI)": "40.0 (10, 70.0)"
+      "Drainage": "40.0 (10, 70.0)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "3",
-      "mean % (95% CI)": "30.1 (0, 60.0)"
+      "Drainage": "30.1 (0, 60.0)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "20.0 (0, 45.5)"
+      "Drainage": "20.0 (0, 45.5)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "19.9 (0, 45.5)"
+      "Drainage": "19.9 (0, 45.5)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "1",
-      "mean % (95% CI)": "10.0 (0, 30.0)"
+      "Drainage": "10.0 (0, 30.0)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "9.9 (0, 30.0)"
+      "Drainage": "9.9 (0, 30.0)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "9.9 (0, 33.3)"
+      "Drainage": "9.9 (0, 33.3)"
     }
   ],
   "Torso_element_587": [
@@ -3776,25 +3776,25 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "39.9 (10, 70.0)"
+      "Drainage": "39.9 (10, 70.0)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "3",
-      "mean % (95% CI)": "29.9 (0, 60.0)"
+      "Drainage": "29.9 (0, 60.0)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "20.2 (0, 50.0)"
+      "Drainage": "20.2 (0, 50.0)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "20.0 (0, 45.5)"
+      "Drainage": "20.0 (0, 45.5)"
     }
   ],
   "Torso_element_588": [
@@ -3802,25 +3802,25 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "12",
-      "mean % (95% CI)": "52.0 (31.8, 72.7)"
+      "Drainage": "52.0 (31.8, 72.7)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "17.3 (4.2, 33.3)"
+      "Drainage": "17.3 (4.2, 33.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "3",
-      "mean % (95% CI)": "13.1 (0.0, 29.2)"
+      "Drainage": "13.1 (0.0, 29.2)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "4.4 (0.0, 13.6)"
+      "Drainage": "4.4 (0.0, 13.6)"
     }
   ],
   "Torso_element_589": [
@@ -3828,49 +3828,49 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "33",
-      "mean % (95% CI)": "25.6 (18.3, 33.3)"
+      "Drainage": "25.6 (18.3, 33.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "11",
-      "mean % (95% CI)": "8.5 (3.9, 13.8)"
+      "Drainage": "8.5 (3.9, 13.8)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "4",
-      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+      "Drainage": "3.1 (0.8, 6.2)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "2",
-      "mean % (95% CI)": "1.6 (0.0, 3.9)"
+      "Drainage": "1.6 (0.0, 3.9)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "1.6 (0.0, 3.9)"
+      "Drainage": "1.6 (0.0, 3.9)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.8 (0.0, 2.3)"
+      "Drainage": "0.8 (0.0, 2.3)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "0.8 (0.0, 2.3)"
+      "Drainage": "0.8 (0.0, 2.3)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "0.8 (0.0, 2.3)"
+      "Drainage": "0.8 (0.0, 2.3)"
     }
   ],
   "Torso_element_590": [
@@ -3878,19 +3878,19 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "11.9 (0.0, 29.4)"
+      "Drainage": "11.9 (0.0, 29.4)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "11.7 (0.0, 29.4)"
+      "Drainage": "11.7 (0.0, 29.4)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "1",
-      "mean % (95% CI)": "5.9 (0.0, 18.8)"
+      "Drainage": "5.9 (0.0, 18.8)"
     }
   ],
   "Torso_element_591": [
@@ -3898,61 +3898,61 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "60",
-      "mean % (95% CI)": "28.2 (22.3, 34.3)"
+      "Drainage": "28.2 (22.3, 34.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "36",
-      "mean % (95% CI)": "16.9 (12.1, 22.1)"
+      "Drainage": "16.9 (12.1, 22.1)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "14",
-      "mean % (95% CI)": "6.6 (3.3, 9.9)"
+      "Drainage": "6.6 (3.3, 9.9)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "13",
-      "mean % (95% CI)": "6.1 (3.3, 9.4)"
+      "Drainage": "6.1 (3.3, 9.4)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "1.4 (0.0, 3.3)"
+      "Drainage": "1.4 (0.0, 3.3)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     }
   ],
   "Torso_element_592": [
@@ -3960,85 +3960,85 @@
       "code": "lc5",
       "name": "left cervical level v",
       "count": "101",
-      "mean % (95% CI)": "34.5 (29.1, 39.9)"
+      "Drainage": "34.5 (29.1, 39.9)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "54",
-      "mean % (95% CI)": "18.5 (14.3, 23.2)"
+      "Drainage": "18.5 (14.3, 23.2)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "29",
-      "mean % (95% CI)": "9.9 (6.5, 13.7)"
+      "Drainage": "9.9 (6.5, 13.7)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "28",
-      "mean % (95% CI)": "9.6 (6.2, 13.0)"
+      "Drainage": "9.6 (6.2, 13.0)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "19",
-      "mean % (95% CI)": "6.5 (3.8, 9.6)"
+      "Drainage": "6.5 (3.8, 9.6)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "18",
-      "mean % (95% CI)": "6.2 (3.4, 8.9)"
+      "Drainage": "6.2 (3.4, 8.9)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "7",
-      "mean % (95% CI)": "2.4 (0.7, 4.1)"
+      "Drainage": "2.4 (0.7, 4.1)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "6",
-      "mean % (95% CI)": "2.1 (0.7, 3.8)"
+      "Drainage": "2.1 (0.7, 3.8)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "6",
-      "mean % (95% CI)": "2.1 (0.7, 3.8)"
+      "Drainage": "2.1 (0.7, 3.8)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "1.0 (0.0, 2.4)"
+      "Drainage": "1.0 (0.0, 2.4)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "2",
-      "mean % (95% CI)": "0.7 (0.0, 1.7)"
+      "Drainage": "0.7 (0.0, 1.7)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "1",
-      "mean % (95% CI)": "0.3 (0.0, 1.0)"
+      "Drainage": "0.3 (0.0, 1.0)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "0.3 (0.0, 1.0)"
+      "Drainage": "0.3 (0.0, 1.0)"
     },
     {
       "code": "lposta",
       "name": "left postauricular",
       "count": "1",
-      "mean % (95% CI)": "0.3 (0.0, 1.0)"
+      "Drainage": "0.3 (0.0, 1.0)"
     }
   ],
   "Torso_element_593": [
@@ -4046,103 +4046,103 @@
       "code": "rc5",
       "name": "right cervical level v",
       "count": "97",
-      "mean % (95% CI)": "35.0 (29.5, 40.8)"
+      "Drainage": "35.0 (29.5, 40.8)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "42",
-      "mean % (95% CI)": "15.2 (11.2, 19.5)"
+      "Drainage": "15.2 (11.2, 19.5)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "42",
-      "mean % (95% CI)": "15.2 (11.2, 19.6)"
+      "Drainage": "15.2 (11.2, 19.6)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "42",
-      "mean % (95% CI)": "15.2 (11.2, 19.5)"
+      "Drainage": "15.2 (11.2, 19.5)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "17",
-      "mean % (95% CI)": "6.1 (3.6, 9.1)"
+      "Drainage": "6.1 (3.6, 9.1)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "7",
-      "mean % (95% CI)": "2.5 (0.7, 4.7)"
+      "Drainage": "2.5 (0.7, 4.7)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "7",
-      "mean % (95% CI)": "2.5 (0.7, 4.4)"
+      "Drainage": "2.5 (0.7, 4.4)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "7",
-      "mean % (95% CI)": "2.5 (0.7, 4.3)"
+      "Drainage": "2.5 (0.7, 4.3)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "5",
-      "mean % (95% CI)": "1.8 (0.4, 3.6)"
+      "Drainage": "1.8 (0.4, 3.6)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "4",
-      "mean % (95% CI)": "1.4 (0.4, 2.9)"
+      "Drainage": "1.4 (0.4, 2.9)"
     },
     {
       "code": "ro",
       "name": "right occipital",
       "count": "4",
-      "mean % (95% CI)": "1.4 (0.4, 2.9)"
+      "Drainage": "1.4 (0.4, 2.9)"
     },
     {
       "code": "lo",
       "name": "left occipital",
       "count": "2",
-      "mean % (95% CI)": "0.7 (0.0, 1.8)"
+      "Drainage": "0.7 (0.0, 1.8)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "2",
-      "mean % (95% CI)": "0.7 (0.0, 1.8)"
+      "Drainage": "0.7 (0.0, 1.8)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "0.7 (0.0, 1.8)"
+      "Drainage": "0.7 (0.0, 1.8)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.1)"
+      "Drainage": "0.4 (0.0, 1.1)"
     },
     {
       "code": "rposta",
       "name": "right postauricular",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.1)"
+      "Drainage": "0.4 (0.0, 1.1)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.1)"
+      "Drainage": "0.4 (0.0, 1.1)"
     }
   ],
   "Torso_element_594": [
@@ -4150,43 +4150,43 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "27",
-      "mean % (95% CI)": "23.7 (16.1, 31.6)"
+      "Drainage": "23.7 (16.1, 31.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "18",
-      "mean % (95% CI)": "15.8 (9.6, 22.8)"
+      "Drainage": "15.8 (9.6, 22.8)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "5",
-      "mean % (95% CI)": "4.4 (0.9, 8.7)"
+      "Drainage": "4.4 (0.9, 8.7)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "2.6 (0.0, 6.1)"
+      "Drainage": "2.6 (0.0, 6.1)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.7)"
+      "Drainage": "0.9 (0.0, 2.7)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.7)"
+      "Drainage": "0.9 (0.0, 2.7)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.9 (0.0, 2.7)"
+      "Drainage": "0.9 (0.0, 2.7)"
     }
   ],
   "Torso_element_595": [
@@ -4194,19 +4194,19 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "8",
-      "mean % (95% CI)": "24.3 (9.7, 39.4)"
+      "Drainage": "24.3 (9.7, 39.4)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "4",
-      "mean % (95% CI)": "12.0 (2.9, 24.2)"
+      "Drainage": "12.0 (2.9, 24.2)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "2",
-      "mean % (95% CI)": "6.1 (0.0, 15.2)"
+      "Drainage": "6.1 (0.0, 15.2)"
     }
   ],
   "Torso_element_596": [
@@ -4214,19 +4214,19 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "12",
-      "mean % (95% CI)": "15.4 (7.7, 24.1)"
+      "Drainage": "15.4 (7.7, 24.1)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "5",
-      "mean % (95% CI)": "6.4 (1.3, 12.7)"
+      "Drainage": "6.4 (1.3, 12.7)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "3",
-      "mean % (95% CI)": "3.8 (0.0, 8.9)"
+      "Drainage": "3.8 (0.0, 8.9)"
     }
   ],
   "Torso_element_597": [
@@ -4234,43 +4234,43 @@
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "6",
-      "mean % (95% CI)": "22.3 (7.4, 38.5)"
+      "Drainage": "22.3 (7.4, 38.5)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "2",
-      "mean % (95% CI)": "7.4 (0.0, 18.5)"
+      "Drainage": "7.4 (0.0, 18.5)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "2",
-      "mean % (95% CI)": "7.3 (0.0, 18.5)"
+      "Drainage": "7.3 (0.0, 18.5)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "3.8 (0.0, 11.5)"
+      "Drainage": "3.8 (0.0, 11.5)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "3.7 (0.0, 11.5)"
+      "Drainage": "3.7 (0.0, 11.5)"
     }
   ],
   "Torso_element_598": [
@@ -4278,55 +4278,55 @@
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "11",
-      "mean % (95% CI)": "50.2 (30.0, 71.4)"
+      "Drainage": "50.2 (30.0, 71.4)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "8",
-      "mean % (95% CI)": "36.4 (17.4, 56.5)"
+      "Drainage": "36.4 (17.4, 56.5)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "7",
-      "mean % (95% CI)": "31.8 (13.6, 52.2)"
+      "Drainage": "31.8 (13.6, 52.2)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "4",
-      "mean % (95% CI)": "18.1 (4.3, 35.0)"
+      "Drainage": "18.1 (4.3, 35.0)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "9.0 (0.0, 22.7)"
+      "Drainage": "9.0 (0.0, 22.7)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "2",
-      "mean % (95% CI)": "9.0 (0.0, 22.7)"
+      "Drainage": "9.0 (0.0, 22.7)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "4.6 (0.0, 14.3)"
+      "Drainage": "4.6 (0.0, 14.3)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "4.6 (0.0, 14.3)"
+      "Drainage": "4.6 (0.0, 14.3)"
     },
     {
       "code": "rc1",
       "name": "right cervical level i",
       "count": "1",
-      "mean % (95% CI)": "4.5 (0.0, 14.3)"
+      "Drainage": "4.5 (0.0, 14.3)"
     }
   ],
   "Torso_element_599": [
@@ -4334,49 +4334,49 @@
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "33.5 (0, 71.4)"
+      "Drainage": "33.5 (0, 71.4)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "33.4 (0, 75.0)"
+      "Drainage": "33.4 (0, 75.0)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "33.2 (0, 71.4)"
+      "Drainage": "33.2 (0, 71.4)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "32.9 (0, 71.4)"
+      "Drainage": "32.9 (0, 71.4)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "17.0 (0, 50.0)"
+      "Drainage": "17.0 (0, 50.0)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "16.7 (0, 50.0)"
+      "Drainage": "16.7 (0, 50.0)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "16.6 (0, 50.0)"
+      "Drainage": "16.6 (0, 50.0)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "16.5 (0, 50.0)"
+      "Drainage": "16.5 (0, 50.0)"
     }
   ],
   "Torso_element_600": [
@@ -4384,43 +4384,43 @@
       "code": "lc1",
       "name": "left cervical level i",
       "count": "1",
-      "mean % (95% CI)": "25.2 (0, 75)"
+      "Drainage": "25.2 (0, 75)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 75)"
+      "Drainage": "nan (0, 75)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "nan (0, 75)"
+      "Drainage": "nan (0, 75)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "2",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     },
     {
       "code": "lc2",
       "name": "left cervical level ii",
       "count": "2",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "2",
-      "mean % (95% CI)": "nan (0, 100)"
+      "Drainage": "nan (0, 100)"
     }
   ],
   "Torso_element_601": [
@@ -4428,73 +4428,73 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "13",
-      "mean % (95% CI)": "18.4 (9.9, 27.8)"
+      "Drainage": "18.4 (9.9, 27.8)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "8",
-      "mean % (95% CI)": "11.3 (4.2, 19.4)"
+      "Drainage": "11.3 (4.2, 19.4)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "7",
-      "mean % (95% CI)": "9.8 (2.9, 17.1)"
+      "Drainage": "9.8 (2.9, 17.1)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "5",
-      "mean % (95% CI)": "7.0 (1.4, 13.9)"
+      "Drainage": "7.0 (1.4, 13.9)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "5",
-      "mean % (95% CI)": "7.0 (1.4, 13.9)"
+      "Drainage": "7.0 (1.4, 13.9)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "4.2 (0.0, 9.7)"
+      "Drainage": "4.2 (0.0, 9.7)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "3",
-      "mean % (95% CI)": "4.2 (0.0, 9.7)"
+      "Drainage": "4.2 (0.0, 9.7)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     },
     {
       "code": "inc",
       "name": "intercostal",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     },
     {
       "code": "lim",
       "name": "left internal mammary",
       "count": "1",
-      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+      "Drainage": "1.4 (0.0, 4.3)"
     }
   ],
   "Torso_element_602": [
@@ -4502,19 +4502,19 @@
       "code": "in",
       "name": "interval node",
       "count": "3",
-      "mean % (95% CI)": "8.4 (0.0, 18.9)"
+      "Drainage": "8.4 (0.0, 18.9)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "5.6 (0.0, 13.9)"
+      "Drainage": "5.6 (0.0, 13.9)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "2.7 (0.0, 8.6)"
+      "Drainage": "2.7 (0.0, 8.6)"
     }
   ],
   "Torso_element_603": [
@@ -4522,7 +4522,7 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "10.3 (0.0, 33.3)"
+      "Drainage": "10.3 (0.0, 33.3)"
     }
   ],
   "Torso_element_604": [
@@ -4530,49 +4530,49 @@
       "code": "ltis",
       "name": "left tis",
       "count": "29",
-      "mean % (95% CI)": "8.8 (5.8, 12.1)"
+      "Drainage": "8.8 (5.8, 12.1)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "24",
-      "mean % (95% CI)": "7.3 (4.5, 10.3)"
+      "Drainage": "7.3 (4.5, 10.3)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "19",
-      "mean % (95% CI)": "5.8 (3.3, 8.5)"
+      "Drainage": "5.8 (3.3, 8.5)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "9",
-      "mean % (95% CI)": "2.7 (1.2, 4.5)"
+      "Drainage": "2.7 (1.2, 4.5)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "6",
-      "mean % (95% CI)": "1.8 (0.6, 3.3)"
+      "Drainage": "1.8 (0.6, 3.3)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "1.2 (0.3, 2.4)"
+      "Drainage": "1.2 (0.3, 2.4)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "1",
-      "mean % (95% CI)": "0.3 (0.0, 0.9)"
+      "Drainage": "0.3 (0.0, 0.9)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "1",
-      "mean % (95% CI)": "0.3 (0.0, 0.9)"
+      "Drainage": "0.3 (0.0, 0.9)"
     }
   ],
   "Torso_element_605": [
@@ -4580,43 +4580,43 @@
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "36",
-      "mean % (95% CI)": "14.2 (10.2, 18.5)"
+      "Drainage": "14.2 (10.2, 18.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "19",
-      "mean % (95% CI)": "7.4 (4.3, 10.7)"
+      "Drainage": "7.4 (4.3, 10.7)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "15",
-      "mean % (95% CI)": "5.9 (3.1, 9.0)"
+      "Drainage": "5.9 (3.1, 9.0)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "10",
-      "mean % (95% CI)": "3.9 (1.6, 6.3)"
+      "Drainage": "3.9 (1.6, 6.3)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "5",
-      "mean % (95% CI)": "2.0 (0.4, 3.9)"
+      "Drainage": "2.0 (0.4, 3.9)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "0.8 (0.0, 2.0)"
+      "Drainage": "0.8 (0.0, 2.0)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.2)"
+      "Drainage": "0.4 (0.0, 1.2)"
     }
   ],
   "Torso_element_606": [
@@ -4624,55 +4624,55 @@
       "code": "ltis",
       "name": "left tis",
       "count": "29",
-      "mean % (95% CI)": "13.1 (9.0, 17.6)"
+      "Drainage": "13.1 (9.0, 17.6)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "15",
-      "mean % (95% CI)": "6.8 (3.6, 10.4)"
+      "Drainage": "6.8 (3.6, 10.4)"
     },
     {
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "13",
-      "mean % (95% CI)": "5.9 (3.2, 9.0)"
+      "Drainage": "5.9 (3.2, 9.0)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "12",
-      "mean % (95% CI)": "5.4 (2.7, 8.6)"
+      "Drainage": "5.4 (2.7, 8.6)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "9",
-      "mean % (95% CI)": "4.1 (1.8, 6.8)"
+      "Drainage": "4.1 (1.8, 6.8)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "1.8 (0.5, 3.6)"
+      "Drainage": "1.8 (0.5, 3.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "2",
-      "mean % (95% CI)": "0.9 (0.0, 2.3)"
+      "Drainage": "0.9 (0.0, 2.3)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+      "Drainage": "0.5 (0.0, 1.4)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.4)"
+      "Drainage": "0.4 (0.0, 1.4)"
     }
   ],
   "Torso_element_607": [
@@ -4680,61 +4680,61 @@
       "code": "rtis",
       "name": "right right triangular intermuscular space ",
       "count": "33",
-      "mean % (95% CI)": "13.9 (9.7, 18.5)"
+      "Drainage": "13.9 (9.7, 18.5)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "16",
-      "mean % (95% CI)": "6.7 (3.8, 10.1)"
+      "Drainage": "6.7 (3.8, 10.1)"
     },
     {
       "code": "ltis",
       "name": "left tis",
       "count": "14",
-      "mean % (95% CI)": "5.9 (3.0, 8.9)"
+      "Drainage": "5.9 (3.0, 8.9)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "11",
-      "mean % (95% CI)": "4.7 (2.1, 7.6)"
+      "Drainage": "4.7 (2.1, 7.6)"
     },
     {
       "code": "rc5",
       "name": "right cervical level v",
       "count": "6",
-      "mean % (95% CI)": "2.5 (0.8, 4.7)"
+      "Drainage": "2.5 (0.8, 4.7)"
     },
     {
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "4",
-      "mean % (95% CI)": "1.7 (0.4, 3.4)"
+      "Drainage": "1.7 (0.4, 3.4)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "3",
-      "mean % (95% CI)": "1.3 (0.0, 2.9)"
+      "Drainage": "1.3 (0.0, 2.9)"
     },
     {
       "code": "pv",
       "name": "paravertebral",
       "count": "2",
-      "mean % (95% CI)": "0.8 (0.0, 2.1)"
+      "Drainage": "0.8 (0.0, 2.1)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "2",
-      "mean % (95% CI)": "0.8 (0.0, 2.1)"
+      "Drainage": "0.8 (0.0, 2.1)"
     },
     {
       "code": "rp",
       "name": "retroperitoneal",
       "count": "1",
-      "mean % (95% CI)": "0.4 (0.0, 1.3)"
+      "Drainage": "0.4 (0.0, 1.3)"
     }
   ],
   "Torso_element_608": [
@@ -4742,7 +4742,7 @@
       "code": "rim",
       "name": "right internal mammary",
       "count": "2",
-      "mean % (95% CI)": "10.4 (0, 26.3)"
+      "Drainage": "10.4 (0, 26.3)"
     }
   ],
   "Torso_element_609": [
@@ -4750,31 +4750,31 @@
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "4.9 (0.0, 12.2)"
+      "Drainage": "4.9 (0.0, 12.2)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "2",
-      "mean % (95% CI)": "4.9 (0.0, 12.2)"
+      "Drainage": "4.9 (0.0, 12.2)"
     },
     {
       "code": "sm",
       "name": "submental",
       "count": "1",
-      "mean % (95% CI)": "2.5 (0.0, 7.5)"
+      "Drainage": "2.5 (0.0, 7.5)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     },
     {
       "code": "lc4",
       "name": "left cervical level iv",
       "count": "1",
-      "mean % (95% CI)": "2.4 (0.0, 7.5)"
+      "Drainage": "2.4 (0.0, 7.5)"
     }
   ],
   "Torso_element_610": [
@@ -4782,61 +4782,61 @@
       "code": "lsc",
       "name": "left supraclavicular fossa",
       "count": "9",
-      "mean % (95% CI)": "15.8 (7.0, 25.9)"
+      "Drainage": "15.8 (7.0, 25.9)"
     },
     {
       "code": "rsc",
       "name": "right supraclavicular fossa",
       "count": "7",
-      "mean % (95% CI)": "12.3 (5.2, 21.1)"
+      "Drainage": "12.3 (5.2, 21.1)"
     },
     {
       "code": "rc4",
       "name": "right cervical level iv",
       "count": "2",
-      "mean % (95% CI)": "3.5 (0.0, 8.8)"
+      "Drainage": "3.5 (0.0, 8.8)"
     },
     {
       "code": "in",
       "name": "interval node",
       "count": "2",
-      "mean % (95% CI)": "3.5 (0.0, 8.8)"
+      "Drainage": "3.5 (0.0, 8.8)"
     },
     {
       "code": "rc2",
       "name": "right cervical level ii",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.4)"
+      "Drainage": "1.8 (0.0, 5.4)"
     },
     {
       "code": "rc3",
       "name": "right cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.4)"
+      "Drainage": "1.8 (0.0, 5.4)"
     },
     {
       "code": "lc3",
       "name": "left cervical level iii",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.4)"
+      "Drainage": "1.8 (0.0, 5.4)"
     },
     {
       "code": "lc5",
       "name": "left cervical level v",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.4)"
+      "Drainage": "1.8 (0.0, 5.4)"
     },
     {
       "code": "lic",
       "name": "left infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "1.8 (0.0, 5.4)"
+      "Drainage": "1.8 (0.0, 5.4)"
     },
     {
       "code": "ric",
       "name": "right infraclavicular",
       "count": "1",
-      "mean % (95% CI)": "1.7 (0.0, 5.4)"
+      "Drainage": "1.7 (0.0, 5.4)"
     }
   ]
 }

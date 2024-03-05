@@ -13,7 +13,7 @@
                                 <th class="right-align">Code</th>
                                 <th>Nodefield</th>
                                 <th class="right-align"># Cases</th>
-                                <th class="right-align">Drainage Statistics</th>
+                                <th class="right-align">Drainage</th>
                             </thead>
                             <tbody>
                                 <tr v-for="elm in selectedElmData" v-bind:key="elm.id">

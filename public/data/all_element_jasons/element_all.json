@@ -3087,7 +3087,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Grouped_Head_regions/eye_L_2.json"
+    "URL": "eye_L_2.json"
   },
 
   {
@@ -3096,7 +3096,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Grouped_Head_regions/eye_R_2.json"
+    "URL": "eye_R_2.json"
   },
   {
     "GroupName": "Lip Left",

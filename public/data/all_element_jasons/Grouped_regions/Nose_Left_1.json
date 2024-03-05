@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "nose_left",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Nose_Left_2.json"
+   }
+]

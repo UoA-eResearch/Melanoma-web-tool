@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Hand_posterior_L",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Hand_Left_2.json"
+   }
+]

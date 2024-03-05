@@ -166,40 +166,40 @@ td {
     text-align: right;
 }
 
-.sidebar {
-    position: fixed;
-    right: 0;
-    top: 50px;
-    width: 20%;
-    height: 60%;
-    overflow: auto;
-    background-color: #f5f5f5;
-    padding: 20px;
-    box-sizing: border-box;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(100%);
-    border: 2px solid #007BFF; /* Add a border */
-    border-radius: 10px; /* Rounded corners */
-}
+    .sidebar {
+        position: fixed;
+        right: 0;
+        top: 50px;
+        width: 40%;
+        height: 80%;
+        overflow: auto;
+        background-color: #f5f5f5;
+        padding: 20px;
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out;
+        transform: translateX(100%);
+        border: 2px solid #00ff00; /* Add a border */
+        border-radius: 10px; /* Rounded corners */
+    }
 
 .sidebar.show {
     transform: translateX(0);
 }
 
-.sidebar h3 {
-    color: #007BFF; /* Change the color of the header */
-    border-bottom: 1px solid #007BFF; /* Add a bottom border to the header */
-    padding-bottom: 10px; /* Add some padding to the bottom of the header */
-}
+        .sidebar h3 {
+            color: #00ff00; /* Change the color of the header */
+            border-bottom: 1px solid #007BFF; /* Add a bottom border to the header */
+            padding-bottom: 10px; /* Add some padding to the bottom of the header */
+        }
 
-.sidebar button {
-    background-color: #007BFF; /* Change the background color of the button */
-    color: #fff; /* Change the text color of the button */
-    border: none; /* Remove the border of the button */
-    padding: 10px 20px; /* Add some padding to the button */
-    border-radius: 5px; /* Rounded corners for the button */
-    cursor: pointer; /* Change the cursor when hovering over the button */
-}
+        .sidebar button {
+            background-color: #00ff00; /* Change the background color of the button */
+            color: #fff; /* Change the text color of the button */
+            border: none; /* Remove the border of the button */
+            padding: 10px 20px; /* Add some padding to the button */
+            border-radius: 5px; /* Rounded corners for the button */
+            cursor: pointer; /* Change the cursor when hovering over the button */
+        }
 
 .sidebar button:hover {
     background-color: #0056b3; /* Change the background color of the button when hovering */
@@ -215,10 +215,10 @@ td {
     text-align: left; /* Align the text to the left */
 }
 
-.sidebar th {
-    background-color: #007BFF; /* Change the background color of the header cells */
-    color: #fff; /* Change the text color of the header cells */
-}
+        .sidebar th {
+            background-color: #00ff00; /* Change the background color of the header cells */
+            color: #fff; /* Change the text color of the header cells */
+        }
 .sidebar tr:hover {
     background-color: #53e45f; /* Add a background color to the table rows when hovering */
 }

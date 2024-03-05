@@ -3044,7 +3044,6 @@
   },
 
 
-
   {
     "GroupName": "Chin Left",
     "MorphColours": false,
@@ -3162,6 +3161,15 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
+    "URL": "Head/Grouped_regions/Neck_antterior_L_1.json"
+  },
+
+  {
+    "GroupName": "Anterior Neck Left",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
     "URL": "Head/Grouped_regions/Neck_antterior_L_2.json"
   },
   {
@@ -3240,50 +3248,7 @@
     "URL": "Lines_brown_1.json"
   },
 
-  {
-    "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
-    "GroupName": "Nodes_Fields",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "DisplayLabels": true,
-    "Type": "Glyph",
-    "URL": "Nodes/all_nodes_labels_2.json"
-  },
-
-  {
-    "GroupName": "Node Fields2",
-    "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "Torso_element_254",
-    "Type": "Glyph",
-    "URL": "Torso/254_1.json"
-  },
-
-
-
-  {
-    "GroupName": "Lines",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "Lines_brown_2.json"
-  },
-  {
-    "GroupName": "Lines",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "Lines_brown_1.json"
-  },
-
-
+  
   {
     "GroupName": "Node Fields2",
     "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",

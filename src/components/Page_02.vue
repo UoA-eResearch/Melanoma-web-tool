@@ -60,9 +60,7 @@ alert("");
       }
 
     },
-    ScaffoldSelected: function (annotation) {
-      this.selected = annotation[0].data.id;
-    },
+   
     AddModel: function () {
       if (this.scaffoldsArray.length)
         this.displays.push(this.scaffoldsArray.shift());

@@ -24,7 +24,7 @@ export default {
       selected: "Not Selected",
       displays: [
           { type: 'scaffold', url: "/data/heat_maps.json", ref: "Heat Maps" },
-          { type: 'scaffold', url: "/data/heat_maps_number_of_draining_nfs.json", ref: "Number of Draining NF eat Maps" },
+          { type: 'scaffold', url: "/data/heat_maps_number_of_draining_nfs.json", ref: "Number of Draining NF Heat Maps" },
         { type: 'scaffold', url: "/data/model2_metadata.json", ref: "Discrete Points" },
         
        

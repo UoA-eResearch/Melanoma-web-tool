@@ -1,6 +1,6 @@
 [
   {
-    "GroupName": "One Draining Node Fields",
+    "GroupName": "1 Draining Node Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -8,7 +8,7 @@
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/One draining Node field.json"
   },
   {
-    "GroupName": "Two Or More Draining Node Fields",
+    "GroupName": "1 Or More Draining Node Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -16,7 +16,7 @@
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/2_NFs_normalised_1.json"
   },
   {
-    "GroupName": "Three Or More Draining Node Fields",
+    "GroupName": "3 Or More Draining Node Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -24,7 +24,7 @@
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/3_NFs_normalised_1.json"
   },
   {
-    "GroupName": "Four Or More Draining Node Fields",
+    "GroupName": "4 Or More Draining Node Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

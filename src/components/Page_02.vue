@@ -23,7 +23,8 @@ export default {
       tabPosition: 'left',
       selected: "Not Selected",
       displays: [
-        { type: 'scaffold', url: "/data/skin_cancer_metadata_la.json", ref: "Heat Maps" },
+          { type: 'scaffold', url: "/data/heat_maps.json", ref: "Heat Maps" },
+          { type: 'scaffold', url: "/data/heat_maps_number_of_draining_nfs.json", ref: "Number of Draining NF eat Maps" },
         { type: 'scaffold', url: "/data/model2_metadata.json", ref: "Discrete Points" },
         
        

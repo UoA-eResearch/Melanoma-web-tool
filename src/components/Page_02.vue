@@ -38,15 +38,7 @@ export default {
   },
   methods: {
     
-onSelected: function(data) {
-console.log(data)
-// This will return you the group - data[0].data.group
 
-alert("");
-
-
-
-},
 
     RemoveModel: function () {
       var currentLength = this.displays.length;
@@ -60,7 +52,9 @@ alert("");
       }
 
     },
-   
+    ScaffoldSelected: function (annotation) {
+      this.selected = annotation[0].data.id;
+    },
     AddModel: function () {
       if (this.scaffoldsArray.length)
         this.displays.push(this.scaffoldsArray.shift());

@@ -4889,2396 +4889,7 @@
       "count": "19",
       "mean % (95% CI)": "7.4 (4.3, 10.7)"
     },
-    "Arm Left",
-    :,
-    [
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "786",
-        "mean % (95% CI)": "92.8 (91.0, 94.6)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "41",
-        "mean % (95% CI)": "4.8 (3.4, 6.4)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "11",
-        "mean % (95% CI)": "1.3 (0.6, 2.1)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "11",
-        "mean % (95% CI)": "1.3 (0.6, 2.2)"
-      },
-      {
-        "code": "lepit",
-        "name": "left epitrochlear",
-        "count": "10",
-        "mean % (95% CI)": "1.2 (0.5, 2.0)"
-      },
-      {
-        "code": "lic",
-        "name": "left infraclavicular",
-        "count": "5",
-        "mean % (95% CI)": "0.6 (0.1, 1.2)"
-      },
-      {
-        "code": "lip",
-        "name": "left interpectoral",
-        "count": "4",
-        "mean % (95% CI)": "0.5 (0.1, 0.9)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "2",
-        "mean % (95% CI)": "0.2 (0.0, 0.6)"
-      },
-      {
-        "code": "ltis",
-        "name": "left tis",
-        "count": "2",
-        "mean % (95% CI)": "0.2 (0.0, 0.6)"
-      },
-      {
-        "code": "lim",
-        "name": "left internal mammary",
-        "count": "2",
-        "mean % (95% CI)": "0.2 (0.0, 0.7)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "1",
-        "mean % (95% CI)": "0.1 (0.0, 0.4)"
-      }
-    ],
-    "Arm Right",
-    :,
-    [
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "663",
-        "mean % (95% CI)": "92.5 (90.5, 94.3)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "25",
-        "mean % (95% CI)": "3.5 (2.2, 4.9)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "12",
-        "mean % (95% CI)": "1.7 (0.8, 2.6)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "6",
-        "mean % (95% CI)": "0.8 (0.3, 1.5)"
-      },
-      {
-        "code": "repit",
-        "name": "right epitrochlear",
-        "count": "5",
-        "mean % (95% CI)": "0.7 (0.1, 1.4)"
-      },
-      {
-        "code": "ric",
-        "name": "right infraclavicular",
-        "count": "5",
-        "mean % (95% CI)": "0.7 (0.1, 1.4)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "2",
-        "mean % (95% CI)": "0.3 (0.0, 0.7)"
-      },
-      {
-        "code": "rtis",
-        "name": "right right triangular intermuscular space (tis)",
-        "count": "2",
-        "mean % (95% CI)": "0.3 (0.0, 0.7)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "2",
-        "mean % (95% CI)": "0.3 (0.0, 0.7)"
-      },
-      {
-        "code": "rip",
-        "name": "right interpectoral",
-        "count": "1",
-        "mean % (95% CI)": "0.1 (0.0, 0.4)"
-      }
-    ],
-    "Foot Left",
-    :,
-    [
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "295",
-        "mean % (95% CI)": "94.9 (92.3, 97.1)"
-      },
-      {
-        "code": "lpop",
-        "name": "left popliteal",
-        "count": "58",
-        "mean % (95% CI)": "18.7 (14.5, 23.2)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "3",
-        "mean % (95% CI)": "1.0 (0.0, 2.2)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "1",
-        "mean % (95% CI)": "0.3 (0.0, 1.0)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "1",
-        "mean % (95% CI)": "0.3 (0.0, 1.0)"
-      }
-    ],
-    "Foot Right",
-    :,
-    [
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "291",
-        "mean % (95% CI)": "93.0 (90.1, 95.8)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "69",
-        "mean % (95% CI)": "22.1 (17.6, 26.7)"
-      },
-      {
-        "code": "rpop",
-        "name": "right popliteal",
-        "count": "69",
-        "mean % (95% CI)": "22.0 (17.5, 26.8)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "3",
-        "mean % (95% CI)": "1.0 (0.0, 2.2)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "0.3 (0.0, 1.0)"
-      }
-    ],
-    "Lower Leg Left",
-    :,
-    [
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "996",
-        "mean % (95% CI)": "94.0 (92.4, 95.5)"
-      },
-      {
-        "code": "lpop",
-        "name": "left popliteal",
-        "count": "93",
-        "mean % (95% CI)": "8.8 (7.0, 10.5)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "13",
-        "mean % (95% CI)": "1.2 (0.7, 1.9)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "5",
-        "mean % (95% CI)": "0.5 (0.1, 1.0)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "1",
-        "mean % (95% CI)": "0.1 (0.0, 0.3)"
-      },
-      {
-        "code": "rpop",
-        "name": "right popliteal",
-        "count": "1",
-        "mean % (95% CI)": "0.1 (0.0, 0.3)"
-      }
-    ],
-    "Lower Leg Right",
-    :,
-    [
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "869",
-        "mean % (95% CI)": "93.6 (92.0, 95.2)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "87",
-        "mean % (95% CI)": "9.4 (7.5, 11.4)"
-      },
-      {
-        "code": "rpop",
-        "name": "right popliteal",
-        "count": "87",
-        "mean % (95% CI)": "9.4 (7.5, 11.3)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "5",
-        "mean % (95% CI)": "0.5 (0.1, 1.1)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "4",
-        "mean % (95% CI)": "0.4 (0.1, 0.9)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "1",
-        "mean % (95% CI)": "0.1 (0.0, 0.3)"
-      }
-    ],
-    "Thigh Left",
-    :,
-    [
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "610",
-        "mean % (95% CI)": "94.0 (92.0, 95.8)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "7",
-        "mean % (95% CI)": "1.1 (0.3, 2.0)"
-      },
-      {
-        "code": "lpop",
-        "name": "left popliteal",
-        "count": "6",
-        "mean % (95% CI)": "0.9 (0.3, 1.7)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "5",
-        "mean % (95% CI)": "0.8 (0.2, 1.5)"
-      }
-    ],
-    "Thigh Right",
-    :,
-    [
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "551",
-        "mean % (95% CI)": "93.7 (91.7, 95.6)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "3",
-        "mean % (95% CI)": "0.5 (0.0, 1.2)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "3",
-        "mean % (95% CI)": "0.5 (0.0, 1.2)"
-      }
-    ],
-    "Lower Torso Anterior Left",
-    :,
-    [
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "63",
-        "mean % (95% CI)": "90.0 (82.6, 97.1)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "19",
-        "mean % (95% CI)": "27.2 (17.1, 38.0)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "10",
-        "mean % (95% CI)": "14.3 (7.0, 22.9)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "2",
-        "mean % (95% CI)": "2.9 (0.0, 7.1)"
-      }
-    ],
-    "Lower Torso Anterior Right",
-    :,
-    [
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "50",
-        "mean % (95% CI)": "80.7 (70.5, 90.2)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "17",
-        "mean % (95% CI)": "27.6 (16.7, 39.3)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "14",
-        "mean % (95% CI)": "22.7 (12.9, 33.3)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "2",
-        "mean % (95% CI)": "3.2 (0.0, 8.1)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "1.6 (0.0, 4.9)"
-      }
-    ],
-    "Lower Torso Posterior Left",
-    :,
-    [
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "67",
-        "mean % (95% CI)": "88.1 (80.3, 94.7)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "22",
-        "mean % (95% CI)": "28.9 (19.5, 39.2)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "6",
-        "mean % (95% CI)": "7.9 (2.6, 14.5)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "3",
-        "mean % (95% CI)": "4.0 (0.0, 9.1)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "1",
-        "mean % (95% CI)": "1.3 (0.0, 4.0)"
-      }
-    ],
-    "Lower Torso Posterior Right",
-    :,
-    [
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "68",
-        "mean % (95% CI)": "86.1 (78.5, 93.6)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "25",
-        "mean % (95% CI)": "31.7 (21.5, 42.3)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "5",
-        "mean % (95% CI)": "6.4 (1.3, 12.5)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "5",
-        "mean % (95% CI)": "6.3 (1.3, 12.5)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "3",
-        "mean % (95% CI)": "3.8 (0.0, 8.8)"
-      },
-      {
-        "code": "pv",
-        "name": " paravertebral",
-        "count": "1",
-        "mean % (95% CI)": "1.3 (0.0, 3.8)"
-      },
-      {
-        "code": "pv",
-        "name": " paravertebral",
-        "count": "1",
-        "mean % (95% CI)": "1.3 (0.0, 3.8)"
-      }
-    ],
-    "Hand Left",
-    :,
-    [
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "85",
-        "mean % (95% CI)": "98.8 (96.5, 100.0)"
-      },
-      {
-        "code": "lepit",
-        "name": "left epitrochlear",
-        "count": "28",
-        "mean % (95% CI)": "32.5 (23.0, 42.5)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "8",
-        "mean % (95% CI)": "9.3 (3.5, 16.1)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "2",
-        "mean % (95% CI)": "2.3 (0.0, 5.9)"
-      }
-    ],
-    "Hand Right",
-    :,
-    [
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "68",
-        "mean % (95% CI)": "95.8 (90.3, 100.0)"
-      },
-      {
-        "code": "repit",
-        "name": "right epitrochlear",
-        "count": "19",
-        "mean % (95% CI)": "26.8 (16.9, 37.1)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "3",
-        "mean % (95% CI)": "4.2 (0.0, 9.7)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "1.4 (0.0, 4.3)"
-      },
-      {
-        "code": "ric",
-        "name": "right infraclavicular",
-        "count": "1",
-        "mean % (95% CI)": "1.4 (0.0, 4.3)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "1",
-        "mean % (95% CI)": "1.4 (0.0, 4.3)"
-      }
-    ],
-    "Forearm Left",
-    :,
-    [
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "532",
-        "mean % (95% CI)": "93.5 (91.4, 95.4)"
-      },
-      {
-        "code": "lepit",
-        "name": "left epitrochlear",
-        "count": "104",
-        "mean % (95% CI)": "18.3 (15.1, 21.6)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "38",
-        "mean % (95% CI)": "6.7 (4.7, 8.8)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "13",
-        "mean % (95% CI)": "2.3 (1.2, 3.5)"
-      },
-      {
-        "code": "lic",
-        "name": "left infraclavicular",
-        "count": "10",
-        "mean % (95% CI)": "1.8 (0.7, 3.0)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "9",
-        "mean % (95% CI)": "1.6 (0.7, 2.6)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "5",
-        "mean % (95% CI)": "0.9 (0.2, 1.8)"
-      },
-      {
-        "code": "lip",
-        "name": "left interpectoral",
-        "count": "3",
-        "mean % (95% CI)": "0.5 (0.0, 1.2)"
-      },
-      {
-        "code": "repit",
-        "name": "right epitrochlear",
-        "count": "1",
-        "mean % (95% CI)": "0.2 (0.0, 0.5)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "1",
-        "mean % (95% CI)": "0.2 (0.0, 0.5)"
-      },
-      {
-        "code": "ltis",
-        "name": "left tis",
-        "count": "1",
-        "mean % (95% CI)": "0.2 (0.0, 0.5)"
-      }
-    ],
-    "Forearm Right",
-    :,
-    [
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "539",
-        "mean % (95% CI)": "93.6 (91.5, 95.5)"
-      },
-      {
-        "code": "repit",
-        "name": "right epitrochlear",
-        "count": "108",
-        "mean % (95% CI)": "18.8 (15.6, 22.0)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "31",
-        "mean % (95% CI)": "5.4 (3.6, 7.3)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "8",
-        "mean % (95% CI)": "1.4 (0.5, 2.4)"
-      },
-      {
-        "code": "ri",
-        "name": "right groin",
-        "count": "5",
-        "mean % (95% CI)": "0.9 (0.2, 1.7)"
-      },
-      {
-        "code": "ric",
-        "name": "right infraclavicular",
-        "count": "4",
-        "mean % (95% CI)": "0.7 (0.2, 1.4)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "2",
-        "mean % (95% CI)": "0.3 (0.0, 0.9)"
-      },
-      {
-        "code": "rip",
-        "name": "right interpectoral",
-        "count": "1",
-        "mean % (95% CI)": "0.2 (0.0, 0.5)"
-      },
-      {
-        "code": "lepit",
-        "name": "left epitrochlear",
-        "count": "1",
-        "mean % (95% CI)": "0.2 (0.0, 0.5)"
-      }
-    ],
-    "Chin Left",
-    :,
-    [
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "27",
-        "mean % (95% CI)": "67.6 (52.5, 82.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "26",
-        "mean % (95% CI)": "65.0 (50.0, 79.5)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "26",
-        "mean % (95% CI)": "65.0 (50.0, 79.5)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "17",
-        "mean % (95% CI)": "42.5 (26.8, 57.9)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "7",
-        "mean % (95% CI)": "17.5 (7.3, 30.0)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "4",
-        "mean % (95% CI)": "10.0 (2.4, 20.0)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "5.0 (0.0, 12.5)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "2",
-        "mean % (95% CI)": "5.0 (0.0, 12.5)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "5.0 (0.0, 12.5)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "2.5 (0.0, 7.7)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "2.5 (0.0, 7.7)"
-      }
-    ],
-    "Ear Left",
-    :,
-    [
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "190",
-        "mean % (95% CI)": "80.2 (75.0, 85.2)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "62",
-        "mean % (95% CI)": "26.1 (20.7, 31.8)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "37",
-        "mean % (95% CI)": "15.6 (11.0, 20.3)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "9",
-        "mean % (95% CI)": "3.8 (1.7, 6.4)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "8",
-        "mean % (95% CI)": "3.4 (1.3, 5.9)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "2",
-        "mean % (95% CI)": "0.9 (0.0, 2.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "0.8 (0.0, 2.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "0.8 (0.0, 2.1)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "1",
-        "mean % (95% CI)": "0.4 (0.0, 1.3)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "0.4 (0.0, 1.3)"
-      }
-    ],
-    "Eye Left",
-    :,
-    [
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "9",
-        "mean % (95% CI)": "81.9 (55.6, 100.0)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "8",
-        "mean % (95% CI)": "72.8 (45.5, 100.0)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "5",
-        "mean % (95% CI)": "45.5 (16.7, 75.0)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "5",
-        "mean % (95% CI)": "45.5 (16.7, 75.0)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "1",
-        "mean % (95% CI)": "9.1 (0.0, 27.3)"
-      }
-    ],
-    "element_Lip Left",
-    :,
-    [
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "7",
-        "mean % (95% CI)": "87.3 (60.0, 100.0)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "25.1 (0.0, 57.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "25.1 (0.0, 57.1)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "2",
-        "mean % (95% CI)": "25.1 (0.0, 57.1)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "1",
-        "mean % (95% CI)": "12.6 (0.0, 37.5)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "1",
-        "mean % (95% CI)": "12.5 (0.0, 37.5)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "1",
-        "mean % (95% CI)": "12.5 (0.0, 37.5)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "12.3 (0.0, 37.5)"
-      }
-    ],
-    "Nose Left",
-    :,
-    [
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "39",
-        "mean % (95% CI)": "60.9 (49.2, 72.3)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "37",
-        "mean % (95% CI)": "57.8 (45.3, 69.8)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "23",
-        "mean % (95% CI)": "35.9 (24.6, 47.7)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "18",
-        "mean % (95% CI)": "28.1 (17.2, 39.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "18",
-        "mean % (95% CI)": "28.1 (17.2, 39.1)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "14",
-        "mean % (95% CI)": "21.9 (12.3, 32.3)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "8",
-        "mean % (95% CI)": "12.5 (4.7, 21.5)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "5",
-        "mean % (95% CI)": "7.8 (1.6, 15.4)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "4",
-        "mean % (95% CI)": "6.3 (1.5, 12.5)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "4",
-        "mean % (95% CI)": "6.2 (1.5, 12.7)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "4",
-        "mean % (95% CI)": "6.2 (1.5, 12.5)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "1",
-        "mean % (95% CI)": "1.6 (0.0, 4.8)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "1.6 (0.0, 4.8)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "1",
-        "mean % (95% CI)": "1.5 (0.0, 4.8)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "1",
-        "mean % (95% CI)": "1.5 (0.0, 4.8)"
-      }
-    ],
-    "Anterior Neck Left",
-    :,
-    [
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "78",
-        "mean % (95% CI)": "60.5 (51.9, 69.0)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "40",
-        "mean % (95% CI)": "30.9 (23.3, 39.2)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "37",
-        "mean % (95% CI)": "28.7 (20.9, 36.4)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "24",
-        "mean % (95% CI)": "18.6 (12.3, 25.4)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "17",
-        "mean % (95% CI)": "13.2 (7.8, 19.2)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "10",
-        "mean % (95% CI)": "7.7 (3.2, 12.5)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "10",
-        "mean % (95% CI)": "7.7 (3.2, 12.5)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "9",
-        "mean % (95% CI)": "7.0 (3.1, 11.6)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "8",
-        "mean % (95% CI)": "6.2 (2.3, 10.8)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "5",
-        "mean % (95% CI)": "3.9 (0.8, 7.7)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "4",
-        "mean % (95% CI)": "3.1 (0.8, 6.2)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "4",
-        "mean % (95% CI)": "3.1 (0.8, 6.2)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "4",
-        "mean % (95% CI)": "3.1 (0.8, 6.2)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "4",
-        "mean % (95% CI)": "3.1 (0.8, 6.2)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "3",
-        "mean % (95% CI)": "2.3 (0.0, 5.4)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "2",
-        "mean % (95% CI)": "1.6 (0.0, 3.9)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "1",
-        "mean % (95% CI)": "0.8 (0.0, 2.3)"
-      }
-    ],
-    "Posterior Neck Left",
-    :,
-    [
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "98",
-        "mean % (95% CI)": "60.1 (52.4, 67.5)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "50",
-        "mean % (95% CI)": "30.6 (23.6, 38.0)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "36",
-        "mean % (95% CI)": "22.0 (15.9, 28.6)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "25",
-        "mean % (95% CI)": "15.3 (9.9, 21.1)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "24",
-        "mean % (95% CI)": "14.7 (9.3, 20.2)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "22",
-        "mean % (95% CI)": "13.5 (8.5, 18.9)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "16",
-        "mean % (95% CI)": "9.8 (5.5, 14.7)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "15",
-        "mean % (95% CI)": "9.1 (4.9, 13.8)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "10",
-        "mean % (95% CI)": "6.1 (2.5, 9.9)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "7",
-        "mean % (95% CI)": "4.3 (1.2, 7.9)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "6",
-        "mean % (95% CI)": "3.7 (1.2, 6.7)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "4",
-        "mean % (95% CI)": "2.4 (0.6, 4.9)"
-      },
-      {
-        "code": "ltis",
-        "name": "left tis",
-        "count": "4",
-        "mean % (95% CI)": "2.4 (0.6, 4.9)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "3",
-        "mean % (95% CI)": "1.8 (0.0, 4.3)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "3",
-        "mean % (95% CI)": "1.8 (0.0, 4.3)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "2",
-        "mean % (95% CI)": "1.2 (0.0, 3.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "1.2 (0.0, 3.1)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "1.2 (0.0, 3.1)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.9)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.9)"
-      },
-      {
-        "code": "lic",
-        "name": "left infraclavicular",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.9)"
-      },
-      {
-        "code": "li",
-        "name": "left groin",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.9)"
-      }
-    ],
-    "Nose Middle",
-    :,
-    [
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "4",
-        "mean % (95% CI)": "80.2 (40.0, 100.0)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "4",
-        "mean % (95% CI)": "80.2 (40.0, 100.0)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "3",
-        "mean % (95% CI)": "59.6 (16.7, 100.0)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "1",
-        "mean % (95% CI)": "19.9 (0.0, 60.0)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "1",
-        "mean % (95% CI)": "19.8 (0.0, 60.0)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "1",
-        "mean % (95% CI)": "0.0 (0.0, 60.0)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "3",
-        "mean % (95% CI)": "0.0 (16.7, 100.0)"
-      }
-    ],
-    "Chin Right",
-    :,
-    [
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "28",
-        "mean % (95% CI)": "77.9 (63.9, 91.4)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "28",
-        "mean % (95% CI)": "77.9 (63.9, 91.4)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "27",
-        "mean % (95% CI)": "74.9 (60.0, 88.9)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "18",
-        "mean % (95% CI)": "50.0 (33.3, 66.7)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "9",
-        "mean % (95% CI)": "25.0 (11.4, 40.0)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "9",
-        "mean % (95% CI)": "25.0 (11.4, 40.0)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "3",
-        "mean % (95% CI)": "8.4 (0.0, 18.9)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "5.6 (0.0, 13.9)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "2",
-        "mean % (95% CI)": "5.6 (0.0, 13.9)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "5.5 (0.0, 13.9)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "2.8 (0.0, 8.6)"
-      }
-    ],
-    "Ear Right",
-    :,
-    [
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "175",
-        "mean % (95% CI)": "79.5 (74.1, 84.9)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "118",
-        "mean % (95% CI)": "53.6 (47.0, 60.2)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "72",
-        "mean % (95% CI)": "32.7 (26.7, 39.1)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "70",
-        "mean % (95% CI)": "31.9 (25.8, 38.2)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "70",
-        "mean % (95% CI)": "31.9 (25.8, 38.2)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "35",
-        "mean % (95% CI)": "15.9 (11.3, 20.8)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "18",
-        "mean % (95% CI)": "8.2 (4.6, 11.9)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "7",
-        "mean % (95% CI)": "3.2 (1.3, 5.9)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "6",
-        "mean % (95% CI)": "2.7 (0.9, 5.0)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "5",
-        "mean % (95% CI)": "2.3 (0.5, 4.5)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "3",
-        "mean % (95% CI)": "1.4 (0.0, 3.2)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "0.5 (0.0, 1.4)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "1",
-        "mean % (95% CI)": "0.5 (0.0, 1.4)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "0.5 (0.0, 1.4)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "1",
-        "mean % (95% CI)": "0.4 (0.0, 1.4)"
-      }
-    ],
-    "Eye Right",
-    :,
-    [
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "8",
-        "mean % (95% CI)": "57.1 (30.8, 81.9)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "7",
-        "mean % (95% CI)": "49.9 (23.1, 76.9)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "5",
-        "mean % (95% CI)": "35.7 (13.3, 61.5)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "5",
-        "mean % (95% CI)": "35.6 (13.3, 61.5)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "4",
-        "mean % (95% CI)": "28.6 (7.1, 53.8)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "14.4 (0.0, 35.7)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "2",
-        "mean % (95% CI)": "14.4 (0.0, 35.7)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "2",
-        "mean % (95% CI)": "14.4 (0.0, 35.7)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "2",
-        "mean % (95% CI)": "14.1 (0.0, 33.3)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "7.2 (0.0, 23.1)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "1",
-        "mean % (95% CI)": "7.1 (0.0, 23.1)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "1",
-        "mean % (95% CI)": "7.0 (0.0, 23.1)"
-      }
-    ],
-    "Lip Right",
-    :,
-    [
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "103",
-        "mean % (95% CI)": "36.2 (30.8, 41.8)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "92",
-        "mean % (95% CI)": "32.3 (27.0, 37.8)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "54",
-        "mean % (95% CI)": "18.9 (14.4, 23.6)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "54",
-        "mean % (95% CI)": "18.9 (14.4, 23.6)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "42",
-        "mean % (95% CI)": "14.7 (10.8, 18.9)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "38",
-        "mean % (95% CI)": "13.3 (9.5, 17.5)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "36",
-        "mean % (95% CI)": "12.6 (8.8, 16.5)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "29",
-        "mean % (95% CI)": "10.2 (6.7, 13.7)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "26",
-        "mean % (95% CI)": "9.1 (5.9, 12.6)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "23",
-        "mean % (95% CI)": "8.1 (4.9, 11.3)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "22",
-        "mean % (95% CI)": "7.7 (4.9, 10.9)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "20",
-        "mean % (95% CI)": "7.0 (4.2, 10.1)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "16",
-        "mean % (95% CI)": "5.6 (3.2, 8.4)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "13",
-        "mean % (95% CI)": "4.6 (2.4, 7.1)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "12",
-        "mean % (95% CI)": "4.2 (2.1, 6.7)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "8",
-        "mean % (95% CI)": "2.8 (1.1, 4.9)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "8",
-        "mean % (95% CI)": "2.8 (1.1, 4.9)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "7",
-        "mean % (95% CI)": "2.5 (0.7, 4.5)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "5",
-        "mean % (95% CI)": "1.8 (0.4, 3.5)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "3",
-        "mean % (95% CI)": "1.1 (0.0, 2.4)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "3",
-        "mean % (95% CI)": "1.1 (0.0, 2.5)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "3",
-        "mean % (95% CI)": "1.1 (0.0, 2.5)"
-      }
-    ],
-    "Nose Right",
-    :,
-    [
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "27",
-        "mean % (95% CI)": "45.8 (33.3, 58.6)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "26",
-        "mean % (95% CI)": "44.0 (31.7, 56.7)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "24",
-        "mean % (95% CI)": "40.7 (28.3, 53.3)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "24",
-        "mean % (95% CI)": "40.7 (28.3, 53.3)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "18",
-        "mean % (95% CI)": "30.5 (18.6, 43.1)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "12",
-        "mean % (95% CI)": "20.3 (10.2, 30.5)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "7",
-        "mean % (95% CI)": "11.9 (5.0, 20.7)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "7",
-        "mean % (95% CI)": "11.8 (5.0, 20.3)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "6",
-        "mean % (95% CI)": "10.1 (3.4, 18.6)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "5",
-        "mean % (95% CI)": "8.6 (1.7, 16.7)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "2",
-        "mean % (95% CI)": "3.4 (0.0, 8.5)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "3.4 (0.0, 8.5)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "2",
-        "mean % (95% CI)": "3.4 (0.0, 8.5)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "1",
-        "mean % (95% CI)": "1.7 (0.0, 5.2)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "1",
-        "mean % (95% CI)": "1.7 (0.0, 5.2)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "1",
-        "mean % (95% CI)": "1.7 (0.0, 5.2)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "1",
-        "mean % (95% CI)": "1.7 (0.0, 5.2)"
-      }
-    ],
-    "Anterior Neck Right",
-    :,
-    [
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "73",
-        "mean % (95% CI)": "63.0 (53.9, 71.6)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "38",
-        "mean % (95% CI)": "32.7 (23.9, 41.4)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "30",
-        "mean % (95% CI)": "25.9 (18.1, 33.9)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "18",
-        "mean % (95% CI)": "15.5 (9.4, 22.4)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "17",
-        "mean % (95% CI)": "14.6 (8.6, 21.4)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "10",
-        "mean % (95% CI)": "8.6 (3.5, 13.9)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "9",
-        "mean % (95% CI)": "7.8 (3.4, 12.9)"
-      },
-      {
-        "code": "sm",
-        "name": "submental",
-        "count": "9",
-        "mean % (95% CI)": "7.8 (3.4, 12.9)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "5",
-        "mean % (95% CI)": "4.3 (0.9, 8.5)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "5",
-        "mean % (95% CI)": "4.3 (0.9, 8.5)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "4",
-        "mean % (95% CI)": "3.4 (0.9, 7.0)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "3",
-        "mean % (95% CI)": "2.6 (0.0, 6.0)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "3",
-        "mean % (95% CI)": "2.6 (0.0, 6.0)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "3",
-        "mean % (95% CI)": "2.6 (0.0, 6.0)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "1.7 (0.0, 4.3)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "2",
-        "mean % (95% CI)": "1.7 (0.0, 4.3)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "2",
-        "mean % (95% CI)": "1.7 (0.0, 4.3)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "0.9 (0.0, 2.6)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "0.9 (0.0, 2.6)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "1",
-        "mean % (95% CI)": "0.9 (0.0, 2.6)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "0.9 (0.0, 2.6)"
-      }
-    ],
-    "Posterior Neck Right",
-    :,
-    [
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "87",
-        "mean % (95% CI)": "52.1 (44.6, 59.6)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "68",
-        "mean % (95% CI)": "40.7 (33.3, 48.2)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "38",
-        "mean % (95% CI)": "22.8 (16.7, 29.3)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "24",
-        "mean % (95% CI)": "14.4 (9.1, 19.9)"
-      },
-      {
-        "code": "ra",
-        "name": "right axilla",
-        "count": "23",
-        "mean % (95% CI)": "13.8 (8.9, 19.2)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "17",
-        "mean % (95% CI)": "10.2 (6.0, 15.0)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "14",
-        "mean % (95% CI)": "8.4 (4.2, 12.7)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "13",
-        "mean % (95% CI)": "7.8 (4.2, 12.0)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "8",
-        "mean % (95% CI)": "4.8 (1.8, 8.3)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "7",
-        "mean % (95% CI)": "4.2 (1.2, 7.3)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "6",
-        "mean % (95% CI)": "3.6 (1.2, 6.6)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "6",
-        "mean % (95% CI)": "3.6 (1.2, 6.6)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "6",
-        "mean % (95% CI)": "3.6 (1.2, 6.6)"
-      },
-      {
-        "code": "la",
-        "name": "left axilla",
-        "count": "6",
-        "mean % (95% CI)": "3.6 (1.2, 6.6)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "5",
-        "mean % (95% CI)": "3.0 (0.6, 6.0)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "3",
-        "mean % (95% CI)": "1.8 (0.0, 4.2)"
-      },
-      {
-        "code": "rtis",
-        "name": "right right triangular intermuscular space (tis)",
-        "count": "3",
-        "mean % (95% CI)": "1.8 (0.0, 4.2)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.8)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.8)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "1",
-        "mean % (95% CI)": "0.6 (0.0, 1.8)"
-      }
-    ],
-    "Posterior Upper Head Right",
-    :,
-    [
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "45",
-        "mean % (95% CI)": "52.3 (41.9, 62.8)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "42",
-        "mean % (95% CI)": "48.8 (38.4, 59.3)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "36",
-        "mean % (95% CI)": "41.8 (31.4, 52.3)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "36",
-        "mean % (95% CI)": "41.8 (31.4, 52.3)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "35",
-        "mean % (95% CI)": "40.7 (30.2, 51.2)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "30",
-        "mean % (95% CI)": "34.9 (25.0, 45.3)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "23",
-        "mean % (95% CI)": "26.7 (17.4, 36.0)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "22",
-        "mean % (95% CI)": "25.6 (16.3, 34.9)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "16",
-        "mean % (95% CI)": "18.6 (10.5, 27.4)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "9",
-        "mean % (95% CI)": "10.4 (4.6, 17.4)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "5",
-        "mean % (95% CI)": "5.8 (1.2, 11.5)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "3",
-        "mean % (95% CI)": "3.5 (0.0, 8.0)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "3",
-        "mean % (95% CI)": "3.5 (0.0, 8.1)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "1",
-        "mean % (95% CI)": "1.2 (0.0, 3.5)"
-      }
-    ],
-    "Anterior Upper Head Right",
-    :,
-    [
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "13",
-        "mean % (95% CI)": "72.1 (50.0, 89.5)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "11",
-        "mean % (95% CI)": "61.2 (38.9, 83.3)"
-      },
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "11",
-        "mean % (95% CI)": "61.2 (38.9, 83.3)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "6",
-        "mean % (95% CI)": "33.2 (11.8, 55.6)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "6",
-        "mean % (95% CI)": "33.2 (11.8, 55.6)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "5",
-        "mean % (95% CI)": "27.9 (10.5, 50.0)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "4",
-        "mean % (95% CI)": "22.3 (5.3, 42.1)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "3",
-        "mean % (95% CI)": "16.7 (0.0, 35.3)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "3",
-        "mean % (95% CI)": "16.7 (0.0, 35.3)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "2",
-        "mean % (95% CI)": "11.1 (0.0, 27.8)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "5.7 (0.0, 17.6)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "5.6 (0.0, 17.6)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "1",
-        "mean % (95% CI)": "5.5 (0.0, 17.6)"
-      }
-    ],
-    "Posterior Upper Head Left",
-    :,
-    [
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "60",
-        "mean % (95% CI)": "58.2 (48.5, 68.0)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "43",
-        "mean % (95% CI)": "41.7 (32.4, 51.5)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "38",
-        "mean % (95% CI)": "36.9 (27.7, 46.2)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "33",
-        "mean % (95% CI)": "32.1 (23.3, 41.3)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "29",
-        "mean % (95% CI)": "28.3 (20.0, 37.3)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "29",
-        "mean % (95% CI)": "28.3 (20.0, 37.3)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "29",
-        "mean % (95% CI)": "28.2 (19.6, 36.9)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "26",
-        "mean % (95% CI)": "25.2 (17.3, 33.7)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "22",
-        "mean % (95% CI)": "21.3 (13.6, 29.4)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "10",
-        "mean % (95% CI)": "9.7 (4.0, 15.7)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "9",
-        "mean % (95% CI)": "8.7 (3.8, 14.6)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "5",
-        "mean % (95% CI)": "4.9 (1.0, 9.6)"
-      },
-      {
-        "code": "rc3",
-        "name": "right cervical level iii",
-        "count": "4",
-        "mean % (95% CI)": "3.9 (1.0, 7.8)"
-      },
-      {
-        "code": "lc4",
-        "name": "left cervical level iv",
-        "count": "3",
-        "mean % (95% CI)": "2.9 (0.0, 6.7)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "2",
-        "mean % (95% CI)": "1.9 (0.0, 4.9)"
-      },
-      {
-        "code": "lc1",
-        "name": "left cervical level i",
-        "count": "2",
-        "mean % (95% CI)": "1.9 (0.0, 4.9)"
-      },
-      {
-        "code": "rc4",
-        "name": "right cervical level iv",
-        "count": "2",
-        "mean % (95% CI)": "1.9 (0.0, 4.9)"
-      },
-      {
-        "code": "rc1",
-        "name": "right cervical level i",
-        "count": "1",
-        "mean % (95% CI)": "1.0 (0.0, 2.9)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "1.0 (0.0, 2.9)"
-      }
-    ],
-    "Anterior Upper Head Left",
-    :,
-    [
-      {
-        "code": "lc2",
-        "name": "left cervical level ii",
-        "count": "24",
-        "mean % (95% CI)": "70.6 (54.5, 85.3)"
-      },
-      {
-        "code": "rp",
-        "name": "retroperitoneal",
-        "count": "13",
-        "mean % (95% CI)": "38.4 (22.9, 54.5)"
-      },
-      {
-        "code": "lprea",
-        "name": "left preauricular",
-        "count": "12",
-        "mean % (95% CI)": "35.3 (20.0, 51.4)"
-      },
-      {
-        "code": "lc5",
-        "name": "left cervical level v",
-        "count": "10",
-        "mean % (95% CI)": "29.4 (14.7, 45.5)"
-      },
-      {
-        "code": "rc2",
-        "name": "right cervical level ii",
-        "count": "9",
-        "mean % (95% CI)": "26.6 (12.1, 42.4)"
-      },
-      {
-        "code": "rposta",
-        "name": "right postauricular",
-        "count": "9",
-        "mean % (95% CI)": "26.4 (11.8, 42.4)"
-      },
-      {
-        "code": "rposta",
-        "name": "left postauricular",
-        "count": "9",
-        "mean % (95% CI)": "26.4 (11.8, 42.4)"
-      },
-      {
-        "code": "rprea",
-        "name": "right preauricular",
-        "count": "7",
-        "mean % (95% CI)": "20.6 (8.6, 35.3)"
-      },
-      {
-        "code": "lo",
-        "name": "left occipital",
-        "count": "4",
-        "mean % (95% CI)": "11.7 (2.9, 23.5)"
-      },
-      {
-        "code": "rc5",
-        "name": "right cervical level v",
-        "count": "3",
-        "mean % (95% CI)": "8.8 (0.0, 20.0)"
-      },
-      {
-        "code": "lc3",
-        "name": "left cervical level iii",
-        "count": "3",
-        "mean % (95% CI)": "8.8 (0.0, 20.0)"
-      },
-      {
-        "code": "ro",
-        "name": "right occipital",
-        "count": "2",
-        "mean % (95% CI)": "5.9 (0.0, 14.7)"
-      },
-      {
-        "code": "rsc",
-        "name": "right supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "3.0 (0.0, 9.1)"
-      },
-      {
-        "code": "in",
-        "name": "interval node",
-        "count": "1",
-        "mean % (95% CI)": "3.0 (0.0, 9.1)"
-      },
-      {
-        "code": "lsc",
-        "name": "left supraclavicular fossa",
-        "count": "1",
-        "mean % (95% CI)": "2.9 (0.0, 9.1)"
-      }
-    ],
+
     {
       "code": "ltis",
       "name": "left tis",
@@ -17280,6 +14891,2326 @@
       "name": "interval node",
       "count": "1",
       "mean % (95% CI)": "12.4 (0.0, 37.5)"
+    }
+  ],
+  "Arm Left": [
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "786",
+      "mean % (95% CI)": "92.8 (91.0, 94.6)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "41",
+      "mean % (95% CI)": "4.8 (3.4, 6.4)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "11",
+      "mean % (95% CI)": "1.3 (0.6, 2.1)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "11",
+      "mean % (95% CI)": "1.3 (0.6, 2.2)"
+    },
+    {
+      "code": "lepit",
+      "name": "left epitrochlear",
+      "count": "10",
+      "mean % (95% CI)": "1.2 (0.5, 2.0)"
+    },
+    {
+      "code": "lic",
+      "name": "left infraclavicular",
+      "count": "5",
+      "mean % (95% CI)": "0.6 (0.1, 1.2)"
+    },
+    {
+      "code": "lip",
+      "name": "left interpectoral",
+      "count": "4",
+      "mean % (95% CI)": "0.5 (0.1, 0.9)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "2",
+      "mean % (95% CI)": "0.2 (0.0, 0.6)"
+    },
+    {
+      "code": "ltis",
+      "name": "left tis",
+      "count": "2",
+      "mean % (95% CI)": "0.2 (0.0, 0.6)"
+    },
+    {
+      "code": "lim",
+      "name": "left internal mammary",
+      "count": "2",
+      "mean % (95% CI)": "0.2 (0.0, 0.7)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "1",
+      "mean % (95% CI)": "0.1 (0.0, 0.4)"
+    }
+  ],
+  "Arm Right": [
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "663",
+      "mean % (95% CI)": "92.5 (90.5, 94.3)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "25",
+      "mean % (95% CI)": "3.5 (2.2, 4.9)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "12",
+      "mean % (95% CI)": "1.7 (0.8, 2.6)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "6",
+      "mean % (95% CI)": "0.8 (0.3, 1.5)"
+    },
+    {
+      "code": "repit",
+      "name": "right epitrochlear",
+      "count": "5",
+      "mean % (95% CI)": "0.7 (0.1, 1.4)"
+    },
+    {
+      "code": "ric",
+      "name": "right infraclavicular",
+      "count": "5",
+      "mean % (95% CI)": "0.7 (0.1, 1.4)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "2",
+      "mean % (95% CI)": "0.3 (0.0, 0.7)"
+    },
+    {
+      "code": "rtis",
+      "name": "right right triangular intermuscular space (tis)",
+      "count": "2",
+      "mean % (95% CI)": "0.3 (0.0, 0.7)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "2",
+      "mean % (95% CI)": "0.3 (0.0, 0.7)"
+    },
+    {
+      "code": "rip",
+      "name": "right interpectoral",
+      "count": "1",
+      "mean % (95% CI)": "0.1 (0.0, 0.4)"
+    }
+  ],
+  "Foot Left": [
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "295",
+      "mean % (95% CI)": "94.9 (92.3, 97.1)"
+    },
+    {
+      "code": "lpop",
+      "name": "left popliteal",
+      "count": "58",
+      "mean % (95% CI)": "18.7 (14.5, 23.2)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "3",
+      "mean % (95% CI)": "1.0 (0.0, 2.2)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "1",
+      "mean % (95% CI)": "0.3 (0.0, 1.0)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "1",
+      "mean % (95% CI)": "0.3 (0.0, 1.0)"
+    }
+  ],
+  "Foot Right": [
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "291",
+      "mean % (95% CI)": "93.0 (90.1, 95.8)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "69",
+      "mean % (95% CI)": "22.1 (17.6, 26.7)"
+    },
+    {
+      "code": "rpop",
+      "name": "right popliteal",
+      "count": "69",
+      "mean % (95% CI)": "22.0 (17.5, 26.8)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "3",
+      "mean % (95% CI)": "1.0 (0.0, 2.2)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "0.3 (0.0, 1.0)"
+    }
+  ],
+  "Lower Leg Left": [
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "996",
+      "mean % (95% CI)": "94.0 (92.4, 95.5)"
+    },
+    {
+      "code": "lpop",
+      "name": "left popliteal",
+      "count": "93",
+      "mean % (95% CI)": "8.8 (7.0, 10.5)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "13",
+      "mean % (95% CI)": "1.2 (0.7, 1.9)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "5",
+      "mean % (95% CI)": "0.5 (0.1, 1.0)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "1",
+      "mean % (95% CI)": "0.1 (0.0, 0.3)"
+    },
+    {
+      "code": "rpop",
+      "name": "right popliteal",
+      "count": "1",
+      "mean % (95% CI)": "0.1 (0.0, 0.3)"
+    }
+  ],
+  "Lower Leg Right": [
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "869",
+      "mean % (95% CI)": "93.6 (92.0, 95.2)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "87",
+      "mean % (95% CI)": "9.4 (7.5, 11.4)"
+    },
+    {
+      "code": "rpop",
+      "name": "right popliteal",
+      "count": "87",
+      "mean % (95% CI)": "9.4 (7.5, 11.3)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "5",
+      "mean % (95% CI)": "0.5 (0.1, 1.1)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "4",
+      "mean % (95% CI)": "0.4 (0.1, 0.9)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "1",
+      "mean % (95% CI)": "0.1 (0.0, 0.3)"
+    }
+  ],
+  "Thigh Left": [
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "610",
+      "mean % (95% CI)": "94.0 (92.0, 95.8)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "7",
+      "mean % (95% CI)": "1.1 (0.3, 2.0)"
+    },
+    {
+      "code": "lpop",
+      "name": "left popliteal",
+      "count": "6",
+      "mean % (95% CI)": "0.9 (0.3, 1.7)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "5",
+      "mean % (95% CI)": "0.8 (0.2, 1.5)"
+    }
+  ],
+  "Thigh Right": [
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "551",
+      "mean % (95% CI)": "93.7 (91.7, 95.6)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "3",
+      "mean % (95% CI)": "0.5 (0.0, 1.2)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "3",
+      "mean % (95% CI)": "0.5 (0.0, 1.2)"
+    }
+  ],
+  "Lower Torso Anterior Left": [
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "63",
+      "mean % (95% CI)": "90.0 (82.6, 97.1)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "19",
+      "mean % (95% CI)": "27.2 (17.1, 38.0)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "10",
+      "mean % (95% CI)": "14.3 (7.0, 22.9)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "2",
+      "mean % (95% CI)": "2.9 (0.0, 7.1)"
+    }
+  ],
+  "Lower Torso Anterior Right": [
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "50",
+      "mean % (95% CI)": "80.7 (70.5, 90.2)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "17",
+      "mean % (95% CI)": "27.6 (16.7, 39.3)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "14",
+      "mean % (95% CI)": "22.7 (12.9, 33.3)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "2",
+      "mean % (95% CI)": "3.2 (0.0, 8.1)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "1.6 (0.0, 4.9)"
+    }
+  ],
+  "Lower Torso Posterior Left": [
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "67",
+      "mean % (95% CI)": "88.1 (80.3, 94.7)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "22",
+      "mean % (95% CI)": "28.9 (19.5, 39.2)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "6",
+      "mean % (95% CI)": "7.9 (2.6, 14.5)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "3",
+      "mean % (95% CI)": "4.0 (0.0, 9.1)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "1",
+      "mean % (95% CI)": "1.3 (0.0, 4.0)"
+    }
+  ],
+  "Lower Torso Posterior Right": [
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "68",
+      "mean % (95% CI)": "86.1 (78.5, 93.6)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "25",
+      "mean % (95% CI)": "31.7 (21.5, 42.3)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "5",
+      "mean % (95% CI)": "6.4 (1.3, 12.5)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "5",
+      "mean % (95% CI)": "6.3 (1.3, 12.5)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "3",
+      "mean % (95% CI)": "3.8 (0.0, 8.8)"
+    },
+    {
+      "code": "pv",
+      "name": " paravertebral",
+      "count": "1",
+      "mean % (95% CI)": "1.3 (0.0, 3.8)"
+    },
+    {
+      "code": "pv",
+      "name": " paravertebral",
+      "count": "1",
+      "mean % (95% CI)": "1.3 (0.0, 3.8)"
+    }
+  ],
+  "Hand Left": [
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "85",
+      "mean % (95% CI)": "98.8 (96.5, 100.0)"
+    },
+    {
+      "code": "lepit",
+      "name": "left epitrochlear",
+      "count": "28",
+      "mean % (95% CI)": "32.5 (23.0, 42.5)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "8",
+      "mean % (95% CI)": "9.3 (3.5, 16.1)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "2",
+      "mean % (95% CI)": "2.3 (0.0, 5.9)"
+    }
+  ],
+  "Hand Right": [
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "68",
+      "mean % (95% CI)": "95.8 (90.3, 100.0)"
+    },
+    {
+      "code": "repit",
+      "name": "right epitrochlear",
+      "count": "19",
+      "mean % (95% CI)": "26.8 (16.9, 37.1)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "3",
+      "mean % (95% CI)": "4.2 (0.0, 9.7)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+    },
+    {
+      "code": "ric",
+      "name": "right infraclavicular",
+      "count": "1",
+      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "1",
+      "mean % (95% CI)": "1.4 (0.0, 4.3)"
+    }
+  ],
+  "Forearm Left": [
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "532",
+      "mean % (95% CI)": "93.5 (91.4, 95.4)"
+    },
+    {
+      "code": "lepit",
+      "name": "left epitrochlear",
+      "count": "104",
+      "mean % (95% CI)": "18.3 (15.1, 21.6)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "38",
+      "mean % (95% CI)": "6.7 (4.7, 8.8)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "13",
+      "mean % (95% CI)": "2.3 (1.2, 3.5)"
+    },
+    {
+      "code": "lic",
+      "name": "left infraclavicular",
+      "count": "10",
+      "mean % (95% CI)": "1.8 (0.7, 3.0)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "9",
+      "mean % (95% CI)": "1.6 (0.7, 2.6)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "5",
+      "mean % (95% CI)": "0.9 (0.2, 1.8)"
+    },
+    {
+      "code": "lip",
+      "name": "left interpectoral",
+      "count": "3",
+      "mean % (95% CI)": "0.5 (0.0, 1.2)"
+    },
+    {
+      "code": "repit",
+      "name": "right epitrochlear",
+      "count": "1",
+      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "1",
+      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+    },
+    {
+      "code": "ltis",
+      "name": "left tis",
+      "count": "1",
+      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+    }
+  ],
+  "Forearm Right": [
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "539",
+      "mean % (95% CI)": "93.6 (91.5, 95.5)"
+    },
+    {
+      "code": "repit",
+      "name": "right epitrochlear",
+      "count": "108",
+      "mean % (95% CI)": "18.8 (15.6, 22.0)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "31",
+      "mean % (95% CI)": "5.4 (3.6, 7.3)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "8",
+      "mean % (95% CI)": "1.4 (0.5, 2.4)"
+    },
+    {
+      "code": "ri",
+      "name": "right groin",
+      "count": "5",
+      "mean % (95% CI)": "0.9 (0.2, 1.7)"
+    },
+    {
+      "code": "ric",
+      "name": "right infraclavicular",
+      "count": "4",
+      "mean % (95% CI)": "0.7 (0.2, 1.4)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "2",
+      "mean % (95% CI)": "0.3 (0.0, 0.9)"
+    },
+    {
+      "code": "rip",
+      "name": "right interpectoral",
+      "count": "1",
+      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+    },
+    {
+      "code": "lepit",
+      "name": "left epitrochlear",
+      "count": "1",
+      "mean % (95% CI)": "0.2 (0.0, 0.5)"
+    }
+  ],
+  "Chin Left": [
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "27",
+      "mean % (95% CI)": "67.6 (52.5, 82.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "26",
+      "mean % (95% CI)": "65.0 (50.0, 79.5)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "26",
+      "mean % (95% CI)": "65.0 (50.0, 79.5)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "17",
+      "mean % (95% CI)": "42.5 (26.8, 57.9)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "7",
+      "mean % (95% CI)": "17.5 (7.3, 30.0)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "4",
+      "mean % (95% CI)": "10.0 (2.4, 20.0)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "5.0 (0.0, 12.5)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "2",
+      "mean % (95% CI)": "5.0 (0.0, 12.5)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "5.0 (0.0, 12.5)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "2.5 (0.0, 7.7)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "2.5 (0.0, 7.7)"
+    }
+  ],
+  "Ear Left": [
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "190",
+      "mean % (95% CI)": "80.2 (75.0, 85.2)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "62",
+      "mean % (95% CI)": "26.1 (20.7, 31.8)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "37",
+      "mean % (95% CI)": "15.6 (11.0, 20.3)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "9",
+      "mean % (95% CI)": "3.8 (1.7, 6.4)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "8",
+      "mean % (95% CI)": "3.4 (1.3, 5.9)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "2",
+      "mean % (95% CI)": "0.9 (0.0, 2.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "0.8 (0.0, 2.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "0.8 (0.0, 2.1)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "1",
+      "mean % (95% CI)": "0.4 (0.0, 1.3)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "0.4 (0.0, 1.3)"
+    }
+  ],
+  "Eye Left": [
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "9",
+      "mean % (95% CI)": "81.9 (55.6, 100.0)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "8",
+      "mean % (95% CI)": "72.8 (45.5, 100.0)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "5",
+      "mean % (95% CI)": "45.5 (16.7, 75.0)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "5",
+      "mean % (95% CI)": "45.5 (16.7, 75.0)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "1",
+      "mean % (95% CI)": "9.1 (0.0, 27.3)"
+    }
+  ],
+  "element_Lip Left": [
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "7",
+      "mean % (95% CI)": "87.3 (60.0, 100.0)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "25.1 (0.0, 57.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "25.1 (0.0, 57.1)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "2",
+      "mean % (95% CI)": "25.1 (0.0, 57.1)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "1",
+      "mean % (95% CI)": "12.6 (0.0, 37.5)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "1",
+      "mean % (95% CI)": "12.5 (0.0, 37.5)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "1",
+      "mean % (95% CI)": "12.5 (0.0, 37.5)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "12.3 (0.0, 37.5)"
+    }
+  ],
+  "Nose Left": [
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "39",
+      "mean % (95% CI)": "60.9 (49.2, 72.3)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "37",
+      "mean % (95% CI)": "57.8 (45.3, 69.8)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "23",
+      "mean % (95% CI)": "35.9 (24.6, 47.7)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "18",
+      "mean % (95% CI)": "28.1 (17.2, 39.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "18",
+      "mean % (95% CI)": "28.1 (17.2, 39.1)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "14",
+      "mean % (95% CI)": "21.9 (12.3, 32.3)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "8",
+      "mean % (95% CI)": "12.5 (4.7, 21.5)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "5",
+      "mean % (95% CI)": "7.8 (1.6, 15.4)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "4",
+      "mean % (95% CI)": "6.3 (1.5, 12.5)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "4",
+      "mean % (95% CI)": "6.2 (1.5, 12.7)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "4",
+      "mean % (95% CI)": "6.2 (1.5, 12.5)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "1",
+      "mean % (95% CI)": "1.6 (0.0, 4.8)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "1.6 (0.0, 4.8)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "1",
+      "mean % (95% CI)": "1.5 (0.0, 4.8)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "1",
+      "mean % (95% CI)": "1.5 (0.0, 4.8)"
+    }
+  ],
+  "Anterior Neck Left": [
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "78",
+      "mean % (95% CI)": "60.5 (51.9, 69.0)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "40",
+      "mean % (95% CI)": "30.9 (23.3, 39.2)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "37",
+      "mean % (95% CI)": "28.7 (20.9, 36.4)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "24",
+      "mean % (95% CI)": "18.6 (12.3, 25.4)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "17",
+      "mean % (95% CI)": "13.2 (7.8, 19.2)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "10",
+      "mean % (95% CI)": "7.7 (3.2, 12.5)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "10",
+      "mean % (95% CI)": "7.7 (3.2, 12.5)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "9",
+      "mean % (95% CI)": "7.0 (3.1, 11.6)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "8",
+      "mean % (95% CI)": "6.2 (2.3, 10.8)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "5",
+      "mean % (95% CI)": "3.9 (0.8, 7.7)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "4",
+      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "4",
+      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "4",
+      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "4",
+      "mean % (95% CI)": "3.1 (0.8, 6.2)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "3",
+      "mean % (95% CI)": "2.3 (0.0, 5.4)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "2",
+      "mean % (95% CI)": "1.6 (0.0, 3.9)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "1",
+      "mean % (95% CI)": "0.8 (0.0, 2.3)"
+    }
+  ],
+  "Posterior Neck Left": [
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "98",
+      "mean % (95% CI)": "60.1 (52.4, 67.5)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "50",
+      "mean % (95% CI)": "30.6 (23.6, 38.0)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "36",
+      "mean % (95% CI)": "22.0 (15.9, 28.6)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "25",
+      "mean % (95% CI)": "15.3 (9.9, 21.1)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "24",
+      "mean % (95% CI)": "14.7 (9.3, 20.2)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "22",
+      "mean % (95% CI)": "13.5 (8.5, 18.9)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "16",
+      "mean % (95% CI)": "9.8 (5.5, 14.7)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "15",
+      "mean % (95% CI)": "9.1 (4.9, 13.8)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "10",
+      "mean % (95% CI)": "6.1 (2.5, 9.9)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "7",
+      "mean % (95% CI)": "4.3 (1.2, 7.9)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "6",
+      "mean % (95% CI)": "3.7 (1.2, 6.7)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "4",
+      "mean % (95% CI)": "2.4 (0.6, 4.9)"
+    },
+    {
+      "code": "ltis",
+      "name": "left tis",
+      "count": "4",
+      "mean % (95% CI)": "2.4 (0.6, 4.9)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "3",
+      "mean % (95% CI)": "1.8 (0.0, 4.3)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "3",
+      "mean % (95% CI)": "1.8 (0.0, 4.3)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "2",
+      "mean % (95% CI)": "1.2 (0.0, 3.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "1.2 (0.0, 3.1)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "1.2 (0.0, 3.1)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+    },
+    {
+      "code": "lic",
+      "name": "left infraclavicular",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+    },
+    {
+      "code": "li",
+      "name": "left groin",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.9)"
+    }
+  ],
+  "Nose Middle": [
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "4",
+      "mean % (95% CI)": "80.2 (40.0, 100.0)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "4",
+      "mean % (95% CI)": "80.2 (40.0, 100.0)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "3",
+      "mean % (95% CI)": "59.6 (16.7, 100.0)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "1",
+      "mean % (95% CI)": "19.9 (0.0, 60.0)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "1",
+      "mean % (95% CI)": "19.8 (0.0, 60.0)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "1",
+      "mean % (95% CI)": "0.0 (0.0, 60.0)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "3",
+      "mean % (95% CI)": "0.0 (16.7, 100.0)"
+    }
+  ],
+  "Chin Right": [
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "28",
+      "mean % (95% CI)": "77.9 (63.9, 91.4)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "28",
+      "mean % (95% CI)": "77.9 (63.9, 91.4)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "27",
+      "mean % (95% CI)": "74.9 (60.0, 88.9)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "18",
+      "mean % (95% CI)": "50.0 (33.3, 66.7)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "9",
+      "mean % (95% CI)": "25.0 (11.4, 40.0)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "9",
+      "mean % (95% CI)": "25.0 (11.4, 40.0)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "3",
+      "mean % (95% CI)": "8.4 (0.0, 18.9)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "5.6 (0.0, 13.9)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "2",
+      "mean % (95% CI)": "5.6 (0.0, 13.9)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "5.5 (0.0, 13.9)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "2.8 (0.0, 8.6)"
+    }
+  ],
+  "Ear Right": [
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "175",
+      "mean % (95% CI)": "79.5 (74.1, 84.9)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "118",
+      "mean % (95% CI)": "53.6 (47.0, 60.2)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "72",
+      "mean % (95% CI)": "32.7 (26.7, 39.1)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "70",
+      "mean % (95% CI)": "31.9 (25.8, 38.2)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "70",
+      "mean % (95% CI)": "31.9 (25.8, 38.2)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "35",
+      "mean % (95% CI)": "15.9 (11.3, 20.8)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "18",
+      "mean % (95% CI)": "8.2 (4.6, 11.9)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "7",
+      "mean % (95% CI)": "3.2 (1.3, 5.9)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "6",
+      "mean % (95% CI)": "2.7 (0.9, 5.0)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "5",
+      "mean % (95% CI)": "2.3 (0.5, 4.5)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "3",
+      "mean % (95% CI)": "1.4 (0.0, 3.2)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "1",
+      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "0.5 (0.0, 1.4)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "1",
+      "mean % (95% CI)": "0.4 (0.0, 1.4)"
+    }
+  ],
+  "Eye Right": [
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "8",
+      "mean % (95% CI)": "57.1 (30.8, 81.9)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "7",
+      "mean % (95% CI)": "49.9 (23.1, 76.9)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "5",
+      "mean % (95% CI)": "35.7 (13.3, 61.5)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "5",
+      "mean % (95% CI)": "35.6 (13.3, 61.5)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "4",
+      "mean % (95% CI)": "28.6 (7.1, 53.8)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "14.4 (0.0, 35.7)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "2",
+      "mean % (95% CI)": "14.4 (0.0, 35.7)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "2",
+      "mean % (95% CI)": "14.4 (0.0, 35.7)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "2",
+      "mean % (95% CI)": "14.1 (0.0, 33.3)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "7.2 (0.0, 23.1)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "1",
+      "mean % (95% CI)": "7.1 (0.0, 23.1)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "1",
+      "mean % (95% CI)": "7.0 (0.0, 23.1)"
+    }
+  ],
+  "Lip Right": [
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "103",
+      "mean % (95% CI)": "36.2 (30.8, 41.8)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "92",
+      "mean % (95% CI)": "32.3 (27.0, 37.8)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "54",
+      "mean % (95% CI)": "18.9 (14.4, 23.6)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "54",
+      "mean % (95% CI)": "18.9 (14.4, 23.6)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "42",
+      "mean % (95% CI)": "14.7 (10.8, 18.9)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "38",
+      "mean % (95% CI)": "13.3 (9.5, 17.5)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "36",
+      "mean % (95% CI)": "12.6 (8.8, 16.5)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "29",
+      "mean % (95% CI)": "10.2 (6.7, 13.7)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "26",
+      "mean % (95% CI)": "9.1 (5.9, 12.6)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "23",
+      "mean % (95% CI)": "8.1 (4.9, 11.3)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "22",
+      "mean % (95% CI)": "7.7 (4.9, 10.9)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "20",
+      "mean % (95% CI)": "7.0 (4.2, 10.1)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "16",
+      "mean % (95% CI)": "5.6 (3.2, 8.4)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "13",
+      "mean % (95% CI)": "4.6 (2.4, 7.1)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "12",
+      "mean % (95% CI)": "4.2 (2.1, 6.7)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "8",
+      "mean % (95% CI)": "2.8 (1.1, 4.9)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "8",
+      "mean % (95% CI)": "2.8 (1.1, 4.9)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "7",
+      "mean % (95% CI)": "2.5 (0.7, 4.5)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "5",
+      "mean % (95% CI)": "1.8 (0.4, 3.5)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "3",
+      "mean % (95% CI)": "1.1 (0.0, 2.4)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "3",
+      "mean % (95% CI)": "1.1 (0.0, 2.5)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "3",
+      "mean % (95% CI)": "1.1 (0.0, 2.5)"
+    }
+  ],
+  "Nose Right": [
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "27",
+      "mean % (95% CI)": "45.8 (33.3, 58.6)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "26",
+      "mean % (95% CI)": "44.0 (31.7, 56.7)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "24",
+      "mean % (95% CI)": "40.7 (28.3, 53.3)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "24",
+      "mean % (95% CI)": "40.7 (28.3, 53.3)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "18",
+      "mean % (95% CI)": "30.5 (18.6, 43.1)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "12",
+      "mean % (95% CI)": "20.3 (10.2, 30.5)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "7",
+      "mean % (95% CI)": "11.9 (5.0, 20.7)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "7",
+      "mean % (95% CI)": "11.8 (5.0, 20.3)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "6",
+      "mean % (95% CI)": "10.1 (3.4, 18.6)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "5",
+      "mean % (95% CI)": "8.6 (1.7, 16.7)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "2",
+      "mean % (95% CI)": "3.4 (0.0, 8.5)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "3.4 (0.0, 8.5)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "2",
+      "mean % (95% CI)": "3.4 (0.0, 8.5)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "1",
+      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "1",
+      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "1",
+      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "1",
+      "mean % (95% CI)": "1.7 (0.0, 5.2)"
+    }
+  ],
+  "Anterior Neck Right": [
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "73",
+      "mean % (95% CI)": "63.0 (53.9, 71.6)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "38",
+      "mean % (95% CI)": "32.7 (23.9, 41.4)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "30",
+      "mean % (95% CI)": "25.9 (18.1, 33.9)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "18",
+      "mean % (95% CI)": "15.5 (9.4, 22.4)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "17",
+      "mean % (95% CI)": "14.6 (8.6, 21.4)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "10",
+      "mean % (95% CI)": "8.6 (3.5, 13.9)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "9",
+      "mean % (95% CI)": "7.8 (3.4, 12.9)"
+    },
+    {
+      "code": "sm",
+      "name": "submental",
+      "count": "9",
+      "mean % (95% CI)": "7.8 (3.4, 12.9)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "5",
+      "mean % (95% CI)": "4.3 (0.9, 8.5)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "5",
+      "mean % (95% CI)": "4.3 (0.9, 8.5)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "4",
+      "mean % (95% CI)": "3.4 (0.9, 7.0)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "3",
+      "mean % (95% CI)": "2.6 (0.0, 6.0)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "3",
+      "mean % (95% CI)": "2.6 (0.0, 6.0)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "3",
+      "mean % (95% CI)": "2.6 (0.0, 6.0)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "2",
+      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "2",
+      "mean % (95% CI)": "1.7 (0.0, 4.3)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "1",
+      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "0.9 (0.0, 2.6)"
+    }
+  ],
+  "Posterior Neck Right": [
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "87",
+      "mean % (95% CI)": "52.1 (44.6, 59.6)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "68",
+      "mean % (95% CI)": "40.7 (33.3, 48.2)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "38",
+      "mean % (95% CI)": "22.8 (16.7, 29.3)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "24",
+      "mean % (95% CI)": "14.4 (9.1, 19.9)"
+    },
+    {
+      "code": "ra",
+      "name": "right axilla",
+      "count": "23",
+      "mean % (95% CI)": "13.8 (8.9, 19.2)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "17",
+      "mean % (95% CI)": "10.2 (6.0, 15.0)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "14",
+      "mean % (95% CI)": "8.4 (4.2, 12.7)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "13",
+      "mean % (95% CI)": "7.8 (4.2, 12.0)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "8",
+      "mean % (95% CI)": "4.8 (1.8, 8.3)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "7",
+      "mean % (95% CI)": "4.2 (1.2, 7.3)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "6",
+      "mean % (95% CI)": "3.6 (1.2, 6.6)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "6",
+      "mean % (95% CI)": "3.6 (1.2, 6.6)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "6",
+      "mean % (95% CI)": "3.6 (1.2, 6.6)"
+    },
+    {
+      "code": "la",
+      "name": "left axilla",
+      "count": "6",
+      "mean % (95% CI)": "3.6 (1.2, 6.6)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "5",
+      "mean % (95% CI)": "3.0 (0.6, 6.0)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "3",
+      "mean % (95% CI)": "1.8 (0.0, 4.2)"
+    },
+    {
+      "code": "rtis",
+      "name": "right right triangular intermuscular space (tis)",
+      "count": "3",
+      "mean % (95% CI)": "1.8 (0.0, 4.2)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "1",
+      "mean % (95% CI)": "0.6 (0.0, 1.8)"
+    }
+  ],
+  "Posterior Upper Head Right": [
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "45",
+      "mean % (95% CI)": "52.3 (41.9, 62.8)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "42",
+      "mean % (95% CI)": "48.8 (38.4, 59.3)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "36",
+      "mean % (95% CI)": "41.8 (31.4, 52.3)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "36",
+      "mean % (95% CI)": "41.8 (31.4, 52.3)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "35",
+      "mean % (95% CI)": "40.7 (30.2, 51.2)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "30",
+      "mean % (95% CI)": "34.9 (25.0, 45.3)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "23",
+      "mean % (95% CI)": "26.7 (17.4, 36.0)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "22",
+      "mean % (95% CI)": "25.6 (16.3, 34.9)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "16",
+      "mean % (95% CI)": "18.6 (10.5, 27.4)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "9",
+      "mean % (95% CI)": "10.4 (4.6, 17.4)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "5",
+      "mean % (95% CI)": "5.8 (1.2, 11.5)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "3",
+      "mean % (95% CI)": "3.5 (0.0, 8.0)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "3",
+      "mean % (95% CI)": "3.5 (0.0, 8.1)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "1",
+      "mean % (95% CI)": "1.2 (0.0, 3.5)"
+    }
+  ],
+  "Anterior Upper Head Right": [
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "13",
+      "mean % (95% CI)": "72.1 (50.0, 89.5)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "11",
+      "mean % (95% CI)": "61.2 (38.9, 83.3)"
+    },
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "11",
+      "mean % (95% CI)": "61.2 (38.9, 83.3)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "6",
+      "mean % (95% CI)": "33.2 (11.8, 55.6)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "6",
+      "mean % (95% CI)": "33.2 (11.8, 55.6)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "5",
+      "mean % (95% CI)": "27.9 (10.5, 50.0)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "4",
+      "mean % (95% CI)": "22.3 (5.3, 42.1)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "3",
+      "mean % (95% CI)": "16.7 (0.0, 35.3)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "3",
+      "mean % (95% CI)": "16.7 (0.0, 35.3)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "2",
+      "mean % (95% CI)": "11.1 (0.0, 27.8)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "5.7 (0.0, 17.6)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "5.6 (0.0, 17.6)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "1",
+      "mean % (95% CI)": "5.5 (0.0, 17.6)"
+    }
+  ],
+  "Posterior Upper Head Left": [
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "60",
+      "mean % (95% CI)": "58.2 (48.5, 68.0)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "43",
+      "mean % (95% CI)": "41.7 (32.4, 51.5)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "38",
+      "mean % (95% CI)": "36.9 (27.7, 46.2)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "33",
+      "mean % (95% CI)": "32.1 (23.3, 41.3)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "29",
+      "mean % (95% CI)": "28.3 (20.0, 37.3)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "29",
+      "mean % (95% CI)": "28.3 (20.0, 37.3)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "29",
+      "mean % (95% CI)": "28.2 (19.6, 36.9)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "26",
+      "mean % (95% CI)": "25.2 (17.3, 33.7)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "22",
+      "mean % (95% CI)": "21.3 (13.6, 29.4)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "10",
+      "mean % (95% CI)": "9.7 (4.0, 15.7)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "9",
+      "mean % (95% CI)": "8.7 (3.8, 14.6)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "5",
+      "mean % (95% CI)": "4.9 (1.0, 9.6)"
+    },
+    {
+      "code": "rc3",
+      "name": "right cervical level iii",
+      "count": "4",
+      "mean % (95% CI)": "3.9 (1.0, 7.8)"
+    },
+    {
+      "code": "lc4",
+      "name": "left cervical level iv",
+      "count": "3",
+      "mean % (95% CI)": "2.9 (0.0, 6.7)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "2",
+      "mean % (95% CI)": "1.9 (0.0, 4.9)"
+    },
+    {
+      "code": "lc1",
+      "name": "left cervical level i",
+      "count": "2",
+      "mean % (95% CI)": "1.9 (0.0, 4.9)"
+    },
+    {
+      "code": "rc4",
+      "name": "right cervical level iv",
+      "count": "2",
+      "mean % (95% CI)": "1.9 (0.0, 4.9)"
+    },
+    {
+      "code": "rc1",
+      "name": "right cervical level i",
+      "count": "1",
+      "mean % (95% CI)": "1.0 (0.0, 2.9)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "1.0 (0.0, 2.9)"
+    }
+  ],
+  "Anterior Upper Head Left": [
+    {
+      "code": "lc2",
+      "name": "left cervical level ii",
+      "count": "24",
+      "mean % (95% CI)": "70.6 (54.5, 85.3)"
+    },
+    {
+      "code": "rp",
+      "name": "retroperitoneal",
+      "count": "13",
+      "mean % (95% CI)": "38.4 (22.9, 54.5)"
+    },
+    {
+      "code": "lprea",
+      "name": "left preauricular",
+      "count": "12",
+      "mean % (95% CI)": "35.3 (20.0, 51.4)"
+    },
+    {
+      "code": "lc5",
+      "name": "left cervical level v",
+      "count": "10",
+      "mean % (95% CI)": "29.4 (14.7, 45.5)"
+    },
+    {
+      "code": "rc2",
+      "name": "right cervical level ii",
+      "count": "9",
+      "mean % (95% CI)": "26.6 (12.1, 42.4)"
+    },
+    {
+      "code": "rposta",
+      "name": "right postauricular",
+      "count": "9",
+      "mean % (95% CI)": "26.4 (11.8, 42.4)"
+    },
+    {
+      "code": "rposta",
+      "name": "left postauricular",
+      "count": "9",
+      "mean % (95% CI)": "26.4 (11.8, 42.4)"
+    },
+    {
+      "code": "rprea",
+      "name": "right preauricular",
+      "count": "7",
+      "mean % (95% CI)": "20.6 (8.6, 35.3)"
+    },
+    {
+      "code": "lo",
+      "name": "left occipital",
+      "count": "4",
+      "mean % (95% CI)": "11.7 (2.9, 23.5)"
+    },
+    {
+      "code": "rc5",
+      "name": "right cervical level v",
+      "count": "3",
+      "mean % (95% CI)": "8.8 (0.0, 20.0)"
+    },
+    {
+      "code": "lc3",
+      "name": "left cervical level iii",
+      "count": "3",
+      "mean % (95% CI)": "8.8 (0.0, 20.0)"
+    },
+    {
+      "code": "ro",
+      "name": "right occipital",
+      "count": "2",
+      "mean % (95% CI)": "5.9 (0.0, 14.7)"
+    },
+    {
+      "code": "rsc",
+      "name": "right supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "3.0 (0.0, 9.1)"
+    },
+    {
+      "code": "in",
+      "name": "interval node",
+      "count": "1",
+      "mean % (95% CI)": "3.0 (0.0, 9.1)"
+    },
+    {
+      "code": "lsc",
+      "name": "left supraclavicular fossa",
+      "count": "1",
+      "mean % (95% CI)": "2.9 (0.0, 9.1)"
     }
   ]
 }

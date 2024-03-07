@@ -1618,7 +1618,7 @@
     "URL": "Arms/R_hand_1.json"
   },
   {
-    "GroupName": "Right Hand",
+    "GroupName": "Hand Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1682,7 +1682,7 @@
     "URL": "Feet/Feet_L_1.json"
   },
   {
-    "GroupName": "Left Hand",
+    "GroupName": "Hand Left ",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

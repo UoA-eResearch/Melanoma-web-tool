@@ -38,7 +38,15 @@ export default {
   },
   methods: {
     
+onSelected: function(data) {
+console.log(data)
+// This will return you the group - data[0].data.group
 
+alert("");
+
+
+
+},
 
     RemoveModel: function () {
       var currentLength = this.displays.length;

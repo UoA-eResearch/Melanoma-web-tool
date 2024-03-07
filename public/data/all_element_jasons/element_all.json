@@ -1562,7 +1562,7 @@
     "URL": "Torso/610_1.json"
   },
   {
-    "GroupName": "Lower_Torso_Posterior Left",
+    "GroupName": "Lower Torso Posterior Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1570,7 +1570,7 @@
     "URL": "Lower_Torso/Lower_torso_5.json"
   },
   {
-    "GroupName": "Lower_Torso_Anterior Right",
+    "GroupName": "Lower Torso Anterior Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

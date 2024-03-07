@@ -1586,7 +1586,7 @@
     "URL": "Lower_Torso/Lower_torso_3.json"
   },
   {
-    "GroupName": "Lower Torso Anterior Left ",
+    "GroupName": "Lower Torso Anterior Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1634,7 +1634,7 @@
     "URL": "Feet/R_feet_1.json"
   },
   {
-    "GroupName": "Right Feet",
+    "GroupName": "Foot Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -1674,7 +1674,7 @@
     "URL": "Legs/Leg_lower_left_2.json"
   },
   {
-    "GroupName": "Left Feet",
+    "GroupName": "Foot Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

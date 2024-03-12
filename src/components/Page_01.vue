@@ -13,7 +13,9 @@
                                 <th class="right-align">Code</th>
                                 <th>Nodefield</th>
                                 <th class="right-align"># Cases</th>
-                                <th class="right-align">Drainage</th>
+                                <th class="right-align">Mean Drainage % </th>
+                                <th class="right-align">95%CI</th>
+                                <th v-if="showTISColumn" class="right-align">TIS</th> <!-- Add v-if directive to conditionally render TIS column -->
                             </thead>
                             <tbody>
                                 <tr v-for="elm in selectedElmData" v-bind:key="elm.id">
@@ -21,14 +23,19 @@
                                     <td>{{ elm.name }}</td>
                                     <td class="right-align">{{ elm.count }}</td>
                                     <td class="right-align">{{ elm.percentage }}</td>
+                                    <td class="right-align">{{ elm.CI }}</td>
+                                    <td v-if="showTISColumn && (elm.code === 'ltis' || elm.code === 'rtis')" class="right-align">TIS</td> <!-- Show TIS if code is ltis or rtis -->
                                 </tr>
                             </tbody>
                         </table>
                         <span v-else>No data available!</span>
+                        
+                    
                     </div>
                 </div>
             </el-tab-pane>
         </el-tabs>
+        <p v-if="showTISColumn && hasTISInData">* TIS = Triangular Intermuscular Space</p> <!-- Show TIS explanation if TIS is present in data -->
     </div>
 </template>
 
@@ -46,17 +53,19 @@ export default {
             showSidebar: false,
             sidebarWidth: '20%',
             tabPosition: 'left',
-            selected: " Selected",
+            selected: " Unselected",
+            
             displays: [
 
 
-                { type: 'scaffold', url: "/data/all_element_jasons/element_all.json", ref: "Skin Selection Tool" },
-                { type: 'scaffold', url: "/data/skin_cancer_metadata1.json", ref: "Skin Cancer" },
+                { type: 'scaffold', url: "/data/all_element_jasons/element_all.json" }
+                /*{ type: 'scaffold', url: "/data/skin_cancer_metadata1.json", ref: "Skin Cancer" },*/
             ],
             scaffoldsArray: [],
             selectedElm: '',
             selectedElmData: [],
             data_elements: data_elements,
+            
         }
     },
     methods: {
@@ -89,7 +98,7 @@ export default {
                 this.displays.push(this.csvFiles.shift());
         },
         onReady() {
-            console.log('zoom out');
+            /* console.log('zoom out');
             this.$refs['Skin Selection Tool'][0].$module.scene.viewAll();
             this.displays.forEach(item => {
                 if (this.$refs[item.ref] && this.$refs[item.ref].$module) {
@@ -100,10 +109,19 @@ export default {
                     region.setVisibility(false);
                 });
             }
-            });
+            }); */
+            setTimeout (() => {
+                console.log('test');
+                alert();
+                document.getElementsByClassName('el-icon-arrow-left')[0].click();
+            }, 300);
         }
     }
 }
+setTimeout (() => {
+    document.getElementsByClassName('el-icon-arrow-left')[0].click();
+    document.querySelectorAll('.fitWindow')[0].parentElement.click();
+}, 2000);
 </script>
 
 <style>
@@ -171,15 +189,16 @@ td {
         right: 0;
         top: 50px;
         width: 40%;
-        height: 80%;
+        height: 90%;
         overflow: auto;
         background-color: #f5f5f5;
         padding: 20px;
         box-sizing: border-box;
         transition: transform 0.3s ease-in-out;
         transform: translateX(100%);
-        border: 2px solid #00ff00; /* Add a border */
+        border: 1px solid #00ff00; /* Add a border */
         border-radius: 10px; /* Rounded corners */
+        font-size: 0.9rem;
     }
 
 .sidebar.show {
@@ -188,21 +207,23 @@ td {
 
         .sidebar h3 {
             color: #00ff00; /* Change the color of the header */
-            border-bottom: 1px solid #007BFF; /* Add a bottom border to the header */
+            /*border-bottom: 1px solid #007BFF; /* Add a bottom border to the header */
             padding-bottom: 10px; /* Add some padding to the bottom of the header */
+            font-size: 0.9rem;
         }
 
         .sidebar button {
-            background-color: #00ff00; /* Change the background color of the button */
-            color: #fff; /* Change the text color of the button */
+            background-color: #11a611; /* Change the background color of the button */
+            color: #0e090a; /* Change the text color of the button */
             border: none; /* Remove the border of the button */
-            padding: 10px 20px; /* Add some padding to the button */
-            border-radius: 5px; /* Rounded corners for the button */
+            padding: 1px 5px; /* Add some padding to the button */
+            border-radius: 0.25px; /* Rounded corners for the button */
             cursor: pointer; /* Change the cursor when hovering over the button */
+            font-size: 0.8rem;
         }
 
 .sidebar button:hover {
-    background-color: #0056b3; /* Change the background color of the button when hovering */
+    background-color: #a60857; /* Change the background color of the button when hovering */
 }
 
 .sidebar table {
@@ -210,7 +231,7 @@ td {
     border-collapse: collapse; /* Remove the space between the borders of the table and cells */
 }
 .sidebar th, .sidebar td {
-    padding: 10px;
+    padding: 2px;
     border: 1px solid #ddd; /* Add a border to the cells */
     text-align: left; /* Align the text to the left */
 }
@@ -218,16 +239,17 @@ td {
         .sidebar th {
             background-color: #00ff00; /* Change the background color of the header cells */
             color: #fff; /* Change the text color of the header cells */
+            font-size: 0.8rem;
         }
 .sidebar tr:hover {
     background-color: #53e45f; /* Add a background color to the table rows when hovering */
 }
 .sidebar tr{
     /* first letter capital */
-    text-transform: capitalize;
+    text-transform: lowercase;
     /* text alignment */
     text-align: center;
     /* font size */
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 </style>

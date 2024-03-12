@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <nav class="nav">
-      <router-link class="link" to="/">PAGE 01</router-link>
-      <router-link class="link" to="/Page-02">PAGE 02</router-link>
+      <router-link class="link" to="/">Skin Selection Tool</router-link>
+      <router-link class="link" to="/Page-02">Heat Maps</router-link>
+      
     </nav>
     <router-view/>
   </div>

@@ -1817,7 +1817,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/949_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_958",
     "MorphColours": false,
@@ -1850,7 +1850,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/961_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_965",
     "MorphColours": false,
@@ -1899,7 +1899,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/970_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_974",
     "MorphColours": false,
@@ -1932,7 +1932,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/977_1.json"
   },
- 
+
 
   {
     "GroupName": "Head_element_987",
@@ -1966,7 +1966,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/990_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_1009",
     "MorphColours": false,
@@ -1999,7 +1999,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/1012_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_1016",
     "MorphColours": false,
@@ -2016,7 +2016,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/1017_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_1020",
     "MorphColours": false,
@@ -2113,7 +2113,7 @@
     "Type": "Surfaces",
     "URL": "Head_new/1031_1.json"
   },
-  
+
   {
     "GroupName": "Head_element_1035",
     "MorphColours": false,
@@ -2516,25 +2516,16 @@
     "Type": "Lines",
     "URL": "Lines_brown_1.json"
   },
+
   {
     "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
-    "GroupName": "Nodes_Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
+    "RegionPath": "Torso_element_500",
     "DisplayLabels": true,
     "Type": "Glyph",
     "URL": "Nodes/all_nodes_labels_2.json"
-  },
-  {
-    "GroupName": "Node Fields2",
-    "GlyphGeometriesURL": "Nodes/all_nodes_labels_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "Torso_element_254",
-    "Type": "Glyph",
-    "URL": "Torso/254_1.json"
   },
   {
     "Type": "View",

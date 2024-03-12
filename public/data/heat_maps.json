@@ -108,6 +108,7 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
+    "RegionPath": "Anterior Head",
     "Type": "Surfaces",
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/4_NFs_normalised_1.json"
   },

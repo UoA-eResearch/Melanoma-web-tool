@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "Lines_black_2.json"
+   }
+]

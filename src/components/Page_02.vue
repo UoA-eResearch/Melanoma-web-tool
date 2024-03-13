@@ -31,6 +31,7 @@
             }
         },
         methods: {
+            
             onSelected: function (data) {
                 console.log(data)
                 alert("");
@@ -63,13 +64,21 @@
             onReady() {
                 console.log('zoom out');
                 this.$refs['Skin Selection Tool'][0].$module.scene.viewAll();
+                this.setRegionVisibilityWithDelay();
+            },
+            setRegionVisibilityWithDelay() {
                 this.displays.forEach(item => {
                     if (this.$refs[item.ref] && this.$refs[item.ref].$module) {
                         const scene = this.$refs[item.ref].$module.scene;
                         const rootRegion = scene.getRootRegion();
                         const regions = rootRegion.getChildRegions();
                         regions.forEach(region => {
-                            region.setVisibility(false);
+                            // Check if the region name matches the desired name
+                            if (region.getName() === "1 Draining Node Fields") {
+                                setTimeout(() => {
+                                    region.setVisibility(false);
+                                }, 1000); // Delay in milliseconds (adjust as needed)
+                            }
                         });
                     }
                 });

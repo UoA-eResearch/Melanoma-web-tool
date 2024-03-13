@@ -108,10 +108,25 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "Anterior Head",
     "Type": "Surfaces",
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/4_NFs_normalised_1.json"
   },
+  
+  {
+    "GroupName": "Discrete Points Normalized Count1",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/4_NF_data_points_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "4 Or More Draining Node Fields",
+    "Type": "Glyph",
+    "URL": "Heat_maps/discrete_points_normalized/4_NF_data_points_2.json"
+  },
+  
+ 
+ 
+ 
+
   {
     "Type": "View",
     "URL": "skin_cancer_Layout2_view.json"

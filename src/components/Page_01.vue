@@ -98,7 +98,7 @@ export default {
                 this.displays.push(this.csvFiles.shift());
         },
         onReady() {
-            /* console.log('zoom out');
+             console.log('zoom out');
             this.$refs['Skin Selection Tool'][0].$module.scene.viewAll();
             this.displays.forEach(item => {
                 if (this.$refs[item.ref] && this.$refs[item.ref].$module) {
@@ -109,7 +109,7 @@ export default {
                     region.setVisibility(false);
                 });
             }
-            }); */
+            }); 
             setTimeout (() => {
                 console.log('test');
                 alert();

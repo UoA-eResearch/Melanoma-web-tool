@@ -113,7 +113,7 @@
   },
   
   {
-    "GroupName": "Discrete Points Normalized Count",
+    
     "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/4_NF_data_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
@@ -123,7 +123,7 @@
     "URL": "Heat_maps/discrete_points_normalized/4_NF_data_points_2.json"
   },
   {
-    "GroupName": "Discrete Points Normalized Count",
+    
     "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/1_NF_data_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,

@@ -30,8 +30,10 @@
                                     </tr>
                                 </tbody>
                             </table>
-                            
-                            <div class="right-align">TIS = Triangular Intermuscular Space </div>
+
+                            <div class="right-align" v-if="isTisPresent(selectedElmData)">
+                                    TIS = Triangular Intermuscular Space
+                            </div>
                         </div>
                         <span v-else>No data available!</span>
 
@@ -73,6 +75,9 @@ export default {
         }
     },
     methods: {
+        isTisPresent(selectedElmData) {
+            return selectedElmData.some(elm => elm.code === 'ltis' || elm.code === 'rtis');
+        },
         onSelected: function (response) {
             const { data: { id } } = response?.[0];
 

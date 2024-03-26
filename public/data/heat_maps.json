@@ -133,7 +133,24 @@
     "URL": "Heat_maps/discrete_points_normalized/1_NF_data_points_2.json"
   },
  
- 
+  {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "all_element_jasons/Lines_brown_2.json"
+  },
+  {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "",
+    "Type": "Lines",
+    "URL": "all_element_jasons/Lines_brown_1.json"
+  },
  
 
   {

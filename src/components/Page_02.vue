@@ -63,7 +63,7 @@
             },
             onReady() {
                 console.log('zoom out');
-                this.$refs['Skin Selection Tool'][0].$module.scene.viewAll();
+                this.$refs['Heat Maps'][0].$module.scene.viewAll();
                 this.setRegionVisibilityWithDelay();
             },
             setRegionVisibilityWithDelay() {

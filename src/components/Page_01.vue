@@ -7,7 +7,7 @@
                     :style="{ 'margin-right': showSidebar ? sidebarWidth : '0', 'height': '100%' }" />
                 <div v-show="showSidebar">
                     <div class="sidebar" :class="{ 'show': showSidebar }">
-                        <button @click="showSidebar = false">Hide STATISTICS</button>
+                        
                         <h3 v-if="selectedElm">STATISTICS - {{ selectedElm }}</h3>
                         <div v-if="selectedElmData">
                             <table>
@@ -34,11 +34,16 @@
                             <div class="right-align" v-if="isTisPresent(selectedElmData)">
                                     TIS = Triangular Intermuscular Space
                             </div>
+                            <button class="hide-statistics-button" @click="showSidebar = false">CLOSE</button>
                         </div>
                         <span v-else>No data available!</span>
 
 
+                   
                     </div>
+                    <!-- "Hide Statistics" button -->
+                    
+          
                 </div>
             </el-tab-pane>
         </el-tabs>

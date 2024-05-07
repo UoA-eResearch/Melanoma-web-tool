@@ -3,7 +3,7 @@
         <el-tabs :tab-position="tabPosition" style="top:10%;height: 90%;">
             <el-tab-pane v-for="item in displays" :key="item.ref" :label="item.ref" style="height:100%">
                 <ScaffoldVuer @on-ready="onReady" @scaffold-selected="onSelected" v-if="item.type === 'scaffold'"
-                    :url="item.url" v-on:scaffold-selected="ScaffoldSelected" :ref="item.ref"
+                    :url="item.url" v-on:scaffold-selected="ScaffoldSelected" ref="scaffold" 
                     :style="{ 'margin-right': showSidebar ? sidebarWidth : '0', 'height': '100%' }" />
                 <div v-show="showSidebar">
                     <div class="sidebar" :class="{ 'show': showSidebar }">
@@ -55,7 +55,7 @@
 import { ScaffoldVuer } from '@abi-software/scaffoldvuer';
 import data_elements from '@/data/data_elements.json';
 export default {
-    name: 'page_01',
+    name: 'Skin_Selection_Tool',
     components: {
         ScaffoldVuer,
     },
@@ -69,6 +69,7 @@ export default {
             displays: [
 
 
+               /* { type: 'scaffold', url: "/data/all_element_jasons/Alan/mouseLungs_metadata.json" }*/
                 { type: 'scaffold', url: "/data/all_element_jasons/element_all.json" }
                 /*{ type: 'scaffold', url: "/data/skin_cancer_metadata1.json", ref: "Skin Cancer" },*/
             ],
@@ -93,8 +94,8 @@ export default {
 
             // Toggle region visibility
             this.displays.forEach(item => {
-                if (this.$refs[item.ref] && this.$refs[item.ref].$module) {
-                    const scene = this.$refs[item.ref].$module.scene;
+                if (this.$refs[item.ref] && this.$refs[item.$ref].$module) {
+                    const scene = this.$refs[item.$ref].$module.scene;
                     const rootRegion = scene.getRootRegion();
                     const region = rootRegion.getChildWithName(this.selectedElm);
                     if (region) {
@@ -113,7 +114,27 @@ export default {
         },
         onReady() {
             console.log('zoom out');
-            this.$refs['Skin Selection Tool'][0].$module.scene.viewAll();
+            if (this.$refs['scaffold']) {
+                    console.log(this.$refs['scaffold']);
+            }
+            
+            // Check if $refs['Skin Selection Tool'] exists
+            if (this.$refs['scaffold']) {
+                const skinSelectionTool = this.$refs['scaffold'];
+                
+                // Check if it's an array and has elements
+                if (Array.isArray(skinSelectionTool) && skinSelectionTool.length > 0) {
+                    skinSelectionTool[0].$module.scene.viewAll();
+                } else {
+                    console.error("No elements found in 'Skin Selection Tool'");
+                }
+            } else {
+                console.error("No elements found in 'Skin Selection Tool'");
+            }
+
+            console.log('zoom out');
+
+            // Loop through displays and perform operations
             this.displays.forEach(item => {
                 if (this.$refs[item.ref] && this.$refs[item.ref].$module) {
                     const scene = this.$refs[item.ref].$module.scene;
@@ -124,18 +145,14 @@ export default {
                     });
                 }
             });
-            setTimeout(() => {
-                console.log('test');
-                alert();
-                document.getElementsByClassName('el-icon-arrow-left')[0].click();
-            }, 300);
         }
+
     }
 }
 setTimeout(() => {
     document.getElementsByClassName('el-icon-arrow-left')[0].click();
     document.querySelectorAll('.fitWindow')[0].parentElement.click();
-}, 2000);
+}, 3000);
 </script>
 
 <style>

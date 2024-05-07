@@ -72,26 +72,19 @@
     "URL": "Heat_maps/posteriorhead_node_field_1.json"
   },
   {
-    "GroupName": "Anterior Head",
+    "GroupName": "One Draining Node Fields",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Heat_maps/anteriorhead_node_field_1.json"
+    "URL": "Heat_maps/Jsons_heat_maps_6-3-24/One Draining Node Field.json"
   },
   {
-    "GroupName": "1 Draining Node Fields",
+    "GroupName": "Heat Map",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/Jsons_heat_maps_6-3-24/One draining Node field.json"
-  },
-  {
-    "GroupName": "1 Or More Draining Node Fields",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
+    "RegionPath": "1 Or More Draining Node Fields",
     "Type": "Surfaces",
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/2_NFs_normalised_1.json"
   },
@@ -104,16 +97,16 @@
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/3_NFs_normalised_1.json"
   },
   {
-    "GroupName": "4 Or More Draining Node Fields",
+    "GroupName": "Heat Map",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
+    "RegionPath": "4 Or More Draining Node Fields",
     "Type": "Surfaces",
     "URL": "Heat_maps/Jsons_heat_maps_6-3-24/4_NFs_normalised_1.json"
   },
-  
   {
-    
+    "GroupName": "Patient Data",
     "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/4_NF_data_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
@@ -123,7 +116,7 @@
     "URL": "Heat_maps/discrete_points_normalized/4_NF_data_points_2.json"
   },
   {
-    
+    "GroupName": "Patient Data",
     "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/1_NF_data_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
@@ -132,7 +125,6 @@
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/1_NF_data_points_2.json"
   },
- 
   {
     "GroupName": "Lines",
     "MorphColours": false,
@@ -142,17 +134,7 @@
     "Type": "Lines",
     "URL": "all_element_jasons/Lines_brown_2.json"
   },
-  {
-    "GroupName": "Lines",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "",
-    "Type": "Lines",
-    "URL": "all_element_jasons/Lines_brown_1.json"
-  },
- 
-
+  
   {
     "Type": "View",
     "URL": "skin_cancer_Layout_view.json"

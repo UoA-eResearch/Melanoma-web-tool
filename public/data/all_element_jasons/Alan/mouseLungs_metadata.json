@@ -15,6 +15,7 @@
       "Type" : "Lines",
       "URL" : "mouseLungs_3.json"
    },
+  
    {
       "GroupName" : "lower lobe of right lung",
       "MorphColours" : false,
@@ -29,10 +30,12 @@
       "MorphColours" : false,
       "MorphNormals" : false,
       "MorphVertices" : false,
+      "RegionPath": "lower lobe of right lung",
       "DisplayLabels": true,
       "Type" : "Glyph",
       "URL" : "mouseLungs_5.json"
    },
+  
    {
       "GroupName" : "left lung",
       "MorphColours" : false,

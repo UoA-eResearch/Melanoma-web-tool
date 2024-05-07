@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="nav">
       <router-link class="link" to="/">Skin Selection Tool</router-link>
-      <router-link class="link" to="/Page-02">Heat Maps</router-link>
+      <router-link class="link" to="/Page-02">HeatMaps</router-link>
       
     </nav>
     <router-view/>

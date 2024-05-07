@@ -71,41 +71,7 @@
     "Type": "Surfaces",
     "URL": "Heat_maps/posteriorhead_node_field_1.json"
   },
-  {
-    "GroupName": "One Draining Node Fields",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/Jsons_heat_maps_6-3-24/One Draining Node Field.json"
-  },
-  {
-    "GroupName": "Heat Map",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "1 Or More Draining Node Fields",
-    "Type": "Surfaces",
-    "URL": "Heat_maps/Jsons_heat_maps_6-3-24/2_NFs_normalised_1.json"
-  },
-  {
-    "GroupName": "3 Or More Draining Node Fields",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/Jsons_heat_maps_6-3-24/3_NFs_normalised_1.json"
-  },
-  {
-    "GroupName": "Heat Map",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "4 Or More Draining Node Fields",
-    "Type": "Surfaces",
-    "URL": "Heat_maps/Jsons_heat_maps_6-3-24/4_NFs_normalised_1.json"
-  },
-
+  
   
   
   {

@@ -3,7 +3,7 @@
         <div id="p2">
             <el-tabs :tab-position="tabPosition" style="top:10%;height: 90%;">
                 <el-tab-pane v-for="item in displays" :key="item.ref" :label="item.ref" style="height:100%">
-                    <ScaffoldVuer @on-ready="onReady" @scaffold-highlighted="onHighlighted"  @scaffold-selected="offSelected"  v-if="item.type === 'scaffold'" :url="item.url" 
+                    <ScaffoldVuer @on-ready="onReady"   v-if="item.type === 'scaffold'" :url="item.url" 
                                   v-on:scaffold-selected="ScaffoldSelected" style="height:100%" :checked="false" ref="scaffold"/> <!-- Pass the checked prop -->
                 </el-tab-pane>
             </el-tabs>
@@ -19,7 +19,7 @@
     import { ScaffoldVuer } from '@abi-software/scaffoldvuer';
 
     export default {
-        name: 'Heat Maps',
+        name: 'HeatMaps',
         components: {
             ScaffoldVuer,
         },

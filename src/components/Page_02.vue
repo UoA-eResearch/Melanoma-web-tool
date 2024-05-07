@@ -146,11 +146,7 @@
 
 
 
-<<<<<<< HEAD
             /*setRegionVisibilityWithDelay() {
-=======
-            setRegionVisibilityWithDelay() {
->>>>>>> f95b770d1566657d2f6569f058adaba1699a9d27
                 console.log('zoomout');
                 if (this.$refs['scaffold']) {
                     console.log(this.$refs['scaffold']);

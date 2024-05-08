@@ -128,7 +128,7 @@
     "URL": "Grouped_regions/Neck_posterior_L_2.json"
   },
   {
-    "GroupName": "Posterior Upper Head Left",
+    "GroupName": "Posterior_Upper_Head_Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -136,7 +136,7 @@
     "URL": "Grouped_regions/Upper_head_posterior_L_2.json"
   },
   {
-    "GroupName": "Posterior Upper Head Right",
+    "GroupName": "Posterior_Upper_Head_Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -144,7 +144,7 @@
     "URL": "Grouped_regions/Upper_head_posterior_R_2.json"
   },
   {
-    "GroupName": "Anterior Upper Head Left",
+    "GroupName": "Anterior_Upper_Head_Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -152,7 +152,7 @@
     "URL": "Grouped_regions/Upper_head_Anterior_L_2.json"
   },
   {
-    "GroupName": "Anterior Upper Head Right",
+    "GroupName": "Anterior_Upper_Head_Right",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -160,7 +160,7 @@
     "URL": "Grouped_regions/Upper_head_Anterior_R_2.json"
   },
   {
-    "GroupName": "Posterior Upper Head Left",
+    "GroupName": "Posterior_Upper_Head_Left",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

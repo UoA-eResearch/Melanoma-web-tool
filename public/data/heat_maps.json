@@ -88,6 +88,73 @@
     "Type": "Surfaces",
     "URL": "Heat_maps/la_1.json"
   },
+
+
+  {
+    "RegionPath": "Left Groin/Sub-Node Fields",
+    "GroupName": "Liei",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/liei_1.json"
+  },
+  {
+    "RegionPath": "Left Groin/Sub-Node Fields",
+    "GroupName": "Lif",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/lif_1.json"
+  },
+  {
+    "RegionPath": "Left Groin/Sub-Node Fields",
+    "GroupName": "Lii",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/lii_1.json"
+  },
+
+  {
+    "RegionPath": "Right Groin/Sub-Node Fields",
+    "GroupName": "Riei",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/riei_1.json"
+  },
+  {
+    "RegionPath": "Right Groin/Sub-Node Fields",
+    "GroupName": "Rif",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/rif_1.json"
+  },
+  {
+    "RegionPath": "Right Groin/Sub-Node Fields",
+    "GroupName": "Rii",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/rii_1.json"
+  },
+ 
+
+
+
+
+
+
+
+
+
   {
     "RegionPath": "Left Axilla/Sub-Node Fields",
     "GroupName": "Laa",
@@ -96,6 +163,51 @@
     "MorphVertices": false,
     "Type": "Surfaces",
     "URL": "Heat_maps/Sub_fields/laa_1.json"
+  },
+  {
+    "RegionPath": "Left Axilla/Sub-Node Fields",
+    "GroupName": "Lam",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/lam_1.json"
+  },
+  {
+    "RegionPath": "Left Axilla/Sub-Node Fields",
+    "GroupName": "Lap",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/lap_1.json"
+  },
+  {
+    "RegionPath": "Right Axilla/Sub-Node Fields",
+    "GroupName": "Raa",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/raa_1.json"
+  },
+  {
+    "RegionPath": "Right Axilla/Sub-Node Fields",
+    "GroupName": "Ram",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/ram_1.json"
+  },
+  {
+    "RegionPath": "Right Axilla/Sub-Node Fields",
+    "GroupName": "Rap",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/rap_1.json"
   },
   {
     "GroupName": "Patient Data",

@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "2NFS_nor_3.json",
+      "GroupName" : "2_NFs_normalised.datapoints",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "2NFS_nor_2.json"
+   }
+]

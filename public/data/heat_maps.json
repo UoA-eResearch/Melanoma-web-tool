@@ -1,5 +1,13 @@
 [
- 
+  {
+    "GroupName": "Lines",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    
+    "Type": "Lines",
+    "URL": "all_element_jasons/Lines_brown_2.json"
+  },
   {
     "GroupName": "Heat Map",
     "MorphColours": false,
@@ -11,13 +19,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/4NFS_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/4NFS_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "4 Or More Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/4NFS_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/4NFS_nor_2.json"
   },
   {
     "GroupName": "Heat Map",
@@ -30,13 +38,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/2NFS_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/2NFS_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "2 Or More Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/2NFS_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/2NFS_nor_2.json"
   },
   {
     "GroupName": "Heat Map",
@@ -49,13 +57,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/3NFS_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/3NFS_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "3 Or More Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/3NFS_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/3NFS_nor_2.json"
   },
 
   {
@@ -69,13 +77,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/1NFS_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/1NFS_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "1 Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/1NFS_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/1NFS_nor_2.json"
   },
 
 
@@ -211,13 +219,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/la_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/la_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Axilla",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/la_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/la_nor_2.json"
   },
 
   {
@@ -231,13 +239,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ra_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ra_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Right Axilla",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/ra_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/ra_nor_2.json"
   },
 
   {
@@ -251,13 +259,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ri_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ri_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Right Groin",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/ri_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/ri_nor_2.json"
   },
 
   {
@@ -271,13 +279,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Groin",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/li_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/li_nor_2.json"
   },
   {
     "RegionPath": "Left Groin",

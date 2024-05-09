@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "posterior_head_nor_3.json",
+      "GroupName" : "posterior_normalize",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "posterior_head_nor_2.json"
+   }
+]

@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "3NFS_nor_3.json",
+      "GroupName" : "3_NFs_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "3NFS_nor_2.json"
+   }
+]

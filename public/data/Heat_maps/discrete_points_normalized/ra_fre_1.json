@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "ra_fre_3.json",
+      "GroupName" : "ra",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "ra_fre_2.json"
+   }
+]

@@ -10320,6 +10320,26 @@
          "percentage": "11.1 " , "CI":  "(0.0, 33.3)"
       }
   ],
+  "Lip Right": [
+    {
+        "code": "lc3",
+        "name": "left cervical level iii",
+        "count": "1",
+        "percentage": "25.2", "CI":  " (0, 75)"
+    },
+    {
+        "code": "rc1",
+        "name": "right cervical level i",
+        "count": "3",
+        "percentage": "0.0", "CI":  " (25, 100)"
+    },
+    {
+        "code": "lc1",
+        "name": "left cervical level i",
+        "count": "1",
+        "percentage": "0.0", "CI":  " (0, 75)"
+    }
+],
   "Nose Left": [
       {
           "code": "lc1",

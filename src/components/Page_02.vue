@@ -3,7 +3,7 @@
         <div id="p2">
             <el-tabs :tab-position="tabPosition" style="top:10%;height: 90%;">
                 <el-tab-pane v-for="item in displays" :key="item.ref" :label="item.ref" style="height:100%">
-                    <ScaffoldVuer @on-ready="onReady"   v-if="item.type === 'scaffold'" :url="item.url" 
+                    <ScaffoldVuer @on-ready="onReady" @scaffold-highlighted="onHighlighted"   v-if="item.type === 'scaffold'" :url="item.url" 
                                   v-on:scaffold-selected="ScaffoldSelected" style="height:100%" :checked="false" ref="scaffold"/> <!-- Pass the checked prop -->
                 </el-tab-pane>
             </el-tabs>
@@ -38,11 +38,17 @@
         },
         methods: {
             
-            /*onHighlighted: function () {
-                console.log(this.$refs.scaffold)
-                console.log(this.$refs['scaffold']) 
-                this.$refs['scaffold'].objectHovered(undefined, false);
-    },*/
+            objectHovered: function(objects, propagate) {
+    console.log("this.$module:", this.$module);
+    this.hoveredObjects = objects;
+    if (this.$module) {
+        this.$module.setHighlightedByZincObjects(objects, undefined, propagate);
+    } else {
+        
+        console.error("this.$module is undefined.");
+    }
+},
+
             
             onSelected: function (data) {
                 console.log(data)

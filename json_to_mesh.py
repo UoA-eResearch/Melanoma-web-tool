@@ -1,8 +1,6 @@
-import os
 import numpy as np
 import json
 import trimesh
-import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
 
@@ -123,7 +121,7 @@ scale_factor = 1.0 / combined_mesh.bounding_box.extents.max()
 combined_mesh.apply_scale(scale_factor)
 
 #Optional: Save the combined mesh to a new obj/ply etc file
-combined_mesh.export('combined_mesh.obj')
+combined_mesh.export('./combined_mesh.obj')
 
 for idx, mesh in enumerate(mesh_list):
     mesh.apply_scale(scale_factor)
@@ -135,7 +133,7 @@ for idx, mesh in enumerate(mesh_list):
     json_obj['stats_data'] = stats_rows[idx]
     stats.append(json_obj)
 
-json.dump(stats, open("stats_data.json", 'w'))
+json.dump(stats, open("./stats_data.json", 'w'))
 
 
 

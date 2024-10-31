@@ -46,6 +46,17 @@
             padding: 2px;
             text-align: left;
         }
+
+        .label {
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 4px;
+            border: 1px solid #fff;
+            padding: 2px;
+        }
+
+        .label.landmark {
+            background-color: rgba(75, 140, 201, 0.8)
+        }
     </style>
 </head>
 
@@ -71,8 +82,8 @@
         import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
         import WebGL from 'three/addons/capabilities/WebGL.js';
         import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
-        /*
         import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+        /*
         import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
         import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
         import { Line2 } from 'three/addons/lines/Line2.js';
@@ -84,9 +95,24 @@
 
         let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED;
 
+        let selectable = [];
+
         const pointer = new THREE.Vector2();
 
         init();
+
+        function addLabel(text, position, additional_class="landmark") {
+            const labelDiv = document.createElement('div');
+            labelDiv.className = `label ${additional_class}`;
+            labelDiv.textContent = text;
+            const label = new CSS2DObject(labelDiv);
+            label.position.copy(position);
+            scene.add(label);
+            return label;
+        }
+
+        let tooltip = addLabel("Element name", new THREE.Vector3(0, 0, 0), "tooltip");
+        tooltip.visible = false;
 
         function init() {
 
@@ -128,6 +154,7 @@
                             flatShading: false,
                             side: THREE.DoubleSide
                         });
+                        selectable.push(child);
                     }
                 }
                 root.position.add(offset);
@@ -153,16 +180,14 @@
             renderer.shadowMap.enabled = true;
             container.appendChild(renderer.domElement);
 
-            /*
-                labelRenderer = new CSS2DRenderer();
-                labelRenderer.setSize(window.innerWidth, window.innerHeight);
-                labelRenderer.domElement.style.position = 'absolute';
-                labelRenderer.domElement.style.top = '0px';
-                document.body.appendChild(labelRenderer.domElement);
-            */
+            labelRenderer = new CSS2DRenderer();
+            labelRenderer.setSize(window.innerWidth, window.innerHeight);
+            labelRenderer.domElement.style.position = 'absolute';
+            labelRenderer.domElement.style.top = '0px';
+            document.body.appendChild(labelRenderer.domElement);
 
             //controls
-            controls = new ArcballControls(camera, renderer.domElement, scene);
+            controls = new ArcballControls(camera, labelRenderer.domElement, scene);
             //controls.addEventListener('change', render);
             controls.setGizmosVisible(false);
             window.controls = controls;
@@ -184,7 +209,7 @@
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
-            //labelRenderer.setSize(window.innerWidth, window.innerHeight);
+            labelRenderer.setSize(window.innerWidth, window.innerHeight);
         }
 
         function onPointerMove( event ) {
@@ -199,20 +224,24 @@
 
         function render() {
 			raycaster.setFromCamera( pointer, camera );
-            const intersects = raycaster.intersectObjects( scene.children, true );
+            const intersects = raycaster.intersectObjects( selectable, true );
             if ( intersects.length > 0 ) {
                 if ( INTERSECTED != intersects[ 0 ].object ) {
                     if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
                     INTERSECTED = intersects[ 0 ].object;
                     INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
                     INTERSECTED.material.emissive?.setHex( 0xff0000 );
+                    tooltip.position.copy(intersects[0].point);
+                    tooltip.element.textContent = INTERSECTED.name;
+                    tooltip.visible = true;
                 }
             } else {
                 if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
                 INTERSECTED = null;
+                tooltip.visible = false;
             }
             renderer.render(scene, camera);
-            //labelRenderer.render(scene, camera);
+            labelRenderer.render(scene, camera);
         }
 
         function onKeyDown(event) {

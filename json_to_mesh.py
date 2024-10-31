@@ -45,4 +45,4 @@ for row in tqdm(df.itertuples(index=False), total=df.shape[0]):
     mesh = trimesh.Trimesh(vertices=verts_reshaped, faces=faces_reshaped)
     scene.add_geometry(mesh, geom_name=GroupName)
 
-scene.export('./scene.obj')
+scene.export('./scene.glb')

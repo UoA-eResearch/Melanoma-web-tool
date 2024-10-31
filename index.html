@@ -74,7 +74,7 @@
             }
         }
     </script>
-    <script type="module">
+    <script defer type="module">
 
         //import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
         import * as THREE from 'three';
@@ -97,6 +97,8 @@
 
         let selectable = [];
 
+        var offset = new THREE.Vector3(-270, -200, 900);
+
         const pointer = new THREE.Vector2();
 
         init();
@@ -111,8 +113,22 @@
             return label;
         }
 
+        function addSphere(position) {
+            const sphere = new THREE.Mesh(new THREE.SphereGeometry(10, 32, 32), new THREE.MeshPhongMaterial({color: 0x00ff00}));
+            sphere.position.copy(position)
+            scene.add(sphere);
+        }
+
         let tooltip = addLabel("Element name", new THREE.Vector3(0, 0, 0), "tooltip");
         tooltip.visible = false;
+
+        let lymphs = await fetch("lymphs_positions.json").then(response => response.json());
+        console.log(lymphs);
+        for (var l of lymphs) {
+            var position = new THREE.Vector3(l.position[0], l.position[1], l.position[2]).add(offset);
+            addSphere(position);
+            addLabel(l.label, position, "lymph");
+        }
 
         function init() {
 
@@ -131,8 +147,6 @@
 
             const loader = new GLTFLoader();
 
-            var offset = new THREE.Vector3(-270, -200, 900);
-
             loader.load("scene.glb", (root) => {
                 console.log(root)
                 root = root.scene.children[0];
@@ -150,6 +164,8 @@
                         child.material = new THREE.MeshPhongMaterial({
                             color: "#E5B27F",
                             specular: "#33334C",
+                            opacity: .5,
+                            transparent: true,
                             shininess: 20,
                             flatShading: false,
                             side: THREE.DoubleSide
@@ -231,14 +247,16 @@
                     INTERSECTED = intersects[ 0 ].object;
                     INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
                     INTERSECTED.material.emissive?.setHex( 0xff0000 );
-                    tooltip.position.copy(intersects[0].point);
-                    tooltip.element.textContent = INTERSECTED.name;
-                    tooltip.visible = true;
+                    if (tooltip) {
+                        tooltip.position.copy(intersects[0].point);
+                        tooltip.element.textContent = INTERSECTED.name;
+                        tooltip.visible = true;
+                    }
                 }
             } else {
                 if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
                 INTERSECTED = null;
-                tooltip.visible = false;
+                if (tooltip) tooltip.visible = false;
             }
             renderer.render(scene, camera);
             labelRenderer.render(scene, camera);

@@ -5,6 +5,8 @@
     <title>Melanoma</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <style>
         body {
             background-color: #000;
@@ -35,16 +37,19 @@
             color: orange
         }
 
-        #controls {
-            position: absolute;
-            z-index: 1000;
-            bottom: 10px;
-            right: 10px;
-            background-color: black;
-            border-radius: 4px;
-            border: 1px solid #fff;
-            padding: 2px;
-            text-align: left;
+        .sidebar {
+            position: fixed;
+            z-index: 999;
+            right: 0;
+            top: 50px;
+            width: 40%;
+            height: 80%;
+            overflow: auto;
+            background-color: #f5f5f5;
+            color: black;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
         }
 
         .label {
@@ -64,7 +69,19 @@
     <div id="info">Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Double click
         to focus</div>
     <div id="container"></div>
-    <div id="controls">
+    <div class="sidebar show">
+        <h3>Statistics for <span id="element">Torso_element_567</span></h3>
+        <table class="table table-hover">
+            <thead>
+                <th>Code</th>
+                <th>Nodefield</th>
+                <th># Cases</th>
+                <th>Mean Drainage % </th>
+                <th>95%CI</th>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
     </div>
     <script type="importmap">
         {
@@ -76,7 +93,7 @@
     </script>
     <script defer type="module">
 
-        //import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
+        import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
         import * as THREE from 'three';
         import Stats from 'three/addons/libs/stats.module.js';
         import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -96,6 +113,8 @@
         let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED;
 
         let selectable = [];
+
+        let frozen = false;
 
         var offset = new THREE.Vector3(-270, -200, 900);
 
@@ -129,6 +148,9 @@
             addSphere(position);
             addLabel(l.label, position, "lymph");
         }
+
+        window.data_elements = await fetch("src/data/data_elements.json").then(response => response.json());
+        console.log(data_elements)
 
         function init() {
 
@@ -216,7 +238,8 @@
             // stats
             stats = new Stats();
             container.appendChild(stats.dom);
-            window.addEventListener( 'mousemove', onPointerMove );
+            window.addEventListener('mousemove', onPointerMove );
+            window.addEventListener('click', onClick );
             window.addEventListener('resize', onWindowResize);
             window.addEventListener('keydown', onKeyDown);
         }
@@ -233,30 +256,52 @@
 			pointer.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
         }
 
+        function onClick() {
+            frozen = !frozen;
+        }
+
         function animate() {
             render();
             stats.update();
         }
 
         function render() {
-			raycaster.setFromCamera( pointer, camera );
-            const intersects = raycaster.intersectObjects( selectable, true );
-            if ( intersects.length > 0 ) {
-                if ( INTERSECTED != intersects[ 0 ].object ) {
-                    if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
-                    INTERSECTED = intersects[ 0 ].object;
-                    INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
-                    INTERSECTED.material.emissive?.setHex( 0xff0000 );
-                    if (tooltip) {
-                        tooltip.position.copy(intersects[0].point);
-                        tooltip.element.textContent = INTERSECTED.name;
-                        tooltip.visible = true;
+            if (!frozen) {
+                raycaster.setFromCamera( pointer, camera );
+                const intersects = raycaster.intersectObjects( selectable, true );
+                if ( intersects.length > 0 ) {
+                    if ( INTERSECTED != intersects[ 0 ].object ) {
+                        if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
+                        INTERSECTED = intersects[ 0 ].object;
+                        INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
+                        INTERSECTED.material.emissive?.setHex( 0xff0000 );
+                        if (tooltip) {
+                            tooltip.position.copy(intersects[0].point);
+                            tooltip.element.textContent = INTERSECTED.name;
+                            tooltip.visible = true;
+                        }
+                        if (data_elements) {
+                            $("#element").text(INTERSECTED.name.replace(/_/g, " "));
+                            $("#tbody").empty()
+                            var rows = data_elements[INTERSECTED.name]
+                            if (!rows) {
+                                rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
+                            }
+                            if (!rows) {
+                                console.warn(INTERSECTED.name)
+                                $("#tbody").append(`<tr><td colspan="5">No data available</td></tr>`)
+                                return;
+                            }
+                            for (var d of rows) {
+                                $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
+                            }
+                        }
                     }
+                } else {
+                    if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
+                    INTERSECTED = null;
+                    if (tooltip) tooltip.visible = false;
                 }
-            } else {
-                if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
-                INTERSECTED = null;
-                if (tooltip) tooltip.visible = false;
             }
             renderer.render(scene, camera);
             labelRenderer.render(scene, camera);

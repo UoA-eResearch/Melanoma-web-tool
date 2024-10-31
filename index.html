@@ -71,8 +71,8 @@
         import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
         import WebGL from 'three/addons/capabilities/WebGL.js';
         import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
-        import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
         /*
+        import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
         import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
         import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
         import { Line2 } from 'three/addons/lines/Line2.js';
@@ -98,25 +98,28 @@
 
             camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 1, 10000);
             window.camera = camera;
-            camera.position.set(2050, 2558, -960);
+            camera.position.set(1496.96865501004, 3213.1316867226697, -232.08816356744805);
             camera.up = new THREE.Vector3(0,0,1);
-            camera.lookAt(new THREE.Vector3(0,0,-910));
 
             scene = new THREE.Scene();
 
             const loader = new GLTFLoader();
+
+            var offset = new THREE.Vector3(-270, -200, 900);
+
             loader.load("scene.glb", (root) => {
                 console.log(root)
                 root = root.scene.children[0];
                 console.log(root)
-                for (var child of root.children) {
+                for (var i in root.children) {
+                    var child = root.children[i];
                     child.geometry.computeVertexNormals()
                     if (child.name == "Lines") {
                         console.log(child)
-                        child.visible = false;
                         const material = new THREE.LineBasicMaterial({color: 0x000000});
                         const mesh = new THREE.LineSegments(child.geometry, material);
-                        scene.add(mesh);
+                        mesh.position.add(offset);
+                        root.children[i] = mesh;
                     } else {
                         child.material = new THREE.MeshPhongMaterial({
                             color: "#E5B27F",
@@ -127,6 +130,7 @@
                         });
                     }
                 }
+                root.position.add(offset);
                 scene.add(root);
             });
 
@@ -149,17 +153,19 @@
             renderer.shadowMap.enabled = true;
             container.appendChild(renderer.domElement);
 
-            labelRenderer = new CSS2DRenderer();
-            labelRenderer.setSize(window.innerWidth, window.innerHeight);
-            labelRenderer.domElement.style.position = 'absolute';
-            labelRenderer.domElement.style.top = '0px';
-            document.body.appendChild(labelRenderer.domElement);
+            /*
+                labelRenderer = new CSS2DRenderer();
+                labelRenderer.setSize(window.innerWidth, window.innerHeight);
+                labelRenderer.domElement.style.position = 'absolute';
+                labelRenderer.domElement.style.top = '0px';
+                document.body.appendChild(labelRenderer.domElement);
+            */
 
             //controls
-            controls = new ArcballControls(camera, labelRenderer.domElement, scene);
+            controls = new ArcballControls(camera, renderer.domElement, scene);
             //controls.addEventListener('change', render);
             controls.setGizmosVisible(false);
-            camera.lookAt(new THREE.Vector3(0,0,-910));
+            window.controls = controls;
 
             //controls.minDistance = 1
             //controls.maxDistance = 2000
@@ -178,7 +184,7 @@
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
             renderer.setSize(window.innerWidth, window.innerHeight);
-            labelRenderer.setSize(window.innerWidth, window.innerHeight);
+            //labelRenderer.setSize(window.innerWidth, window.innerHeight);
         }
 
         function onPointerMove( event ) {
@@ -206,7 +212,7 @@
                 INTERSECTED = null;
             }
             renderer.render(scene, camera);
-            labelRenderer.render(scene, camera);
+            //labelRenderer.render(scene, camera);
         }
 
         function onKeyDown(event) {

@@ -149,7 +149,8 @@
             addLabel(l.label, position, "lymph");
         }
 
-        window.data_elements = await fetch("src/data/data_elements.json").then(response => response.json());
+        let data_elements;
+        data_elements = await fetch("src/data/data_elements.json").then(response => response.json());
         console.log(data_elements)
 
         function init() {

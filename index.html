@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Melanoma</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            font-weight: bold;
+            overflow: hidden;
+            font-family: sans-serif;
+            font-size: 12px;
+            text-align: center;
+        }
+
+        #info {
+            background-color: #000;
+            position: absolute;
+            width: 100%;
+            top: 0px;
+            padding: 5px;
+            z-index: 999;
+        }
+
+        a {
+            color: #0080ff;
+        }
+
+        b {
+            color: orange
+        }
+
+        #controls {
+            position: absolute;
+            z-index: 1000;
+            bottom: 10px;
+            right: 10px;
+            background-color: black;
+            border-radius: 4px;
+            border: 1px solid #fff;
+            padding: 2px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="info">Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Double click
+        to focus</div>
+    <div id="container"></div>
+    <div id="controls">
+    </div>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module">
+
+        import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
+        import * as THREE from 'three';
+        import Stats from 'three/addons/libs/stats.module.js';
+        import { OBJLoader } from 'three/addons/loaders/OBJLoader.js';
+        import WebGL from 'three/addons/capabilities/WebGL.js';
+        import { ArcballControls } from 'three/addons/controls/ArcballControls.js';
+        import papaparse from 'https://cdn.jsdelivr.net/npm/papaparse@5.4.1/+esm';
+        import { CSS2DRenderer, CSS2DObject } from 'three/addons/renderers/CSS2DRenderer.js';
+        import { LineGeometry } from 'three/addons/lines/LineGeometry.js';
+        import { LineMaterial } from 'three/addons/lines/LineMaterial.js';
+        import { Line2 } from 'three/addons/lines/Line2.js';
+
+        let container = document.getElementById('container')
+
+        let stats;
+
+        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED;
+
+        const pointer = new THREE.Vector2();
+
+        init();
+
+        function init() {
+
+            if (!WebGL.isWebGLAvailable()) {
+                const warning = WebGL.getWebGLErrorMessage();
+                container.appendChild(warning);
+                return;
+            }
+
+            camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 1, 10000);
+            window.camera = camera;
+            camera.position.set(2050, 2558, -960);
+            camera.up = new THREE.Vector3(0,0,1);
+            camera.lookAt(new THREE.Vector3(0,0,-910));
+
+            scene = new THREE.Scene();
+
+            const loader = new OBJLoader();
+            loader.load("scene.obj", (root) => {
+                console.log(root)
+                for (var child of root.children) {
+                    if (child.name == "Lines") {
+                        console.log(child)
+                        child.visible = false;
+                        const material = new THREE.LineBasicMaterial({color: 0x000000});
+                        const mesh = new THREE.LineSegments(child.geometry, material);
+                        scene.add(mesh);
+                    } else {
+                        child.material = new THREE.MeshPhongMaterial({
+                            color: "#E5B27F",
+                            specular: "#33334C",
+                            shininess: 20,
+                            flatShading: false,
+                            side: THREE.DoubleSide
+                        });
+                    }
+                }
+                scene.add(root);
+            });
+
+            // lights
+
+            const dirLight1 = new THREE.DirectionalLight(0xffffff, 3);
+            dirLight1.position.set(1, 1, 1);
+            scene.add(dirLight1);
+
+            const ambientLight = new THREE.AmbientLight(0x404040, 10);
+            scene.add(ambientLight);
+
+            raycaster = new THREE.Raycaster();
+
+            // renderer
+            renderer = new THREE.WebGLRenderer({ antialias: true });
+            renderer.setPixelRatio(window.devicePixelRatio);
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            renderer.setAnimationLoop(animate);
+            renderer.shadowMap.enabled = true;
+            container.appendChild(renderer.domElement);
+
+            labelRenderer = new CSS2DRenderer();
+            labelRenderer.setSize(window.innerWidth, window.innerHeight);
+            labelRenderer.domElement.style.position = 'absolute';
+            labelRenderer.domElement.style.top = '0px';
+            document.body.appendChild(labelRenderer.domElement);
+
+            //controls
+            controls = new ArcballControls(camera, labelRenderer.domElement, scene);
+            //controls.addEventListener('change', render);
+            controls.setGizmosVisible(false);
+            camera.lookAt(new THREE.Vector3(0,0,-910));
+
+            //controls.minDistance = 1
+            //controls.maxDistance = 2000
+            // axes
+            //const axesHelper = new THREE.AxesHelper(250);
+            //scene.add(axesHelper);
+            // stats
+            stats = new Stats();
+            container.appendChild(stats.dom);
+            window.addEventListener( 'mousemove', onPointerMove );
+            window.addEventListener('resize', onWindowResize);
+            window.addEventListener('keydown', onKeyDown);
+        }
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            labelRenderer.setSize(window.innerWidth, window.innerHeight);
+        }
+
+        function onPointerMove( event ) {
+            pointer.x = ( event.clientX / window.innerWidth ) * 2 - 1;
+			pointer.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+        }
+
+        function animate() {
+            render();
+            stats.update();
+        }
+
+        function render() {
+			raycaster.setFromCamera( pointer, camera );
+            const intersects = raycaster.intersectObjects( scene.children, true );
+            if ( intersects.length > 0 ) {
+                if ( INTERSECTED != intersects[ 0 ].object ) {
+                    if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
+                    INTERSECTED = intersects[ 0 ].object;
+                    INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
+                    INTERSECTED.material.emissive?.setHex( 0xff0000 );
+                }
+            } else {
+                if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
+                INTERSECTED = null;
+            }
+            renderer.render(scene, camera);
+            labelRenderer.render(scene, camera);
+        }
+
+        function onKeyDown(event) {
+            if (event.key === 'c') {
+                if (event.ctrlKey || event.metaKey) {
+                    controls.copyState();
+                }
+            } else if (event.key === 'v') {
+                if (event.ctrlKey || event.metaKey) {
+                    controls.pasteState();
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

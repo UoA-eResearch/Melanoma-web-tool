@@ -65,8 +65,8 @@
     <div id="info">Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Click to freeze hovering. Double click
         to focus</div>
     <div id="container"></div>
-    <div class="sidebar show">
-        <h3>Statistics for <span id="element">Torso_element_567</span></h3>
+    <div id="sidebar" class="sidebar show">
+        <h3>Statistics</h3>
         <table class="table table-hover">
             <thead>
                 <th>Code</th>
@@ -76,6 +76,7 @@
                 <th>95%CI</th>
             </thead>
             <tbody id="tbody">
+                <tr><td colspan="5">Hover over an element to populate this table</td></tr>
             </tbody>
         </table>
         <div>
@@ -286,7 +287,7 @@
                         INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
                         INTERSECTED.material.emissive?.setHex( 0xff0000 );
                         if (data_elements) {
-                            $("#element").text(INTERSECTED.name.replace(/_/g, " "));
+                            $("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
                             $("#tbody").empty()
                             for (var lymph_objects of Object.values(lymph_lookup)) {
                                 lymph_objects.sphere.visible = false;

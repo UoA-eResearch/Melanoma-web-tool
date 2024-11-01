@@ -53,14 +53,10 @@
         }
 
         .label {
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 0.5);
             border-radius: 4px;
             border: 1px solid #fff;
             padding: 2px;
-        }
-
-        .label.landmark {
-            background-color: rgba(75, 140, 201, 0.8)
         }
     </style>
 </head>
@@ -82,6 +78,9 @@
             <tbody id="tbody">
             </tbody>
         </table>
+        <div>
+            TIS = Triangular Intermuscular Space
+        </div>
     </div>
     <script type="importmap">
         {
@@ -136,6 +135,7 @@
             const sphere = new THREE.Mesh(new THREE.SphereGeometry(10, 32, 32), new THREE.MeshPhongMaterial({color: 0x00ff00}));
             sphere.position.copy(position)
             scene.add(sphere);
+            return sphere;
         }
 
         let tooltip = addLabel("Element name", new THREE.Vector3(0, 0, 0), "tooltip");
@@ -143,10 +143,12 @@
 
         let lymphs = await fetch("lymphs_positions.json").then(response => response.json());
         console.log(lymphs);
+        window.lymph_lookup = {}
         for (var l of lymphs) {
             var position = new THREE.Vector3(l.position[0], l.position[1], l.position[2]).add(offset);
-            addSphere(position);
-            addLabel(l.label, position, "lymph");
+            let sphere = addSphere(position);
+            let label = addLabel(l.label, position, "lymph");
+            lymph_lookup[l.label] = [sphere, label];
         }
 
         let data_elements;
@@ -240,9 +242,17 @@
             stats = new Stats();
             container.appendChild(stats.dom);
             window.addEventListener('mousemove', onPointerMove );
-            window.addEventListener('click', onClick );
             window.addEventListener('resize', onWindowResize);
             window.addEventListener('keydown', onKeyDown);
+            
+            let drag = false;
+            document.addEventListener('mousedown', () => drag = false);
+            document.addEventListener('mousemove', () => drag = true);
+            document.addEventListener('mouseup', function() {
+                if (!drag) {
+                    frozen = !frozen;
+                }
+            });
         }
 
         function onWindowResize() {
@@ -255,10 +265,6 @@
         function onPointerMove( event ) {
             pointer.x = ( event.clientX / window.innerWidth ) * 2 - 1;
 			pointer.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
-        }
-
-        function onClick() {
-            frozen = !frozen;
         }
 
         function animate() {
@@ -284,6 +290,10 @@
                         if (data_elements) {
                             $("#element").text(INTERSECTED.name.replace(/_/g, " "));
                             $("#tbody").empty()
+                            for (var lymph_objects of Object.values(lymph_lookup)) {
+                                lymph_objects[0].visible = false;
+                                lymph_objects[1].visible = false;
+                            }
                             var rows = data_elements[INTERSECTED.name]
                             if (!rows) {
                                 rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
@@ -294,6 +304,10 @@
                                 return;
                             }
                             for (var d of rows) {
+                                if (lymph_lookup[d.code]) {
+                                    lymph_lookup[d.code][0].visible = true;
+                                    lymph_lookup[d.code][1].visible = true;
+                                }
                                 $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
                             }
                         }

@@ -249,13 +249,13 @@
      "percentage": "62.4 " , "CI":  "(28.6, 88.9)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "5",
      "percentage": "62.3 " , "CI":  "(25.0, 100.0)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "37.7 " , "CI":  "(0.0, 75.0)"
@@ -287,7 +287,7 @@
      "percentage": "0 " , "CI":  "(100, 100)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "3",
      "percentage": "0 " , "CI":  "(100, 100)"
@@ -295,7 +295,7 @@
 ],
 "Torso_element_469": [
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "11",
      "percentage": "73.2 " , "CI":  "(50.0, 93.3)"
@@ -315,7 +315,7 @@
 ],
 "Torso_element_470": [
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "8",
      "percentage": "89.0 " , "CI":  "(66.7, 100.0)"
@@ -335,7 +335,7 @@
 ],
 "Torso_element_472": [
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "24",
      "percentage": "75.0 " , "CI":  "(59.4, 90.0)"
@@ -367,7 +367,7 @@
 ],
 "Torso_element_473": [
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "26",
      "percentage": "70.2 " , "CI":  "(55.3, 84.2)"
@@ -397,7 +397,7 @@
      "percentage": "10.9 " , "CI":  "(2.6, 21.6)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "8.2 " , "CI":  "(0.0, 18.4)"
@@ -417,13 +417,13 @@
 ],
 "Torso_element_474": [
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "40",
      "percentage": "76.9 " , "CI":  "(64.7, 88.2)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "26",
      "percentage": "50.0 " , "CI":  "(35.8, 63.5)"
@@ -461,13 +461,13 @@
 ],
 "Torso_element_475": [
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "35",
      "percentage": "79.5 " , "CI":  "(66.7, 90.9)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "27",
      "percentage": "61.2 " , "CI":  "(46.7, 75.0)"
@@ -511,7 +511,7 @@
 ],
 "Torso_element_476": [
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "34",
      "percentage": "70.9 " , "CI":  "(58.3, 83.3)"
@@ -523,7 +523,7 @@
      "percentage": "45.8 " , "CI":  "(31.9, 60.4)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "11",
      "percentage": "22.9 " , "CI":  "(12.2, 35.4)"
@@ -561,7 +561,7 @@
 ],
 "Torso_element_477": [
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "16",
      "percentage": "64.0 " , "CI":  "(44, 83.3)"
@@ -597,7 +597,7 @@
      "percentage": "4.0 " , "CI":  "(0, 12.5)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "4.0 " , "CI":  "(0, 12.5)"
@@ -613,7 +613,7 @@
 ],
 "Torso_element_479": [
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "11",
      "percentage": "84.6 " , "CI":  "(63.6, 100.0)"
@@ -633,7 +633,7 @@
      "percentage": "83.2 " , "CI":  "(50.0, 100.0)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "50.1 " , "CI":  "(14.3, 85.7)"
@@ -653,7 +653,7 @@
      "percentage": "0 " , "CI":  "(0, 100)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "2",
      "percentage": "0 " , "CI":  "(100, 100)"
@@ -667,13 +667,13 @@
      "percentage": "71.2 " , "CI":  "(46.2, 92.9)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "8",
      "percentage": "57.4 " , "CI":  "(30.8, 83.3)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "7",
      "percentage": "50.1 " , "CI":  "(23.1, 76.9)"
@@ -705,13 +705,13 @@
      "percentage": "43.6 " , "CI":  "(22.7, 63.6)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "4",
      "percentage": "17.4 " , "CI":  "(4.2, 33.3)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "13.0 " , "CI":  "(0.0, 27.3)"
@@ -737,7 +737,7 @@
      "percentage": "100.0 " , "CI":  "(100, 100.0)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "2",
      "percentage": "13.4 " , "CI":  "(0, 33.3)"
@@ -763,7 +763,7 @@
      "percentage": "82.6 " , "CI":  "(65.2, 95.8)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "6",
      "percentage": "26.1 " , "CI":  "(8.7, 45.5)"
@@ -801,7 +801,7 @@
      "percentage": "14.4 " , "CI":  "(0.0, 42.9)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "14.0 " , "CI":  "(0.0, 42.9)"
@@ -815,7 +815,7 @@
      "percentage": "0 " , "CI":  "(100, 100)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "0 " , "CI":  "(0, 75)"
@@ -829,7 +829,7 @@
      "percentage": "88.3 " , "CI":  "(76.5, 97.1)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "14",
      "percentage": "41.1 " , "CI":  "(25.0, 58.1)"
@@ -867,7 +867,7 @@
      "percentage": "85.3 " , "CI":  "(73.8, 95.1)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "23",
      "percentage": "56.1 " , "CI":  "(40.5, 71.4)"
@@ -903,7 +903,7 @@
      "percentage": "9.9 " , "CI":  "(2.4, 20.0)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "2",
      "percentage": "4.9 " , "CI":  "(0.0, 12.2)"
@@ -917,7 +917,7 @@
      "percentage": "65.2 " , "CI":  "(51.1, 78.7)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "25",
      "percentage": "54.4 " , "CI":  "(40.4, 68.2)"
@@ -929,7 +929,7 @@
      "percentage": "43.4 " , "CI":  "(29.5, 57.8)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "8",
      "percentage": "17.4 " , "CI":  "(6.7, 28.9)"
@@ -967,7 +967,7 @@
      "percentage": "68.5 " , "CI":  "(52.6, 82.1)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "17",
      "percentage": "44.9 " , "CI":  "(28.9, 61.5)"
@@ -979,7 +979,7 @@
      "percentage": "34.2 " , "CI":  "(18.9, 50.0)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "12",
      "percentage": "31.6 " , "CI":  "(17.9, 46.2)"
@@ -1017,7 +1017,7 @@
      "percentage": "74.9 " , "CI":  "(62.7, 86.5)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "17",
      "percentage": "32.8 " , "CI":  "(20.8, 45.3)"
@@ -1047,7 +1047,7 @@
      "percentage": "11.4 " , "CI":  "(3.8, 20.8)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "5",
      "percentage": "9.7 " , "CI":  "(1.9, 18.9)"
@@ -1079,7 +1079,7 @@
      "percentage": "79.3 " , "CI":  "(62.5, 95.7)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "12",
      "percentage": "49.9 " , "CI":  "(29.2, 70.8)"
@@ -1129,7 +1129,7 @@
      "percentage": "66.4 " , "CI":  "(38.5, 91.7)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "25.0 " , "CI":  "(0.0, 50.0)"
@@ -1149,7 +1149,7 @@
      "percentage": "77.7 " , "CI":  "(50, 100.0)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "33.2 " , "CI":  "(0, 66.7)"
@@ -1189,7 +1189,7 @@
      "percentage": "43.5 " , "CI":  "(23.8, 63.6)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "6",
      "percentage": "26.1 " , "CI":  "(8.7, 45.5)"
@@ -1201,7 +1201,7 @@
      "percentage": "22.0 " , "CI":  "(8.3, 39.1)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "4",
      "percentage": "17.4 " , "CI":  "(4.2, 34.8)"
@@ -1265,7 +1265,7 @@
      "percentage": "100.0 " , "CI":  "(100, 100.0)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "2",
      "percentage": "9.6 " , "CI":  "(0, 23.8)"
@@ -1309,7 +1309,7 @@
      "percentage": "36.2 " , "CI":  "(9.1, 63.6)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "9.2 " , "CI":  "(0.0, 30.0)"
@@ -1323,7 +1323,7 @@
      "percentage": "100 " , "CI":  "(100, 100)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "20 " , "CI":  "(0, 60)"
@@ -1351,7 +1351,7 @@
      "percentage": "85.4 " , "CI":  "(75.0, 93.9)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "9",
      "percentage": "18.8 " , "CI":  "(8.3, 30.6)"
@@ -1431,7 +1431,7 @@
      "percentage": "8.9 " , "CI":  "(2.2, 17.8)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "3",
      "percentage": "6.6 " , "CI":  "(0.0, 15.2)"
@@ -1475,13 +1475,13 @@
      "percentage": "14.1 " , "CI":  "(5.4, 24.1)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "8",
      "percentage": "14.0 " , "CI":  "(5.3, 23.2)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "4",
      "percentage": "7.1 " , "CI":  "(1.7, 14.0)"
@@ -1525,7 +1525,7 @@
      "percentage": "49.9 " , "CI":  "(37.3, 62.7)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "8",
      "percentage": "13.3 " , "CI":  "(5.0, 23.0)"
@@ -1537,7 +1537,7 @@
      "percentage": "11.7 " , "CI":  "(4.9, 20.0)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "5",
      "percentage": "8.4 " , "CI":  "(1.7, 16.4)"
@@ -1581,7 +1581,7 @@
      "percentage": "22.4 " , "CI":  "(13.2, 32.4)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "8",
      "percentage": "12.0 " , "CI":  "(4.5, 20.6)"
@@ -1617,7 +1617,7 @@
      "percentage": "3.0 " , "CI":  "(0.0, 7.5)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "1.5 " , "CI":  "(0.0, 4.5)"
@@ -1637,7 +1637,7 @@
      "percentage": "25.0 " , "CI":  "(10.3, 41.4)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "3",
      "percentage": "10.7 " , "CI":  "(0.0, 24.1)"
@@ -1651,7 +1651,7 @@
      "percentage": "0 " , "CI":  "(25, 100)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "1",
      "percentage": "0 " , "CI":  "(0, 75)"
@@ -1699,7 +1699,7 @@
      "percentage": "16.7 " , "CI":  "(0.0, 40.0)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "1",
      "percentage": "8.3 " , "CI":  "(0.0, 27.3)"
@@ -1731,7 +1731,7 @@
      "percentage": "10.5 " , "CI":  "(0.0, 26.3)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "2",
      "percentage": "10.5 " , "CI":  "(0.0, 26.3)"
@@ -1761,7 +1761,7 @@
      "percentage": "5.3 " , "CI":  "(0.0, 16.7)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "5.3 " , "CI":  "(0.0, 16.7)"
@@ -1951,7 +1951,7 @@
      "percentage": "1.7 " , "CI":  "(0.0, 5.2)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "1.7 " , "CI":  "(0.0, 5.1)"
@@ -2027,7 +2027,7 @@
      "percentage": "4.6 " , "CI":  "(0.0, 11.4)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "2",
      "percentage": "4.6 " , "CI":  "(0.0, 11.4)"
@@ -2105,7 +2105,7 @@
      "percentage": "7.2 " , "CI":  "(0, 23.1)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "1",
      "percentage": "7.2 " , "CI":  "(0, 23.1)"
@@ -2277,7 +2277,7 @@
      "percentage": "1.0 " , "CI":  "(0.0, 3.2)"
   },
   {
-      "code": "li",
+      "code": "lg",
       "name": "left groin",
       "count": "1",
      "percentage": "1.0 " , "CI":  "(0.0, 3.2)"
@@ -2327,7 +2327,7 @@
      "percentage": "1.2 " , "CI":  "(0.0, 3.6)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "1",
      "percentage": "1.2 " , "CI":  "(0.0, 3.6)"
@@ -4116,7 +4116,7 @@
      "percentage": "3.8 " , "CI":  "(0.0, 8.9)"
   },
   {
-      "code": "ri",
+      "code": "rg",
       "name": "right groin",
       "count": "1",
      "percentage": "1.3 " , "CI":  "(0.0, 3.9)"
@@ -9718,7 +9718,7 @@
   ],
   "Foot Left": [
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "296",
          "percentage": "95.2 " , "CI":  "(92.6, 97.4)"
@@ -9738,7 +9738,7 @@
   ],
   "Foot Right": [
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "292",
          "percentage": "93.6 " , "CI":  "(90.7, 96.2)"
@@ -9756,7 +9756,7 @@
          "percentage": "0.3 " , "CI":  "(0.0, 1.0)"
       },
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "1",
          "percentage": "0.3 " , "CI":  "(0.0, 1.0)"
@@ -9764,7 +9764,7 @@
   ],
   "Lower Leg Left": [
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "999",
          "percentage": "94.4 " , "CI":  "(92.9, 95.8)"
@@ -9784,7 +9784,7 @@
   ],
   "Lower Leg Right": [
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "874",
          "percentage": "94.0 " , "CI":  "(92.4, 95.5)"
@@ -9802,7 +9802,7 @@
          "percentage": "0.5 " , "CI":  "(0.1, 1.1)"
       },
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "1",
          "percentage": "0.1 " , "CI":  "(0.0, 0.3)"
@@ -9810,7 +9810,7 @@
   ],
   "Thigh Left": [
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "610",
          "percentage": "94.0 " , "CI":  "(92.1, 95.8)"
@@ -9828,7 +9828,7 @@
          "percentage": "0.9 " , "CI":  "(0.3, 1.7)"
       },
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "5",
          "percentage": "0.8 " , "CI":  "(0.2, 1.5)"
@@ -9836,7 +9836,7 @@
   ],
   "Thigh Right": [
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "551",
          "percentage": "93.7 " , "CI":  "(91.7, 95.6)"
@@ -9848,7 +9848,7 @@
          "percentage": "0.5 " , "CI":  "(0.0, 1.2)"
       },
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "3",
          "percentage": "0.5 " , "CI":  "(0.0, 1.2)"
@@ -9856,13 +9856,13 @@
   ],
   "Lower Torso Anterior Left": [
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "63",
          "percentage": "90.0 " , "CI":  "(82.6, 97.0)"
       },
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "19",
          "percentage": "27.1 " , "CI":  "(16.9, 38.0)"
@@ -9882,13 +9882,13 @@
   ],
   "Lower Torso Anterior Right": [
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "50",
          "percentage": "80.6 " , "CI":  "(70.5, 90.2)"
       },
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "17",
          "percentage": "27.3 " , "CI":  "(16.4, 38.7)"
@@ -9915,13 +9915,13 @@
   ],
   "Lower Torso Posterior Left": [
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "67",
          "percentage": "88.2 " , "CI":  "(80.3, 94.8)"
       },
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "22",
          "percentage": "29.0 " , "CI":  "(19.5, 39.5)"
@@ -9947,13 +9947,13 @@
   ],
   "Lower Torso Posterior Right": [
       {
-          "code": "ri",
+          "code": "rg",
           "name": "right groin",
           "count": "68",
          "percentage": "86.1 " , "CI":  "(78.2, 93.6)"
       },
       {
-          "code": "li",
+          "code": "lg",
           "name": "left groin",
           "count": "25",
          "percentage": "31.8 " , "CI":  "(21.5, 42.3)"

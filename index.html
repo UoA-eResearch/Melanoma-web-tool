@@ -148,7 +148,10 @@
             var position = new THREE.Vector3(l.position[0], l.position[1], l.position[2]).add(offset);
             let sphere = addSphere(position);
             let label = addLabel(l.label, position, "lymph");
-            lymph_lookup[l.label] = [sphere, label];
+            lymph_lookup[l.label] = {
+                "sphere": sphere,
+                "label": label
+            }
         }
 
         let data_elements;
@@ -282,21 +285,26 @@
                         INTERSECTED = intersects[ 0 ].object;
                         INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
                         INTERSECTED.material.emissive?.setHex( 0xff0000 );
-                        if (tooltip) {
-                            tooltip.position.copy(intersects[0].point);
-                            tooltip.element.textContent = INTERSECTED.name;
-                            tooltip.visible = true;
-                        }
                         if (data_elements) {
                             $("#element").text(INTERSECTED.name.replace(/_/g, " "));
                             $("#tbody").empty()
                             for (var lymph_objects of Object.values(lymph_lookup)) {
-                                lymph_objects[0].visible = false;
-                                lymph_objects[1].visible = false;
+                                lymph_objects.sphere.visible = false;
+                                lymph_objects.label.visible = false;
                             }
                             var rows = data_elements[INTERSECTED.name]
                             if (!rows) {
                                 rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
+                            }
+                            if (rows) {
+                                var cases = rows.reduce((acc, d) => acc + parseInt(d.count), 0);
+                            } else {
+                                var cases = 0;
+                            }
+                            if (tooltip) {
+                                tooltip.position.copy(intersects[0].point);
+                                tooltip.element.textContent = `${INTERSECTED.name.replace(/_/g, " ")} (${cases} cases)`;
+                                tooltip.visible = true;
                             }
                             if (!rows) {
                                 console.warn(INTERSECTED.name)
@@ -305,8 +313,11 @@
                             }
                             for (var d of rows) {
                                 if (lymph_lookup[d.code]) {
-                                    lymph_lookup[d.code][0].visible = true;
-                                    lymph_lookup[d.code][1].visible = true;
+                                    lymph_lookup[d.code].sphere.visible = true;
+                                    lymph_lookup[d.code].label.visible = true;
+                                    lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.count} cases)`;
+                                    let pct = parseFloat(d.percentage) / 50
+                                    lymph_lookup[d.code].sphere.scale.setScalar(pct).clampScalar(.5, 50);
                                 }
                                 $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
                             }

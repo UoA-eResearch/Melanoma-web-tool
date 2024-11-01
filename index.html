@@ -297,14 +297,9 @@
                             if (!rows) {
                                 rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
                             }
-                            if (rows) {
-                                var cases = rows.reduce((acc, d) => acc + parseInt(d.count), 0);
-                            } else {
-                                var cases = 0;
-                            }
                             if (tooltip) {
                                 tooltip.position.copy(intersects[0].point);
-                                tooltip.element.textContent = `${INTERSECTED.name.replace(/_/g, " ")} (${cases} cases)`;
+                                tooltip.element.textContent = INTERSECTED.name.replace(/_/g, " ");
                                 tooltip.visible = true;
                             }
                             if (!rows) {
@@ -316,7 +311,7 @@
                                 if (lymph_lookup[d.code]) {
                                     lymph_lookup[d.code].sphere.visible = true;
                                     lymph_lookup[d.code].label.visible = true;
-                                    lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.count} cases)`;
+                                    lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.percentage.trim()}%)`;
                                     let pct = parseFloat(d.percentage) / 50
                                     lymph_lookup[d.code].sphere.scale.setScalar(pct).clampScalar(.5, 50);
                                 }

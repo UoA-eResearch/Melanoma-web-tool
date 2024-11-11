@@ -66,8 +66,17 @@
 </head>
 
 <body>
-    <div id="info">Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Click to freeze hovering. Double click
-        to focus</div>
+    <div id="info">
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="skin_button" autocomplete="off" checked> Skin selection tool
+            </label>
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="heatmaps_button" autocomplete="off"> Heatmaps
+            </label>
+        </div>
+        Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Click to freeze hovering. Double click to focus
+    </div>
     <div id="container"></div>
     <div id="sidebar" class="sidebar show">
         <h3>Statistics</h3>
@@ -83,6 +92,7 @@
                 <tr><td colspan="5">Hover over an element to populate this table</td></tr>
             </tbody>
         </table>
+        <div id="heatmaps_list" class="btn-group-vertical" style="display:none"></div>
         <div>
             TIS = Triangular Intermuscular Space
         </div>
@@ -99,6 +109,7 @@
 
         import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
         import * as THREE from 'three';
+        window.THREE = THREE;
         import Stats from 'three/addons/libs/stats.module.js';
         import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
         import WebGL from 'three/addons/capabilities/WebGL.js';
@@ -122,7 +133,10 @@
 
         var offset = new THREE.Vector3(-270, -200, 900);
 
+        let main_scene, heatmap_scene, heatmaps;
+
         const pointer = new THREE.Vector2();
+        let data_elements;
 
         init();
 
@@ -159,9 +173,15 @@
             }
         }
 
-        let data_elements;
         data_elements = await fetch("src/data/data_elements.json").then(response => response.json());
         console.log(data_elements)
+
+        function parseColor(color) {
+            let r = color >> 16 & 255;
+            let g = color >> 8 & 255;
+            let b = color & 255;
+            return [r / 255, g / 255, b / 255];
+        }
 
         function init() {
 
@@ -207,7 +227,46 @@
                     }
                 }
                 root.position.add(offset);
+                main_scene = root;
                 scene.add(root);
+            });
+
+            fetch("heat_maps_verts_colors.json").then(response => response.json()).then(result => {
+                heatmaps = result;
+                console.log("heatmaps", heatmaps)
+                for (var k in heatmaps) {
+                    $("#heatmaps_list").append(`<button class="btn btn-primary ${k == "Right Axilla" ? "active" : ""}">${k}</button>`)
+                }
+                
+                loader.load("human_mesh.glb", (root) => {
+                    console.log("human_mesh.glb", root)
+                    root = root.scene.children[0];
+                    console.log("human_mesh.glb", root)
+                    var child = root.children[0];
+                    console.log("human_mesh.glb", child)
+                    child.geometry.computeVertexNormals()
+                    child.material = new THREE.MeshPhongMaterial({
+                        color: "#FFFFFF",
+                        specular: "#33334C",
+                        opacity: 1,
+                        transparent: false,
+                        shininess: 20,
+                        flatShading: false,
+                        side: THREE.DoubleSide,
+                        vertexColors: true
+                    });
+                    let colors = heatmaps["Right Axilla"].map(c => parseColor(c)).flat();
+                    console.log(colors)
+                    console.assert(child.geometry.attributes.position.count == colors.length / 3)
+					child.geometry.setAttribute( 'color', new THREE.Float32BufferAttribute( colors, 3 ) );
+                    //child.geometry.attributes.color.needsUpdate = true;
+                    root.position.add(offset);
+                    heatmap_scene = root;
+                    heatmap_scene.visible = false;
+                    //root.position.set(0, 0, 0);
+                    scene.add(root);
+                });
+
             });
 
             // lights
@@ -281,7 +340,7 @@
         }
 
         function render() {
-            if (!frozen) {
+            if (!frozen & main_scene?.visible) {
                 raycaster.setFromCamera( pointer, camera );
                 const intersects = raycaster.intersectObjects( selectable, true );
                 if ( intersects.length > 0 ) {
@@ -344,6 +403,40 @@
                 }
             }
         }
+
+        $("#heatmaps_button").click(function() {
+            main_scene.visible = false;
+            heatmap_scene.visible = true;
+            for (var lymph_objects of Object.values(lymph_lookup)) {
+                lymph_objects.sphere.visible = false;
+                lymph_objects.label.visible = false;
+            }
+            tooltip.visible = false;
+            $("#sidebar table").hide();
+            $("#sidebar h3").text("Heatmaps");
+            $("#heatmaps_list").show();
+            frozen = false;
+
+            $("#heatmaps_list button").hover(function() {
+                if (frozen) return;
+                $("#heatmaps_list button").removeClass("active");
+                $(this).addClass("active");
+                let name = $(this).text();
+                let colors = heatmaps[name].map(c => parseColor(c)).flat();
+                console.log(colors)
+                console.assert(heatmap_scene.children[0].geometry.attributes.position.count == colors.length / 3)
+                heatmap_scene.children[0].geometry.setAttribute( 'color', new THREE.Float32BufferAttribute( colors, 3 ) );
+                //heatmap_scene.children[0].geometry.attributes.color.needsUpdate = true;
+            })
+        });
+
+        $("#skin_button").click(function() {
+            main_scene.visible = true;
+            heatmap_scene.visible = false;
+            $("#sidebar table").show();
+            $("#sidebar h3").text("Statistics");
+            $("#heatmaps_list").hide();
+        });
     </script>
 </body>
 

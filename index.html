@@ -236,6 +236,8 @@
                 console.log("heatmaps", heatmaps)
                 for (var k in heatmaps) {
                     $("#heatmaps_list").append(`<button class="btn btn-primary ${k == "Right Axilla" ? "active" : ""}">${k}</button>`)
+                    let colors = heatmaps[k].map(c => parseColor(c)).flat();
+                    heatmaps[k] = new THREE.Float32BufferAttribute( colors, 3 )
                 }
                 
                 loader.load("human_mesh.glb", (root) => {
@@ -255,10 +257,7 @@
                         side: THREE.DoubleSide,
                         vertexColors: true
                     });
-                    let colors = heatmaps["Right Axilla"].map(c => parseColor(c)).flat();
-                    console.log(colors)
-                    console.assert(child.geometry.attributes.position.count == colors.length / 3)
-					child.geometry.setAttribute( 'color', new THREE.Float32BufferAttribute( colors, 3 ) );
+					child.geometry.setAttribute( 'color', heatmaps["Right Axilla"] );
                     //child.geometry.attributes.color.needsUpdate = true;
                     root.position.add(offset);
                     heatmap_scene = root;
@@ -423,10 +422,7 @@
                 $("#heatmaps_list button").removeClass("active");
                 $(this).addClass("active");
                 let name = $(this).text();
-                let colors = heatmaps[name].map(c => parseColor(c)).flat();
-                console.log(colors)
-                console.assert(heatmap_scene.children[0].geometry.attributes.position.count == colors.length / 3)
-                heatmap_scene.children[0].geometry.setAttribute( 'color', new THREE.Float32BufferAttribute( colors, 3 ) );
+                heatmap_scene.children[0].geometry.setAttribute( 'color', heatmaps[name] );
                 //heatmap_scene.children[0].geometry.attributes.color.needsUpdate = true;
             })
         });

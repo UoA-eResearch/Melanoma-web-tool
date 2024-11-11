@@ -72,7 +72,7 @@
               <input type="radio" name="options" id="skin_button" autocomplete="off" checked> Skin selection tool
             </label>
             <label class="btn btn-secondary">
-              <input type="radio" name="options" id="heatmaps_button" autocomplete="off"> Heatmaps
+              <input type="radio" name="options" id="heatmaps_button" autocomplete="off" disabled> Heatmaps
             </label>
         </div>
         Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Click to freeze hovering. Double click to focus
@@ -265,6 +265,7 @@
                     heatmap_scene.visible = false;
                     //root.position.set(0, 0, 0);
                     scene.add(root);
+                    $("#heatmaps_button").prop("disabled", false);
                 });
 
             });

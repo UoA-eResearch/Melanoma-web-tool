@@ -107,6 +107,9 @@
             </tbody>
         </table>
         <div id="heatmaps_list" class="btn-group-vertical" style="display:none"></div>
+        <label id="show_patient_data" class="btn btn-secondary active" style="display: none">
+            <input type="checkbox" checked> Show patient data
+        </label>
         <div>
             TIS = Triangular Intermuscular Space
         </div>
@@ -152,10 +155,14 @@
 
         var offset = new THREE.Vector3(-270, -200, 900);
 
-        let main_scene, heatmap_scene, heatmaps;
+        let main_scene, heatmap_scene, heatmaps, discrete_points_normalized;
+
+        let discrete_points = new THREE.Scene();
 
         const pointer = new THREE.Vector2();
         let data_elements;
+
+        let sphereGeometry = new THREE.SphereGeometry(10, 32, 32);
 
         init();
 
@@ -170,7 +177,7 @@
         }
 
         function addSphere(position) {
-            const sphere = new THREE.Mesh(new THREE.SphereGeometry(10, 32, 32), new THREE.MeshPhongMaterial({color: 0x00ff00}));
+            const sphere = new THREE.Mesh(sphereGeometry, new THREE.MeshPhongMaterial({color: 0x00ff00}));
             sphere.position.copy(position)
             scene.add(sphere);
             return sphere;
@@ -197,6 +204,34 @@
             let g = color >> 8 & 255;
             let b = color & 255;
             return [r / 255, g / 255, b / 255];
+        }
+
+        function addDiscretePoints() {
+            heatmap_scene.remove(discrete_points);
+            if (!$("#show_patient_data input").is(":checked")) return;
+            discrete_points = new THREE.Scene();
+            heatmap_scene.add(discrete_points)
+            var region = $("#heatmaps_list button").filter(".active").text();
+            var patient_data = discrete_points_normalized[region]
+            if (!patient_data) return;
+            for (var i = 0; i < patient_data.positions.length; i++) {
+                var pos = patient_data.positions[i];
+                pos = new THREE.Vector3(pos[0], pos[1], pos[2])//.add(offset);
+                var scale = patient_data.scales[i];
+                var color = parseColor(patient_data.colors[i]);
+                var sphere = addSphere(pos);
+                sphere.material = new THREE.MeshPhongMaterial({
+                    color: new THREE.Color(color[0], color[1], color[2]),
+                    specular: "#33334C",
+                    opacity: 1,
+                    transparent: false,
+                    shininess: 20,
+                    flatShading: false,
+                    side: THREE.DoubleSide
+                });
+                sphere.scale.setScalar(scale / 100).clampScalar(.5, 50);
+                discrete_points.add(sphere);
+            }
         }
 
         function init() {
@@ -284,6 +319,10 @@
                     //root.position.set(0, 0, 0);
                     scene.add(root);
                     $("#heatmaps_button").prop("disabled", false);
+                    fetch("discrete_points_normalized.json").then(response => response.json()).then(result => {
+                        console.log("discrete_points_normalized", result)
+                        discrete_points_normalized = result;
+                    });
                 });
 
             });
@@ -398,7 +437,7 @@
                 const intersects = raycaster.intersectObjects( selectable, true );
                 if ( intersects.length > 0 ) {
                     if ( INTERSECTED != intersects[ 0 ].object ) {
-                        console.log("Hover on ", intersects[0].object)
+                        //console.log("Hover on ", intersects[0].object)
                         if ( INTERSECTED && INTERSECTED != SELECTED ) INTERSECTED.material.emissive?.setHex( 0x000000 );
                         INTERSECTED = intersects[ 0 ].object;
                         if (intersects[0].object != SELECTED) {
@@ -437,12 +476,15 @@
             $("#sidebar table").hide();
             $("#sidebar h3").text("Heatmaps");
             $("#heatmaps_list").show();
+            $("#show_patient_data").show();
+            addDiscretePoints();
 
             $("#heatmaps_list button").click(function() {
                 $("#heatmaps_list button").removeClass("active");
                 $(this).addClass("active");
                 let name = $(this).text();
                 heatmap_scene.children[0].geometry.setAttribute( 'color', heatmaps[name] );
+                addDiscretePoints();
                 //heatmap_scene.children[0].geometry.attributes.color.needsUpdate = true;
             })
         });
@@ -453,6 +495,7 @@
             $("#sidebar table").show();
             $("#sidebar h3").text("Statistics");
             $("#heatmaps_list").hide();
+            $("#show_patient_data").hide();
         });
 
         $("#controls button").click(function() {
@@ -470,6 +513,10 @@
             }
             camera.up = new THREE.Vector3(0,0,1);
             controls.update();
+        })
+
+        $("#show_patient_data input").change(function() {
+            addDiscretePoints();
         })
     </script>
 </body>

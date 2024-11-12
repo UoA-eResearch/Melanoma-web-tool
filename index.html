@@ -252,7 +252,8 @@
             fetch("heat_maps_verts_colors.json").then(response => response.json()).then(result => {
                 heatmaps = result;
                 console.log("heatmaps", heatmaps)
-                for (var k in heatmaps) {
+                var sorted_keys = Object.keys(heatmaps).sort()
+                for (var k of sorted_keys) {
                     $("#heatmaps_list").append(`<button class="btn btn-primary ${k == "Right Axilla" ? "active" : ""}">${k}</button>`)
                     let colors = heatmaps[k].map(c => parseColor(c)).flat();
                     heatmaps[k] = new THREE.Float32BufferAttribute( colors, 3 )

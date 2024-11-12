@@ -75,7 +75,7 @@
               <input type="radio" name="options" id="heatmaps_button" autocomplete="off" disabled> Heatmaps
             </label>
         </div>
-        Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Click to freeze hovering. Double click to focus
+        Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Double click to focus
     </div>
     <div id="container"></div>
     <div id="sidebar" class="sidebar show">
@@ -89,7 +89,7 @@
                 <th>95%CI</th>
             </thead>
             <tbody id="tbody">
-                <tr><td colspan="5">Hover over an element to populate this table</td></tr>
+                <tr><td colspan="5">Click an element to populate this table</td></tr>
             </tbody>
         </table>
         <div id="heatmaps_list" class="btn-group-vertical" style="display:none"></div>
@@ -125,11 +125,9 @@
 
         let stats;
 
-        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED;
+        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED, SELECTED;
 
         let selectable = [];
-
-        let frozen = false;
 
         var offset = new THREE.Vector3(-270, -200, 900);
 
@@ -156,9 +154,6 @@
             scene.add(sphere);
             return sphere;
         }
-
-        let tooltip = addLabel("Element name", new THREE.Vector3(0, 0, 0), "tt");
-        tooltip.visible = false;
 
         let lymphs = await fetch("lymphs_positions.json").then(response => response.json());
         console.log(lymphs);
@@ -212,7 +207,9 @@
                         const material = new THREE.LineBasicMaterial({color: 0x000000});
                         const mesh = new THREE.LineSegments(child.geometry, material);
                         mesh.position.add(offset);
-                        root.children[i] = mesh;
+                        //root.children[i] = mesh;
+                        root.children[i].visible = false;
+                        scene.add(mesh);
                     } else {
                         child.material = new THREE.MeshPhongMaterial({
                             color: "#E5B27F",
@@ -311,13 +308,46 @@
             window.addEventListener('mousemove', onPointerMove );
             window.addEventListener('resize', onWindowResize);
             window.addEventListener('keydown', onKeyDown);
-            
             let drag = false;
             document.addEventListener('mousedown', () => drag = false);
             document.addEventListener('mousemove', () => drag = true);
             document.addEventListener('mouseup', function() {
-                if (!drag) {
-                    frozen = !frozen;
+                if (!drag && main_scene?.visible && INTERSECTED) {
+                    console.log("click")
+                    if (data_elements) {
+                        if (SELECTED) {
+                            SELECTED.material.emissive.setHex(0x000000);
+                            SELECTED.material.opacity = .5;
+                        }
+                        SELECTED = INTERSECTED;
+                        SELECTED.material.emissive.setHex(0x00FF00);
+                        //SELECTED.material.opacity = 1;
+                        $("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
+                        $("#tbody").empty()
+                        for (var lymph_objects of Object.values(lymph_lookup)) {
+                            lymph_objects.sphere.visible = false;
+                            lymph_objects.label.visible = false;
+                        }
+                        var rows = data_elements[INTERSECTED.name]
+                        if (!rows) {
+                            rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
+                        }
+                        if (!rows) {
+                            console.warn(INTERSECTED.name)
+                            $("#tbody").append(`<tr><td colspan="5">No data available</td></tr>`)
+                            return;
+                        }
+                        for (var d of rows) {
+                            if (lymph_lookup[d.code]) {
+                                lymph_lookup[d.code].sphere.visible = true;
+                                lymph_lookup[d.code].label.visible = true;
+                                lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.percentage.trim()}%)`;
+                                let pct = parseFloat(d.percentage) / 50
+                                lymph_lookup[d.code].sphere.scale.setScalar(pct).clampScalar(.5, 50);
+                            }
+                            $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
+                        }
+                    }
                 }
             });
         }
@@ -340,52 +370,22 @@
         }
 
         function render() {
-            if (!frozen & main_scene?.visible) {
+            if (main_scene?.visible) {
                 raycaster.setFromCamera( pointer, camera );
                 const intersects = raycaster.intersectObjects( selectable, true );
                 if ( intersects.length > 0 ) {
                     if ( INTERSECTED != intersects[ 0 ].object ) {
-                        if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
+                        console.log("Hover on ", intersects[0].object)
+                        if ( INTERSECTED && INTERSECTED != SELECTED ) INTERSECTED.material.emissive?.setHex( 0x000000 );
                         INTERSECTED = intersects[ 0 ].object;
-                        INTERSECTED.currentHex = INTERSECTED.material.emissive?.getHex();
-                        INTERSECTED.material.emissive?.setHex( 0xff0000 );
-                        if (data_elements) {
-                            $("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
-                            $("#tbody").empty()
-                            for (var lymph_objects of Object.values(lymph_lookup)) {
-                                lymph_objects.sphere.visible = false;
-                                lymph_objects.label.visible = false;
-                            }
-                            var rows = data_elements[INTERSECTED.name]
-                            if (!rows) {
-                                rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
-                            }
-                            if (tooltip) {
-                                tooltip.position.copy(intersects[0].point);
-                                tooltip.element.textContent = INTERSECTED.name.replace(/_/g, " ");
-                                tooltip.visible = true;
-                            }
-                            if (!rows) {
-                                console.warn(INTERSECTED.name)
-                                $("#tbody").append(`<tr><td colspan="5">No data available</td></tr>`)
-                                return;
-                            }
-                            for (var d of rows) {
-                                if (lymph_lookup[d.code]) {
-                                    lymph_lookup[d.code].sphere.visible = true;
-                                    lymph_lookup[d.code].label.visible = true;
-                                    lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.percentage.trim()}%)`;
-                                    let pct = parseFloat(d.percentage) / 50
-                                    lymph_lookup[d.code].sphere.scale.setScalar(pct).clampScalar(.5, 50);
-                                }
-                                $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
-                            }
+                        if (intersects[0].object != SELECTED) {
+                            INTERSECTED.material.emissive.setHex( 0xff0000 );
                         }
                     }
                 } else {
-                    if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( INTERSECTED.currentHex );
+                    // Reset emissive color
+                    if ( INTERSECTED && INTERSECTED != SELECTED ) INTERSECTED.material.emissive.setHex( 0x000000 );
                     INTERSECTED = null;
-                    if (tooltip) tooltip.visible = false;
                 }
             }
             renderer.render(scene, camera);
@@ -411,14 +411,11 @@
                 lymph_objects.sphere.visible = false;
                 lymph_objects.label.visible = false;
             }
-            tooltip.visible = false;
             $("#sidebar table").hide();
             $("#sidebar h3").text("Heatmaps");
             $("#heatmaps_list").show();
-            frozen = false;
 
-            $("#heatmaps_list button").hover(function() {
-                if (frozen) return;
+            $("#heatmaps_list button").click(function() {
                 $("#heatmaps_list button").removeClass("active");
                 $(this).addClass("active");
                 let name = $(this).text();

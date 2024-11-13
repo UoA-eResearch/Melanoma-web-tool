@@ -76,6 +76,29 @@
             border-radius: 10px;
             z-index: 1000;
         }
+
+        .legend {
+            width: 40px;
+            height: 200px;
+            background: linear-gradient(in hsl longer hue, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            text-align: center;
+            float: right;
+        }
+
+        .legend #max {
+            top: -16px;
+            position: absolute;
+        }
+
+        .legend #min {
+            bottom: -16px;
+            position: absolute;
+        }
+
     </style>
 </head>
 
@@ -106,10 +129,13 @@
                 <tr><td colspan="5">Click an element to populate this table</td></tr>
             </tbody>
         </table>
-        <div id="heatmaps_list" class="btn-group-vertical" style="display:none"></div>
-        <label id="show_patient_data" class="btn btn-secondary active" style="display: none">
-            <input type="checkbox"> Show patient data
-        </label>
+        <div id="heatmaps" style="display:none">
+            <div id="heatmaps_list" class="btn-group-vertical"></div>
+            <label id="show_patient_data" class="btn btn-secondary active">
+                <input type="checkbox"> Show patient data
+            </label>
+            <div class="legend"><span id="max">Max</span><span id="min">Min</span></div>
+        </div>
         <div>
             TIS = Triangular Intermuscular Space
         </div>
@@ -479,8 +505,7 @@
             }
             $("#sidebar table").hide();
             $("#sidebar h3").text("Heatmaps");
-            $("#heatmaps_list").show();
-            $("#show_patient_data").show();
+            $("#heatmaps").show();
             addDiscretePoints();
 
             $("#heatmaps_list button").click(function() {
@@ -498,8 +523,7 @@
             heatmap_scene.visible = false;
             $("#sidebar table").show();
             $("#sidebar h3").text("Statistics");
-            $("#heatmaps_list").hide();
-            $("#show_patient_data").hide();
+            $("#heatmaps").hide();
         });
 
         $("#controls button").click(function() {

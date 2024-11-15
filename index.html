@@ -116,7 +116,7 @@
     </div>
     <div id="container"></div>
     <div id="sidebar" class="sidebar show">
-        <h3>Statistics</h3>
+        <h3>Lymphatic Drainage Statistics</h3>
         <table class="table table-hover">
             <thead>
                 <th>Code</th>
@@ -414,7 +414,7 @@
                         SELECTED = INTERSECTED;
                         SELECTED.material.emissive.setHex(0xFF0000);
                         //SELECTED.material.opacity = 1;
-                        $("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
+                        //$("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
                         $("#tbody").empty()
                         for (var lymph_objects of Object.values(lymph_lookup)) {
                             lymph_objects.sphere.visible = false;
@@ -522,7 +522,7 @@
             main_scene.visible = true;
             heatmap_scene.visible = false;
             $("#sidebar table").show();
-            $("#sidebar h3").text("Statistics");
+            $("#sidebar h3").text("Lymphatic Drainage Statistics");
             $("#heatmaps").hide();
         });
 

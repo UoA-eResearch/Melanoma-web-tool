@@ -408,11 +408,11 @@
                     console.log("click")
                     if (data_elements) {
                         if (SELECTED) {
-                            SELECTED.material.emissive.setHex(0x000000);
+                            SELECTED.material.color.setHex(0xE5B27F);
                             SELECTED.material.opacity = .5;
                         }
                         SELECTED = INTERSECTED;
-                        SELECTED.material.emissive.setHex(0xFF0000);
+                        SELECTED.material.color.setHex(0xFF0000);
                         //SELECTED.material.opacity = .5;
                         //$("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
                         $("#tbody").empty()

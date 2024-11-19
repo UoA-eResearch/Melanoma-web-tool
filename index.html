@@ -355,15 +355,15 @@
 
             // lights
 
-            const dirLight1 = new THREE.DirectionalLight(0xffffff, 3);
+            const dirLight1 = new THREE.DirectionalLight(0xffffff, 2);
             dirLight1.position.set(1, 1, 1);
             scene.add(dirLight1);
 
-            const dirLight2 = new THREE.DirectionalLight(0xffffff, 3);
+            const dirLight2 = new THREE.DirectionalLight(0xffffff, 2);
             dirLight2.position.set(-1, -1, -1);
             scene.add(dirLight2);
 
-            const ambientLight = new THREE.AmbientLight(0x404040, 10);
+            const ambientLight = new THREE.AmbientLight(0x404040, 2);
             scene.add(ambientLight);
 
             raycaster = new THREE.Raycaster();
@@ -413,7 +413,7 @@
                         }
                         SELECTED = INTERSECTED;
                         SELECTED.material.emissive.setHex(0xFF0000);
-                        //SELECTED.material.opacity = 1;
+                        //SELECTED.material.opacity = .5;
                         //$("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
                         $("#tbody").empty()
                         for (var lymph_objects of Object.values(lymph_lookup)) {
@@ -471,7 +471,7 @@
                         if ( INTERSECTED && INTERSECTED != SELECTED ) INTERSECTED.material.emissive?.setHex( 0x000000 );
                         INTERSECTED = intersects[ 0 ].object;
                         if (intersects[0].object != SELECTED) {
-                            INTERSECTED.material.emissive.setHex( 0xFFFF00 );
+                            //INTERSECTED.material.emissive.setHex( 0xFFFF00 );
                         }
                     }
                 } else {

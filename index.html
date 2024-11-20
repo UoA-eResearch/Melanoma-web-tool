@@ -116,27 +116,34 @@
     </div>
     <div id="container"></div>
     <div id="sidebar" class="sidebar show">
-        <h3>Lymphatic Drainage Statistics</h3>
-        <table class="table table-hover">
-            <thead>
-                <th>Code</th>
-                <th>Nodefield</th>
-                <th># Cases</th>
-                <th>Mean Drainage % </th>
-                <th>95%CI</th>
-            </thead>
-            <tbody id="tbody">
-                <tr><td colspan="5">Click an element to populate this table</td></tr>
-            </tbody>
-        </table>
+        <div id="skin_selection">
+            <h3>Lymphatic Drainage Statistics</h3>
+            <table class="table table-hover">
+                <thead>
+                    <th>Code</th>
+                    <th>Nodefield</th>
+                    <th># Cases</th>
+                    <th>Mean Drainage % </th>
+                    <th>95%CI</th>
+                </thead>
+                <tbody id="tbody">
+                    <tr><td colspan="5">Click an element to populate this table</td></tr>
+                </tbody>
+            </table>
+            <label class="btn btn-secondary active">
+                <input type="checkbox" id="show_nodecodes" checked> Show node codes
+            </label>
+            <label class="btn btn-secondary active">
+                <input type="checkbox" id="show_drainage" checked> Show drainage %
+            </label>
+        </div>
         <div id="heatmaps" style="display:none">
+            <h3>Heatmaps</h3>
             <div id="heatmaps_list" class="btn-group-vertical"></div>
             <label id="show_patient_data" class="btn btn-secondary active">
                 <input type="checkbox"> Show patient data
             </label>
-                    <div class="legend"><span id="max">100%</span><span id="min">0%</span></div>
-                    <input type="checkbox" checked id="show_nodecodes"> Show node codes
-                    <input type="checkbox" checked id="show_drainage"> Show drainage %
+            <div class="legend"><span id="max">100%</span><span id="min">0%</span></div>
         </div>
         <div>
             TIS = Triangular Intermuscular Space
@@ -507,8 +514,7 @@
                 lymph_objects.sphere.visible = false;
                 lymph_objects.label.visible = false;
             }
-            $("#sidebar table").hide();
-            $("#sidebar h3").text("Heatmaps");
+            $("#skin_selection").hide();
             $("#heatmaps").show();
             addDiscretePoints();
 
@@ -525,8 +531,7 @@
         $("#skin_button").click(function() {
             main_scene.visible = true;
             heatmap_scene.visible = false;
-            $("#sidebar table").show();
-            $("#sidebar h3").text("Lymphatic Drainage Statistics");
+            $("#skin_selection").show();
             $("#heatmaps").hide();
         });
 
@@ -555,11 +560,13 @@
             var show_nodecode = $("#show_nodecodes").is(":checked");
             var show_drainage = $("#show_drainage").is(":checked");
             for (var d of rows) {
-                if (!show_nodecode && !show_drainage) {
-                    lymph_lookup[d.code].visible = false;
-                } else {
-                    lymph_lookup[d.code].label.visible = true;
-                    lymph_lookup[d.code].label.element.textContent = `${show_nodecode ? d.code : ""} ${show_drainage ? "(" + d.percentage.trim() + ")%": ""}`;
+                lymph_lookup[d.code].label.visible = show_nodecode || show_drainage;
+                if (show_nodecode && !show_drainage) {
+                    lymph_lookup[d.code].label.element.textContent = d.code
+                } else if (!show_nodecode && show_drainage) {
+                    lymph_lookup[d.code].label.element.textContent = d.percentage.trim() + "%"
+                } else if (show_nodecode && show_drainage) {
+                    lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.percentage.trim()}%)`;
                 }
             }
         }

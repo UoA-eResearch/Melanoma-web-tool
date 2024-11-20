@@ -134,7 +134,9 @@
             <label id="show_patient_data" class="btn btn-secondary active">
                 <input type="checkbox"> Show patient data
             </label>
-            <div class="legend"><span id="max">Max</span><span id="min">Min</span></div>
+                    <div class="legend"><span id="max">100%</span><span id="min">0%</span></div>
+                    <input type="checkbox" checked id="show_nodecodes"> Show node codes
+                    <input type="checkbox" checked id="show_drainage"> Show drainage %
         </div>
         <div>
             TIS = Triangular Intermuscular Space
@@ -189,6 +191,7 @@
         let data_elements;
 
         let sphereGeometry = new THREE.SphereGeometry(10, 32, 32);
+        let rows = [];
 
         init();
 
@@ -420,7 +423,7 @@
                             lymph_objects.sphere.visible = false;
                             lymph_objects.label.visible = false;
                         }
-                        var rows = data_elements[INTERSECTED.name]
+                        rows = data_elements[INTERSECTED.name]
                         if (!rows) {
                             rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
                         }
@@ -439,6 +442,7 @@
                             }
                             $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
                         }
+                        set_labels();
                     }
                 }
             });
@@ -546,6 +550,21 @@
         $("#show_patient_data input").change(function() {
             addDiscretePoints();
         })
+
+        function set_labels() {
+            var show_nodecode = $("#show_nodecodes").is(":checked");
+            var show_drainage = $("#show_drainage").is(":checked");
+            for (var d of rows) {
+                if (!show_nodecode && !show_drainage) {
+                    lymph_lookup[d.code].visible = false;
+                } else {
+                    lymph_lookup[d.code].label.visible = true;
+                    lymph_lookup[d.code].label.element.textContent = `${show_nodecode ? d.code : ""} ${show_drainage ? "(" + d.percentage.trim() + ")%": ""}`;
+                }
+            }
+        }
+
+        $("#show_nodecodes,#show_drainage").change(set_labels)
     </script>
 </body>
 

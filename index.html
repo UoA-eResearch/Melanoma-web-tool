@@ -78,9 +78,9 @@
         }
 
         .legend {
-            width: 40px;
-            height: 200px;
-            background: linear-gradient(in hsl longer hue, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
+            height: 40px;
+            width: 200px;
+            background: linear-gradient(in hsl longer hue to right, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
             display: flex;
             justify-content: center;
             align-items: center;
@@ -90,12 +90,14 @@
         }
 
         .legend #max {
-            top: -16px;
+            right: 0px;
+            top: -17px;
             position: absolute;
         }
 
         .legend #min {
-            bottom: -16px;
+            left: 0px;
+            top: -17px;
             position: absolute;
         }
 
@@ -143,7 +145,7 @@
             <label id="show_patient_data" class="btn btn-secondary active">
                 <input type="checkbox"> Show patient data
             </label>
-            <div class="legend"><span id="max">100%</span><span id="min">0%</span></div>
+            <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100%</span><span id="min">0%</span></div>
         </div>
         <div>
             TIS = Triangular Intermuscular Space

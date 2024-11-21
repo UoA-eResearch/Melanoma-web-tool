@@ -84,9 +84,11 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            position: relative;
             text-align: center;
             float: right;
+            position: absolute;
+            bottom: 5%;
+            right: 5%;
         }
 
         .legend #max {
@@ -100,6 +102,18 @@
             top: -17px;
             position: absolute;
         }
+
+        .heatmaps_list {
+            vertical-align: top;
+        }
+
+        #show_patient_data {
+            position: absolute;
+            left: 5%;
+            bottom: 5%;
+        }
+
+
 
     </style>
 </head>
@@ -138,17 +152,19 @@
             <label class="btn btn-secondary active">
                 <input type="checkbox" id="show_drainage" checked> Show drainage %
             </label>
+            <div>
+                TIS = Triangular Intermuscular Space
+            </div>
         </div>
         <div id="heatmaps" style="display:none">
             <h3>Heatmaps</h3>
-            <div id="heatmaps_list" class="btn-group-vertical"></div>
+            <div id="heatmaps_list" class="heatmaps_list btn-group-vertical btn-group-sm"></div>
+            <div id="heatmaps_list_left" class="heatmaps_list btn-group-vertical btn-group-sm"></div>
+            <div id="heatmaps_list_right" class="heatmaps_list btn-group-vertical btn-group-sm"></div>
             <label id="show_patient_data" class="btn btn-secondary active">
                 <input type="checkbox"> Show patient data
             </label>
             <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100%</span><span id="min">0%</span></div>
-        </div>
-        <div>
-            TIS = Triangular Intermuscular Space
         </div>
     </div>
     <div id="controls" class="btn-group-vertical">
@@ -327,7 +343,13 @@
                 console.log("heatmaps", heatmaps)
                 var sorted_keys = Object.keys(heatmaps).sort()
                 for (var k of sorted_keys) {
-                    $("#heatmaps_list").append(`<button class="btn btn-primary ${k == "Right Axilla" ? "active" : ""}">${k}</button>`)
+                    var target = $("#heatmaps_list")
+                    if (k.includes("Right")) {
+                        target = $("#heatmaps_list_right")
+                    } else if (k.includes("Left")) {
+                        target = $("#heatmaps_list_left")
+                    }
+                    target.append(`<button class="btn btn-primary ${k == "Right Axilla" ? "active" : ""}">${k}</button>`)
                     let colors = heatmaps[k].map(c => parseColor(c)).flat();
                     heatmaps[k] = new THREE.Float32BufferAttribute( colors, 3 )
                 }
@@ -520,8 +542,8 @@
             $("#heatmaps").show();
             addDiscretePoints();
 
-            $("#heatmaps_list button").click(function() {
-                $("#heatmaps_list button").removeClass("active");
+            $(".heatmaps_list button").click(function() {
+                $(".heatmaps_list button").removeClass("active");
                 $(this).addClass("active");
                 let name = $(this).text();
                 heatmap_scene.children[0].geometry.setAttribute( 'color', heatmaps[name] );

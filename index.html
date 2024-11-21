@@ -265,7 +265,7 @@
             if (!$("#show_patient_data input").is(":checked")) return;
             discrete_points = new THREE.Scene();
             heatmap_scene.add(discrete_points)
-            var region = $("#heatmaps_list button").filter(".active").text();
+            var region = $(".heatmaps_list button").filter(".active").text();
             var patient_data = discrete_points_normalized[region]
             if (!patient_data) return;
             for (var i = 0; i < patient_data.positions.length; i++) {

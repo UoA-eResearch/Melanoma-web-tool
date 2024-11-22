@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <style>
         body {
@@ -113,7 +114,10 @@
             bottom: 5%;
         }
 
-
+        .modal-dialog {
+            color: black;
+            max-width: 80%;
+        }
 
     </style>
 </head>
@@ -174,6 +178,38 @@
         <button type="button" class="btn btn-primary">Left lateral</button>
         <button type="button" class="btn btn-primary">Right lateral</button>
     </div>
+    <div id="modal" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">About this tool</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Researchers at The University of Auckland's Maurice Wilkins Centre have
+                    mapped melanoma lymphoscintigraphy data from the Sydney Melanoma Unit (SMU) onto a 3D anatomically based 
+                    computer model of the skin and lymph nodes. This mapped data has enabled visualisation of the likely node fields
+                    for melanoma metastasis.
+                    Data was mapped by <a href="https://profiles.auckland.ac.nz/hayley-reynolds" target="blank">Dr Hayley Reynolds</a> at the Auckland Bioengineering Institute, supervised
+                    by Dr Nicolas Smith and Assoc Prof Rod Dunbar. Lymphoscintigraphy data from the SMU is courtesy of Prof Roger Uren MD and Prof John Thompson MD.<br>
+                    <br>
+                    The mapped data can be viewed in two different displays. Click the 'Skin Selection Tool' option in the menubar above to view the potential sentinel lymph node fields
+                    by selecting different regions of skin. Alternatively, the 'Heatmaps' option on the menubar shows various heat maps visualising the
+                    percentage likelihood that the skin will show lymphatic drainage to a specified node field.
+                    <br>
+                    <br>
+                    
+                    <strong>SKIN SELECTION TOOL:</strong><br>
+                    Click on regions of skin on the image below to display the potential sentinel lymph node fields that will receive melanoma cells if the cancer has spread
+                    beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood. The table of statistics details the number of patient cases draining to each node field and the
+                    percentage likelihood of drainage to that node field.<br><br>
+
+                    <strong>HEAT MAPS:</strong><br>
+                    The heat maps show the percentage likelihood that a primary melanoma site will show lymphatic drainage to a specified node field. Regions of skin with no lymphatic drainage to the node field are coloured black. Different node field displays can be seen by clicking on the corresponding buttons.
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="importmap">
         {
             "imports": {
@@ -183,6 +219,9 @@
         }
     </script>
     <script defer type="module">
+
+        const modal = new bootstrap.Modal('#modal')
+        modal.show();
 
         import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
         import * as THREE from 'three';

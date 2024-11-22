@@ -600,16 +600,17 @@
 
         $("#controls button").click(function() {
             let action = $(this).text();
+            var currentDistance = camera.position.length();
             if (action == "Reset") {
                 camera.position.set(1496.96865501004, 3213.1316867226697, -232.08816356744805);
             } else if (action == "Anterior") {
-                camera.position.set(0, 3550, 0);
+                camera.position.set(0, currentDistance, 0);
             } else if (action == "Posterior") {
-                camera.position.set(0, -3550, 0);
+                camera.position.set(0, -currentDistance, 0);
             } else if (action == "Left lateral") {
-                camera.position.set(-3550, 0, 0);
+                camera.position.set(-currentDistance, 0, 0);
             } else if (action == "Right lateral") {
-                camera.position.set(3550, 0, 0);
+                camera.position.set(currentDistance, 0, 0);
             }
             camera.up = new THREE.Vector3(0,0,1);
             controls.update();

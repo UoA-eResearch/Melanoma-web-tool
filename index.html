@@ -43,7 +43,7 @@
             z-index: 999;
             right: 0;
             top: 50px;
-            width: 40%;
+            width: 33%;
             height: 80%;
             overflow: auto;
             background-color: #f5f5f5;
@@ -51,6 +51,11 @@
             padding: 20px;
             box-sizing: border-box;
             border-radius: 10px;
+        }
+
+        #description.sidebar {
+            left: 0;
+            right: auto;
         }
 
         .label {
@@ -62,20 +67,6 @@
 
         .lymph {
             margin-left: 50px;
-        }
-
-        #controls {
-            position: fixed;
-            left: 10px;
-            bottom: 10px;
-            width: 200px;
-            overflow: auto;
-            background-color: #f5f5f5;
-            color: black;
-            padding: 20px;
-            box-sizing: border-box;
-            border-radius: 10px;
-            z-index: 1000;
         }
 
         .legend {
@@ -108,15 +99,14 @@
             vertical-align: top;
         }
 
+        .btn-group-sm>.btn {
+            --bs-btn-font-size: .7rem;
+        }
+
         #show_patient_data {
             position: absolute;
             left: 5%;
             bottom: 5%;
-        }
-
-        .modal-dialog {
-            color: black;
-            max-width: 80%;
         }
 
     </style>
@@ -171,43 +161,34 @@
             <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100%</span><span id="min">0%</span></div>
         </div>
     </div>
-    <div id="controls" class="btn-group-vertical">
-        <h4>View:</h4>
-        <button type="button" class="btn btn-primary">Anterior</button>
-        <button type="button" class="btn btn-primary">Posterior</button>
-        <button type="button" class="btn btn-primary">Left lateral</button>
-        <button type="button" class="btn btn-primary">Right lateral</button>
-    </div>
-    <div id="modal" class="modal" tabindex="-1">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">About this tool</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Researchers at The University of Auckland's Maurice Wilkins Centre have
-                    mapped melanoma lymphoscintigraphy data from the Sydney Melanoma Unit (SMU) onto a 3D anatomically based 
-                    computer model of the skin and lymph nodes. This mapped data has enabled visualisation of the likely node fields
-                    for melanoma metastasis.
-                    Data was mapped by <a href="https://profiles.auckland.ac.nz/hayley-reynolds" target="blank">Dr Hayley Reynolds</a> at the Auckland Bioengineering Institute, supervised
-                    by Dr Nicolas Smith and Assoc Prof Rod Dunbar. Lymphoscintigraphy data from the SMU is courtesy of Prof Roger Uren MD and Prof John Thompson MD.<br>
-                    <br>
-                    The mapped data can be viewed in two different displays. Click the 'Skin Selection Tool' option in the menubar above to view the potential sentinel lymph node fields
-                    by selecting different regions of skin. Alternatively, the 'Heatmaps' option on the menubar shows various heat maps visualising the
-                    percentage likelihood that the skin will show lymphatic drainage to a specified node field.
-                    <br>
-                    <br>
-                    
-                    <strong>SKIN SELECTION TOOL:</strong><br>
-                    Click on regions of skin on the image below to display the potential sentinel lymph node fields that will receive melanoma cells if the cancer has spread
-                    beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood. The table of statistics details the number of patient cases draining to each node field and the
-                    percentage likelihood of drainage to that node field.<br><br>
+    <div id="description" class="sidebar">
+        <h5 class="modal-title">About this tool</h5>
+        Researchers at The University of Auckland's Maurice Wilkins Centre have
+        mapped melanoma lymphoscintigraphy data from the Sydney Melanoma Unit (SMU) onto a 3D anatomically based 
+        computer model of the skin and lymph nodes. This mapped data has enabled visualisation of the likely node fields
+        for melanoma metastasis.
+        Data was mapped by <a href="https://profiles.auckland.ac.nz/hayley-reynolds" target="blank">Dr Hayley Reynolds</a> at the Auckland Bioengineering Institute, supervised
+        by Dr Nicolas Smith and Assoc Prof Rod Dunbar. Lymphoscintigraphy data from the SMU is courtesy of Prof Roger Uren MD and Prof John Thompson MD.<br>
+        <br>
+        The mapped data can be viewed in two different displays. Click the 'Skin Selection Tool' option in the menubar above to view the potential sentinel lymph node fields
+        by selecting different regions of skin. Alternatively, the 'Heatmaps' option on the menubar shows various heat maps visualising the
+        percentage likelihood that the skin will show lymphatic drainage to a specified node field.
+        <br>
+        <br>
+        
+        <strong>SKIN SELECTION TOOL:</strong><br>
+        Click on regions of skin on the image below to display the potential sentinel lymph node fields that will receive melanoma cells if the cancer has spread
+        beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood. The table of statistics details the number of patient cases draining to each node field and the
+        percentage likelihood of drainage to that node field.<br><br>
 
-                    <strong>HEAT MAPS:</strong><br>
-                    The heat maps show the percentage likelihood that a primary melanoma site will show lymphatic drainage to a specified node field. Regions of skin with no lymphatic drainage to the node field are coloured black. Different node field displays can be seen by clicking on the corresponding buttons.
-                </div>
-            </div>
+        <strong>HEAT MAPS:</strong><br>
+        The heat maps show the percentage likelihood that a primary melanoma site will show lymphatic drainage to a specified node field. Regions of skin with no lymphatic drainage to the node field are coloured black. Different node field displays can be seen by clicking on the corresponding buttons.<br><br>
+        <div id="controls" class="btn-group-vertical">
+            <h4>View:</h4>
+            <button type="button" class="btn btn-primary">Anterior</button>
+            <button type="button" class="btn btn-primary">Posterior</button>
+            <button type="button" class="btn btn-primary">Left lateral</button>
+            <button type="button" class="btn btn-primary">Right lateral</button>
         </div>
     </div>
     <script type="importmap">
@@ -219,9 +200,6 @@
         }
     </script>
     <script defer type="module">
-
-        const modal = new bootstrap.Modal('#modal')
-        modal.show();
 
         import $ from 'https://cdn.jsdelivr.net/npm/jquery@3.7.1/+esm'
         import * as THREE from 'three';

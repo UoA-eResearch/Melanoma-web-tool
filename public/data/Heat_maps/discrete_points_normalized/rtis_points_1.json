@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rtis_points_3.json",
+      "GroupName" : "rtis_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rtis_points_2.json"
+   }
+]

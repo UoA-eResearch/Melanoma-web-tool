@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Right_upper_ear",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Right_upper_ear_2.json"
+   }
+]

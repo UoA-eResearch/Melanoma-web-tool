@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lposta_points_3.json",
+      "GroupName" : "lposta_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lposta_points_2.json"
+   }
+]

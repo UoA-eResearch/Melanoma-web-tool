@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "all_freq_points_3.json",
+      "GroupName" : "all",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "all_freq_points_2.json"
+   }
+]

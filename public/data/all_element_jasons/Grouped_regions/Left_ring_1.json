@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Left_ring",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Left_ring_2.json"
+   }
+]

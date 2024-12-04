@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lal_points_3.json",
+      "GroupName" : "lal_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lal_points_2.json"
+   }
+]

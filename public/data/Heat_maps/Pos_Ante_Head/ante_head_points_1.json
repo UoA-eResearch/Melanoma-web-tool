@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "ante_head_points_3.json",
+      "GroupName" : "anterior_normalize",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "ante_head_points_2.json"
+   }
+]

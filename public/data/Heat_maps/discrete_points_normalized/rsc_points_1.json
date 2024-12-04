@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rsc_points_3.json",
+      "GroupName" : "rsc_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rsc_points_2.json"
+   }
+]

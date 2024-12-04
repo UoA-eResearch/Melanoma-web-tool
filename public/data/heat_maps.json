@@ -67,6 +67,16 @@
   },
 
   {
+    "GroupName": "Patient Data",
+    "GlyphGeometriesURL": "All_patient_data_fre/all_freq_points_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "1 Draining Node Fields",
+    "Type": "Glyph",
+    "URL": "All_patient_data_fre/all_freq_points_2.json"
+  },
+  {
     "GroupName": "Heat Map",
     "MorphColours": false,
     "MorphNormals": false,

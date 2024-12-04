@@ -141,6 +141,9 @@
                 </tbody>
             </table>
             <label class="btn btn-secondary active">
+                <input type="checkbox" id="show_patient_counts" checked> Show patient counts
+            </label>
+            <label class="btn btn-secondary active">
                 <input type="checkbox" id="show_nodecodes" checked> Show node codes
             </label>
             <label class="btn btn-secondary active">
@@ -178,7 +181,7 @@
         
         <strong>SKIN SELECTION TOOL:</strong><br>
         Click on regions of skin on the image below to display the potential sentinel lymph node fields that will receive melanoma cells if the cancer has spread
-        beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood. The table of statistics details the number of patient cases draining to each node field and the
+        beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood, and the total number of patient cases are displayed on the selected skin regions. The table of statistics details the number of patient cases draining to each node field and the
         percentage likelihood of drainage to that node field.<br><br>
 
         <strong>HEAT MAPS:</strong><br>
@@ -219,7 +222,7 @@
 
         let stats;
 
-        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED, SELECTED;
+        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED, INTERSECT_POINT, SELECTED;
 
         let selectable = [];
 
@@ -247,6 +250,9 @@
             return label;
         }
 
+        let tooltip = addLabel("Element name", new THREE.Vector3(0, 0, 0), "tt");
+        tooltip.visible = false;
+
         function addSphere(position) {
             const sphere = new THREE.Mesh(sphereGeometry, new THREE.MeshPhongMaterial({color: 0x00ff00}));
             sphere.position.copy(position)
@@ -255,7 +261,7 @@
         }
 
         let lymphs = await fetch("lymphs_positions.json").then(response => response.json());
-        console.log(lymphs);
+        console.log("lymphs", lymphs);
         window.lymph_lookup = {}
         for (var l of lymphs) {
             var position = new THREE.Vector3(l.position[0], l.position[1], l.position[2]).add(offset);
@@ -268,7 +274,10 @@
         }
 
         data_elements = await fetch("src/data/data_elements.json").then(response => response.json());
-        console.log(data_elements)
+        console.log("data_elements", data_elements)
+
+        let patient_counts = await fetch("element_patient_counts.json").then(response => response.json());
+        console.log("patient_counts", patient_counts)
 
         function parseColor(color) {
             let r = color >> 16 & 255;
@@ -463,6 +472,7 @@
                             SELECTED.material.opacity = .5;
                         }
                         SELECTED = INTERSECTED;
+                        console.log(SELECTED)
                         SELECTED.material.color.setHex(0xFF0000);
                         //SELECTED.material.opacity = .5;
                         //$("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
@@ -479,6 +489,11 @@
                             console.warn(INTERSECTED.name)
                             $("#tbody").append(`<tr><td colspan="5">No data available</td></tr>`)
                             return;
+                        }
+                        if (tooltip) {
+                            tooltip.position.copy(INTERSECT_POINT);
+                            tooltip.element.textContent = patient_counts[SELECTED.name.replace("element_", "")];
+                            tooltip.visible = $("#show_patient_counts").is(":checked");
                         }
                         for (var d of rows) {
                             if (lymph_lookup[d.code]) {
@@ -518,6 +533,7 @@
                 raycaster.setFromCamera( pointer, camera );
                 const intersects = raycaster.intersectObjects( selectable, true );
                 if ( intersects.length > 0 ) {
+                    INTERSECT_POINT = intersects[0].point;
                     if ( INTERSECTED != intersects[ 0 ].object ) {
                         //console.log("Hover on ", intersects[0].object)
                         if ( INTERSECTED && INTERSECTED != SELECTED ) INTERSECTED.material.emissive?.setHex( 0x000000 );
@@ -601,6 +617,8 @@
         function set_labels() {
             var show_nodecode = $("#show_nodecodes").is(":checked");
             var show_drainage = $("#show_drainage").is(":checked");
+            var show_patient_counts = $("#show_patient_counts").is(":checked");
+            tooltip.visible = show_patient_counts;
             for (var d of rows) {
                 lymph_lookup[d.code].label.visible = show_nodecode || show_drainage;
                 if (show_nodecode && !show_drainage) {
@@ -613,7 +631,7 @@
             }
         }
 
-        $("#show_nodecodes,#show_drainage").change(set_labels)
+        $("#show_nodecodes,#show_drainage,#show_patient_counts").change(set_labels)
     </script>
 </body>
 

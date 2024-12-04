@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Right_thumb",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Right_thumb_2.json"
+   }
+]

@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lc1_points_3.json",
+      "GroupName" : "lc1_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lc1_points_2.json"
+   }
+]

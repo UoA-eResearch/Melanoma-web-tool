@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "left_small",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "left_small_2.json"
+   }
+]

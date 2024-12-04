@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "Left_thumb",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "Left_thumb_2.json"
+   }
+]

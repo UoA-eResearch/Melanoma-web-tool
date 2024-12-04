@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "riei_points_3.json",
+      "GroupName" : "riei_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "riei_points_2.json"
+   }
+]

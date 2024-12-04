@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lprea_points_3.json",
+      "GroupName" : "lprea_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lprea_points_2.json"
+   }
+]

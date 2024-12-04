@@ -574,6 +574,7 @@
             $("#skin_selection").hide();
             $("#heatmaps").show();
             addDiscretePoints();
+            tooltip.visible = false;
 
             $(".heatmaps_list button").click(function() {
                 $(".heatmaps_list button").removeClass("active");
@@ -588,6 +589,7 @@
         $("#skin_button").click(function() {
             main_scene.visible = true;
             heatmap_scene.visible = false;
+            tooltip.visible = true;
             $("#skin_selection").show();
             $("#heatmaps").hide();
         });

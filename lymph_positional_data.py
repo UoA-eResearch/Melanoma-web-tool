@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import numpy as np
 import json
 from tqdm import tqdm
@@ -20,6 +21,10 @@ if __name__ == "__main__":
     assert pts.shape[0] == len(lbls)
 
     for idx in tqdm(range(pts.shape[0])):
+        if lbls[idx] == "lg":
+            lbls[idx] = "li"
+        elif lbls[idx] == "rg":
+            lbls[idx] = "ri"
         processed_data.append({'label': lbls[idx], 'position': pts[idx].tolist()})
 
     json.dump(processed_data, open("lymphs_positions.json", 'w'))

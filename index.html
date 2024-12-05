@@ -316,7 +316,7 @@
             for (var i = 0; i < patient_data.positions.length; i++) {
                 var pos = patient_data.positions[i];
                 pos = new THREE.Vector3(pos[0], pos[1], pos[2])//.add(offset);
-                var scale = patient_data.scales[i];
+                //var scale = patient_data.scales[i];
                 var color = parseColor(patient_data.colors[i]);
                 var sphere = addSphere(pos);
                 sphere.material = new THREE.MeshPhongMaterial({
@@ -328,7 +328,8 @@
                     flatShading: false,
                     side: THREE.DoubleSide
                 });
-                sphere.scale.setScalar(scale / 100).clampScalar(.5, 50);
+                sphere.scale.setScalar(.5);
+                //sphere.scale.setScalar(scale / 100).clampScalar(.5, 50);
                 discrete_points.add(sphere);
             }
         }

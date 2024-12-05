@@ -39,7 +39,7 @@ for elem in tqdm(elems):
                 discrete_points_normalized[RegionPath] = {
                     "positions": pos,
                     "colors": data["colors"]["0"],
-                    "scales": scale,
+                    #"scales": scale,
                 }
     except Exception as e:
         print(f"{e} for {elem}")

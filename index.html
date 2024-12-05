@@ -610,6 +610,7 @@
             tooltip.visible = true;
             $("#skin_selection").show();
             $("#heatmaps").hide();
+            set_labels();
         });
 
         $("#controls button").click(function() {
@@ -641,6 +642,7 @@
             tooltip.visible = show_patient_counts;
             for (var d of rows) {
                 lymph_lookup[d.code].label.visible = show_nodecode || show_drainage;
+                lymph_lookup[d.code].sphere.visible = true;
                 if (show_nodecode && !show_drainage) {
                     lymph_lookup[d.code].label.element.textContent = d.code
                 } else if (!show_nodecode && show_drainage) {

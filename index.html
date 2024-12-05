@@ -103,10 +103,10 @@
             --bs-btn-font-size: .7rem;
         }
 
-        #show_patient_data {
+        #freq_toggle {
             position: absolute;
             left: 5%;
-            bottom: 5%;
+            bottom:5%;
         }
 
     </style>
@@ -116,10 +116,10 @@
     <div id="info">
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="skin_button" autocomplete="off" checked> Skin selection tool
+              <input class="form-check-input mt-0" type="radio" name="options" id="skin_button" autocomplete="off" checked> Skin selection tool
             </label>
             <label class="btn btn-secondary">
-              <input type="radio" name="options" id="heatmaps_button" autocomplete="off" disabled> Heatmaps
+              <input class="form-check-input mt-0" type="radio" name="options" id="heatmaps_button" autocomplete="off" disabled> Heatmaps
             </label>
         </div>
         Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Double click to focus
@@ -158,9 +158,15 @@
             <div id="heatmaps_list" class="heatmaps_list btn-group-vertical btn-group-sm"></div>
             <div id="heatmaps_list_left" class="heatmaps_list btn-group-vertical btn-group-sm"></div>
             <div id="heatmaps_list_right" class="heatmaps_list btn-group-vertical btn-group-sm"></div>
-            <label id="show_patient_data" class="btn btn-secondary active">
-                <input type="checkbox"> Show patient data
-            </label>
+            <div class="btn-group-vertical" role="group" id="freq_toggle">
+                Patient data:
+                <input type="radio" class="btn-check" name="patient_data" id="hidden" autocomplete="off" checked>
+                <label class="btn btn-primary" for="hidden">Hidden</label>
+                <input type="radio" class="btn-check" name="patient_data" id="freq" autocomplete="off">
+                <label class="btn btn-primary" for="freq">Frequency</label>
+                <input type="radio" class="btn-check" name="patient_data" id="norm" autocomplete="off">
+                <label class="btn btn-primary" for="norm">Normalised frequency</label>
+            </div>
             <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100%</span><span id="min">0%</span></div>
         </div>
     </div>
@@ -287,11 +293,22 @@
         }
 
         function addDiscretePoints() {
+            var selected_radio = $("input[name=patient_data]:checked").attr("id");
+            console.log(selected_radio)
             heatmap_scene.remove(discrete_points);
-            if (!$("#show_patient_data input").is(":checked")) return;
+            var region = $(".heatmaps_list button").filter(".active").text();
+            var have_freq = discrete_points_normalized[region + " Frequency"] != undefined;
+            if ((selected_radio == "freq") && !have_freq) {
+                $("#norm").prop("checked", true);
+                selected_radio = "norm";
+            }
+            $("#freq").prop("disabled", !have_freq);
+            if (selected_radio == "hidden") return;
             discrete_points = new THREE.Scene();
             heatmap_scene.add(discrete_points)
-            var region = $(".heatmaps_list button").filter(".active").text();
+            if (selected_radio == "freq") {
+                region += " Frequency";
+            }
             var patient_data = discrete_points_normalized[region]
             if (!patient_data) return;
             for (var i = 0; i < patient_data.positions.length; i++) {
@@ -612,7 +629,7 @@
             controls.update();
         })
 
-        $("#show_patient_data input").change(function() {
+        $("input[name=patient_data]").change(function() {
             addDiscretePoints();
         })
 

@@ -27,11 +27,16 @@ for elem in elems:#tqdm(elems):
         elif elem["Type"] == "Glyph":
             RegionPath = elem.get("RegionPath", "")
             file = elem["URL"]
+            if "fre" in file:
+                RegionPath += " Frequency"
+                print(RegionPath)
             with open(Path.joinpath(json_heatmaps_dir, file)) as f:
                 data = json.load(f)
                 pos = np.reshape(data["positions"]["0"], (-1, 3)).tolist()
                 scale = np.reshape(data["scale"]["0"], (-1, 3))
                 scale = scale[:,1].tolist()
+                if RegionPath in discrete_points_normalized:
+                    print(f"Duplicate {RegionPath}")
                 discrete_points_normalized[RegionPath] = {
                     "positions": pos,
                     "colors": data["colors"]["0"],

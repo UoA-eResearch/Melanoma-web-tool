@@ -482,14 +482,13 @@
             document.addEventListener('mousemove', () => drag = true);
             document.addEventListener('mouseup', function() {
                 if (!drag && main_scene?.visible && INTERSECTED) {
-                    console.log("click")
                     if (data_elements) {
                         if (SELECTED) {
                             SELECTED.material.color.setHex(0xE5B27F);
                             SELECTED.material.opacity = .5;
                         }
                         SELECTED = INTERSECTED;
-                        console.log(SELECTED)
+                        console.log("clicked", SELECTED.name, SELECTED)
                         SELECTED.material.color.setHex(0xFF0000);
                         //SELECTED.material.opacity = .5;
                         //$("#sidebar h3").text("Statistics for " + INTERSECTED.name.replace(/_/g, " "));
@@ -502,15 +501,15 @@
                         if (!rows) {
                             rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
                         }
+                        if (tooltip) {
+                            tooltip.position.copy(INTERSECT_POINT);
+                            tooltip.element.textContent = patient_counts[SELECTED.name.replace("element_", "")] || 0;
+                            tooltip.visible = $("#show_patient_counts").is(":checked");
+                        }
                         if (!rows) {
                             console.warn(INTERSECTED.name)
                             $("#tbody").append(`<tr><td colspan="5">No data available</td></tr>`)
                             return;
-                        }
-                        if (tooltip) {
-                            tooltip.position.copy(INTERSECT_POINT);
-                            tooltip.element.textContent = patient_counts[SELECTED.name.replace("element_", "")];
-                            tooltip.visible = $("#show_patient_counts").is(":checked");
                         }
                         for (var d of rows) {
                             if (lymph_lookup[d.code]) {

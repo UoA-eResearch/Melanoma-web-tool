@@ -398,6 +398,15 @@
                     let colors = heatmaps[k].map(c => parseColor(c)).flat();
                     heatmaps[k] = new THREE.Float32BufferAttribute( colors, 3 )
                 }
+
+                $(".heatmaps_list button").click(function() {
+                    $(".heatmaps_list button").removeClass("active");
+                    $(this).addClass("active");
+                    let name = $(this).text();
+                    heatmap_scene.children[0].geometry.setAttribute( 'color', heatmaps[name] );
+                    addDiscretePoints();
+                    //heatmap_scene.children[0].geometry.attributes.color.needsUpdate = true;
+                })
                 
                 loader.load("human_mesh.glb", (root) => {
                     console.log("human_mesh.glb", root)
@@ -593,15 +602,6 @@
             $("#heatmaps").show();
             addDiscretePoints();
             tooltip.visible = false;
-
-            $(".heatmaps_list button").click(function() {
-                $(".heatmaps_list button").removeClass("active");
-                $(this).addClass("active");
-                let name = $(this).text();
-                heatmap_scene.children[0].geometry.setAttribute( 'color', heatmaps[name] );
-                addDiscretePoints();
-                //heatmap_scene.children[0].geometry.attributes.color.needsUpdate = true;
-            })
         });
 
         $("#skin_button").click(function() {

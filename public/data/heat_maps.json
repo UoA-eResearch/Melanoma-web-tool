@@ -333,7 +333,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Heat_maps/posterior_head_2.json"
+    "URL": "Heat_maps/posterior_head_1.json"
   },
   {
     
@@ -342,7 +342,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Heat_maps/anterior_head_2.json"
+    "URL": "Heat_maps/anterior_head_1.json"
   },
   {
     
@@ -351,7 +351,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Heat_maps/lic_2.json"
+    "URL": "Heat_maps/lic_1.json"
   },
   {
     
@@ -360,7 +360,7 @@
     "MorphNormals": false,
     "MorphVertices": false,
     "Type": "Surfaces",
-    "URL": "Heat_maps/ric_2.json"
+    "URL": "Heat_maps/ric_1.json"
   },
 
   {
@@ -561,7 +561,7 @@
     "MorphVertices": false,
     "RegionPath": "Submental",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/sm_points_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/sm_pointys_2.json"
   },
   {
     "GroupName": "Left Occipital",
@@ -651,7 +651,7 @@
     "MorphVertices": false,
     "RegionPath": "Left Popliteal",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/lpop_points_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/lopo_points_2.json"
   },
   {
     "GroupName": "Right Popliteal",
@@ -669,7 +669,7 @@
     "MorphVertices": false,
     "RegionPath": "Right Popliteal",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/rpop_points_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/rpop_point_2.json"
   },
   {
     "GroupName": "Left Supraclavicular Fossa",

@@ -15,7 +15,7 @@ with open("public/data/heat_maps.json") as f:
 
 discrete_points_normalized = {}
 
-for elem in elems:#tqdm(elems):
+for elem in tqdm(elems):
     try:
         if elem["Type"] == "Surfaces":
             name = elem.get("RegionPath", "") + " " + elem.get("GroupName", "")
@@ -29,7 +29,6 @@ for elem in elems:#tqdm(elems):
             file = elem["URL"]
             if "fre" in file:
                 RegionPath += " Frequency"
-                print(RegionPath)
             with open(Path.joinpath(json_heatmaps_dir, file)) as f:
                 data = json.load(f)
                 pos = np.reshape(data["positions"]["0"], (-1, 3)).tolist()

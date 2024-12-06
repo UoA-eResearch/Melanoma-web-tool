@@ -29,7 +29,7 @@ for elem in tqdm(elems):
             file = json_heatmaps_dir + elem["URL"]
             if "fre" in file:
                 RegionPath += " Frequency"
-                print(RegionPath)
+                #print(RegionPath)
             with open(file) as f:
                 data = json.load(f)
                 pos = np.reshape(data["positions"]["0"], (-1, 3)).tolist()
@@ -44,9 +44,9 @@ for elem in tqdm(elems):
                 }
             file = os.path.basename(file)
             file = "public/data/Heat_maps/discrete_points_normalized/" + file.replace("nor", "fre").replace("_points", "").replace("_pointys", "").replace("NFs", "NFS")
-            if os.path.isfile(file) and "fre" in file:
+            if os.path.isfile(file) and "fre" in file and "Frequency" not in RegionPath:
                 RegionPath += " Frequency"
-                print(RegionPath)
+                #print(RegionPath)
                 with open(file) as f:
                     data = json.load(f)
                     pos = np.reshape(data["positions"]["0"], (-1, 3)).tolist()
@@ -64,4 +64,9 @@ for elem in tqdm(elems):
         raise
 
 json.dump(heat_maps_verts_colors, open("heat_maps_verts_colors.json", 'w'))
+
+for k in discrete_points_normalized:
+    if "Frequency" in k:
+        print(k)
+
 json.dump(discrete_points_normalized, open("discrete_points_normalized.json", 'w'))

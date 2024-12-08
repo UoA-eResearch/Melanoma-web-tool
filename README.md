@@ -11,7 +11,7 @@ If necessary, you can run the below scripts to generate these outputs:
 Skin selection tool:
 
 - Run `json_to_mesh.py` to build `scene.glb` from `public/data/all_element_jasons/element_all.json`. This will stitch all elements together, while preserving their element names.
-- Run `lymph_positional_data.py` to generate `lymph_positions.json`, a json file containing the lymph positions inside the human body
+- Run `lymph_positional_data.py` to parse `public/data/all_element_jasons/Nodes/all_nodes_labels_2.json` and generate `lymphs_positions.json`, a json file containing the lymph positions inside the human body
 - Run `parse_patient_counts.ipynb` to parse `public/data/All_patient_data_fre/element_patient_counts.csv` and `public/data/All_patient_data_fre/Readme_element_grouping.txt` to then generate `element_patient_counts.json`, a json file containing the patient counts for each element
 
 Heatmap tool:
@@ -26,7 +26,7 @@ To view `index.html` locally, you can use `python -m http.server` in the root di
 `index.html` depends only on the following files:
 
 - scene.glb
-- lymph_positions.json
+- lymphs_positions.json
 - human_mesh.glb
 - heat_maps_verts_colors.json
 - discrete_points_normalized.json

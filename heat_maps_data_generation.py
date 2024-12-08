@@ -43,7 +43,8 @@ for elem in tqdm(elems):
                     #"scales": scale,
                 }
             file = os.path.basename(file)
-            file = "public/data/Heat_maps/discrete_points_normalized/" + file.replace("nor", "fre").replace("_points", "").replace("_pointys", "").replace("NFs", "NFS")
+            file = "public/data/Heat_maps/discrete_points_normalized/" + file.replace("nor", "fre").replace("_points", "_fre").replace("_pointys", "").replace("NFs", "NFS").replace("_fre_fre", "_fre")
+            print(file, os.path.isfile(file))
             if os.path.isfile(file) and "fre" in file and "Frequency" not in RegionPath:
                 RegionPath += " Frequency"
                 #print(RegionPath)

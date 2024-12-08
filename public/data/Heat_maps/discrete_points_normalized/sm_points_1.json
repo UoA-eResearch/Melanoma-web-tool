@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "sm_pointys_3.json",
+      "GroupName" : "sm_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "sm_pointys_2.json"
+   }
+]

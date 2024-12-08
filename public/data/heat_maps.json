@@ -1,5 +1,61 @@
 [
   {
+    
+    "GroupName": "Left Triangular Intermuscular Space",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/ltis_2.json"
+  },
+  {
+    "GroupName": "Patient Data",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ltis_points_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "Left Triangular Intermuscular Space",
+    "Type": "Glyph",
+    "URL": "Heat_maps/discrete_points_normalized/ltis_points_2.json"
+  },
+  {
+    
+    "GroupName": "Right Triangular Intermuscular Space",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/rtis_2.json"
+  },
+  {
+    "GroupName": "Patient Data",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/rtis_points_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "Right Triangular Intermuscular Space",
+    "Type": "Glyph",
+    "URL": "Heat_maps/discrete_points_normalized/rtis_points_2.json"
+  },
+  {
+    "GroupName": "Left Cervical Level I",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/lc1_2.json"
+  },
+  {
+    "GroupName": "Patient Data",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/lc1_points_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "Left Cervical Level I",
+    "Type": "Glyph",
+    "URL": "Heat_maps/discrete_points_normalized/lc1_points_2.json"
+  },
+  {
     "GroupName": "Lines",
     "MorphColours": false,
     "MorphNormals": false,
@@ -72,7 +128,7 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "1 Draining Node Fields",
+    "RegionPath": "All Patient Data",
     "Type": "Glyph",
     "URL": "All_patient_data_fre/all_freq_points_2.json"
   },
@@ -229,13 +285,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/la_nor_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/la_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Axilla",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/la_nor_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/la_points_2.json"
   },
 
   {
@@ -249,13 +305,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ra_nor_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ra_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Right Axilla",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/ra_nor_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/ra_points_2.json"
   },
 
   {
@@ -269,13 +325,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ri_nor_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ri_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Right Groin",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/ri_nor_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/ri_points_2.json"
   },
 
   {
@@ -289,13 +345,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_nor_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Groin",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/li_nor_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/li_points_2.json"
   },
   {
     "RegionPath": "Left Groin",
@@ -327,7 +383,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/lepit_points_1.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/lepit_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -335,7 +391,6 @@
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/lepit_points_2.json"
   },
-  
   {
     
     "GroupName": "Right Epitrochlear",
@@ -347,7 +402,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/repit_points_1.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/repit_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -355,7 +410,6 @@
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/repit_points_2.json"
   },
-  
 
   {
     
@@ -367,16 +421,15 @@
     "URL": "Heat_maps/posterior_head_1.json"
   },
   {
-    
     "GroupName": "Patient Data",
-    "RegionPath": "Posterior Head",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/posterior_head_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
+    "RegionPath": "Posterior Head",
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/posterior_head_nor_2.json"
   },
-  
   {
     
     "GroupName": "Anterior Head",
@@ -386,76 +439,19 @@
     "Type": "Surfaces",
     "URL": "Heat_maps/anterior_head_1.json"
   },
-  
+
   {
-    
     "GroupName": "Patient Data",
-    "RegionPath": "Anterior Head",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/anterior_head_nor_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
+    "RegionPath": "Anterior Head",
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/anterior_head_nor_2.json"
   },
   
-  {
-    
-    "GroupName": "Left Infraclavicular",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/lic_1.json"
-  },
   
-  {
-    
-    "GroupName": "Right Infraclavicular",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/ric_1.json"
-  },
-
-  {
-    
-    "GroupName": "Left Triangular Intermuscular Space",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/ltis_2.json"
-  },
-  {
-    "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/rtis_points_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "Right Triangular Intermuscular Space",
-    "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/rtis_points_2.json"
-  },
-  {
-    "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ltis_points_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "Left Triangular Intermuscular Space",
-    "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/ltis_points_2.json"
-  },
-  {
-    
-    "GroupName": "Right Triangular Intermuscular Space",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/rtis_2.json"
-  },
   {
     
     "GroupName": "Left Supraclavicular Fossa",
@@ -474,24 +470,7 @@
     "Type": "Surfaces",
     "URL": "Heat_maps/rsc_2.json"
   },
-  {
-    "GroupName": "Left Cervical Level I",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "Type": "Surfaces",
-    "URL": "Heat_maps/lc1_2.json"
-  },
-  {
-    "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/lc1_points_3.json",
-    "MorphColours": false,
-    "MorphNormals": false,
-    "MorphVertices": false,
-    "RegionPath": "Left Cervical Level I",
-    "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/lc1_points_2.json"
-  },
+  
   {
     "GroupName": "Left Cervical Level II",
     "MorphColours": false,
@@ -564,7 +543,6 @@
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/lc5_points_2.json"
   },
-  
   {
     "GroupName": "Right Cervical Level I",
     "MorphColours": false,
@@ -707,7 +685,7 @@
     "MorphVertices": false,
     "RegionPath": "Submental",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/sm_pointys_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/sm_points_2.json"
   },
   {
     "GroupName": "Left Occipital",
@@ -797,7 +775,7 @@
     "MorphVertices": false,
     "RegionPath": "Left Popliteal",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/lopo_points_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/lpop_points_2.json"
   },
   {
     "GroupName": "Right Popliteal",
@@ -815,7 +793,7 @@
     "MorphVertices": false,
     "RegionPath": "Right Popliteal",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/rpop_point_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/rpop_points_2.json"
   },
   {
     "GroupName": "Left Supraclavicular Fossa",

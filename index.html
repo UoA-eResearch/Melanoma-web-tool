@@ -9,6 +9,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <style>
+        @font-face {
+            font-family: 'Aptos';
+            src: URL('Aptos.ttf') format('truetype');
+        }
         body {
             background-color: #000;
             color: #fff;
@@ -16,7 +20,7 @@
             margin: 0;
             font-weight: bold;
             overflow: hidden;
-            font-family: sans-serif;
+            font-family: Aptos, Calibri, sans-serif;
             font-size: 12px;
             text-align: center;
         }
@@ -98,10 +102,6 @@
         .legend #label {
             position: absolute;
             top: -17px;
-        }
-
-        .btn-group-sm>.btn {
-            --bs-btn-font-size: .7rem;
         }
 
         #controls {

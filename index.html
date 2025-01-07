@@ -66,15 +66,13 @@
             right: auto;
         }
 
-        .label {
-            background-color: rgba(0, 0, 0, 0.5);
-            border-radius: 4px;
-            border: 1px solid #fff;
-            padding: 2px;
+        .table>:not(caption)>*>* {
+            padding: 6px;
         }
 
-        .lymph {
-            margin-left: 50px;
+        .label {
+            text-shadow: black 0px 0px 5px;
+            font-size: 13px;
         }
 
         .legend {
@@ -136,7 +134,7 @@
             <table class="table table-hover table-dark">
                 <thead>
                     <th>Code</th>
-                    <th>Nodefield</th>
+                    <th>Node Field</th>
                     <th># Cases</th>
                     <th>Mean Drainage % </th>
                     <th>95%CI</th>
@@ -146,153 +144,161 @@
                 </tbody>
             </table>
             <label class="btn btn-secondary active">
-                <input type="checkbox" id="show_patient_counts" checked> Show patient counts
+                <input type="checkbox" id="show_patient_counts" checked> Display #Cases
             </label>
             <label class="btn btn-secondary active">
-                <input type="checkbox" id="show_nodecodes" checked> Show node codes
+                <input type="checkbox" id="show_nodecodes" checked> Display Codes
             </label>
             <label class="btn btn-secondary active">
-                <input type="checkbox" id="show_drainage" checked> Show drainage %
+                <input type="checkbox" id="show_drainage" checked> Display Drainage %
             </label>
-            <div>
-                TIS = Triangular Intermuscular Space
-            </div>
         </div>
         <div id="heatmaps" style="display:none">
             <h3>Heatmaps</h3>
-            <table class="table table-bordered table-striped table-dark table-hover">
+            <table class="table table-bordered table-striped table-dark table-hover text-start">
                 <thead>
                     <tr>
                         <th>Region</th>
-                        <th>Sub-region</th>
                         <th class="text-center">Left</th>
                         <th class="text-center">Right</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th rowspan="11">Head and Neck</th>
-                        <td>Occipital</td>
+                        <th>Head and Neck</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>&emsp;-&emsp; Occipital</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Occipital"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Occipital"></td>
                     </tr>
                     <tr>
-                        <td>Preauricular</td>
+                        <td>&emsp;-&emsp; Preauricular</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Preauricular"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Preauricular"></td>
                     </tr>
                     <tr>
-                        <td>Postauricular</td>
+                        <td>&emsp;-&emsp; Postauricular</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Postauricular"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Postauricular"></td>
                     </tr>
                     <tr>
-                        <td>Cervical Level I</td>
+                        <td>&emsp;-&emsp; Cervical Level I</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Cervical Level I"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level I"></td>
                     </tr>
                     <tr>
-                        <td>Cervical Level II</td>
+                        <td>&emsp;-&emsp; Cervical Level II</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Cervical Level II"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level II"></td>
                     </tr>
                     <tr>
-                        <td>Cervical Level III</td>
+                        <td>&emsp;-&emsp; Cervical Level III</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Cervical Level III"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level III"></td>
                     </tr>
                     <tr>
-                        <td>Cervical Level IV</td>
+                        <td>&emsp;-&emsp; Cervical Level IV</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Cervical Level IV"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level IV"></td>
                     </tr>
                     <tr>
-                        <td>Cervical Level V</td>
+                        <td>&emsp;-&emsp; Cervical Level V</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Cervical Level V"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level V"></td>
                     </tr>
                     <tr>
-                        <td>Submental</td>
+                        <td>&emsp;-&emsp; Submental</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Submental"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Submental"></td>
                     </tr>
                     <tr>
-                        <td>Anterior Node Fields</td>
+                        <td>&emsp;-&emsp; Anterior Node Fields</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Anterior Head"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Posterior Head"></td>
                     </tr>
                     <tr>
-                        <td>Posterior Node Fields</td>
+                        <td>&emsp;-&emsp; Posterior Node Fields</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Posterior Node Fields"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Posterior Node Fields"></td>
                     </tr>
             
                     <tr>
-                        <th rowspan="5">Axilla</th>
-                        <td>Combined Levels I, II, III</td>
+                        <th>Axilla</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>&emsp;-&emsp; Combined Levels I, II, III</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla" checked></td>
                     </tr>
                     <tr>
-                        <td>Level I Anterior</td>
+                        <td>&emsp;-&emsp; Level I Anterior</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla/Sub-Node Fields Laa"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla/Sub-Node Fields Raa"></td>
                     </tr>
                     <tr>
-                        <td>Level I Mid</td>
+                        <td>&emsp;-&emsp; Level I Mid</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla/Sub-Node Fields Lam"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla/Sub-Node Fields Ram"></td>
                     </tr>
                     <tr>
-                        <td>Level I Posterior</td>
+                        <td>&emsp;-&emsp; Level I Posterior</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla/Sub-Node Fields Lap"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla/Sub-Node Fields Rap"></td>
                     </tr>
                     <tr>
-                        <td>Level I Lateral</td>
+                        <td>&emsp;-&emsp; Level I Lateral</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla Lateral"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla Lateral"></td>
                     </tr>
             
                     <tr>
-                        <td colspan="2">Triangular Intermuscular Space</td>
+                        <td>Triangular Intermuscular Space</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Triangular Intermuscular Space"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Triangular Intermuscular Space"></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Supraclavicular Fossa</td>
+                        <td>Supraclavicular Fossa</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Supraclavicular Fossa"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Supraclavicular Fossa"></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Epitrochlear</td>
+                        <td>Epitrochlear</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Epitrochlear"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Epitrochlear"></td>
                     </tr>
             
                     <tr>
-                        <th rowspan="4">Groin</th>
-                        <td>Combined</td>
+                        <th>Groin</th>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>&emsp;-&emsp; Combined</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Groin"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Groin"></td>
                     </tr>
                     <tr>
-                        <td>External Iliac</td>
+                        <td>&emsp;-&emsp; External Iliac</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Groin/Sub-Node Fields Liei"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Groin/Sub-Node Fields Riei"></td>
                     </tr>
                     <tr>
-                        <td>Femoral</td>
+                        <td>&emsp;-&emsp; Femoral</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Groin/Sub-Node Fields Lif"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Groin/Sub-Node Fields Rif"></td>
                     </tr>
                     <tr>
-                        <td>Inguinal</td>
+                        <td>&emsp;-&emsp; Inguinal</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Groin/Sub-Node Fields Lii"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Groin/Sub-Node Fields Rii"></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Popliteal</td>
+                        <td>Popliteal</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Popliteal"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Popliteal"></td>
                     </tr>
@@ -331,7 +337,7 @@
                     <td><input type="radio" name="patient_data" id="norm" checked></td>
                 </tr>
             </table>
-            <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100%</span><span id="min">0%</span></div>
+            <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100</span><span id="min">0</span></div>
         </div>
     </div>
     <div id="description" class="sidebar">
@@ -362,6 +368,7 @@
             <button type="button" class="btn btn-primary">Posterior</button>
             <button type="button" class="btn btn-primary">Left lateral</button>
             <button type="button" class="btn btn-primary">Right lateral</button>
+            <button type="button" class="btn btn-primary">All</button>
         </div>
     </div>
     <script type="importmap">
@@ -506,6 +513,17 @@
                 //sphere.scale.setScalar(scale / 100).clampScalar(.5, 50);
                 discrete_points.add(sphere);
             }
+        }
+
+        function capitilize(s) {
+            s = s.replace(
+                /\w\S*/g,
+                text => text.charAt(0).toUpperCase() + text.substring(1).toLowerCase()
+            );
+            s = s.replace("Iii", "III");
+            s = s.replace("Ii", "II");
+            s = s.replace("Iv", "IV");
+            return s
         }
 
         function init() {
@@ -694,9 +712,9 @@
                                 lymph_lookup[d.code].label.visible = true;
                                 lymph_lookup[d.code].label.element.textContent = `${d.code} (${d.percentage.trim()}%)`;
                                 let pct = parseFloat(d.percentage) / 50
-                                lymph_lookup[d.code].sphere.scale.setScalar(pct).clampScalar(.5, 50);
+                                lymph_lookup[d.code].sphere.scale.setScalar(pct).clampScalar(.5, 1);
                             }
-                            $("#tbody").append(`<tr><td>${d.code}</td><td>${d.name}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
+                            $("#tbody").append(`<tr><td>${d.code}</td><td>${capitilize(d.name)}</td><td>${d.count}</td><td>${d.percentage}</td><td>${d.CI}</td></tr>`)
                         }
                         set_labels();
                     }
@@ -780,7 +798,7 @@
         $("#controls button").click(function() {
             let action = $(this).text();
             var currentDistance = camera.position.length();
-            if (action == "Reset") {
+            if (["Reset", "All"].includes(action)) {
                 camera.position.set(1496.96865501004, 3213.1316867226697, -232.08816356744805);
             } else if (action == "Anterior") {
                 camera.position.set(0, currentDistance, 0);

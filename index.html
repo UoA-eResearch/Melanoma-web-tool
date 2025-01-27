@@ -5,19 +5,24 @@
     <title>Melanoma</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
     <style>
         @font-face {
             font-family: 'Aptos';
             src: URL('Aptos.ttf') format('truetype');
         }
+
         @font-face {
             font-family: 'Aptos';
             src: url('Aptos-Bold.ttf') format('truetype');
             font-weight: bold;
         }
+
         body {
             background-color: #000;
             color: #fff;
@@ -75,18 +80,18 @@
             font-size: 13px;
         }
 
+        #heatmaps {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+
         .legend {
             height: 40px;
             width: 200px;
             background: linear-gradient(in hsl longer hue to left, hsl(0, 100%, 50%), hsl(240, 100%, 50%));
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
             float: right;
-            position: absolute;
-            bottom: 7%;
-            right: 5%;
+            position: relative;
+            margin-top: 30px;
         }
 
         .legend #max {
@@ -100,18 +105,19 @@
             top: -17px;
             position: absolute;
         }
-        
+
         .legend #label {
             position: absolute;
+            width: 100%;
+            text-align: center;
             top: -17px;
         }
 
         #controls {
             position: absolute;
-            left:5%;
-            bottom:10%;
+            left: 5%;
+            bottom: 10%;
         }
-
     </style>
 </head>
 
@@ -119,10 +125,12 @@
     <div id="info">
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
             <label class="btn btn-secondary active">
-              <input class="form-check-input mt-0" type="radio" name="options" id="skin_button" autocomplete="off" checked> Skin selection tool
+                <input class="form-check-input mt-0" type="radio" name="options" id="skin_button" autocomplete="off"
+                    checked> Skin selection tool
             </label>
             <label class="btn btn-secondary">
-              <input class="form-check-input mt-0" type="radio" name="options" id="heatmaps_button" autocomplete="off" disabled> Heatmaps
+                <input class="form-check-input mt-0" type="radio" name="options" id="heatmaps_button" autocomplete="off"
+                    disabled> Heatmaps
             </label>
         </div>
         Controls: left mouse button to rotate, right mouse button to pan. Mouse wheel to zoom. Double click to focus
@@ -140,7 +148,9 @@
                     <th>95%CI</th>
                 </thead>
                 <tbody id="tbody">
-                    <tr><td colspan="5">Click an element to populate this table</td></tr>
+                    <tr>
+                        <td colspan="5">Click an element to populate this table</td>
+                    </tr>
                 </tbody>
             </table>
             <label class="btn btn-secondary active">
@@ -197,7 +207,8 @@
                     <tr>
                         <td>&emsp;-&emsp; Cervical Level III</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Cervical Level III"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level III"></td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Right Cervical Level III">
+                        </td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Cervical Level IV</td>
@@ -221,10 +232,12 @@
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Posterior Node Fields</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Posterior Node Fields"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Posterior Node Fields"></td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Left Posterior Node Fields">
+                        </td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Right Posterior Node Fields">
+                        </td>
                     </tr>
-            
+
                     <tr>
                         <th>Axilla</th>
                         <td></td>
@@ -237,41 +250,51 @@
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Level I Anterior</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla/Sub-Node Fields Laa"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla/Sub-Node Fields Raa"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Axilla/Sub-Node Fields Laa"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Axilla/Sub-Node Fields Raa"></td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Level I Mid</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla/Sub-Node Fields Lam"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla/Sub-Node Fields Ram"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Axilla/Sub-Node Fields Lam"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Axilla/Sub-Node Fields Ram"></td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Level I Posterior</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla/Sub-Node Fields Lap"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla/Sub-Node Fields Rap"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Axilla/Sub-Node Fields Lap"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Axilla/Sub-Node Fields Rap"></td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Level I Lateral</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla Lateral"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla Lateral"></td>
                     </tr>
-            
+
                     <tr>
                         <td>Triangular Intermuscular Space</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Triangular Intermuscular Space"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Triangular Intermuscular Space"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Triangular Intermuscular Space"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Triangular Intermuscular Space"></td>
                     </tr>
                     <tr>
                         <td>Supraclavicular Fossa</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Supraclavicular Fossa"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Supraclavicular Fossa"></td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Left Supraclavicular Fossa">
+                        </td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Right Supraclavicular Fossa">
+                        </td>
                     </tr>
                     <tr>
                         <td>Epitrochlear</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Epitrochlear"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Epitrochlear"></td>
                     </tr>
-            
+
                     <tr>
                         <th>Groin</th>
                         <td></td>
@@ -284,25 +307,31 @@
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; External Iliac</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Groin/Sub-Node Fields Liei"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Groin/Sub-Node Fields Riei"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Groin/Sub-Node Fields Liei"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Groin/Sub-Node Fields Riei"></td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Femoral</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Groin/Sub-Node Fields Lif"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Groin/Sub-Node Fields Rif"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Groin/Sub-Node Fields Lif"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Groin/Sub-Node Fields Rif"></td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Inguinal</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Groin/Sub-Node Fields Lii"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Groin/Sub-Node Fields Rii"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Groin/Sub-Node Fields Lii"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Groin/Sub-Node Fields Rii"></td>
                     </tr>
                     <tr>
                         <td>Popliteal</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Popliteal"></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Popliteal"></td>
                     </tr>
-                    
+
                 </tbody>
             </table>
 
@@ -317,13 +346,17 @@
                 <tr>
                     <td></td>
                     <td class="text-center"><input type="radio" name="heatmap" value="1 Draining Node Fields"></td>
-                    <td class="text-center"><input type="radio" name="heatmap" value="2 Or More Draining Node Fields"></td>
-                    <td class="text-center"><input type="radio" name="heatmap" value="3 Or More Draining Node Fields"></td>
-                    <td class="text-center"><input type="radio" name="heatmap" value="4 Or More Draining Node Fields"></td>
+                    <td class="text-center"><input type="radio" name="heatmap" value="2 Or More Draining Node Fields">
+                    </td>
+                    <td class="text-center"><input type="radio" name="heatmap" value="3 Or More Draining Node Fields">
+                    </td>
+                    <td class="text-center"><input type="radio" name="heatmap" value="4 Or More Draining Node Fields">
+                    </td>
                 </tr>
             </table>
-            
-            <table class="table table-bordered table-striped table-dark table-hover " style="width:50%;">
+
+            <table class="table table-bordered table-striped table-dark table-hover "
+                style="width:50%;display:inline-block">
                 <tr>
                     <td>Display melanoma sites</td>
                     <td><input type="checkbox" id="display_melanoma_sites" checked></td>
@@ -337,31 +370,41 @@
                     <td><input type="radio" name="patient_data" id="norm" checked></td>
                 </tr>
             </table>
-            <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100</span><span id="min">0</span></div>
+            <div class="legend"><span id="label">% Drainage likelihood</span><span id="max">100</span><span
+                    id="min">0</span></div>
         </div>
     </div>
     <div id="description" class="sidebar">
         <h5 class="modal-title">About this tool</h5>
         Researchers at The University of Auckland's Maurice Wilkins Centre have
-        mapped melanoma lymphoscintigraphy data from the Sydney Melanoma Unit (SMU) onto a 3D anatomically based 
+        mapped melanoma lymphoscintigraphy data from the Sydney Melanoma Unit (SMU) onto a 3D anatomically based
         computer model of the skin and lymph nodes. This mapped data has enabled visualisation of the likely node fields
         for melanoma metastasis.
-        Data was mapped by <a href="https://profiles.auckland.ac.nz/hayley-reynolds" target="blank">Dr Hayley Reynolds</a> at the Auckland Bioengineering Institute, supervised
-        by Dr Nicolas Smith and Assoc Prof Rod Dunbar. Lymphoscintigraphy data from the SMU is courtesy of Prof Roger Uren MD and Prof John Thompson MD.<br>
+        Data was mapped by <a href="https://profiles.auckland.ac.nz/hayley-reynolds" target="blank">Dr Hayley
+            Reynolds</a> at the Auckland Bioengineering Institute, supervised
+        by Dr Nicolas Smith and Assoc Prof Rod Dunbar. Lymphoscintigraphy data from the SMU is courtesy of Prof Roger
+        Uren MD and Prof John Thompson MD.<br>
         <br>
-        The mapped data can be viewed in two different displays. Click the 'Skin Selection Tool' option in the menubar above to view the potential sentinel lymph node fields
-        by selecting different regions of skin. Alternatively, the 'Heatmaps' option on the menubar shows various heat maps visualising the
+        The mapped data can be viewed in two different displays. Click the 'Skin Selection Tool' option in the menubar
+        above to view the potential sentinel lymph node fields
+        by selecting different regions of skin. Alternatively, the 'Heatmaps' option on the menubar shows various heat
+        maps visualising the
         percentage likelihood that the skin will show lymphatic drainage to a specified node field.
         <br>
         <br>
-        
+
         <strong>SKIN SELECTION TOOL:</strong><br>
-        Click on regions of skin on the image below to display the potential sentinel lymph node fields that will receive melanoma cells if the cancer has spread
-        beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood, and the total number of patient cases are displayed on the selected skin regions. The table of statistics details the number of patient cases draining to each node field and the
+        Click on regions of skin on the image below to display the potential sentinel lymph node fields that will
+        receive melanoma cells if the cancer has spread
+        beyond the skin. The node fields displayed are scaled in size according to the drainage likelihood, and the
+        total number of patient cases are displayed on the selected skin regions. The table of statistics details the
+        number of patient cases draining to each node field and the
         percentage likelihood of drainage to that node field.<br><br>
 
         <strong>HEAT MAPS:</strong><br>
-        The heat maps show the percentage likelihood that a primary melanoma site will show lymphatic drainage to a specified node field. Regions of skin with no lymphatic drainage to the node field are coloured blue. Different node field displays can be seen by clicking on the corresponding buttons.<br><br>
+        The heat maps show the percentage likelihood that a primary melanoma site will show lymphatic drainage to a
+        specified node field. Regions of skin with no lymphatic drainage to the node field are coloured blue. Different
+        node field displays can be seen by clicking on the corresponding buttons.<br><br>
         <div id="controls" class="btn-group-vertical">
             <h4>View:</h4>
             <button type="button" class="btn btn-primary">Anterior</button>
@@ -380,7 +423,7 @@
         }
     </script>
     <script defer type="module">
-        $('td').click(function(event) {
+        $('td').click(function (event) {
             if (event.target.localName == 'td') {
                 $('input', this).trigger('click');
             }
@@ -422,7 +465,7 @@
 
         init();
 
-        function addLabel(text, position, additional_class="landmark") {
+        function addLabel(text, position, additional_class = "landmark") {
             const labelDiv = document.createElement('div');
             labelDiv.className = `label ${additional_class}`;
             labelDiv.textContent = text;
@@ -436,7 +479,7 @@
         tooltip.visible = false;
 
         function addSphere(position) {
-            const sphere = new THREE.Mesh(sphereGeometry, new THREE.MeshPhongMaterial({color: 0x00ff00}));
+            const sphere = new THREE.Mesh(sphereGeometry, new THREE.MeshPhongMaterial({ color: 0x00ff00 }));
             sphere.position.copy(position)
             scene.add(sphere);
             return sphere;
@@ -537,7 +580,7 @@
             camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 1, 10000);
             window.camera = camera;
             camera.position.set(1496.96865501004, 3213.1316867226697, -232.08816356744805);
-            camera.up = new THREE.Vector3(0,0,1);
+            camera.up = new THREE.Vector3(0, 0, 1);
 
             scene = new THREE.Scene();
 
@@ -552,7 +595,7 @@
                     child.geometry.computeVertexNormals()
                     if (child.name == "Lines") {
                         console.log(child)
-                        const material = new THREE.LineBasicMaterial({color: 0x000000});
+                        const material = new THREE.LineBasicMaterial({ color: 0x000000 });
                         const mesh = new THREE.LineSegments(child.geometry, material);
                         mesh.position.add(offset);
                         //root.children[i] = mesh;
@@ -582,7 +625,7 @@
                 var sorted_keys = Object.keys(heatmaps).sort()
                 for (var k of sorted_keys) {
                     let colors = heatmaps[k].map(c => parseColor(c)).flat();
-                    heatmaps[k] = new THREE.Float32BufferAttribute( colors, 3 )
+                    heatmaps[k] = new THREE.Float32BufferAttribute(colors, 3)
                 }
                 for (var elem of $("input[name=heatmap]")) {
                     if (heatmaps[elem.value]) {
@@ -591,7 +634,7 @@
                         elem.disabled = true;
                     }
                 }
-                
+
                 loader.load("human_mesh.glb", (root) => {
                     console.log("human_mesh.glb", root)
                     root = root.scene.children[0];
@@ -609,7 +652,7 @@
                         side: THREE.DoubleSide,
                         vertexColors: true
                     });
-					child.geometry.setAttribute( 'color', heatmaps["Right Axilla"] );
+                    child.geometry.setAttribute('color', heatmaps["Right Axilla"]);
                     //child.geometry.attributes.color.needsUpdate = true;
                     root.position.add(offset);
                     heatmap_scene = root;
@@ -669,13 +712,13 @@
             /*stats = new Stats();
             container.appendChild(stats.dom);
             */
-            window.addEventListener('mousemove', onPointerMove );
+            window.addEventListener('mousemove', onPointerMove);
             window.addEventListener('resize', onWindowResize);
             window.addEventListener('keydown', onKeyDown);
             let drag = false;
             document.addEventListener('mousedown', () => drag = false);
             document.addEventListener('mousemove', () => drag = true);
-            document.addEventListener('mouseup', function() {
+            document.addEventListener('mouseup', function () {
                 if (!drag && main_scene?.visible && INTERSECTED) {
                     if (data_elements) {
                         if (SELECTED) {
@@ -729,9 +772,9 @@
             labelRenderer.setSize(window.innerWidth, window.innerHeight);
         }
 
-        function onPointerMove( event ) {
-            pointer.x = ( event.clientX / window.innerWidth ) * 2 - 1;
-			pointer.y = - ( event.clientY / window.innerHeight ) * 2 + 1;
+        function onPointerMove(event) {
+            pointer.x = (event.clientX / window.innerWidth) * 2 - 1;
+            pointer.y = - (event.clientY / window.innerHeight) * 2 + 1;
         }
 
         function animate() {
@@ -741,19 +784,19 @@
 
         function render() {
             if (main_scene?.visible) {
-                raycaster.setFromCamera( pointer, camera );
-                const intersects = raycaster.intersectObjects( selectable, true );
-                if ( intersects.length > 0 ) {
+                raycaster.setFromCamera(pointer, camera);
+                const intersects = raycaster.intersectObjects(selectable, true);
+                if (intersects.length > 0) {
                     INTERSECT_POINT = intersects[0].point;
-                    if ( INTERSECTED != intersects[ 0 ].object ) {
+                    if (INTERSECTED != intersects[0].object) {
                         //console.log("Hover on ", intersects[0].object)
-                        if ( INTERSECTED ) INTERSECTED.material.emissive?.setHex( 0x000000 );
-                        INTERSECTED = intersects[ 0 ].object;
-                        INTERSECTED.material.emissive.setHex( 0xFF0000 );
+                        if (INTERSECTED) INTERSECTED.material.emissive?.setHex(0x000000);
+                        INTERSECTED = intersects[0].object;
+                        INTERSECTED.material.emissive.setHex(0xFF0000);
                     }
                 } else {
                     // Reset emissive color
-                    if ( INTERSECTED ) INTERSECTED.material.emissive.setHex( 0x000000 );
+                    if (INTERSECTED) INTERSECTED.material.emissive.setHex(0x000000);
                     INTERSECTED = null;
                 }
             }
@@ -773,7 +816,7 @@
             }
         }
 
-        $("#heatmaps_button").click(function() {
+        $("#heatmaps_button").click(function () {
             main_scene.visible = false;
             heatmap_scene.visible = true;
             for (var lymph_objects of Object.values(lymph_lookup)) {
@@ -786,7 +829,7 @@
             tooltip.visible = false;
         });
 
-        $("#skin_button").click(function() {
+        $("#skin_button").click(function () {
             main_scene.visible = true;
             heatmap_scene.visible = false;
             tooltip.visible = true;
@@ -795,7 +838,7 @@
             set_labels();
         });
 
-        $("#controls button").click(function() {
+        $("#controls button").click(function () {
             let action = $(this).text();
             var currentDistance = camera.position.length();
             if (["Reset", "All"].includes(action)) {
@@ -809,20 +852,20 @@
             } else if (action == "Right lateral") {
                 camera.position.set(currentDistance, 0, 0);
             }
-            camera.up = new THREE.Vector3(0,0,1);
+            camera.up = new THREE.Vector3(0, 0, 1);
             controls.update();
         })
 
-        $("input[name='heatmap']").change(function() {
+        $("input[name='heatmap']").change(function () {
             console.log(this.value)
             if (heatmaps[this.value]) {
-                heatmap_scene.children[0].geometry.setAttribute( 'color', heatmaps[this.value] );
+                heatmap_scene.children[0].geometry.setAttribute('color', heatmaps[this.value]);
             }
             addDiscretePoints();
             //heatmap_scene.children[0].geometry.attributes.color.needsUpdate = true;
         })
 
-        $("input[name=patient_data],#display_melanoma_sites").change(function() {
+        $("input[name=patient_data],#display_melanoma_sites").change(function () {
             addDiscretePoints();
         })
 

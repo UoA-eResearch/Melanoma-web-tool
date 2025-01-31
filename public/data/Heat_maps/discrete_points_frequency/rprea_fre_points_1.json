@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rprea_fre_points_3.json",
+      "GroupName" : "rprea",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rprea_fre_points_2.json"
+   }
+]

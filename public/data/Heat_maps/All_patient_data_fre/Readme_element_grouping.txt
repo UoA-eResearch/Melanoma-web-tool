@@ -21,10 +21,10 @@ element_groups_1 = {
    # "Left_Ear": chain(range(962, 965), range(991, 1000)),
     "Right_Chin": [935, 952],
     
-    "Left_Eye": [1018, 1019],#checked
-     "Right_Eye": [1033, 1032],#checked
-    "Left_Lip": [955, 957],#checked
-   "Right_Lip": [953,978] ,#checked
+    "Eye_Left": [1018, 1019],#checked
+     "Eye_Right": [1033, 1032],#checked
+    "Lip_Left": [955, 957],#checked
+   "Lip_Right": [953,978] ,#checked
   #  "Left_Anterior_Neck": chain(range(919, 924), range(903, 908), range(887, 892)),
   #  "Left_Posterior_Neck": chain(range(924, 927), range(908, 911), range(892, 895)),
     "Middle_Lip": [954, 956],#checked

@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "Ante_head_fre_points_3.json",
+      "GroupName" : "Anterior",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "Ante_head_fre_points_2.json"
+   }
+]

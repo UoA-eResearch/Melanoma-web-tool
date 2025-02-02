@@ -111,25 +111,22 @@ replacement_numbers = {
 #"hand_R": 1112,
 #"forearm_L": 1113,
 #"forearm_R": 1114,
-"Left_Chin": 1100,
+"Chin_Left": 1100,
 #"Left_Ear": 1116,
-"Left_Eye": 1101,
-"Left_Lip": 1102,
+
+"Eye_Left": 1101,
+"Lip_Left": 1102,
 #"Left_Nose": 1119,
 
-"Middle_Lip": 1003,
+"Middle_Lip": 1103,
 
-"Right_Chin": 1104,
+"Chin_Right": 1104,
 
 
-"Right_Lip": 1105,
-    "Left_upper_ear": 1106,
-    "Left_mid_ear": 1107,
-    "Left_lower_ear": 1108,
-    "Right_upper_ear": 1109,
-    "Right_mid_ear": 1110,
-    "Right_lower_ear": 1111,
-    "Middle_Lower_Nose": 1112,
+"Lip_Right": 1105,
+"Eye_Right": 1106,
+    
+  "Middle_Lower_Nose": 1112,
     "Middle_Upper_nose": 1113,
     "Left_Lower_Nose": 1114,
     "Left_Upper_Nose": 1115,

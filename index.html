@@ -76,8 +76,14 @@
         }
 
         .label {
-            text-shadow: black 0px 0px 5px;
+            color: white;
             font-size: 13px;
+            top: -15px;
+        }
+
+        .tt {
+            top: 0px;
+            color: black;
         }
 
         #heatmaps {
@@ -451,7 +457,7 @@
 
         let stats;
 
-        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED, INTERSECT_POINT, SELECTED;
+        let camera, cameraTarget, scene, renderer, controls, labelRenderer, raycaster, INTERSECTED, SELECTED;
 
         let selectable = [];
 
@@ -744,7 +750,16 @@
                             rows = data_elements[INTERSECTED.name.replace(/_/g, " ")]
                         }
                         if (tooltip) {
-                            tooltip.position.copy(INTERSECT_POINT);
+                            // Set tooltip position to center of hit face
+                            function getCenterPoint(mesh) {
+                                var geometry = mesh.geometry;
+                                geometry.computeBoundingBox();
+                                var center = new THREE.Vector3();
+                                geometry.boundingBox.getCenter( center );
+                                mesh.localToWorld( center );
+                                return center;
+                            }
+                            tooltip.position.copy(getCenterPoint(SELECTED));
                             tooltip.element.textContent = patient_counts[SELECTED.name.replace("element_", "")] || 0;
                             tooltip.visible = $("#show_patient_counts").is(":checked");
                         }
@@ -791,7 +806,6 @@
                 raycaster.setFromCamera(pointer, camera);
                 const intersects = raycaster.intersectObjects(selectable, true);
                 if (intersects.length > 0) {
-                    INTERSECT_POINT = intersects[0].point;
                     if (INTERSECTED != intersects[0].object) {
                         //console.log("Hover on ", intersects[0].object)
                         if (INTERSECTED) INTERSECTED.material.emissive?.setHex(0x000000);
@@ -845,8 +859,9 @@
         $("#controls button").click(function () {
             let action = $(this).text();
             var currentDistance = camera.position.length();
+            controls.reset();
             if (["Reset", "All"].includes(action)) {
-                camera.position.set(1496.96865501004, 3213.1316867226697, -232.08816356744805);
+                // pass
             } else if (action == "Anterior") {
                 camera.position.set(0, currentDistance, 0);
             } else if (action == "Posterior") {

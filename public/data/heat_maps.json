@@ -1,13 +1,13 @@
 [
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/Sub_fields/lal_points_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/lal_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Axilla/Sub-Node Fields/Lal",
     "Type": "Glyph",
-    "URL": "Heat_maps/Sub_fields/lal_points_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/lal_points_2.json"
   },
   {
     "RegionPath": "Left Axilla/Sub-Node Fields",
@@ -18,6 +18,26 @@
     "Type": "Surfaces",
     "URL": "Heat_maps/Sub_fields/lal_2.json"
   },
+  {
+    "GroupName": "Patient Data",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/ral_points_3.json",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "RegionPath": "Right Axilla/Sub-Node Fields/Ral",
+    "Type": "Glyph",
+    "URL": "Heat_maps/discrete_points_normalized/ral_points_2.json"
+  },
+  {
+    "RegionPath": "Right Axilla/Sub-Node Fields",
+    "GroupName": "Ral",
+    "MorphColours": false,
+    "MorphNormals": false,
+    "MorphVertices": false,
+    "Type": "Surfaces",
+    "URL": "Heat_maps/Sub_fields/ral_2.json"
+  },
+
   {
     "GroupName": "Left Triangular Intermuscular Space",
     "MorphColours": false,

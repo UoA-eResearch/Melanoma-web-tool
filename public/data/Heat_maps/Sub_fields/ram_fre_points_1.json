@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "ram_fre_points_3.json",
+      "GroupName" : "ram",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "ram_fre_points_2.json"
+   }
+]

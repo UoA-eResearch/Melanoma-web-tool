@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "liei_fre_points_3.json",
+      "GroupName" : "liei",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "liei_fre_points_2.json"
+   }
+]

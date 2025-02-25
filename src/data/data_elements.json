@@ -3897,7 +3897,7 @@
       "CI": "(0.0, 13.0)"
     }
   ],
-  "Eye Left": [
+  "Left Eye": [
     {
       "code": "lprea",
       "name": "left preauricular",
@@ -3920,7 +3920,7 @@
       "CI": "(44.4, 100.0)"
     }
   ],
-  "Eye Right": [
+  "Right Eye": [
     {
       "code": "rprea",
       "name": "right preauricular",

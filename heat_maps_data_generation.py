@@ -26,6 +26,7 @@ for elem in tqdm(elems):
                 heat_maps_verts_colors[name] = data['colors']
         elif elem["Type"] == "Glyph":
             RegionPath = elem.get("RegionPath", "")
+            RegionPath = RegionPath.replace("Sub-Node Fields/", "Sub-Node Fields ")
             file = json_heatmaps_dir + elem["URL"]
             if "fre" in file and "Frequency" not in RegionPath:
                 RegionPath += " Frequency"
@@ -64,7 +65,7 @@ for elem in tqdm(elems):
         print(f"{e} for {elem}")
         #raise
 
-for code in tqdm(["Liei", "Lif", "Lii", "Laa", "Lam", "Lap", "Riei", "Rif", "Rii", "Raa", "Ram", "Rap"]):
+for code in tqdm(["Liei", "Lif", "Lii", "Laa", "Lam", "Lap", "Lal", "Riei", "Rif", "Rii", "Raa", "Ram", "Rap", "Ral"]):
     if code[0:2] == "Li":
         RegionPath = "Left Groin/Sub-Node Fields " + code
     elif code[0:2] == "Ri":

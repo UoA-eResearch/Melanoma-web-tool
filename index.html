@@ -280,8 +280,10 @@
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Level I Lateral</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla Lateral"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla Lateral"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Left Axilla/Sub-Node Fields Lal"></td>
+                        <td class="text-center"><input type="radio" name="heatmap"
+                                value="Right Axilla/Sub-Node Fields Ral"></td>
                     </tr>
 
                     <tr>
@@ -754,8 +756,8 @@
                                 var geometry = mesh.geometry;
                                 geometry.computeBoundingBox();
                                 var center = new THREE.Vector3();
-                                geometry.boundingBox.getCenter( center );
-                                mesh.localToWorld( center );
+                                geometry.boundingBox.getCenter(center);
+                                mesh.localToWorld(center);
                                 return center;
                             }
                             tooltip.position.copy(getCenterPoint(SELECTED));

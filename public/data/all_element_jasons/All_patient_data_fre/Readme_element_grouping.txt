@@ -22,7 +22,7 @@ element_groups_1 = {
     "Right_Chin": [935, 952],
     
     "Left_Eye": [1018, 1019],#checked
-     "Right_Eye": [1033, 1032],#checked
+    "Right_Eye": [1033, 1032],#checked
     "Left_Lip": [955, 957],#checked
    "Right_Lip": [953,978] ,#checked
   #  "Left_Anterior_Neck": chain(range(919, 924), range(903, 908), range(887, 892)),
@@ -114,6 +114,8 @@ replacement_numbers = {
 "Left_Chin": 1100,
 #"Left_Ear": 1116,
 "Left_Eye": 1101,
+
+"Right_Eye":1106,
 "Left_Lip": 1102,
 #"Left_Nose": 1119,
 

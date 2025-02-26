@@ -17,17 +17,17 @@ element_groups_1 = {
     #"hand_R": chain(range(749, 762), range(763, 768), range(769, 810), range(811, 843)),
   #  "forearm_L": chain(range(705, 721), range(737, 749)),
   #  "forearm_R": range(843, 871),
-    "Left_Chin": [950, 951],#checked
+    "Chin_Left": [950, 951],#checked
    # "Left_Ear": chain(range(962, 965), range(991, 1000)),
-    "Right_Chin": [935, 952],
+    "Chin_Right": [935, 952],
     
-    "Left_Eye": [1018, 1019],#checked
-    "Right_Eye": [1033, 1032],#checked
-    "Left_Lip": [955, 957],#checked
-   "Right_Lip": [953,978] ,#checked
+    "Eye_Left": [1018, 1019],#checked
+    "Eye_Right": [1033, 1032],#checked
+    "Lip_Left": [955, 957],#checked
+   "Lip_Right": [953,978] ,#checked
   #  "Left_Anterior_Neck": chain(range(919, 924), range(903, 908), range(887, 892)),
   #  "Left_Posterior_Neck": chain(range(924, 927), range(908, 911), range(892, 895)),
-    "Middle_Lip": [954, 956],#checked
+    "Lip_Middle": [954, 956],#checked
     
     #checked
    # "Right_Ear": chain(range(971, 974), range(1000, 1009)),
@@ -113,9 +113,9 @@ replacement_numbers = {
 #"forearm_R": 1114,
 "Left_Chin": 1100,
 #"Left_Ear": 1116,
-"Left_Eye": 1101,
+"Eye Left": 1101,
 
-"Right_Eye":1106,
+"Eye Right":1106,
 "Left_Lip": 1102,
 #"Left_Nose": 1119,
 

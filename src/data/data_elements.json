@@ -3897,7 +3897,7 @@
       "CI": "(0.0, 13.0)"
     }
   ],
-  "Left_Eye": [
+  "Eye Left": [
     {
       "code": "lprea",
       "name": "left preauricular",
@@ -3920,7 +3920,7 @@
       "CI": "(44.4, 100.0)"
     }
   ],
-  "Right_Eye": [
+  "Eye Right": [
     {
       "code": "rprea",
       "name": "right preauricular",
@@ -20255,7 +20255,7 @@
       "CI": "(100.0, 100.0)"
     }
   ],
-  "Chin_Left": [
+  "Chin Left": [
     {
       "code": "rc1",
       "name": "right cervical level i",

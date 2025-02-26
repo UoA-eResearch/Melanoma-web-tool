@@ -768,7 +768,7 @@
     "forearm_R": 45,
     "R_forearm": 45,
     "Left_Chin": 0,
-    "Chin_Left": 0,
+    "Chin_Left": 1110000,
     "Left_Ear": 59,
     "Ear_Left": 59,
     "Right_Chin": 0,

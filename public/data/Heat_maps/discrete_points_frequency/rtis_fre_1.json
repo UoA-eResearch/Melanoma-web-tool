@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rtis_fre_3.json",
+      "GroupName" : "rtis",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rtis_fre_2.json"
+   }
+]

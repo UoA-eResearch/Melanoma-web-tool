@@ -1,0 +1,35 @@
+{
+   "GlyphGeometriesURL" : "rip_fre_3.json",
+   "axis1" : {
+      "0" : [ 1, 0, 0, 1, 0, 0 ]
+   },
+   "axis2" : {
+      "0" : [ 0, 1, 0, 0, 1, 0 ]
+   },
+   "axis3" : {
+      "0" : [ 0, 0, 1, 0, 0, 1 ]
+   },
+   "metadata" : {
+      "MorphColours" : false,
+      "MorphVertices" : false,
+      "base_size" : [ 10, 10, 10 ],
+      "number_of_time_steps" : 0,
+      "number_of_vertices" : 2,
+      "offset" : [ 0, 0, 0 ],
+      "repeat_mode" : "NONE",
+      "scale_factors" : [ 1, 1, 1 ]
+   },
+   "positions" : {
+      "0" : [
+         578.3699951171875,
+         159.1699981689453,
+         -706.780029296875,
+         510.489990234375,
+         179.4199981689453,
+         -543.7000122070313
+      ]
+   },
+   "scale" : {
+      "0" : [ 0, 0, 0, 0, 0, 0 ]
+   }
+}

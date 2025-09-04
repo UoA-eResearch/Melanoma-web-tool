@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "in_points_3.json",
+      "GroupName" : "in_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "in_points_2.json"
+   }
+]

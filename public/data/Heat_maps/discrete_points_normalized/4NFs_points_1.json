@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "4NFs_points_3.json",
+      "GroupName" : "4NFs_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "4NFs_points_2.json"
+   }
+]

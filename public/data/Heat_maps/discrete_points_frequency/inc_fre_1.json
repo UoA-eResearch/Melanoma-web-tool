@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "inc_fre_3.json",
+      "GroupName" : "inc",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "inc_fre_2.json"
+   }
+]

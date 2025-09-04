@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rip_fre_3.json",
+      "GroupName" : "rip",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rip_fre_2.json"
+   }
+]

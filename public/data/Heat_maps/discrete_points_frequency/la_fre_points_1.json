@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "laa_fre_points_3.json",
+      "GroupName" : "laa",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "laa_fre_points_2.json"
+   }
+]

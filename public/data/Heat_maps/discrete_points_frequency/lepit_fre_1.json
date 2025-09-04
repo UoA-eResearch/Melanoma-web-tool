@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lepit_fre_3.json",
+      "GroupName" : "lepit",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lepit_fre_2.json"
+   }
+]

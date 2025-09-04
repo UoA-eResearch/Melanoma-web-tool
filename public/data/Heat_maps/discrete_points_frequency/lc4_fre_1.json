@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lc4_fre_3.json",
+      "GroupName" : "lc4",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lc4_fre_2.json"
+   }
+]

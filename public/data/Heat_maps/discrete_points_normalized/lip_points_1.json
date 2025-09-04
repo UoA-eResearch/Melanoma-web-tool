@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lip_points_3.json",
+      "GroupName" : "lip_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lip_points_2.json"
+   }
+]

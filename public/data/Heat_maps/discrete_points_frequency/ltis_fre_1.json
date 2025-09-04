@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "ltis_fre_3.json",
+      "GroupName" : "ltis",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "ltis_fre_2.json"
+   }
+]

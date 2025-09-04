@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "repit_fre_3.json",
+      "GroupName" : "repit",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "repit_fre_2.json"
+   }
+]

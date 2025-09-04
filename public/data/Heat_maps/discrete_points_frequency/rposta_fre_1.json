@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rposta_fre_3.json",
+      "GroupName" : "rposta",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rposta_fre_2.json"
+   }
+]

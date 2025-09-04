@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lsc_fre_3.json",
+      "GroupName" : "lsc",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lsc_fre_2.json"
+   }
+]

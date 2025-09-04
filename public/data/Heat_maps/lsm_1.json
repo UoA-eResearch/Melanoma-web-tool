@@ -1,0 +1,10 @@
+[
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "lsm_2.json"
+   }
+]

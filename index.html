@@ -255,7 +255,7 @@
                     <tr>
                         <td>&emsp;-&emsp; Combined Levels I, II, III</td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Left Axilla"></td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla" checked></td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Right Axilla"></td>
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Level I Anterior</td>
@@ -313,7 +313,7 @@
                     </tr>
                     <tr>
                         <td>&emsp;-&emsp; Combined</td>
-                        <td class="text-center"><input type="radio" name="heatmap" value="Left Groin"></td>
+                        <td class="text-center"><input type="radio" name="heatmap" value="Left Groin" checked></td>
                         <td class="text-center"><input type="radio" name="heatmap" value="Right Groin"></td>
                     </tr>
                     <tr>
@@ -428,8 +428,8 @@
     <script type="importmap">
         {
             "imports": {
-                "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
-                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+                "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+                "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
             }
         }
     </script>
@@ -515,7 +515,7 @@
         let patient_counts = await fetch("element_patient_counts.json").then(response => response.json());
         console.log("patient_counts", patient_counts)
 
-        function parseColor(color) {
+        window.parseColor = function(color) {
             let r = color >> 16 & 255;
             let g = color >> 8 & 255;
             let b = color & 255;
@@ -582,7 +582,7 @@
 
         function init() {
 
-            if (!WebGL.isWebGLAvailable()) {
+            if (!WebGL.isWebGL2Available()) {
                 const warning = WebGL.getWebGLErrorMessage();
                 container.appendChild(warning);
                 return;
@@ -663,7 +663,7 @@
                         side: THREE.DoubleSide,
                         vertexColors: true
                     });
-                    child.geometry.setAttribute('color', heatmaps["Right Axilla"]);
+                    child.geometry.setAttribute('color', heatmaps["Left Groin"]);
                     //child.geometry.attributes.color.needsUpdate = true;
                     root.position.add(offset);
                     heatmap_scene = root;

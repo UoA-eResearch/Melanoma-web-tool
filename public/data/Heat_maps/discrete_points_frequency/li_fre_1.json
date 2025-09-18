@@ -1,11 +1,11 @@
 [
    {
-      "GlyphGeometriesURL" : "li_fre_3.json",
+      "GlyphGeometriesURL" : "1NFS_fre_3.json",
       "GroupName" : "li",
       "MorphColours" : false,
       "MorphNormals" : false,
       "MorphVertices" : false,
       "Type" : "Glyph",
-      "URL" : "li_fre_2.json"
+      "URL" : "1NFS_fre_2.json"
    }
 ]

@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "la_fre_3.json",
+      "GroupName" : "la",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "la_fre_2.json"
+   }
+]

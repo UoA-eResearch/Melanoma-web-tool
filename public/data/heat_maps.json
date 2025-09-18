@@ -24,7 +24,7 @@
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
-    "RegionPath": "Right Axilla/Sub-Node Fields/ral",
+    "RegionPath": "Right Axilla/Sub-Node Fields/Ral",
     "Type": "Glyph",
     "URL": "Heat_maps/discrete_points_normalized/ral_points_2.json"
   },
@@ -392,13 +392,13 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_points_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Groin",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/li_points_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/li_fre_2.json"
   },
   {
     "GroupName": "Left Epitrochlear",
@@ -960,7 +960,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_normalized/li_points_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/li_points_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -976,7 +976,7 @@
     "MorphVertices": false,
     "RegionPath": "Left Groin",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_frequency/li_fre_2.json"
+    "URL": "Heat_maps/discrete_points_normalized/li_fre_2.json"
   },
   {
     "GroupName": "Patient Data",

@@ -6,7 +6,6 @@ import trimesh
 from pathlib import Path
 from tqdm import tqdm
 import pandas as pd
-from statistics import mode
 
 heat_maps_verts_colors = {}
 json_heatmaps_dir = './public/data/'
@@ -16,7 +15,7 @@ with open("public/data/heat_maps.json") as f:
 
 discrete_points_normalized = {}
 
-for elem in elems:
+for elem in tqdm(elems):
     try:
         if elem["Type"] == "Surfaces":
             name = elem.get("RegionPath", "") + " " + elem.get("GroupName", "")
@@ -24,11 +23,7 @@ for elem in elems:
             file = json_heatmaps_dir + elem["URL"]
             with open(file) as f:
                 data = json.load(f)
-                print(f"{file}: {len(data["colors"])} colors, min color value: {min(data['colors'])}, max color value: {max(data['colors'])}, number of 255 values: {sum(np.array(data['colors']) == 255)}, mode color value: {mode(data['colors'])}")
-                if len(data["colors"]) == 132858 and min(data["colors"]) == 255:
-                    heat_maps_verts_colors[name] = data['colors']
-                else:
-                    print(f"Skipping {file} with {len(data['colors'])} colors")
+                heat_maps_verts_colors[name] = data['colors']
         elif elem["Type"] == "Glyph":
             RegionPath = elem.get("RegionPath", "")
             RegionPath = RegionPath.replace("Sub-Node Fields/", "Sub-Node Fields ")
@@ -70,7 +65,7 @@ for elem in elems:
         print(f"{e} for {elem}")
         #raise
 
-for code in ["Liei", "Lif", "Lii", "Laa", "Lam", "Lap", "Lal", "Riei", "Rif", "Rii", "Raa", "Ram", "Rap", "Ral"]:
+for code in tqdm(["Liei", "Lif", "Lii", "Laa", "Lam", "Lap", "Lal", "Riei", "Rif", "Rii", "Raa", "Ram", "Rap", "Ral"]):
     if code[0:2] == "Li":
         RegionPath = "Left Groin/Sub-Node Fields " + code
     elif code[0:2] == "Ri":

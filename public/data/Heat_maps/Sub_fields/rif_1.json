@@ -6,5 +6,13 @@
       "MorphVertices" : false,
       "Type" : "Surfaces",
       "URL" : "rif_2.json"
+   },
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "rif_3.json"
    }
 ]

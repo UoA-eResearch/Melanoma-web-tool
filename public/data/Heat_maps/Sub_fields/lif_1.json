@@ -6,5 +6,13 @@
       "MorphVertices" : false,
       "Type" : "Surfaces",
       "URL" : "lif_2.json"
+   },
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "lif_3.json"
    }
 ]

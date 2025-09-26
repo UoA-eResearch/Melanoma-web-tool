@@ -6,5 +6,13 @@
       "MorphVertices" : false,
       "Type" : "Surfaces",
       "URL" : "lap_2.json"
+   },
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "lap_3.json"
    }
 ]

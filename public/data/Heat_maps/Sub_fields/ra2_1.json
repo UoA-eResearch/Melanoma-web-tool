@@ -1,0 +1,18 @@
+[
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ra2_2.json"
+   },
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "ra2_3.json"
+   }
+]

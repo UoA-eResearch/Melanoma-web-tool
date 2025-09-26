@@ -4,7 +4,15 @@
       "MorphColours" : false,
       "MorphNormals" : false,
       "MorphVertices" : false,
-      "Type" : "Surfaces",
+      "Type" : "Lines",
       "URL" : "ral_2.json"
+   },
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Surfaces",
+      "URL" : "ral_3.json"
    }
 ]

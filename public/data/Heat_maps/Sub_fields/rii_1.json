@@ -6,5 +6,13 @@
       "MorphVertices" : false,
       "Type" : "Surfaces",
       "URL" : "rii_2.json"
+   },
+   {
+      "GroupName" : "output",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Lines",
+      "URL" : "rii_3.json"
    }
 ]

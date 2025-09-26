@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "anterior_fre_3.json",
+      "GroupName" : "anterior",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "anterior_fre_2.json"
+   }
+]

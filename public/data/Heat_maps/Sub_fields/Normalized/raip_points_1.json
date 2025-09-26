@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "raip_points_3.json",
+      "GroupName" : "raip_normalised",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "raip_points_2.json"
+   }
+]

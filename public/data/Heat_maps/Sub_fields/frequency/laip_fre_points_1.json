@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "laip_fre_points_3.json",
+      "GroupName" : "laip",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "laip_fre_points_2.json"
+   }
+]

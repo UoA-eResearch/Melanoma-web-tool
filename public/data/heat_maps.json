@@ -899,7 +899,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/4NFs_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/4_NFs_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -909,7 +909,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/2NFs_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/2_NFs_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -919,7 +919,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/3NFs_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/3_NFs_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -929,7 +929,7 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/1NFs_fre_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/1_NFs_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,

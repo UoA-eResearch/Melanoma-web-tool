@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rpop_fre_3.json",
+      "GroupName" : "rpop",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rpop_fre_2.json"
+   }
+]

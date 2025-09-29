@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "raip_fre_3.json",
+      "GroupName" : "raip",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "raip_fre_2.json"
+   }
+]

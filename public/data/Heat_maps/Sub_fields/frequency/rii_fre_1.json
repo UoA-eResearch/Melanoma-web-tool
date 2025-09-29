@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "rii_fre_3.json",
+      "GroupName" : "rii",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "rii_fre_2.json"
+   }
+]

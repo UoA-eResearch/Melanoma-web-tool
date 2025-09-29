@@ -1,0 +1,11 @@
+[
+   {
+      "GlyphGeometriesURL" : "lap_fre_3.json",
+      "GroupName" : "lap",
+      "MorphColours" : false,
+      "MorphNormals" : false,
+      "MorphVertices" : false,
+      "Type" : "Glyph",
+      "URL" : "lap_fre_2.json"
+   }
+]

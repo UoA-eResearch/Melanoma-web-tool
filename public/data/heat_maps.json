@@ -905,7 +905,7 @@
     "MorphVertices": false,
     "RegionPath": "4 Or More Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/4NFs_points_2.json"
+    "URL": "Heat_maps/discrete_points_frequency/4_NFs_fre_2.json"
   },
   {
     "GroupName": "Patient Data",
@@ -915,7 +915,7 @@
     "MorphVertices": false,
     "RegionPath": "2 Or More Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/2NFs_points_2.json"
+    "URL": "Heat_maps/discrete_points_frequency/2_NFs_fre_2.json"
   },
   {
     "GroupName": "Patient Data",
@@ -925,7 +925,7 @@
     "MorphVertices": false,
     "RegionPath": "3 Or More Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/3NFs_points_2.json"
+    "URL": "Heat_maps/discrete_points_frequency/3_NFs_fre_2.json"
   },
   {
     "GroupName": "Patient Data",
@@ -935,7 +935,7 @@
     "MorphVertices": false,
     "RegionPath": "1 Draining Node Fields",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/1NFs_points_2.json"
+    "URL": "Heat_maps/discrete_points_frequency/1_NFs_fre_2.json"
   },
   {
     "GroupName": "Patient Data",
@@ -1199,23 +1199,23 @@
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/lpop_points_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/lpop_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Left Popliteal",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/lpop_points_2.json"
+    "URL": "Heat_maps/discrete_points_frequency/lpop_fre_2.json"
   },
   {
     "GroupName": "Patient Data",
-    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/rpop_points_3.json",
+    "GlyphGeometriesURL": "Heat_maps/discrete_points_frequency/lpop_fre_3.json",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
     "RegionPath": "Right Popliteal",
     "Type": "Glyph",
-    "URL": "Heat_maps/discrete_points_normalized/rpop_points_2.json"
+    "URL": "Heat_maps/discrete_points_frequency/lpop_fre_2.json"
   },
   {
     "GroupName": "Patient Data",

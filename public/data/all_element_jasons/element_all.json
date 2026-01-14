@@ -20,7 +20,7 @@
     "URL": "All_patient_data_fre/all_freq_points_2.json"
   },
   {
-    "GroupName": "Chin_Left",
+    "GroupName": "Left_Chin",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -28,7 +28,7 @@
     "URL": "Grouped_regions/Chin_L_2.json"
   },
   {
-    "GroupName": "Chin_Right",
+    "GroupName": "Right_Chin",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -37,7 +37,7 @@
   },
 
   {
-    "GroupName": "Eye_Left",
+    "GroupName": "Left_Eye",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -45,7 +45,7 @@
     "URL": "Grouped_regions/eye_L_2.json"
   },
   {
-    "GroupName": "Eye_Right",
+    "GroupName": "Right_Eye",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -53,7 +53,7 @@
     "URL": "Grouped_regions/eye_R_2.json"
   },
   {
-    "GroupName": "Lip_Left",
+    "GroupName": "Left_Lip",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -61,7 +61,7 @@
     "URL": "Grouped_regions/Lip_L_2.json"
   },
   {
-    "GroupName": "Lip_Right",
+    "GroupName": "Right_Lip",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
@@ -69,7 +69,7 @@
     "URL": "Grouped_regions/Lip_R_2.json"
   },
   {
-    "GroupName": "Lip_Middle",
+    "GroupName": "Middle_Lip",
     "MorphColours": false,
     "MorphNormals": false,
     "MorphVertices": false,
